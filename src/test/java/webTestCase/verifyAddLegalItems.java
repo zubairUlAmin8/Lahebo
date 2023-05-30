@@ -4,19 +4,18 @@ import base_test.BaseTest;
 import helpers.PropertiesHelpers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import report.ExtentReportManager;
+import web_pages.LandingPage;
 
 import java.io.IOException;
 
-public class verifyLaunchingWebsite extends BaseTest {
+public class verifyAddLegalItems extends BaseTest {
 
     //Open Browser and Hit the Base URL
+    LandingPage landingPage = new LandingPage();
     @Test
-    public void LaunchingWebsite() throws IOException {
-        String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
-        basePage.loadPage(driver,url_Address);
-        String title=driver.getTitle();
-        Assert.assertEquals(title, PropertiesHelpers.getValue("WEBSITE_TITLE"));
+    public void AddLegalItems() throws IOException, InterruptedException {
+
+        landingPage.goToTab();
     }
 
 }

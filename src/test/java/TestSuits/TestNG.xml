@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="login Usging Data Driven Testing"  >
+    <listeners>
+        <listener class-name="listeners.ListenerTest"/>
+    </listeners>
+    <test name="Login Admin with Different scenerio">
+        <classes>
+            <class name="webTestCase.verifyUserSignIn"/>
+            <class name="webTestCase.verifyAddLegalItems"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

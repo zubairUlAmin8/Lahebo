@@ -2,25 +2,41 @@ package web_pages;
 
 import Utils.waits;
 import helpers.PropertiesHelpers;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import path_repo.LandingPagePR;
+import web_elements.LandingPageElements;
 import web_elements.SingInPageElements;
 
-public class SignInPage extends BasePage{
-    SingInPageElements singInPageElements;
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
-    public boolean signIn() {
-        singInPageElements = new SingInPageElements(driver);
-        String userName = PropertiesHelpers.getValue("SIGNIN_USERNAME");
-        String password = PropertiesHelpers.getValue("SIGNIN_PASSWORD");
-        if (driver == null) {
-            System.out.println("Driver is null in pages");
+public class LandingPage extends BasePage{
+    LandingPageElements landingPageElements;
+
+
+    public void goToTab() throws InterruptedException {
+        landingPageElements = new LandingPageElements(driver);
+        waits.waitForElements(driver,landingPageElements.LagislationLibraryTab,20);
+        landingPageElements.LagislationLibraryTab.click();
+    }
+
+    public boolean verifyLandingPage() {
+        if (landingPageElements.LagislationLibraryTab.isDisplayed()) {
+            return true;
         } else {
-            System.out.println("driver is not in pages");
+            return false;
         }
+    }
 
-        waits.waitForElements(driver,singInPageElements.userName,5000);
-        singInPageElements.userName.sendKeys(userName);
-        singInPageElements.password.sendKeys(password);
-        singInPageElements.signInBtn.click();
-        return true;
+    public void waitForPageLoading() throws InterruptedException {
+        landingPageElements = new LandingPageElements(driver);
+        waits.waitForVisibilityOfItem(driver,landingPageElements.loaderMain, 30);
+//        Thread.sleep(500);
+        waits.waitForInvisibilityOfItem(driver,LandingPagePR.loaderMain, 30);
     }
 }

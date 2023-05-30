@@ -13,6 +13,7 @@ public class Dashboard extends BasePage{
     public boolean verifyDashboardDisplay() {
         dashboardElements = new DashboardElements(driver);
         waits.waitForElements(driver, dashboardElements.profileIcon, 5000);
+        dashboardElements.profileIcon.click();
         return true;
     }
 }

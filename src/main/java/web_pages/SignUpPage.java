@@ -1,5 +1,6 @@
 package web_pages;
 
+import Utils.fakerUtils;
 import Utils.waits;
 import constants.FrameworkConstants;
 import helpers.ExcelHelpers;
@@ -13,8 +14,6 @@ import java.util.Hashtable;
 public class SignUpPage extends BasePage{
     SignUpPageElements signUpPageElements;
     ExcelHelpers excelHelpers = new ExcelHelpers();
-
-
 
     public void goToSignUpPage() {
         signUpPageElements = new SignUpPageElements(driver);
@@ -31,7 +30,7 @@ public class SignUpPage extends BasePage{
         String orgName=data.get(SignUpModel.getOrganizationName());
         String email=data.get(SignUpModel.getEmail());
         String userName=data.get(SignUpModel.getUsername());
-        String phoneNumber=data.get(SignUpModel.getPhoneNumber());
+        String phoneNumber = fakerUtils.generateRandomAustralianPhoneNumber();
         String password=data.get(SignUpModel.getPassword());
         String confirmPassword=data.get(SignUpModel.getConfirmPassword());
         waits.waitForElements(driver,signUpPageElements.firstName,5000);

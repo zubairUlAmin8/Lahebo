@@ -8,8 +8,6 @@
   <packaging>jar</packaging>
   <name>Lahebo</name>
   <url>http://maven.apache.org</url>
-
-
   <properties>
     <maven.compiler.source>20</maven.compiler.source>
     <maven.compiler.target>20</maven.compiler.target>
@@ -19,7 +17,9 @@
     <aerogear.version>1.0.0</aerogear.version>
     <monte-screen-recorder.version>0.7.7.0</monte-screen-recorder.version>
     <extentreports.version>5.0.9</extentreports.version>
+    <extentreports.version>5.0.9</extentreports.version>
     <apache-poi.version>5.2.2</apache-poi.version>
+    <javafaker.version>1.0.2</javafaker.version>
 
     <allure-testng.version>2.19.0</allure-testng.version>
     <allure-maven.version>2.10.0</allure-maven.version>
@@ -147,6 +147,13 @@
       <artifactId>core</artifactId>
       <version>${google.zxing.version}</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+    <dependency>
+      <groupId>com.github.javafaker</groupId>
+      <artifactId>javafaker</artifactId>
+      <version>${javafaker.version}</version>
+    </dependency>
+
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>

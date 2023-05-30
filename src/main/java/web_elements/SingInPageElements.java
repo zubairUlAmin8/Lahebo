@@ -13,6 +13,10 @@ public class SingInPageElements {
     public WebElement password;
     @FindBy(css = SignInPR.signInBtn)
     public WebElement signInBtn;
+    @FindBy(css = SignInPR.errorAlert)
+    public WebElement errorAlert;
+  @FindBy(css = SignInPR.validationErrorMsg)
+    public WebElement validationErrorMsg;
 
 
     WebDriver driver;

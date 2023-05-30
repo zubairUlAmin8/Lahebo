@@ -1,7 +1,8 @@
-package anhtester.com.annotations;
+package annotations;
 
-import anhtester.com.enums.AuthorType;
-import anhtester.com.enums.CategoryType;
+
+import enums.AuthorType;
+import enums.CategoryType;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
