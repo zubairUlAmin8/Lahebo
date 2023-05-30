@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5f4c0a4-8220-4daa-b66d-81243538fa8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/FrameworkAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/LogUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/WebUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/waits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/AuthorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/AuthorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/LandingPagePR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/path_repo/LandingPagePR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/SignInPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/path_repo/SignInPR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/LandingPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_elements/LandingPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/SingInPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_elements/SingInPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyAddLegalItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyAddLegalItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "D:/Zapta/Automation/Lahebo/src/main/java"
