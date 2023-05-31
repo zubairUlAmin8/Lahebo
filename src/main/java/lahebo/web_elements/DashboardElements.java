@@ -1,10 +1,10 @@
-package web_elements;
+package lahebo.web_elements;
 
+import lahebo.path_repo.DashboardPR;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import path_repo.DashboardPR;
 
 public class DashboardElements {
     @FindBy(css = DashboardPR.profileIcon)

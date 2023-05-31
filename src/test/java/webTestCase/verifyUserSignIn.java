@@ -1,18 +1,14 @@
 package webTestCase;
 
-import Utils.utility;
 import base_test.BaseTest;
 import dataprovider.DataProviderManager;
 import helpers.PropertiesHelpers;
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import web_pages.Dashboard;
-import web_pages.LandingPage;
-import web_pages.SignInPage;
-import web_pages.TwoFactorAuthPage;
+import lahebo.web_pages.LandingPage;
+import lahebo.web_pages.SignInPage;
+import lahebo.web_pages.TwoFactorAuthPage;
 
-import java.io.IOException;
 import java.util.Hashtable;
 
 public class verifyUserSignIn extends BaseTest {

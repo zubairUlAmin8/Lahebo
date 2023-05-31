@@ -1,4 +1,4 @@
-package path_repo;
+package lahebo.path_repo;
 
 public class SignInPR {
     public final static String userName="input[type=\"text\"]";

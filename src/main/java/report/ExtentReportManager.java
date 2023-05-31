@@ -15,7 +15,7 @@ import enums.CategoryType;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import web_pages.BasePage;
+import lahebo.web_pages.BasePage;
 
 import java.util.Objects;
 

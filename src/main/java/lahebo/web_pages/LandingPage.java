@@ -1,19 +1,8 @@
-package web_pages;
+package lahebo.web_pages;
 
 import Utils.waits;
-import helpers.PropertiesHelpers;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import path_repo.LandingPagePR;
-import web_elements.LandingPageElements;
-import web_elements.SingInPageElements;
-
-import java.time.Duration;
-import java.util.concurrent.TimeUnit;
+import lahebo.path_repo.LandingPagePR;
+import lahebo.web_elements.LandingPageElements;
 
 public class LandingPage extends BasePage{
     LandingPageElements landingPageElements;

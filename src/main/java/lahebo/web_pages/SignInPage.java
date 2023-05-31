@@ -1,12 +1,11 @@
-package web_pages;
+package lahebo.web_pages;
 
 import Utils.waits;
 import constants.FrameworkConstants;
 import helpers.ExcelHelpers;
-import helpers.PropertiesHelpers;
 import models.SignInModel;
 import models.SignUpModel;
-import web_elements.SingInPageElements;
+import lahebo.web_elements.SingInPageElements;
 
 import java.util.Hashtable;
 public class SignInPage extends BasePage {

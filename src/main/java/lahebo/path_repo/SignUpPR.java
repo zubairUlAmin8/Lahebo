@@ -1,4 +1,4 @@
-package path_repo;
+package lahebo.path_repo;
 
 public class SignUpPR {
     public final static String firstName="input[placeholder=\"Enter your first name\"]";

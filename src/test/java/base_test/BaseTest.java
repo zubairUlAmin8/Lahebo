@@ -1,12 +1,9 @@
 package base_test;
 
-import Utils.DriverSetup;
-import Utils.IconUtils;
 import helpers.PropertiesHelpers;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
-import report.ExtentReportManager;
-import web_pages.BasePage;
+import lahebo.web_pages.BasePage;
 
 public class BaseTest {
     protected BasePage basePage = new BasePage();

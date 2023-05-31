@@ -2,14 +2,10 @@ package webTestCase;
 
 import base_test.BaseTest;
 import dataprovider.DataProviderManager;
-import helpers.PropertiesHelpers;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import web_pages.Dashboard;
-import web_pages.SignInPage;
-import web_pages.SignUpPage;
-import web_pages.TwoFactorAuthPage;
+import lahebo.web_pages.Dashboard;
+import lahebo.web_pages.SignUpPage;
+import lahebo.web_pages.TwoFactorAuthPage;
 
 import java.util.Hashtable;
 

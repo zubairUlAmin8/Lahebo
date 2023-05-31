@@ -12,9 +12,7 @@ import helpers.CaptureHelpers;
 import helpers.PropertiesHelpers;
 import org.testng.*;
 import report.ExtentReportManager;
-import web_pages.SignInPage;
-
-import java.sql.DriverManager;
+import lahebo.web_pages.SignInPage;
 
 import static constants.FrameworkConstants.*;
 

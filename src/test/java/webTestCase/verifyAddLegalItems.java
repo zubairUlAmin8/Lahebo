@@ -1,10 +1,8 @@
 package webTestCase;
 
 import base_test.BaseTest;
-import helpers.PropertiesHelpers;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-import web_pages.LandingPage;
+import lahebo.web_pages.LandingPage;
 
 import java.io.IOException;
 

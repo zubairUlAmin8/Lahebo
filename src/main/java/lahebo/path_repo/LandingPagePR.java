@@ -1,4 +1,4 @@
-package path_repo;
+package lahebo.path_repo;
 
 public class LandingPagePR {
     public final static String dashboardTab="input[type=\"text\"]";

@@ -13,7 +13,7 @@ import enums.Browser;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import web_pages.BasePage;
+import lahebo.web_pages.BasePage;
 
 import static org.openqa.selenium.OutputType.BYTES;
 

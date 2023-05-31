@@ -1,11 +1,7 @@
-package web_pages;
+package lahebo.web_pages;
 
-import Utils.Two2FActorAuthentication;
 import Utils.waits;
-import helpers.PropertiesHelpers;
-import org.openqa.selenium.WebElement;
-import web_elements.DashboardElements;
-import web_elements.TwoFactorAuthElements;
+import lahebo.web_elements.DashboardElements;
 
 public class Dashboard extends BasePage{
     DashboardElements dashboardElements;

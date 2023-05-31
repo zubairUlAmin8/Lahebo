@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5f4c0a4-8220-4daa-b66d-81243538fa8e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/DashboardPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/DashboardPR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/LandingPagePR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/LandingPagePR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/SignInPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/SignInPR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/SignUpPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/SignUpPR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/TwoFactorAuthPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/TwoFactorAuthPR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/report/AllureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/report/AllureManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/report/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/report/ExtentReportManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/DashboardElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/DashboardElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/LandingPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/LandingPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/SignUpPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/SignUpPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/SingInPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/SingInPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/TwoFactorAuthElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/TwoFactorAuthElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyAddLegalItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyAddLegalItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +61,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Zapta/Automation/Lahebo/src/main/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Zapta/Automation/Lahebo/src/main/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Zapta\Automation\Lahebo\src\main\java" />
@@ -158,7 +181,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java</url>
-          <line>22</line>
+          <line>18</line>
           <properties class="webTestCase.verifyUserSignIn" method="superAdminSignIn">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

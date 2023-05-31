@@ -1,4 +1,4 @@
-package web_pages;
+package lahebo.web_pages;
 
 import Utils.DriverSetup;
 import org.openqa.selenium.WebDriver;

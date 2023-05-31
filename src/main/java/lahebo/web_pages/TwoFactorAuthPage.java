@@ -1,10 +1,9 @@
-package web_pages;
+package lahebo.web_pages;
 
 import Utils.Two2FActorAuthentication;
 import Utils.waits;
 import helpers.PropertiesHelpers;
-import web_elements.SingInPageElements;
-import web_elements.TwoFactorAuthElements;
+import lahebo.web_elements.TwoFactorAuthElements;
 
 public class TwoFactorAuthPage extends BasePage{
     TwoFactorAuthElements twoFactorAuthElements;

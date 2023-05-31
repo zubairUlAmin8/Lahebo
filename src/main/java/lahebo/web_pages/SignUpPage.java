@@ -1,4 +1,4 @@
-package web_pages;
+package lahebo.web_pages;
 
 import Utils.fakerUtils;
 import Utils.waits;
@@ -6,8 +6,7 @@ import constants.FrameworkConstants;
 import helpers.ExcelHelpers;
 import helpers.PropertiesHelpers;
 import models.SignUpModel;
-import web_elements.SignUpPageElements;
-import web_elements.SingInPageElements;
+import lahebo.web_elements.SignUpPageElements;
 
 import java.util.Hashtable;
 
