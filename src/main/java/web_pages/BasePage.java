@@ -1,16 +1,21 @@
 package web_pages;
 
-import Utils.DriverSetup;
+import driver.DriverManager;
 import org.openqa.selenium.WebDriver;
 public class BasePage {
-    static protected WebDriver driver;
-    int a=1;
-    public WebDriver startDriver(){
 
-        driver= DriverSetup.initDriver();
+    public static WebDriver driver;
 
-        return this.driver;
 
+
+    public static WebDriver getDriver(){
+        return DriverManager.getDriver();
+    }
+
+    public static void setBrowser(WebDriver mDriver) {
+        if (driver==null) {
+            driver = mDriver;
+        }
     }
     public void loadPage(WebDriver driver, String base_url){
         driver.get(base_url);
