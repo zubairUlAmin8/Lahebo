@@ -15,6 +15,10 @@ public class BaseTest {
     public static  WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
 
+    public BaseTest() {
+        System.out.println("BaseTest Contructor");
+    }
+
 
 //    @BeforeSuite
 //    public void loadFirst() {
@@ -60,6 +64,14 @@ public class BaseTest {
 ////    ExtentReportManager.flushReports();
 //    }
 
+    @BeforeSuite
+    public static void beforeSuite() {
+        System.out.println("this is my BeforeSuite");
+    }
+    @BeforeClass
+    public void beforeClass() {
+        System.out.println("this is my BeforeMethod");
+    }
 
     @Parameters("BROWSER")
     @BeforeMethod(alwaysRun = true)

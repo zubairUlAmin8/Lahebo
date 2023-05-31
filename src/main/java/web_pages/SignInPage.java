@@ -11,20 +11,29 @@ import models.SignUpModel;
 import web_elements.SingInPageElements;
 
 import java.util.Hashtable;
+
 public class SignInPage extends BasePage {
-    SingInPageElements singInPageElements = new SingInPageElements(driver);
+        SingInPageElements singInPageElements;
+//    SingInPageElements singInPageElements = new SingInPageElements(driver);
+
+    public SignInPage() {
+        System.out.println("singINPage Constructor");
+        singInPageElements = new SingInPageElements(driver);
+
+    }
+
     ExcelHelpers excelHelpers = new ExcelHelpers();
     String expectedTitle;
     public static String testName;
 
     public boolean signIn(Hashtable<String, String> data) {
-
+//        singInPageElements = new SingInPageElements(driver);
         excelHelpers.setExcelFile(FrameworkConstants.EXCEL_DATA_FILE_PATH, "SignIn");
         String userName = data.get(SignInModel.getUserName());
         String password = data.get(SignUpModel.getPassword());
         expectedTitle = data.get(SignInModel.getExpectedTitle());
-        testName = data.get(SignInModel.getTestCaseID())+": "+data.get(SignInModel.getTestCaseName());
-        System.out.println("basepage"+driver);
+        testName = data.get(SignInModel.getTestCaseID()) + ": " + data.get(SignInModel.getTestCaseName());
+        System.out.println("basepage" + driver);
         System.out.println(singInPageElements.userName.getAttribute("placeholder"));
         waits.waitForElements(driver, singInPageElements.userName, 5000);
         if (userName.equals("") || password.equals("")) {
@@ -32,7 +41,7 @@ public class SignInPage extends BasePage {
             singInPageElements.userName.sendKeys(userName);
             singInPageElements.password.sendKeys(password);
             singInPageElements.signInBtn.click();
-            waits.waitForVisibilityOfItem(driver,singInPageElements.validationErrorMsg,5);
+            waits.waitForVisibilityOfItem(driver, singInPageElements.validationErrorMsg, 5);
             System.out.println(singInPageElements.validationErrorMsg.getText());
 
             if (verifyValidationErrorMsg() && expectedTitle.equals("fail")) {
@@ -73,6 +82,7 @@ public class SignInPage extends BasePage {
             return false;
         }
     }
+
     public boolean verifyValidationErrorMsg() {
         waits.waitForVisibilityOfItem(driver, singInPageElements.validationErrorMsg, 20);
         if (singInPageElements.validationErrorMsg.isDisplayed()) {
