@@ -11,6 +11,10 @@ public class TwoFactorAuthElements {
     public WebElement otpCode;
     @FindBy(css = TwoFactorAuthPR.submitBtn)
     public WebElement submitBtn;
+    @FindBy(css = TwoFactorAuthPR.validationErrorMsg)
+    public WebElement validationErrorMsg;
+    @FindBy(css = TwoFactorAuthPR.errorPopUp)
+    public WebElement errorPopUp;
 
 
 

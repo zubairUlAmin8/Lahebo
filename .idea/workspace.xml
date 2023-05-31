@@ -7,29 +7,35 @@
     <list default="true" id="a5f4c0a4-8220-4daa-b66d-81243538fa8e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/DashboardPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/DashboardPR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/LandingPagePR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/LandingPagePR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/SignInPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/SignInPR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/SignUpPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/SignUpPR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/path_repo/TwoFactorAuthPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/TwoFactorAuthPR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/report/AllureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/report/AllureManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/report/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/report/ExtentReportManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/DashboardElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/DashboardElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/LandingPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/LandingPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/SignUpPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/SignUpPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/SingInPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/SingInPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_elements/TwoFactorAuthElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/TwoFactorAuthElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyAddLegalItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyAddLegalItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/043750bf-10b4-429e-98c1-57cf3fa4cf71-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0f8cf569-a238-4a23-a44f-f999825fb0e6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/26e89747-9a92-4afc-a53d-3c787fffa1ad-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3fa322d1-b2bc-4518-b5c5-f3b10704d59c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/436fa9ae-08ba-4b2e-b1a1-14e2ccae4dd2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/45b0fda9-c870-4455-b1ab-569f35feabde-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4f79d63b-d431-4415-b061-b6f5c6bdff46-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5c135c5f-3fde-4b76-ab8e-2d6160292822-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5dab0227-5344-464b-8dec-ed42b08ca01e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5f0a6346-6b81-4b6f-a2eb-99ff21db28fe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6de9a4de-2549-4507-b669-a8d26fbb4425-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7328eb2f-60bf-4f32-bd85-8377f009ae0a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/756522aa-89af-4dd8-88e0-34f7db914ac0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/797abfca-e834-4502-aac7-a2fba43c5fbb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/86a90a38-ca18-4bb8-9e99-2d0c6226850b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8eb44fe4-a116-4deb-8abd-cfa41efceef0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/929b95b8-d267-4dc7-9754-1369de6b71fc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9a6f4fb0-3384-4dc6-bc42-30ebc823afee-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c8107d23-dc6c-4e31-9003-003af5cabc07-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cbe5db5f-6c37-4d48-a6ce-44eb38d3358c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cff42305-f6a0-4e4d-83a3-a52d81909453-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d448c614-92e2-45cc-8017-7aa4b09e79df-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f32f897b-fa22-4522-a3a7-6d15acc766c6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f6a7e032-6bb9-477c-b523-e30617c5c030-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/TwoFactorAuthPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/TwoFactorAuthPR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/TwoFactorAuthElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/TwoFactorAuthElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
