@@ -33,8 +33,8 @@ public class verifyUserSignIn extends BaseTest {
         } else {
 
             System.out.println("im here into 2");
-            boolean expResut = signInPage.verifyExpectedResult();
-            Assert.assertFalse(expResut, "Password or Username is not correct");
+            boolean expResult = signInPage.verifyExpectedResult();
+            Assert.assertFalse(expResult, "Password or Username is not correct");
 
         }
 
