@@ -3,9 +3,13 @@ package lahebo.web_pages;
 import Utils.fakerUtils;
 import Utils.waits;
 import constants.FrameworkConstants;
+import driver.DriverManager;
 import helpers.ExcelHelpers;
 import helpers.PropertiesHelpers;
 import models.SignUpModel;
+import org.openqa.selenium.WebDriver;
+import web_elements.SignUpPageElements;
+import web_elements.SingInPageElements;
 import lahebo.web_elements.SignUpPageElements;
 
 import java.util.Hashtable;
@@ -13,13 +17,19 @@ import java.util.Hashtable;
 public class SignUpPage extends BasePage{
     SignUpPageElements signUpPageElements;
     ExcelHelpers excelHelpers = new ExcelHelpers();
+    WebDriver driver;
+    public SignUpPage(WebDriver driver) {
+
+        this.driver = driver;
+        signUpPageElements = new SignUpPageElements(DriverManager.getDriver());
+
+    }
 
     public void goToSignUpPage() {
-        signUpPageElements = new SignUpPageElements(driver);
-        if (driver == null) {
+        if (DriverManager.getDriver() == null) {
             System.out.println("Driver is null");
         }
-        driver.get(PropertiesHelpers.getValue("URL_RAHEBO_SIGNUP"));
+        DriverManager.getDriver().get(PropertiesHelpers.getValue("URL_RAHEBO_SIGNUP"));
     }
 
     public boolean fillSignUpForm(Hashtable<String, String> data) {
@@ -32,7 +42,7 @@ public class SignUpPage extends BasePage{
         String phoneNumber = fakerUtils.generateRandomAustralianPhoneNumber();
         String password=data.get(SignUpModel.getPassword());
         String confirmPassword=data.get(SignUpModel.getConfirmPassword());
-        waits.waitForElements(driver,signUpPageElements.firstName,5000);
+        waits.waitForElements(DriverManager.getDriver(),signUpPageElements.firstName,5000);
         signUpPageElements.firstName.sendKeys(firstName);
         signUpPageElements.LastName.sendKeys(LastName);
         signUpPageElements.orgName.sendKeys(orgName);

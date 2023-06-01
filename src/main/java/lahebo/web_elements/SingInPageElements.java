@@ -1,6 +1,7 @@
 package lahebo.web_elements;
 
 import lahebo.path_repo.SignInPR;
+import driver.DriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,7 +16,7 @@ public class SingInPageElements {
     public WebElement signInBtn;
     @FindBy(css = SignInPR.errorAlert)
     public WebElement errorAlert;
-  @FindBy(css = SignInPR.validationErrorMsg)
+    @FindBy(css = SignInPR.validationErrorMsg)
     public WebElement validationErrorMsg;
 
 
@@ -23,6 +24,7 @@ public class SingInPageElements {
 
     public SingInPageElements(WebDriver driver) {
         this.driver = driver;
+        System.out.println("sign in elements repo Constructor"+driver);
         PageFactory.initElements(driver, this);
 
     }

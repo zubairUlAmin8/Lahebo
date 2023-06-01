@@ -43,13 +43,10 @@ public final class Helpers {
             stream.close();
         }
     }
-
-
     public static String getCurrentDir() {
         String current = System.getProperty("user.dir") + File.separator;
         return current;
     }
-
     public static void createFolder(String path) {
         // File is a class inside java.io package
         File file = new File(path);

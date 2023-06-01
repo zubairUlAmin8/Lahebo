@@ -12,14 +12,11 @@ import lahebo.web_pages.TwoFactorAuthPage;
 import java.util.Hashtable;
 
 public class verifyUserSignIn extends BaseTest {
-    SignInPage signInPage = new SignInPage();
-    LandingPage landingPage = new LandingPage();
-    TwoFactorAuthPage twoFactorAuthPage = new TwoFactorAuthPage();
+
     @Test(priority = 1, dataProvider = "getSignInDataHashTable", dataProviderClass = DataProviderManager.class)
     public void superAdminSignIn(Hashtable<String, String> data) throws InterruptedException {
         String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
         basePage.loadPage(driver,url_Address);
-
         if (signInPage.signIn(data)) {
             Assert.assertTrue(true, "Password or Username is  correct");
             Assert.assertTrue( twoFactorAuthPage.authentication(), "2FA Authentication Failed");
@@ -27,12 +24,15 @@ public class verifyUserSignIn extends BaseTest {
             Assert.assertTrue(landingPage.verifyLandingPage(), "landing page could not displayed");
 
         } else {
-
             System.out.println("im here into 2");
-            boolean expResut = signInPage.verifyExpectedResult();
-            Assert.assertFalse(expResut, "Password or Username is not correct");
+            boolean expResult = signInPage.verifyExpectedResult();
+            Assert.assertFalse(expResult, "Password or Username is not correct");
 
         }
+    }
+    @Test(priority = 2)
+    void mytest() throws InterruptedException {
+        landingPage.goToTab();
 
     }
 }
