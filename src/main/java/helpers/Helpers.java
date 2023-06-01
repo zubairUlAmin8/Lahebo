@@ -47,6 +47,7 @@ public final class Helpers {
 
     public static String getCurrentDir() {
         String current = System.getProperty("user.dir") + File.separator;
+        System.out.println(current);
         return current;
     }
 

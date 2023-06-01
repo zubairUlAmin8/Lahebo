@@ -67,7 +67,6 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
 
         PropertiesHelpers.loadAllFiles();
         ExtentReportManager.initReports();
-
         System.out.println("========= INSTALLED CONFIGURATION DATA =========");
         System.out.println("");
         LogUtils.info("Starting Suite: " + iSuite.getName());

@@ -16,7 +16,6 @@ import java.io.IOException;
 import java.util.Hashtable;
 
 public class verifyUserSignIn extends BaseTest {
-    SignInPage signInPage = new SignInPage();
     LandingPage landingPage = new LandingPage();
     TwoFactorAuthPage twoFactorAuthPage = new TwoFactorAuthPage();
     @Test(priority = 1, dataProvider = "getSignInDataHashTable", dataProviderClass = DataProviderManager.class)

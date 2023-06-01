@@ -31,8 +31,6 @@ public class ExcelHelpers {
     private String excelFilePath;
     private Map<String, Integer> columns = new HashMap<>();
 
-
-
     public ExcelHelpers() {
         PropertiesHelpers.loadAllFiles();
     }

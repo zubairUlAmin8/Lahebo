@@ -8,16 +8,19 @@ import helpers.PropertiesHelpers;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import models.SignInModel;
 import models.SignUpModel;
+import org.openqa.selenium.WebDriver;
 import web_elements.SingInPageElements;
 
 import java.util.Hashtable;
 
 public class SignInPage extends BasePage {
         SingInPageElements singInPageElements;
+    WebDriver driver;
 //    SingInPageElements singInPageElements = new SingInPageElements(driver);
 
-    public SignInPage() {
+    public SignInPage(WebDriver driver) {
         System.out.println("singINPage Constructor");
+        this.driver = driver;
         singInPageElements = new SingInPageElements(driver);
 
     }
