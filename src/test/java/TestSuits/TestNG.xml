@@ -7,7 +7,8 @@
     <test name="Login Admin with Different scenerio">
         <classes>
             <class name="webTestCase.verifyUserSignIn"/>
-<!--            <class name="webTestCase.verifyAddLegalItems"/>-->
+            <class name="webTestCase.verifyAddLegalItems"/>
+            <class name="webTestCase.verifyUserSignUp"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

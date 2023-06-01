@@ -4,11 +4,16 @@ import Utils.Two2FActorAuthentication;
 import Utils.waits;
 import driver.DriverManager;
 import helpers.PropertiesHelpers;
+import org.openqa.selenium.WebDriver;
 import web_elements.SingInPageElements;
 import web_elements.TwoFactorAuthElements;
 
 public class TwoFactorAuthPage extends BasePage{
     TwoFactorAuthElements twoFactorAuthElements;
+    WebDriver driver;
+    public TwoFactorAuthPage(WebDriver driver) {
+        this.driver = driver;
+    }
 
     public boolean authentication() {
         twoFactorAuthElements = new TwoFactorAuthElements(DriverManager.getDriver());

@@ -5,6 +5,7 @@ import driver.DriverManager;
 import helpers.PropertiesHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,11 +18,16 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class LandingPage {
-    LandingPageElements landingPageElements = new LandingPageElements(DriverManager.getDriver());
+    WebDriver driver;
+    LandingPageElements landingPageElements;
+    public LandingPage(WebDriver driver) {
+        this.driver=driver;
+        landingPageElements = new LandingPageElements(driver);
+    }
 
 
     public void goToTab() throws InterruptedException {
-        waits.waitForElements(DriverManager.getDriver(),landingPageElements.LagislationLibraryTab,20);
+        waits.waitForElements(driver,landingPageElements.LagislationLibraryTab,5);
         landingPageElements.LagislationLibraryTab.click();
     }
 
@@ -34,8 +40,8 @@ public class LandingPage {
     }
 
     public void waitForPageLoading() throws InterruptedException {
-        waits.waitForVisibilityOfItem(DriverManager.getDriver(),landingPageElements.loaderMain, 30);
+        waits.waitForVisibilityOfItem(driver,landingPageElements.loaderMain, 30);
 //        Thread.sleep(500);
-        waits.waitForInvisibilityOfItem(DriverManager.getDriver(),LandingPagePR.loaderMain, 30);
+        waits.waitForInvisibilityOfItem(driver,LandingPagePR.loaderMain, 30);
     }
 }

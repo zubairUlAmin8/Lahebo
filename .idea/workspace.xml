@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_test/CommonPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/tes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/tes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyAddLegalItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyAddLegalItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,18 +41,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="TestNG.verifyUserSignIn">
-    <configuration name="tes" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml">
+    <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lahebo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tes.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
+          <option name="PATTERN" value="base_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webTestCase" />
       <option name="MAIN_CLASS_NAME" value="webTestCase.tes" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="myTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -53,7 +74,7 @@
       <module name="Lahebo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
+          <option name="PATTERN" value="base_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,28 +88,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verifyUserSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lahebo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyUserSignIn" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="verifyUserSignIn.superAdminSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
+          <option name="PATTERN" value="base_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verifyUserSignUp" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="verifyUserSignUp.fillSignUpPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +116,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="webTestCase" />
       <option name="MAIN_CLASS_NAME" value="webTestCase.verifyUserSignUp" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="fillSignUpPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -121,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.verifyUserSignIn" />
-        <item itemvalue="TestNG.verifyLaunchingWebsite.LaunchingWebsite" />
-        <item itemvalue="TestNG.tes" />
+        <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
+        <item itemvalue="TestNG.verifyUserSignUp.fillSignUpPage" />
         <item itemvalue="TestNG.verifyUserSignIn.superAdminSignIn" />
-        <item itemvalue="TestNG.verifyUserSignUp" />
+        <item itemvalue="TestNG.verifyLaunchingWebsite.LaunchingWebsite" />
+        <item itemvalue="TestNG.tes.myTest" />
       </list>
     </recent_temporary>
   </component>
@@ -137,18 +142,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java</url>
-          <line>18</line>
+          <line>23</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java</url>
-          <line>17</line>
+          <line>22</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

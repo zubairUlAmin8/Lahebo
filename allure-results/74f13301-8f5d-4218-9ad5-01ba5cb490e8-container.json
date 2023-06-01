@@ -1,0 +1,1 @@
+{"uuid":"74f13301-8f5d-4218-9ad5-01ba5cb490e8","name":"webTestCase.verifyUserSignUp","children":["f996209b-4bb6-4da8-b85c-557aa30f61f8"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1685627599456,"stop":1685627599456}],"afters":[],"start":1685627599420,"stop":1685627599820}

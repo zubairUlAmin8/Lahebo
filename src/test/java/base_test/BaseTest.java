@@ -6,12 +6,15 @@ import helpers.PropertiesHelpers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ThreadGuard;
 import org.testng.annotations.*;
-import web_pages.BasePage;
-import web_pages.SignInPage;
+import web_pages.*;
 
 public class BaseTest {
     protected BasePage basePage = new BasePage();
-    public SignInPage signInPage;
+    public static SignInPage signInPage;
+    public static LandingPage landingPage ;
+    public static TwoFactorAuthPage twoFactorAuthPage ;
+    public static Dashboard dashboard;
+    public static SignUpPage signUpPage;
     int bm=1;
     int am=1;
     public static  WebDriver driver;
@@ -19,6 +22,14 @@ public class BaseTest {
 
     public BaseTest() {
         System.out.println("BaseTest Contructor");
+    }
+
+    void initObject() {
+        signInPage = new SignInPage(driver);
+        landingPage = new LandingPage(driver);
+        twoFactorAuthPage = new TwoFactorAuthPage(driver);
+        signUpPage = new SignUpPage(driver);
+        dashboard = new Dashboard(driver);
     }
     @Parameters("BROWSER")
     @BeforeSuite
@@ -28,7 +39,9 @@ public class BaseTest {
         driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(driver);
         driver.manage().window().maximize();
-        signInPage = new SignInPage(driver);
+        System.out.println("Driver is created");
+        initObject();
+
     }
     @BeforeClass
     public void beforeClass() {
@@ -44,7 +57,7 @@ public class BaseTest {
 
     @AfterMethod(alwaysRun = true)
     public void closeDriver() {
-        DriverManager.quit();
+//        DriverManager.quit();
     }
 
     public WebDriver createBrowser(@Optional("chrome") String browser) {

@@ -30,15 +30,15 @@ public class SignInPage extends BasePage {
     public static String testName;
 
     public boolean signIn(Hashtable<String, String> data) {
-//        singInPageElements = new SingInPageElements(driver);
         excelHelpers.setExcelFile(FrameworkConstants.EXCEL_DATA_FILE_PATH, "SignIn");
         String userName = data.get(SignInModel.getUserName());
         String password = data.get(SignUpModel.getPassword());
         expectedTitle = data.get(SignInModel.getExpectedTitle());
         testName = data.get(SignInModel.getTestCaseID()) + ": " + data.get(SignInModel.getTestCaseName());
         System.out.println("basepage" + driver);
-        System.out.println(singInPageElements.userName.getAttribute("placeholder"));
         waits.waitForElements(driver, singInPageElements.userName, 5000);
+        System.out.println(singInPageElements.userName.getAttribute("placeholder"));
+
         if (userName.equals("") || password.equals("")) {
 
             singInPageElements.userName.sendKeys(userName);

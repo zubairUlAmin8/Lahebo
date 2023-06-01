@@ -7,6 +7,7 @@ import driver.DriverManager;
 import helpers.ExcelHelpers;
 import helpers.PropertiesHelpers;
 import models.SignUpModel;
+import org.openqa.selenium.WebDriver;
 import web_elements.SignUpPageElements;
 import web_elements.SingInPageElements;
 
@@ -15,9 +16,15 @@ import java.util.Hashtable;
 public class SignUpPage extends BasePage{
     SignUpPageElements signUpPageElements;
     ExcelHelpers excelHelpers = new ExcelHelpers();
+    WebDriver driver;
+    public SignUpPage(WebDriver driver) {
+
+        this.driver = driver;
+        signUpPageElements = new SignUpPageElements(DriverManager.getDriver());
+
+    }
 
     public void goToSignUpPage() {
-        signUpPageElements = new SignUpPageElements(DriverManager.getDriver());
         if (DriverManager.getDriver() == null) {
             System.out.println("Driver is null");
         }

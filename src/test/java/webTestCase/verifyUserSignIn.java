@@ -16,13 +16,11 @@ import java.io.IOException;
 import java.util.Hashtable;
 
 public class verifyUserSignIn extends BaseTest {
-    LandingPage landingPage = new LandingPage();
-    TwoFactorAuthPage twoFactorAuthPage = new TwoFactorAuthPage();
+
     @Test(priority = 1, dataProvider = "getSignInDataHashTable", dataProviderClass = DataProviderManager.class)
     public void superAdminSignIn(Hashtable<String, String> data) throws InterruptedException {
         String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
         basePage.loadPage(driver,url_Address);
-
         if (signInPage.signIn(data)) {
             Assert.assertTrue(true, "Password or Username is  correct");
             twoFactorAuthPage.authentication();
@@ -30,12 +28,15 @@ public class verifyUserSignIn extends BaseTest {
             Assert.assertTrue(landingPage.verifyLandingPage(), "landing page could not displayed");
 
         } else {
-
             System.out.println("im here into 2");
             boolean expResult = signInPage.verifyExpectedResult();
             Assert.assertFalse(expResult, "Password or Username is not correct");
 
         }
+    }
+    @Test(priority = 2)
+    void mytest() throws InterruptedException {
+        landingPage.goToTab();
 
     }
 }

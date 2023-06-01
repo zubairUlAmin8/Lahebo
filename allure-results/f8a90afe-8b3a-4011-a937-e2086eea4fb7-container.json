@@ -1,0 +1,1 @@
+{"uuid":"f8a90afe-8b3a-4011-a937-e2086eea4fb7","name":"webTestCase.verifyAddLegalItems","children":["d3978997-aa5e-4486-9b3a-3d54ba779847"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1685625764082,"stop":1685625764082}],"afters":[],"start":1685625720971,"stop":1685625764853}
