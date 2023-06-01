@@ -72,7 +72,6 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
         System.out.println("");
         LogUtils.info("Starting Suite: " + iSuite.getName());
 
-
     }
 
     @Override
