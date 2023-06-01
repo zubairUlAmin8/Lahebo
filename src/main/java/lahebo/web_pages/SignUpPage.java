@@ -10,7 +10,7 @@ import lahebo.web_elements.SignUpPageElements;
 
 import java.util.Hashtable;
 
-public class SignUpPage extends BasePage{
+public class SignUpPage extends BasePage {
     SignUpPageElements signUpPageElements;
     ExcelHelpers excelHelpers = new ExcelHelpers();
 
@@ -24,15 +24,15 @@ public class SignUpPage extends BasePage{
 
     public boolean fillSignUpForm(Hashtable<String, String> data) {
         excelHelpers.setExcelFile(FrameworkConstants.EXCEL_DATA_FILE_PATH, "SignUp");
-        String firstName=data.get(SignUpModel.getFirstName());
-        String LastName=data.get(SignUpModel.getLastName());
-        String orgName=data.get(SignUpModel.getOrganizationName());
-        String email=data.get(SignUpModel.getEmail());
-        String userName=data.get(SignUpModel.getUsername());
+        String firstName = data.get(SignUpModel.getFirstName());
+        String LastName = data.get(SignUpModel.getLastName());
+        String orgName = data.get(SignUpModel.getOrganizationName());
+        String email = data.get(SignUpModel.getEmail());
+        String userName = data.get(SignUpModel.getUsername());
         String phoneNumber = fakerUtils.generateRandomAustralianPhoneNumber();
-        String password=data.get(SignUpModel.getPassword());
-        String confirmPassword=data.get(SignUpModel.getConfirmPassword());
-        waits.waitForElements(driver,signUpPageElements.firstName,5000);
+        String password = data.get(SignUpModel.getPassword());
+        String confirmPassword = data.get(SignUpModel.getConfirmPassword());
+        waits.waitForElements(driver, signUpPageElements.firstName, 5000);
         signUpPageElements.firstName.sendKeys(firstName);
         signUpPageElements.LastName.sendKeys(LastName);
         signUpPageElements.orgName.sendKeys(orgName);
@@ -43,5 +43,11 @@ public class SignUpPage extends BasePage{
         signUpPageElements.confirmPassword.sendKeys(confirmPassword);
         signUpPageElements.singUpBtn.click();
         return true;
+    }
+
+
+    public boolean checkValueRequired() {
+        return false;
+
     }
 }

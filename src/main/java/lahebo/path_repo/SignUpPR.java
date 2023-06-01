@@ -10,5 +10,6 @@ public class SignUpPR {
     public final static String password="input[placeholder=\"Enter your password\"]";
     public final static String confirmPassword="input[placeholder=\"Re-enter your password\"]";
     public final static String singUpBtn="button[type=\"submit\"]";
+    public final static String valueRequired="p[class*=\"form-error-message\"]";
 
 }

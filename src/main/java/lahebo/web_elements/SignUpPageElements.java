@@ -26,6 +26,8 @@ public class SignUpPageElements {
     public WebElement confirmPassword;
     @FindBy(css = SignUpPR.singUpBtn)
     public WebElement singUpBtn;
+    @FindBy(css = SignUpPR.valueRequired)
+    public WebElement valueRequired;
 
 
 
