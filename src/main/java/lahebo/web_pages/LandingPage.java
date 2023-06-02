@@ -3,6 +3,8 @@ package lahebo.web_pages;
 import Utils.waits;
 import driver.DriverManager;
 import helpers.PropertiesHelpers;
+import lahebo.path_repo.LandingPagePR;
+import lahebo.web_elements.LandingPageElements;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -10,9 +12,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import path_repo.LandingPagePR;
-import web_elements.LandingPageElements;
-import web_elements.SingInPageElements;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
@@ -42,6 +41,6 @@ public class LandingPage {
     public void waitForPageLoading() throws InterruptedException {
         waits.waitForVisibilityOfItem(driver,landingPageElements.loaderMain, 30);
 //        Thread.sleep(500);
-        waits.waitForInvisibilityOfItem(driver,LandingPagePR.loaderMain, 30);
+        waits.waitForInvisibilityOfItem(driver, LandingPagePR.loaderMain, 30);
     }
 }

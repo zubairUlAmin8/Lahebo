@@ -5,9 +5,7 @@ import Utils.waits;
 import lahebo.web_elements.DashboardElements;
 import helpers.PropertiesHelpers;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import web_elements.DashboardElements;
-import web_elements.TwoFactorAuthElements;
+
 
 public class Dashboard extends BasePage{
     DashboardElements dashboardElements;

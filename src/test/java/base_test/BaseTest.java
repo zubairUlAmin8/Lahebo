@@ -6,7 +6,7 @@ import helpers.PropertiesHelpers;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ThreadGuard;
 import org.testng.annotations.*;
-import web_pages.*;
+import lahebo.web_pages.*;
 
 public class BaseTest {
     protected BasePage basePage = new BasePage();

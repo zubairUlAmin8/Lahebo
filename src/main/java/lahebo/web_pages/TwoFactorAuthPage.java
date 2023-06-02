@@ -5,11 +5,18 @@ import Utils.waits;
 import helpers.PropertiesHelpers;
 import lahebo.web_elements.TwoFactorAuthElements;
 import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
 
 public class TwoFactorAuthPage extends BasePage{
     TwoFactorAuthElements twoFactorAuthElements;
-    public boolean authentication() throws InterruptedException {
+    WebDriver driver;
+    public TwoFactorAuthPage(WebDriver driver) {
+        this.driver = driver;
         twoFactorAuthElements = new TwoFactorAuthElements(driver);
+
+
+    }
+    public boolean authentication() throws InterruptedException {
         String secretKey = PropertiesHelpers.getValue("SECRET_KEY");
         waits.waitForElements(driver, twoFactorAuthElements.otpCode,  5000);
         String code = Two2FActorAuthentication.getOptCode(secretKey);

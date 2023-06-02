@@ -27,12 +27,7 @@ public class verifyUserSignIn extends BaseTest {
             System.out.println("im here into 2");
             boolean expResult = signInPage.verifyExpectedResult();
             Assert.assertFalse(expResult, "Password or Username is not correct");
-
         }
     }
-    @Test(priority = 2)
-    void mytest() throws InterruptedException {
-        landingPage.goToTab();
 
-    }
 }

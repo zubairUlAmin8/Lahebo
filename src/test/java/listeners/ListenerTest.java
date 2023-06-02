@@ -12,7 +12,6 @@ import helpers.CaptureHelpers;
 import helpers.PropertiesHelpers;
 import org.testng.*;
 import report.ExtentReportManager;
-import web_pages.SignInPage;
 
 import lahebo.web_pages.SignInPage;
 

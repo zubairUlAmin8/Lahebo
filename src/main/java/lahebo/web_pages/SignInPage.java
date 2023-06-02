@@ -9,7 +9,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import models.SignInModel;
 import models.SignUpModel;
 import org.openqa.selenium.WebDriver;
-import web_elements.SingInPageElements;
 import lahebo.web_elements.SingInPageElements;
 
 import java.util.Hashtable;

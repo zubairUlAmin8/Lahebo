@@ -8,8 +8,7 @@ import helpers.ExcelHelpers;
 import helpers.PropertiesHelpers;
 import models.SignUpModel;
 import org.openqa.selenium.WebDriver;
-import web_elements.SignUpPageElements;
-import web_elements.SingInPageElements;
+
 import lahebo.web_elements.SignUpPageElements;
 
 import java.util.Hashtable;
