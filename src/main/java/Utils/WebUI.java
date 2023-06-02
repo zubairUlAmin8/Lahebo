@@ -18,6 +18,7 @@ import helpers.Helpers;
 import io.qameta.allure.Step;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -152,6 +153,28 @@ public class WebUI {
         return check;
     }
 
+    public static boolean verifyValidationErrorMsg(WebDriver driver, WebElement element, int timeout) {
+        waits.waitForVisibilityOfItem(driver, element, timeout);
+        try {
+            if (element.isDisplayed()) {
+                LogUtils.info(element.getText());
+                return true;
+            } else {
+                return false;
+            }
+        } catch (NoSuchElementException exception) {
+            return false;
+        }
+    }
+    public static boolean verifyErrorPopup(WebDriver driver, WebElement element, int timeout) {
+        waits.waitForVisibilityOfItem(driver, element, timeout);
+        if (element.isDisplayed()) {
+            LogUtils.info(element.getText());
+            return true;
+        } else {
+            return false;
+        }
+    }
     public static Boolean verifyDownloadFileEqualsNameCompletedWaitTimeout(String fileName, int timeoutSeconds) {
         boolean check = false;
         int i = 0;
@@ -211,6 +234,7 @@ public class WebUI {
             return false;
         }
     }
+
 
     /**
      * Login as Authentication on URL

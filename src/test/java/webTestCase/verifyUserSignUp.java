@@ -2,6 +2,7 @@ package webTestCase;
 
 import base_test.BaseTest;
 import dataprovider.DataProviderManager;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import lahebo.web_pages.Dashboard;
 import lahebo.web_pages.SignUpPage;
@@ -14,7 +15,14 @@ public class verifyUserSignUp extends BaseTest {
     public void fillSignUpPage(Hashtable<String, String> data) throws InterruptedException {
         System.out.println("Signup getting started");
         signUpPage.goToSignUpPage();
-        signUpPage.fillSignUpForm(data);
+        boolean status =signUpPage.fillSignUpForm(data);
+
+        if (signUpPage.verifyExpectedResult()) {
+            Assert.assertTrue(status, "Data not correct");
+
+        } else {
+            Assert.assertFalse(status, "Data not correct");
+        }
         System.out.println("Signup getting end");
 
     }

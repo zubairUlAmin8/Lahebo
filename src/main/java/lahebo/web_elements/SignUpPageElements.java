@@ -28,6 +28,8 @@ public class SignUpPageElements {
     public WebElement singUpBtn;
     @FindBy(css = SignUpPR.valueRequired)
     public WebElement valueRequired;
+   @FindBy(css = SignUpPR.popUpError)
+    public WebElement popUpError;
 
 
 

@@ -7,6 +7,36 @@
     <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0f4bb7d0-81f7-4085-981f-c24173e2bbf5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/20b88087-72ee-4fce-90c9-0436ade7d1cd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/35db818a-b1a8-416a-bba2-9b9a9fed5288-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3b8f2a56-7c52-4eef-a49d-21c32c2a3a18-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5532a163-4745-4b6f-8949-b04d13f61c1a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5e6d1155-222d-4892-bf7b-fffaa6b91399-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/637d893a-1bdd-4d4b-8250-da56776bf630-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6b6c7456-afb0-42f7-9df9-89bd2198a57a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6eb71b01-610b-41ce-8fb3-55fa75a7891e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/824f1233-ed50-462b-a6e2-6de9b561bd5f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/86077747-f758-4b55-9f79-f3abe32a6391-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8fecbe49-f8f5-4760-8e33-a44bc866a47e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9065e9f2-4127-492a-985d-b286bd1d27ca-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a18b08c4-69be-4562-8820-a4b12343b2c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cc98c234-c6cf-4b6a-a74b-90f267d1eb68-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e1539b5d-3cdc-41cc-8069-39712bd2cf14-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/eece8405-8829-4fbb-a7a3-1ba670ab56ab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/faa102d3-620f-4434-b6ff-e02e5845b13e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/WebUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/waits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/SignUpPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/SignUpPR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/SignUpPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/SignUpPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/ClientsDataExcel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/ClientsDataExcel.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

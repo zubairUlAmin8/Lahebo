@@ -1,5 +1,6 @@
 package lahebo.web_pages;
 
+import Utils.WebUI;
 import Utils.waits;
 import constants.FrameworkConstants;
 import driver.DriverManager;
@@ -47,7 +48,7 @@ public class SignInPage extends BasePage {
             waits.waitForVisibilityOfItem(driver, singInPageElements.validationErrorMsg, 5);
             System.out.println(singInPageElements.validationErrorMsg.getText());
 
-            if (verifyValidationErrorMsg() && expectedTitle.equals("fail")) {
+            if (WebUI.verifyValidationErrorMsg(driver, singInPageElements.validationErrorMsg,5) && expectedTitle.equals("fail")) {
                 return false;
             } else {
 
@@ -64,7 +65,7 @@ public class SignInPage extends BasePage {
 
             } else {
 
-                if (verifyErrorPopup()) {
+                if (WebUI.verifyErrorPopup(driver,singInPageElements.errorAlert,10)) {
                     System.out.println("getting erorr but expected condition satisfied");
                     return false;
                 } else {
@@ -76,25 +77,9 @@ public class SignInPage extends BasePage {
 
     }
 
-    public boolean verifyErrorPopup() {
-        waits.waitForVisibilityOfItem(driver, singInPageElements.errorAlert, 20);
-        if (singInPageElements.errorAlert.isDisplayed()) {
-            System.out.println(singInPageElements.errorAlert.getText());
-            return true;
-        } else {
-            return false;
-        }
-    }
 
-    public boolean verifyValidationErrorMsg() {
-        waits.waitForVisibilityOfItem(driver, singInPageElements.validationErrorMsg, 20);
-        if (singInPageElements.validationErrorMsg.isDisplayed()) {
-            System.out.println(singInPageElements.validationErrorMsg.getText());
-            return true;
-        } else {
-            return false;
-        }
-    }
+
+
 
     public boolean verifyExpectedResult() {
         if (expectedTitle.equals("pass")) {
