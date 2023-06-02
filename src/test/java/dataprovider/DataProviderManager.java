@@ -9,6 +9,7 @@ package dataprovider;
 import constants.FrameworkConstants;
 import helpers.ExcelHelpers;
 import helpers.Helpers;
+import helpers.PropertiesHelpers;
 import models.SignUpModel;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -39,7 +40,6 @@ public final class DataProviderManager {
     }
 
 //    @Test(dataProvider = "getClientDataHashTable")
-
 
     @DataProvider(name = "getSignInDataHashTable", parallel = false)
     public static Object[][] getSignInData() {

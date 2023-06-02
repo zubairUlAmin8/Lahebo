@@ -1,17 +1,18 @@
 package listeners;
 
 import Utils.BrowserInfoUtils;
-import Utils.DriverSetup;
 import Utils.LogUtils;
 import Utils.WebUI;
 import annotations.FrameworkAnnotation;
 import com.aventstack.extentreports.Status;
+import driver.DriverManager;
 import enums.AuthorType;
 import enums.CategoryType;
 import helpers.CaptureHelpers;
 import helpers.PropertiesHelpers;
 import org.testng.*;
 import report.ExtentReportManager;
+
 import lahebo.web_pages.SignInPage;
 
 import static constants.FrameworkConstants.*;
@@ -67,11 +68,9 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
 
         PropertiesHelpers.loadAllFiles();
         ExtentReportManager.initReports();
-
         System.out.println("========= INSTALLED CONFIGURATION DATA =========");
         System.out.println("");
         LogUtils.info("Starting Suite: " + iSuite.getName());
-
 
     }
 
@@ -87,7 +86,7 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
         count_failedTCs = count_failedTCs + 1;
 
         if (SCREENSHOT_FAILED_STEPS.equals(YES)) {
-            CaptureHelpers.captureScreenshot(DriverSetup.getDriver(), getTestName(iTestResult));
+            CaptureHelpers.captureScreenshot(DriverManager.getDriver(), getTestName(iTestResult));
         }
 
 
@@ -96,7 +95,7 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
         LogUtils.error(iTestResult.getThrowable());
 
         //Extent report screenshot file and log
-        ExtentReportManager.addScreenShot(DriverSetup.getDriver(), getTestName(iTestResult));
+        ExtentReportManager.addScreenShot(DriverManager.getDriver(), getTestName(iTestResult));
         ExtentReportManager.logMessage(Status.FAIL, iTestResult.getThrowable().toString());
 
         //AllureManager.takeScreenshotToAttachOnAllureReport();
@@ -110,7 +109,7 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
         count_skippedTCs = count_skippedTCs + 1;
 
         if (SCREENSHOT_SKIPPED_STEPS.equals(YES)) {
-            CaptureHelpers.captureScreenshot(DriverSetup.getDriver(), getTestName(iTestResult));
+            CaptureHelpers.captureScreenshot(DriverManager.getDriver(), getTestName(iTestResult));
         }
 
         ExtentReportManager.logMessage(Status.SKIP, "Test case: " + getTestName(iTestResult) + " is skipped.");
@@ -142,7 +141,7 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
         count_passedTCs = count_passedTCs + 1;
 
         if (SCREENSHOT_PASSED_STEPS.equals(YES)) {
-            CaptureHelpers.captureScreenshot(DriverSetup.getDriver(), getTestName(iTestResult));
+            CaptureHelpers.captureScreenshot(DriverManager.getDriver(), getTestName(iTestResult));
         }
 
         //ExtentReports log operation for passed tests.

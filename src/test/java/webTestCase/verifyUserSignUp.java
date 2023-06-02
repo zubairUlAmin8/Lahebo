@@ -10,12 +10,6 @@ import lahebo.web_pages.TwoFactorAuthPage;
 import java.util.Hashtable;
 
 public class verifyUserSignUp extends BaseTest {
-
-
-    SignUpPage signUpPage = new SignUpPage();
-    Dashboard dashboard = new Dashboard();
-    TwoFactorAuthPage twoFactorAuthPage = new TwoFactorAuthPage();
-
     @Test(priority = 1, dataProvider = "getSignUpDataHashTable", dataProviderClass = DataProviderManager.class)
     public void fillSignUpPage(Hashtable<String, String> data) throws InterruptedException {
         System.out.println("Signup getting started");

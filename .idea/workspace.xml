@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5f4c0a4-8220-4daa-b66d-81243538fa8e" name="Changes" comment="">
+    <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/SignUpPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/SignUpPR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/SignUpPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/SignUpPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/tes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,46 +27,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2QEmgzWW8dnspYWSIndIYZ6XRWB" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Zapta/Automation/Lahebo/src/main/java&quot;
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Zapta\Automation\Lahebo\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="webTestCase" />
-      <recent name="web_pages" />
-      <recent name="web_elements" />
-      <recent name="path_repo" />
-    </key>
   </component>
   <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml">
     <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -72,17 +46,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fakerUtils.generateRandomAustralianPhoneNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="tes.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Utils.*" />
+          <option name="PATTERN" value="base_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Utils" />
-      <option name="MAIN_CLASS_NAME" value="Utils.fakerUtils" />
-      <option name="METHOD_NAME" value="generateRandomAustralianPhoneNumber" />
+      <option name="PACKAGE_NAME" value="webTestCase" />
+      <option name="MAIN_CLASS_NAME" value="webTestCase.tes" />
+      <option name="METHOD_NAME" value="myTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="verifyLaunchingWebsite.LaunchingWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lahebo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTestCase" />
+      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyLaunchingWebsite" />
+      <option name="METHOD_NAME" value="LaunchingWebsite" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,7 +86,7 @@
       <module name="Lahebo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
+          <option name="PATTERN" value="base_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,45 +121,38 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
-        <item itemvalue="TestNG.verifyUserSignIn.superAdminSignIn" />
         <item itemvalue="TestNG.verifyUserSignUp.fillSignUpPage" />
-        <item itemvalue="TestNG.fakerUtils.generateRandomAustralianPhoneNumber" />
+        <item itemvalue="TestNG.verifyUserSignIn.superAdminSignIn" />
+        <item itemvalue="TestNG.verifyLaunchingWebsite.LaunchingWebsite" />
+        <item itemvalue="TestNG.tes.myTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="a5f4c0a4-8220-4daa-b66d-81243538fa8e" name="Changes" comment="" />
-      <created>1684927233988</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1684927233988</updated>
-    </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java</url>
-          <line>18</line>
-          <properties class="webTestCase.verifyUserSignIn">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
