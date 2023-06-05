@@ -76,7 +76,48 @@ public class SignInPage extends BasePage {
         }
 
     }
+    public boolean  signIn(String userName, String password) {
 
+        waits.waitForElements(driver, singInPageElements.userName, 5000);
+        System.out.println(singInPageElements.userName.getAttribute("placeholder"));
+        expectedTitle = "pass";
+
+        if (userName.equals("") || password.equals("")) {
+
+            singInPageElements.userName.sendKeys(userName);
+            singInPageElements.password.sendKeys(password);
+            singInPageElements.signInBtn.click();
+            waits.waitForVisibilityOfItem(driver, singInPageElements.validationErrorMsg, 5);
+            System.out.println(singInPageElements.validationErrorMsg.getText());
+
+            if (WebUI.verifyValidationErrorMsg(driver, singInPageElements.validationErrorMsg,5)) {
+                return false;
+            } else {
+
+                return false;
+            }
+        } else {
+            singInPageElements.userName.sendKeys(userName);
+            singInPageElements.password.sendKeys(password);
+            singInPageElements.signInBtn.click();
+
+            if (expectedTitle.equals("pass")) {
+                System.out.println("Username and password are correct");
+                return true;
+
+            } else {
+
+                if (WebUI.verifyErrorPopup(driver,singInPageElements.errorAlert,10)) {
+                    System.out.println("getting erorr but expected condition satisfied");
+                    return false;
+                } else {
+                    return false;
+                }
+            }
+
+        }
+
+    }
 
 
 

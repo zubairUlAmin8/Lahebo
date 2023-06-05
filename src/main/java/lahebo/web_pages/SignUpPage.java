@@ -19,8 +19,13 @@ import java.util.Hashtable;
 public class SignUpPage extends BasePage{
     SignUpPageElements signUpPageElements;
     ExcelHelpers excelHelpers = new ExcelHelpers();
+    ExcelHelpers excelHelpersForSetValue = new ExcelHelpers();
     WebDriver driver;
-    String expectedTitle;
+    public static String expectedTitle;
+    public static String  randomUsername;
+    public static String randomEmail;
+    public static String randomPhone;
+
 
     public SignUpPage(WebDriver driver) {
 
@@ -59,7 +64,25 @@ public class SignUpPage extends BasePage{
         String verifyPass=data.get(SignUpModel.getExpectedTitle());
 
         if (verifyPass.equals("Pass")) {
+//            excelHelpersForSetValue.setExcelFile(FrameworkConstants.EXCEL_DATA_FILE_PATH, "NewUser");
+            LogUtils.info("We got the pass condition for sighup");
             phoneNumber = fakerUtils.generateRandomAustralianPhoneNumber();
+            LogUtils.info("Random phone number: "+phoneNumber);
+            randomPhone = phoneNumber;
+
+            int randomInt = fakerUtils.generateRandomInt();
+            String fileEmail=data.get(SignUpModel.getEmail());
+
+            email=fileEmail+"+"+randomInt+"@gmail.com";
+            LogUtils.info("Random Email :"+email);
+            randomEmail = email;
+
+            String fileUserName=data.get(SignUpModel.getUsername());
+            userName=fileUserName+randomInt;
+            LogUtils.info("Random Gmail number"+userName);
+            randomUsername = userName;
+
+
         }
         signUpPageElements.firstName.sendKeys(firstName);
         signUpPageElements.LastName.sendKeys(LastName);
@@ -78,8 +101,14 @@ public class SignUpPage extends BasePage{
         else{
             if (WebUI.verifyErrorPopup(driver, signUpPageElements.popUpError, 10)) {
                 LogUtils.info(signUpPageElements.popUpError.getText());
+                String popUpMessage = signUpPageElements.popUpError.getText();
                 System.out.println("popup error"+signUpPageElements.popUpError.getText());
-                return false;
+                if (popUpMessage.equals("Register successfully!")) {
+                    LogUtils.info("All Condition have been Passed and now moving to Email OTP Verification");
+                    return true;
+                } else {
+                    return false;
+                }
             } else {
                 System.out.println("no error");
                 return true;

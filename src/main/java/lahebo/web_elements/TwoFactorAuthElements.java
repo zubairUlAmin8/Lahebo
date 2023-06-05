@@ -9,12 +9,18 @@ import org.openqa.selenium.support.PageFactory;
 public class TwoFactorAuthElements {
     @FindBy(css = TwoFactorAuthPR.otpCode)
     public WebElement otpCode;
+    @FindBy(css = TwoFactorAuthPR.otpCodeInputWithSecretKey)
+    public WebElement otpCodeInputWithSecretKey;
+    @FindBy(css = TwoFactorAuthPR.otpCodeInputForInbox)
+    public WebElement otpCodeInputForInbox;
     @FindBy(css = TwoFactorAuthPR.submitBtn)
     public WebElement submitBtn;
     @FindBy(css = TwoFactorAuthPR.validationErrorMsg)
     public WebElement validationErrorMsg;
     @FindBy(css = TwoFactorAuthPR.errorPopUp)
     public WebElement errorPopUp;
+    @FindBy(css = TwoFactorAuthPR.secretKey)
+    public WebElement secretKey;
 
 
 

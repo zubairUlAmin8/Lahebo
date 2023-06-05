@@ -5,35 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helpers/GMailHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0f4bb7d0-81f7-4085-981f-c24173e2bbf5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/20b88087-72ee-4fce-90c9-0436ade7d1cd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/35db818a-b1a8-416a-bba2-9b9a9fed5288-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3b8f2a56-7c52-4eef-a49d-21c32c2a3a18-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5532a163-4745-4b6f-8949-b04d13f61c1a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5e6d1155-222d-4892-bf7b-fffaa6b91399-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/637d893a-1bdd-4d4b-8250-da56776bf630-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6b6c7456-afb0-42f7-9df9-89bd2198a57a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6eb71b01-610b-41ce-8fb3-55fa75a7891e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/824f1233-ed50-462b-a6e2-6de9b561bd5f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/86077747-f758-4b55-9f79-f3abe32a6391-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8fecbe49-f8f5-4760-8e33-a44bc866a47e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/9065e9f2-4127-492a-985d-b286bd1d27ca-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a18b08c4-69be-4562-8820-a4b12343b2c5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cc98c234-c6cf-4b6a-a74b-90f267d1eb68-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e1539b5d-3cdc-41cc-8069-39712bd2cf14-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/eece8405-8829-4fbb-a7a3-1ba670ab56ab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/faa102d3-620f-4434-b6ff-e02e5845b13e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/WebUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/waits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/SignUpPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/SignUpPR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/SignUpPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/SignUpPageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/fakerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/fakerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/TwoFactorAuthPR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/TwoFactorAuthPR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/TwoFactorAuthElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/TwoFactorAuthElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web_pages/TwoFactorAuthPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/ClientsDataExcel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/ClientsDataExcel.xlsx" afterDir="false" />
@@ -54,47 +36,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QmRgUFEKR1zPmalxUvWxyZElMF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="helpers" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml">
     <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tes.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lahebo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.tes" />
-      <option name="METHOD_NAME" value="myTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="verifyLaunchingWebsite.LaunchingWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lahebo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyLaunchingWebsite" />
-      <option name="METHOD_NAME" value="LaunchingWebsite" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -137,17 +102,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="verifyUserSignUp.verifyGmailOTP" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lahebo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTestCase" />
+      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyUserSignUp" />
+      <option name="METHOD_NAME" value="verifyGmailOTP" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="verifyUserSignUp.verifyNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lahebo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTestCase" />
+      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyUserSignUp" />
+      <option name="METHOD_NAME" value="verifyNewUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
+        <item itemvalue="TestNG.verifyUserSignUp.verifyNewUser" />
+        <item itemvalue="TestNG.verifyUserSignUp.verifyGmailOTP" />
         <item itemvalue="TestNG.verifyUserSignUp.fillSignUpPage" />
         <item itemvalue="TestNG.verifyUserSignIn.superAdminSignIn" />
-        <item itemvalue="TestNG.verifyLaunchingWebsite.LaunchingWebsite" />
-        <item itemvalue="TestNG.tes.myTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="" />
+      <created>1685956887284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685956887284</updated>
+    </task>
     <servers />
   </component>
   <component name="XDebuggerManager">
@@ -172,6 +181,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java</url>
           <line>34</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java</url>
+          <line>299</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java</url>
+          <line>285</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
