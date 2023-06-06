@@ -19,7 +19,7 @@ public class verifyUserSignIn extends BaseTest {
         basePage.loadPage(driver,url_Address);
         if (signInPage.signIn(data)) {
             Assert.assertTrue(true, "Password or Username is  correct");
-            Assert.assertTrue( twoFactorAuthPage.authentication(), "2FA Authentication Failed");
+            Assert.assertTrue( twoFactorAuthPage.authenticationWithSecretKey(), "2FA Authentication Failed");
             landingPage.waitForPageLoading();
             Assert.assertTrue(landingPage.verifyLandingPage(), "landing page could not displayed");
 

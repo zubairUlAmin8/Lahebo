@@ -27,7 +27,7 @@ public class TwoFactorAuthPage extends BasePage{
 
 
     }
-    public boolean authentication() throws InterruptedException {
+    public boolean authenticationWithSecretKey() throws InterruptedException {
         String secretKey = PropertiesHelpers.getValue("SECRET_KEY");
         waits.waitForElements(driver, twoFactorAuthElements.otpCode,  5000);
         String code = Two2FActorAuthentication.getOptCode(secretKey);
@@ -142,7 +142,6 @@ public class TwoFactorAuthPage extends BasePage{
         } else {
             System.out.println("not found");
         }
-
         String input = body;
         String searchString = "Please find the OTP";
         int n =10;

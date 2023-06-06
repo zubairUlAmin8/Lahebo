@@ -25,6 +25,8 @@ public class SignUpPage extends BasePage{
     public static String  randomUsername;
     public static String randomEmail;
     public static String randomPhone;
+    public static String password;
+
 
 
     public SignUpPage(WebDriver driver) {
@@ -57,14 +59,13 @@ public class SignUpPage extends BasePage{
         String email=data.get(SignUpModel.getEmail());
         String userName=data.get(SignUpModel.getUsername());
         String phoneNumber = data.get(SignUpModel.getPhoneNumber());
-        String password=data.get(SignUpModel.getPassword());
+        password=data.get(SignUpModel.getPassword());
         String confirmPassword=data.get(SignUpModel.getConfirmPassword());
         waits.waitForElements(DriverManager.getDriver(),signUpPageElements.firstName,5000);
         expectedTitle = data.get(SignUpModel.getExpectedTitle());
         String verifyPass=data.get(SignUpModel.getExpectedTitle());
 
         if (verifyPass.equals("Pass")) {
-//            excelHelpersForSetValue.setExcelFile(FrameworkConstants.EXCEL_DATA_FILE_PATH, "NewUser");
             LogUtils.info("We got the pass condition for sighup");
             phoneNumber = fakerUtils.generateRandomAustralianPhoneNumber();
             LogUtils.info("Random phone number: "+phoneNumber);
@@ -114,6 +115,12 @@ public class SignUpPage extends BasePage{
                 return true;
             }
         }
+
+    }
+
+    public void saveDataIntoFile() {
+        PropertiesHelpers.setValue("New_User_UserName", randomUsername);
+        PropertiesHelpers.setValue("New_User_Password", password);
 
     }
 }

@@ -44,5 +44,9 @@ public class verifyUserSignUp extends BaseTest {
         System.out.println("Secret Key"+secretKey);
         twoFactorAuthPage.authenticationWithSecretKey(secretKey);
     }
+    @Test(priority=4)
+    public void saveNewUserIntoFile() {
+        signUpPage.saveDataIntoFile();
+    }
 
 }
