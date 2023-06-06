@@ -155,6 +155,7 @@ public class TwoFactorAuthPage extends BasePage{
         } else {
             System.out.println("String not found or not enough characters after the string.");
         }
+
         return refineNumber;
     }
 
@@ -164,6 +165,7 @@ public class TwoFactorAuthPage extends BasePage{
             secretKeyNewUser = twoFactorAuthElements.secretKey.getText();
         } catch (NoSuchElementException exception) {
         }
+        PropertiesHelpers.setValue("New_User_SecretKey", secretKeyNewUser);
         return secretKeyNewUser;
     }
 }
