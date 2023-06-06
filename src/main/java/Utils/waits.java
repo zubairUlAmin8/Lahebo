@@ -2,6 +2,7 @@ package Utils;
 
 import driver.DriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -37,7 +38,11 @@ public class waits {
     }
     public static void waitForVisibilityOfItem(WebDriver driver, WebElement element, int time) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));
-        wait.until(ExpectedConditions.visibilityOf(element));
+        try {
+            wait.until(ExpectedConditions.visibilityOf(element));
+        } catch (TimeoutException exception) {
+            LogUtils.info(exception.getMessage());
+        }
 
     }
     public static void waitForTextToBePresentInElement(WebDriver driver, WebElement element, String value, int timeout) {

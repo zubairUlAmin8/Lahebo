@@ -293,6 +293,10 @@ public class ExcelHelpers {
             if (cell == null) {
                 cell = row.createCell(colNumber);
             }
+            if (cell == null) {
+                System.out.println("cell is not null");
+            }
+
             cell.setCellValue(text);
 
             XSSFCellStyle style = (XSSFCellStyle) workbook.createCellStyle();
