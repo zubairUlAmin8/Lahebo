@@ -3,26 +3,23 @@ package lahebo.web_pages;
 import Utils.WebUI;
 import Utils.waits;
 import constants.FrameworkConstants;
-import driver.DriverManager;
 import helpers.ExcelHelpers;
-import helpers.PropertiesHelpers;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import models.SignInModel;
 import models.SignUpModel;
 import org.openqa.selenium.WebDriver;
-import lahebo.web_elements.SingInPageElements;
+import lahebo.web_elements.SignInPageElements;
 
 import java.util.Hashtable;
 
 public class SignInPage extends BasePage {
-        SingInPageElements singInPageElements;
+        SignInPageElements singInPageElements;
     WebDriver driver;
 //    SingInPageElements singInPageElements = new SingInPageElements(driver);
 
     public SignInPage(WebDriver driver) {
         System.out.println("singINPage Constructor");
         this.driver = driver;
-        singInPageElements = new SingInPageElements(driver);
+        singInPageElements = new SignInPageElements(driver);
 
     }
 
@@ -133,5 +130,16 @@ public class SignInPage extends BasePage {
 
     public static String getTestName() {
         return testName;
+    }
+
+    public boolean verifyLoginPage() {
+    waits.waitForElements(driver, singInPageElements.logInText, 10);
+        String checkSTR = singInPageElements.logInText.getText();
+        System.out.println("check"+checkSTR);
+        if (checkSTR.equalsIgnoreCase("Sign In")) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }

@@ -11,6 +11,10 @@ public class LandingPageElements {
     public WebElement LagislationLibraryTab;
     @FindBy(css = LandingPagePR.loaderMain)
     public WebElement loaderMain;
+    @FindBy(css = LandingPagePR.profileIcon)
+    public WebElement profileIcon;
+    @FindBy(css = LandingPagePR.signOutBtn)
+    public WebElement signOutBtn;
 
 
     WebDriver driver;

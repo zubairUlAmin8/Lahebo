@@ -43,4 +43,13 @@ public class LandingPage {
 //        Thread.sleep(500);
         waits.waitForInvisibilityOfItem(driver, LandingPagePR.loaderMain, 30);
     }
+
+    public void signOut() {
+        waits.waitForElements(driver,landingPageElements.profileIcon,5);
+        landingPageElements.profileIcon.click();
+        waits.waitForElements(driver,landingPageElements.signOutBtn, 5);
+        landingPageElements.signOutBtn.click();
+
+    }
+
 }
