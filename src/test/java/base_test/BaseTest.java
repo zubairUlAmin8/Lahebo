@@ -15,9 +15,10 @@ public class BaseTest {
     public static TwoFactorAuthPage twoFactorAuthPage ;
     public static Dashboard dashboard;
     public static SignUpPage signUpPage;
+    public static ForgetPasswordPage forgetPasswordPage;
     int bm=1;
     int am=1;
-    public static  WebDriver driver;
+    public  WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
 
     public BaseTest() {
@@ -30,6 +31,7 @@ public class BaseTest {
         twoFactorAuthPage = new TwoFactorAuthPage(driver);
         signUpPage = new SignUpPage(driver);
         dashboard = new Dashboard(driver);
+        forgetPasswordPage = new ForgetPasswordPage(driver);
     }
     @Parameters("BROWSER")
     @BeforeSuite

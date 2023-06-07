@@ -15,7 +15,7 @@ public class fakerUtils {
         }
 
     public static int generateRandomInt() {
-        int number = faker.number().numberBetween(1, 100);
+        int number = faker.number().numberBetween(1, 999);
         return number;
     }
 

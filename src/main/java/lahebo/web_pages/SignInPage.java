@@ -131,6 +131,11 @@ public class SignInPage extends BasePage {
         }
     }
 
+    public void goToForgetPasswordPage() {
+        waits.waitForElements(driver, singInPageElements.forgetPasswordLinkTxt, 5);
+        singInPageElements.forgetPasswordLinkTxt.click();
+    }
+
     public static String getTestName() {
         return testName;
     }

@@ -19,6 +19,9 @@ public class SingInPageElements {
     @FindBy(css = SignInPR.validationErrorMsg)
     public WebElement validationErrorMsg;
 
+    @FindBy(css = SignInPR.forgetPasswordLinkTxt)
+    public WebElement forgetPasswordLinkTxt;
+
 
     WebDriver driver;
 
