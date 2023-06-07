@@ -68,6 +68,28 @@ public class TwoFactorAuthPage extends BasePage{
 
         }
     }
+    public boolean authenticationWithSecretKeyWithScanCode(String secretKey, String withoutScanCode) throws InterruptedException {
+        String code=Two2FActorAuthentication.getOptCode(secretKey);
+        if (withoutScanCode.equals("no")) {
+            waits.waitForElements(driver, twoFactorAuthElements.otpCode,  5000);
+            twoFactorAuthElements.otpCode.sendKeys(code);
+            twoFactorAuthElements.submitBtn.click();
+        }
+        if (code.length() < 6) {
+            if (verifyCodeLength()) {
+                return false;
+            } else {
+                return true;
+            }
+        } else {
+            if (verifyInvalidOTP()) {
+                return false;
+            } else {
+                return true;
+            }
+
+        }
+    }
     public boolean authentication(String otpCode) throws InterruptedException {
         twoFactorAuthElements.otpCodeInputForInbox.sendKeys(otpCode);
         twoFactorAuthElements.submitBtn.click();

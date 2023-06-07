@@ -16,8 +16,8 @@ public class BaseTest {
     public static Dashboard dashboard;
     public static SignUpPage signUpPage;
     public static ForgetPasswordPage forgetPasswordPage;
-    int bm=1;
-    int am=1;
+    public static ResetPasswordPage resetPasswordPage;
+
     public  WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
 
@@ -32,9 +32,10 @@ public class BaseTest {
         signUpPage = new SignUpPage(driver);
         dashboard = new Dashboard(driver);
         forgetPasswordPage = new ForgetPasswordPage(driver);
+        resetPasswordPage = new ResetPasswordPage(driver);
     }
     @Parameters("BROWSER")
-    @BeforeSuite
+    @BeforeClass
     public  void beforeSuite(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
         System.out.println("this is my BeforeSuite");
@@ -57,9 +58,9 @@ public class BaseTest {
 //        BasePage.setBrowser(driver);
     }
 
-    @AfterMethod(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void closeDriver() {
-//        DriverManager.quit();
+        DriverManager.quit();
     }
 
     public WebDriver createBrowser(@Optional("chrome") String browser) {

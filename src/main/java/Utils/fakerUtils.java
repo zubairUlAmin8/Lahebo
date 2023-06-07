@@ -18,5 +18,48 @@ public class fakerUtils {
         int number = faker.number().numberBetween(1, 999);
         return number;
     }
+    public static String generateRandomPassword() {
+        Faker faker = new Faker();
 
+        String uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
+        String numbers = "0123456789";
+        String specialCharacters = "!@$%&*";
+
+        StringBuilder password = new StringBuilder();
+
+        // Generate at least one character from each category
+        password.append(faker.random().nextInt(uppercaseLetters.length())).append(faker.random().nextInt(lowercaseLetters.length()));
+        password.append(faker.random().nextInt(numbers.length())).append(faker.random().nextInt(specialCharacters.length()));
+
+        // Generate remaining characters
+        for (int i = 0; i < 4; i++) {
+//            int category = faker.random().nextInt(4);
+
+            switch (i) {
+                case 0:
+                    password.append(uppercaseLetters.charAt(faker.random().nextInt(uppercaseLetters.length())));
+                    break;
+                case 1:
+                    password.append(lowercaseLetters.charAt(faker.random().nextInt(lowercaseLetters.length())));
+                    break;
+                case 2:
+                    password.append(numbers.charAt(faker.random().nextInt(numbers.length())));
+                    break;
+                case 3:
+                    password.append(specialCharacters.charAt(faker.random().nextInt(specialCharacters.length())));
+                    break;
+            }
+        }
+
+        // Shuffle the characters in the password
+        for (int i = 0; i < password.length(); i++) {
+            int j = faker.random().nextInt(password.length());
+            char temp = password.charAt(i);
+            password.setCharAt(i, password.charAt(j));
+            password.setCharAt(j, temp);
+        }
+        return password.toString();
+    }
 }
+
