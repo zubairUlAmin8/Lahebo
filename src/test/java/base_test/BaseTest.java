@@ -15,9 +15,7 @@ public class BaseTest {
     public static TwoFactorAuthPage twoFactorAuthPage ;
     public static Dashboard dashboard;
     public static SignUpPage signUpPage;
-    int bm=1;
-    int am=1;
-    public static  WebDriver driver;
+    public WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
 
     public BaseTest() {
@@ -32,32 +30,20 @@ public class BaseTest {
         dashboard = new Dashboard(driver);
     }
     @Parameters("BROWSER")
-    @BeforeSuite
+    @BeforeClass
     public  void beforeSuite(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
         System.out.println("this is my BeforeSuite");
         driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(driver);
+        System.out.println("my driver"+driver);
+        System.out.println("my Thread Id"+Thread.currentThread());
         driver.manage().window().maximize();
+
+
         System.out.println("Driver is created");
         initObject();
 
-    }
-    @BeforeClass
-    public void beforeClass() {
-        System.out.println("this is my BeforeMethod");
-    }
-
-    @Parameters("BROWSER")
-    @BeforeMethod(alwaysRun = true)
-    public void createDriver(@Optional("chrome") String browser) {
-        System.out.println("we are BeforeMethod");
-//        BasePage.setBrowser(driver);
-    }
-
-    @AfterMethod(alwaysRun = true)
-    public void closeDriver() {
-//        DriverManager.quit();
     }
 
     public WebDriver createBrowser(@Optional("chrome") String browser) {

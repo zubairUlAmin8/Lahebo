@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="">
+    <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verifyUserSignUp.fillSignUpPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="verifyUserSignIn.superAdminSignInDataDriven" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +88,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyUserSignUp" />
-      <option name="METHOD_NAME" value="fillSignUpPage" />
+      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyUserSignIn" />
+      <option name="METHOD_NAME" value="superAdminSignInDataDriven" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,10 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
+        <item itemvalue="TestNG.verifyUserSignIn.superAdminSignInDataDriven" />
         <item itemvalue="TestNG.verifyUserSignIn.signInUser" />
         <item itemvalue="TestNG.verifyUserSignUp.verifyNewUser" />
         <item itemvalue="TestNG.verifyUserSignUp.verifyGmailOTP" />
-        <item itemvalue="TestNG.verifyUserSignUp.fillSignUpPage" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +152,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685956887284</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1686058126953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686058126953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +172,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="login Usging Data Driven Testing"  >
+<suite thread-count="2" verbose="1" name="Gmail Suite" annotations="JDK" parallel="tests" >
     <listeners>
         <listener class-name="listeners.ListenerTest"/>
     </listeners>
     <test name="Login Admin with Different scenerio">
         <classes>
             <class name="webTestCase.verifyUserSignIn"/>
-<!--            <class name="webTestCase.verifyAddLegalItems"/>-->
-<!--            <class name="webTestCase.verifyUserSignUp"/>-->
         </classes>
-    </test> <!-- Test -->
-</suite> <!-- Suite -->
+    </test>
+    <test name="Signup Admin with Different scenerio">
+        <classes>
+            <class name="webTestCase.verifyUserSignIn"/>
+        </classes>
+    </test>
+</suite>
