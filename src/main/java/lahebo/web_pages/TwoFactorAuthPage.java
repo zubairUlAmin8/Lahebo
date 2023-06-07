@@ -49,9 +49,9 @@ public class TwoFactorAuthPage extends BasePage{
         }
     }
     public boolean authenticationWithSecretKey(String secretKey) throws InterruptedException {
-        waits.waitForElements(driver, twoFactorAuthElements.otpCodeInputWithSecretKey,  5000);
+        waits.waitForElements(driver, twoFactorAuthElements.otpCode,  500);
         String code = Two2FActorAuthentication.getOptCode(secretKey);
-        twoFactorAuthElements.otpCodeInputWithSecretKey.sendKeys(code);
+        twoFactorAuthElements.otpCode.sendKeys(code);
         twoFactorAuthElements.submitBtn.click();
         if (code.length() < 6) {
             if (verifyCodeLength()) {

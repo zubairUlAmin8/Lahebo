@@ -47,6 +47,6 @@ public class verifyUserSignUp extends BaseTest {
     @Test(priority=4)
     public void saveNewUserIntoFile() {
         signUpPage.saveDataIntoFile();
-    }
 
+    }
 }
