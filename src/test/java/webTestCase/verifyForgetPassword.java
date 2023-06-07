@@ -42,15 +42,17 @@ public class verifyForgetPassword extends BaseTest {
         twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "no");
         PropertiesHelpers.setValue("New_User_Password",randomPassword);
     }
+
     @Test(priority = 5)
     public void verifyUserWithNewPassword() throws MessagingException, IOException, InterruptedException {
+        newUserSubscriptionPlanPage.userSignOut();
         String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
         String username = PropertiesHelpers.getValue("New_User_UserName");
         String password = PropertiesHelpers.getValue("New_User_Password");
         String secretKey = PropertiesHelpers.getValue("New_User_SecretKey");
-        driver.navigate().to(url_Address);
         signInPage.loadPage(driver,url_Address);
         signInPage.signIn(username, password);
-        twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "no");
+        boolean status=twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "no");
+        Assert.assertTrue(status, "2FA Authentication Fails");
     }
 }

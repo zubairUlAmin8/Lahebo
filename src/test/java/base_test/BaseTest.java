@@ -17,6 +17,7 @@ public class BaseTest {
     public static SignUpPage signUpPage;
     public static ForgetPasswordPage forgetPasswordPage;
     public static ResetPasswordPage resetPasswordPage;
+    public static NewUserSubscriptionPlanPage newUserSubscriptionPlanPage;
 
     public  WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
@@ -33,6 +34,7 @@ public class BaseTest {
         dashboard = new Dashboard(driver);
         forgetPasswordPage = new ForgetPasswordPage(driver);
         resetPasswordPage = new ResetPasswordPage(driver);
+        newUserSubscriptionPlanPage = new NewUserSubscriptionPlanPage(driver);
     }
     @Parameters("BROWSER")
     @BeforeClass

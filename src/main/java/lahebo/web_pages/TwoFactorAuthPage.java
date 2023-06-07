@@ -114,8 +114,12 @@ public class TwoFactorAuthPage extends BasePage{
             waits.waitForVisibilityOfItem(driver, twoFactorAuthElements.errorPopUp, 5);
             if (twoFactorAuthElements.errorPopUp.isDisplayed()) {
                 String successMSg = twoFactorAuthElements.errorPopUp.getText();
+                System.out.println(successMSg);
                 if (successMSg.equals("Account confirmed successfully.")) {
                     LogUtils.info("Account confirmed successfully");
+                    return false;
+                }
+                else if (successMSg.equals("Account confirmed .") ){
                     return false;
                 }
                 return true;
