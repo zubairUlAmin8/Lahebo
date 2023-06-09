@@ -40,9 +40,9 @@ public class verifyForgetPassword extends BaseTest {
         String secretKey = PropertiesHelpers.getValue("New_User_SecretKey");
         System.out.println("Secret Key"+secretKey);
         twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "no");
+        System.out.println("Random Password: "+randomPassword);
         PropertiesHelpers.setValue("New_User_Password",randomPassword);
     }
-
     @Test(priority = 5)
     public void verifyUserWithNewPassword() throws MessagingException, IOException, InterruptedException {
         newUserSubscriptionPlanPage.userSignOut();

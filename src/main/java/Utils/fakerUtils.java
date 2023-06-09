@@ -51,7 +51,6 @@ public class fakerUtils {
                     break;
             }
         }
-
         // Shuffle the characters in the password
         for (int i = 0; i < password.length(); i++) {
             int j = faker.random().nextInt(password.length());

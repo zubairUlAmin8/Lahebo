@@ -75,6 +75,12 @@ public class TwoFactorAuthPage extends BasePage{
             twoFactorAuthElements.otpCode.sendKeys(code);
             twoFactorAuthElements.submitBtn.click();
         }
+        if (withoutScanCode.equals("yes")) {
+            waits.waitForElements(driver, twoFactorAuthElements.otpCodeInputWithSecretKey,  5000);
+            twoFactorAuthElements.otpCodeInputWithSecretKey.sendKeys(code);
+            twoFactorAuthElements.submitBtn.click();
+        }
+
         if (code.length() < 6) {
             if (verifyCodeLength()) {
                 return false;
