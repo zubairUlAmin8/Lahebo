@@ -39,11 +39,10 @@ public class verifyUserSignUp extends BaseTest {
         signInPage.signIn(username, password);
         String secretKey = twoFactorAuthPage.getSecretKeyNewUser();
         System.out.println("Secret Key"+secretKey);
-        twoFactorAuthPage.authenticationWithSecretKey(secretKey);
+        twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "yes");
     }
     @Test(priority=4)
     public void saveNewUserIntoFile() {
         signUpPage.saveDataIntoFile();
-
     }
 }

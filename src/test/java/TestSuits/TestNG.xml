@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Gmail Suite" parallel="tests" >
+<suite thread-count="2" name="Authentication" parallel="tests" >
     <listeners>
         <listener class-name="listeners.ListenerTest"/>
     </listeners>
-    <test name="Login 1">
-        <classes>
-            <class name="webTestCase.verifyLaunchingWebsite"/>
-        </classes>
-    </test>
-    <test name="Login 2">
+    <test name="Login ">
         <classes>
             <class name="webTestCase.verifyUserSignIn"/>
+        </classes>
+    </test>
+    <test name="SignUP ">
+        <classes>
+            <class name="webTestCase.verifyUserSignUp"/>
         </classes>
     </test>
 </suite>

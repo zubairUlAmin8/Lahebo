@@ -68,6 +68,34 @@ public class TwoFactorAuthPage extends BasePage{
 
         }
     }
+    public boolean authenticationWithSecretKeyWithScanCode(String secretKey, String withoutScanCode) throws InterruptedException {
+        String code=Two2FActorAuthentication.getOptCode(secretKey);
+        if (withoutScanCode.equals("no")) {
+            waits.waitForElements(driver, twoFactorAuthElements.otpCode,  5000);
+            twoFactorAuthElements.otpCode.sendKeys(code);
+            twoFactorAuthElements.submitBtn.click();
+        }
+        if (withoutScanCode.equals("yes")) {
+            waits.waitForElements(driver, twoFactorAuthElements.otpCodeInputWithSecretKey,  5000);
+            twoFactorAuthElements.otpCodeInputWithSecretKey.sendKeys(code);
+            twoFactorAuthElements.submitBtn.click();
+        }
+
+        if (code.length() < 6) {
+            if (verifyCodeLength()) {
+                return false;
+            } else {
+                return true;
+            }
+        } else {
+            if (verifyInvalidOTP()) {
+                return false;
+            } else {
+                return true;
+            }
+
+        }
+    }
     public boolean authentication(String otpCode) throws InterruptedException {
         twoFactorAuthElements.otpCodeInputForInbox.sendKeys(otpCode);
         twoFactorAuthElements.submitBtn.click();
@@ -92,8 +120,12 @@ public class TwoFactorAuthPage extends BasePage{
             waits.waitForVisibilityOfItem(driver, twoFactorAuthElements.errorPopUp, 5);
             if (twoFactorAuthElements.errorPopUp.isDisplayed()) {
                 String successMSg = twoFactorAuthElements.errorPopUp.getText();
+                System.out.println(successMSg);
                 if (successMSg.equals("Account confirmed successfully.")) {
                     LogUtils.info("Account confirmed successfully");
+                    return false;
+                }
+                else if (successMSg.equals("Account confirmed .") ){
                     return false;
                 }
                 return true;

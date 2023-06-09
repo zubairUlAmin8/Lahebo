@@ -15,6 +15,10 @@ public class BaseTest {
     public static TwoFactorAuthPage twoFactorAuthPage ;
     public static Dashboard dashboard;
     public static SignUpPage signUpPage;
+    public static ForgetPasswordPage forgetPasswordPage;
+    public static ResetPasswordPage resetPasswordPage;
+    public static NewUserSubscriptionPlanPage newUserSubscriptionPlanPage;
+
     WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
 
@@ -28,6 +32,9 @@ public class BaseTest {
         twoFactorAuthPage = new TwoFactorAuthPage(driver);
         signUpPage = new SignUpPage(driver);
         dashboard = new Dashboard(driver);
+        forgetPasswordPage = new ForgetPasswordPage(driver);
+        resetPasswordPage = new ResetPasswordPage(driver);
+        newUserSubscriptionPlanPage = new NewUserSubscriptionPlanPage(driver);
     }
     @Parameters("BROWSER")
     @BeforeClass
@@ -37,22 +44,32 @@ public class BaseTest {
 //        driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         driver = new TargetFactory().createInstance(browser);
         DriverManager.setDriver(driver);
-        System.out.println("my driver"+driver);
-        System.out.println("my Thread Id"+Thread.currentThread());
         driver.manage().window().maximize();
-
-
         System.out.println("Driver is created");
         initObject();
+
     }
 
-//    public WebDriver createBrowser(@Optional("chrome") String browser) {
-//        PropertiesHelpers.loadAllFiles();
-//        driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
-//        driver.manage().window().maximize();
-//        DriverManager.setDriver(driver);
-//        return DriverManager.getDriver();
-//    }
+
+    @Parameters("BROWSER")
+    @BeforeMethod(alwaysRun = true)
+    public void createDriver(@Optional("chrome") String browser) {
+        System.out.println("we are BeforeMethod");
+//        BasePage.setBrowser(driver);
+    }
+
+    @AfterClass(alwaysRun = true)
+    public void closeDriver() {
+        DriverManager.quit();
+    }
+
+    public WebDriver createBrowser(@Optional("chrome") String browser) {
+        PropertiesHelpers.loadAllFiles();
+         driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
+        driver.manage().window().maximize();
+        DriverManager.setDriver(driver);
+        return DriverManager.getDriver();
+    }
 }
 
 

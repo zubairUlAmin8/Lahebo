@@ -7,4 +7,5 @@ public class SignInPR {
     public final static String errorAlert="div[role=\"alert\"]";
     public final static String validationErrorMsg="p[class=\"form-error-message\"]";
     public final static String logInText="div[id=\"app\"]>div>div>div>div>div";
+    public final static String forgetPasswordLinkTxt="a[href=\"/forgot-password\"]";
 }

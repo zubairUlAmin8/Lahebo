@@ -20,6 +20,9 @@ public class SignInPageElements {
     @FindBy(css = SignInPR.logInText)
     public WebElement logInText;
 
+    @FindBy(css = SignInPR.forgetPasswordLinkTxt)
+    public WebElement forgetPasswordLinkTxt;
+
 
     WebDriver driver;
 
