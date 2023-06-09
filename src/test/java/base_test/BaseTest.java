@@ -18,6 +18,7 @@ public class BaseTest {
     public static ForgetPasswordPage forgetPasswordPage;
     public static ResetPasswordPage resetPasswordPage;
     public static NewUserSubscriptionPlanPage newUserSubscriptionPlanPage;
+    public static SubscribePlanPage subscribePlanPage;
 
     public  WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
@@ -35,6 +36,8 @@ public class BaseTest {
         forgetPasswordPage = new ForgetPasswordPage(driver);
         resetPasswordPage = new ResetPasswordPage(driver);
         newUserSubscriptionPlanPage = new NewUserSubscriptionPlanPage(driver);
+        newUserSubscriptionPlanPage = new NewUserSubscriptionPlanPage(driver);
+        subscribePlanPage = new SubscribePlanPage(driver);
     }
     @Parameters("BROWSER")
     @BeforeClass
@@ -49,7 +52,6 @@ public class BaseTest {
 
     }
 
-
     @Parameters("BROWSER")
     @BeforeMethod(alwaysRun = true)
     public void createDriver(@Optional("chrome") String browser) {
@@ -59,7 +61,7 @@ public class BaseTest {
 
     @AfterClass(alwaysRun = true)
     public void closeDriver() {
-        DriverManager.quit();
+//        DriverManager.quit();
     }
 
     public WebDriver createBrowser(@Optional("chrome") String browser) {

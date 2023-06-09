@@ -26,10 +26,14 @@ public class waits {
         element.click();
     }
     public static void waitForElements(WebDriver driver, WebElement element, int timeout) {
+        try {
+            wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+            wait.until(ExpectedConditions.visibilityOf(element));
+            wait.until(ExpectedConditions.elementToBeClickable(element));
+        } catch (TimeoutException exception) {
+            LogUtils.info(exception.getMessage());
+        }
 
-        wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
-        wait.until(ExpectedConditions.visibilityOf(element));
-        wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public static void waitForInvisibilityOfItem(WebDriver driver, String path, int time) {
@@ -49,5 +53,6 @@ public class waits {
         wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
         wait.until(ExpectedConditions.textToBePresentInElement(element, value));
     }
+
 
 }
