@@ -48,10 +48,7 @@ public class BaseTest {
         initObject();
 
     }
-    @BeforeClass
-    public void beforeClass() {
-        System.out.println("this is my BeforeMethod");
-    }
+
 
     @Parameters("BROWSER")
     @BeforeMethod(alwaysRun = true)
