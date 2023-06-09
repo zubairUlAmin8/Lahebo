@@ -1,13 +1,10 @@
 package webTestCase;
 
-import base_test.BaseTest;
 import dataprovider.DataProviderManager;
 import helpers.PropertiesHelpers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import lahebo.web_pages.LandingPage;
-import lahebo.web_pages.SignInPage;
-import lahebo.web_pages.TwoFactorAuthPage;
+
 
 import java.util.Hashtable;
 
@@ -34,6 +31,7 @@ public class verifyUserSignIn extends BaseTest {
         String userName = PropertiesHelpers.getValue("New_User_UserName");
         String password = PropertiesHelpers.getValue("New_User_Password");
         String secretKey = PropertiesHelpers.getValue("New_User_SecretKey");
+
         System.out.println(secretKey);
         basePage.loadPage(driver, url_Address);
         if (signInPage.signIn(userName, password)) {

@@ -25,11 +25,10 @@ public class PropertiesHelpers {
     private static FileOutputStream out;
     private static String relPropertiesFilePathDefault = "src/test/resources/config/config.properties";
 
-
     public static Properties loadAllFiles() {
         LinkedList<String> files = new LinkedList<>();
         //Add all Properties files here according to the form
-        files.add("src/test/resources/config/datatest.properties");
+//        files.add("src/test/resources/config/datatest.properties");
         files.add("src/test/resources/config/config.properties");
 
         try {
@@ -44,6 +43,7 @@ public class PropertiesHelpers {
                 properties.putAll(tempProp);
                 System.out.println("Zubair ul amin file count");
             }
+            System.out.println("Loaded all properties files.");
             LogUtils.info("Loaded all properties files.");
             return properties;
         } catch (IOException ioe) {
@@ -85,7 +85,6 @@ public class PropertiesHelpers {
                 properties.load(file);
                 file.close();
             }
-
             //Get value from set file
             keyval = properties.getProperty(key);
             return LanguageUtils.convertCharset_ISO_8859_1_To_UTF8(keyval);

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" verbose="1" name="Gmail Suite" annotations="JDK" parallel="tests" >
+<suite thread-count="2" name="Gmail Suite" parallel="tests" >
     <listeners>
         <listener class-name="listeners.ListenerTest"/>
     </listeners>
-    <test name="Login Admin with Different scenerio">
+    <test name="Login 1">
         <classes>
-            <class name="webTestCase.verifyUserSignIn"/>
+            <class name="webTestCase.verifyLaunchingWebsite"/>
         </classes>
     </test>
-    <test name="Signup Admin with Different scenerio">
+    <test name="Login 2">
         <classes>
             <class name="webTestCase.verifyUserSignIn"/>
         </classes>

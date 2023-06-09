@@ -7,13 +7,19 @@
     <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/FrameworkConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/FrameworkConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/TwoFactorAuthElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/TwoFactorAuthElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/report/AllureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/report/AllureManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_test/CommonPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyAddLegalItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyAddLegalItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyLaunchingWebsite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyLaunchingWebsite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,17 +203,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java</url>
-          <line>34</line>
+          <line>33</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java</url>
-          <line>299</line>
+          <line>298</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java</url>
-          <line>285</line>
+          <line>284</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>

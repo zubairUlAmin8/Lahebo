@@ -1,4 +1,4 @@
-package base_test;
+package webTestCase;
 
 import driver.DriverManager;
 import driver.TargetFactory;
@@ -15,7 +15,7 @@ public class BaseTest {
     public static TwoFactorAuthPage twoFactorAuthPage ;
     public static Dashboard dashboard;
     public static SignUpPage signUpPage;
-    public WebDriver driver;
+    WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
 
     public BaseTest() {
@@ -34,7 +34,8 @@ public class BaseTest {
     public  void beforeSuite(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
         System.out.println("this is my BeforeSuite");
-        driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
+//        driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
+        driver = new TargetFactory().createInstance(browser);
         DriverManager.setDriver(driver);
         System.out.println("my driver"+driver);
         System.out.println("my Thread Id"+Thread.currentThread());
@@ -43,16 +44,15 @@ public class BaseTest {
 
         System.out.println("Driver is created");
         initObject();
-
     }
 
-    public WebDriver createBrowser(@Optional("chrome") String browser) {
-        PropertiesHelpers.loadAllFiles();
-         driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
-        driver.manage().window().maximize();
-        DriverManager.setDriver(driver);
-        return DriverManager.getDriver();
-    }
+//    public WebDriver createBrowser(@Optional("chrome") String browser) {
+//        PropertiesHelpers.loadAllFiles();
+//        driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
+//        driver.manage().window().maximize();
+//        DriverManager.setDriver(driver);
+//        return DriverManager.getDriver();
+//    }
 }
 
 

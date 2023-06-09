@@ -1,12 +1,9 @@
 package webTestCase;
 
-import base_test.BaseTest;
 import dataprovider.DataProviderManager;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import lahebo.web_pages.Dashboard;
 import lahebo.web_pages.SignUpPage;
-import lahebo.web_pages.TwoFactorAuthPage;
 
 import javax.mail.MessagingException;
 import java.io.IOException;
