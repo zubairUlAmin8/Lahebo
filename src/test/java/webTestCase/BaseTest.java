@@ -10,14 +10,14 @@ import lahebo.web_pages.*;
 
 public class BaseTest {
     protected BasePage basePage = new BasePage();
-    public static SignInPage signInPage;
-    public static LandingPage landingPage ;
-    public static TwoFactorAuthPage twoFactorAuthPage ;
-    public static Dashboard dashboard;
-    public static SignUpPage signUpPage;
-    public static ForgetPasswordPage forgetPasswordPage;
-    public static ResetPasswordPage resetPasswordPage;
-    public static NewUserSubscriptionPlanPage newUserSubscriptionPlanPage;
+     SignInPage signInPage;
+     LandingPage landingPage ;
+     TwoFactorAuthPage twoFactorAuthPage ;
+     Dashboard dashboard;
+     SignUpPage signUpPage;
+     ForgetPasswordPage forgetPasswordPage;
+     ResetPasswordPage resetPasswordPage;
+     NewUserSubscriptionPlanPage newUserSubscriptionPlanPage;
 
     WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
@@ -41,16 +41,14 @@ public class BaseTest {
     public  void beforeSuite(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
         System.out.println("this is my BeforeSuite");
-//        driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
-        driver = new TargetFactory().createInstance(browser);
+        driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
+//        driver = new TargetFactory().createInstance(browser);
         DriverManager.setDriver(driver);
         driver.manage().window().maximize();
         System.out.println("Driver is created");
         initObject();
 
     }
-
-
     @Parameters("BROWSER")
     @BeforeMethod(alwaysRun = true)
     public void createDriver(@Optional("chrome") String browser) {

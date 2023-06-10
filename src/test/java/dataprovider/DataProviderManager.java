@@ -41,7 +41,7 @@ public final class DataProviderManager {
 
 //    @Test(dataProvider = "getClientDataHashTable")
 
-    @DataProvider(name = "getSignInDataHashTable", parallel = true)
+    @DataProvider(name = "getSignInDataHashTable", parallel = false)
     public static Object[][] getSignInData() {
         ExcelHelpers excelHelpers = new ExcelHelpers();
         Object[][] data = excelHelpers.getDataHashTable(Helpers.getCurrentDir() + FrameworkConstants.EXCEL_DATA_FILE_PATH, "SignIn", 1, 7);
