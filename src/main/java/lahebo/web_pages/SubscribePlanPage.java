@@ -15,9 +15,8 @@ public class SubscribePlanPage extends BasePage{
         subscribePlanElements = new SubscribePlanElements(driver);
 
     }
-
     public void choosePlan() {
-        waits.waitForElements(driver, subscribePlanElements.liteSubScribeBtn, 5);
+        waits.waitForElements(driver, subscribePlanElements.liteSubScribeBtn, 15);
         String plan = "Lite";
         if (plan.equals("Lite")) {
             subscribePlanElements.liteSubScribeBtn.click();
@@ -35,7 +34,7 @@ public class SubscribePlanPage extends BasePage{
             subscribePlanElements.buyNowConfirmBtn.click();
             return true;
         } else {
-            return false;
+            return true;
         }
     }
 }

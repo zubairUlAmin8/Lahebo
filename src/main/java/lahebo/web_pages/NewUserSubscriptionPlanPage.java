@@ -21,7 +21,6 @@ public class NewUserSubscriptionPlanPage {
         newUserSubscriptionPlanElements.singOutBtn.click();
     }
 
-
 }
 
 

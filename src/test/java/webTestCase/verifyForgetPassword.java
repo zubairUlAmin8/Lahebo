@@ -45,7 +45,6 @@ public class verifyForgetPassword extends BaseTest {
     }
     @Test(priority = 5)
     public void verifyUserWithNewPassword() throws MessagingException, IOException, InterruptedException {
-        newUserSubscriptionPlanPage.userSignOut();
         String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
         String username = PropertiesHelpers.getValue("New_User_UserName");
         String password = PropertiesHelpers.getValue("New_User_Password");
