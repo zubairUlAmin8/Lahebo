@@ -29,7 +29,7 @@ public class verifyUserSignUp extends BaseTest {
         }
         System.out.println("Signup getting end");
     }
-    @Test(priority=2)
+    @Test(priority=2, enabled = true)
     public void saveNewUserIntoFile() {
         signUpPage.saveDataIntoFile();
     }

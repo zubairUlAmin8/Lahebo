@@ -1,10 +1,7 @@
 package Utils;
 
 import driver.DriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -31,7 +28,10 @@ public class waits {
             wait.until(ExpectedConditions.visibilityOf(element));
             wait.until(ExpectedConditions.elementToBeClickable(element));
         } catch (TimeoutException exception) {
-            LogUtils.info(exception.getMessage());
+            LogUtils.error(exception.getMessage());
+        } catch ( StaleElementReferenceException staleElementReferenceException) {
+            driver.navigate().refresh();
+            LogUtils.error(staleElementReferenceException.getMessage());
         }
 
     }

@@ -75,6 +75,7 @@ public class SignInPage extends BasePage {
     }
     public boolean  signIn(String userName, String password) {
 
+
         waits.waitForElements(driver, singInPageElements.userName, 5000);
         System.out.println(singInPageElements.userName.getAttribute("placeholder"));
         expectedTitle = "pass";
