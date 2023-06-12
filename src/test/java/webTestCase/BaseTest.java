@@ -1,4 +1,4 @@
-package base_test;
+package webTestCase;
 
 import driver.DriverManager;
 import driver.TargetFactory;
@@ -10,19 +10,19 @@ import lahebo.web_pages.*;
 
 public class BaseTest {
     protected BasePage basePage = new BasePage();
-    public static SignInPage signInPage;
-    public static LandingPage landingPage ;
-    public static TwoFactorAuthPage twoFactorAuthPage ;
-    public static Dashboard dashboard;
-    public static SignUpPage signUpPage;
-    public static ForgetPasswordPage forgetPasswordPage;
-    public static ResetPasswordPage resetPasswordPage;
-    public static NewUserSubscriptionPlanPage newUserSubscriptionPlanPage;
-    public static SubscribePlanPage subscribePlanPage;
-    public static Congratulation congratulation;
-    public static CardPaymentPage cardPaymentPage;
+     SignInPage signInPage;
+     LandingPage landingPage ;
+     TwoFactorAuthPage twoFactorAuthPage ;
+     Dashboard dashboard;
+     SignUpPage signUpPage;
+     ForgetPasswordPage forgetPasswordPage;
+     ResetPasswordPage resetPasswordPage;
+     NewUserSubscriptionPlanPage newUserSubscriptionPlanPage;
+    SubscribePlanPage subscribePlanPage;
+    Congratulation congratulation;
+    CardPaymentPage cardPaymentPage;
 
-    public  WebDriver driver;
+    WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
 
     public BaseTest() {
@@ -55,7 +55,6 @@ public class BaseTest {
         initObject();
 
     }
-
     @Parameters("BROWSER")
     @BeforeMethod(alwaysRun = true)
     public void createDriver(@Optional("chrome") String browser) {
@@ -65,7 +64,7 @@ public class BaseTest {
 
     @AfterClass(alwaysRun = true)
     public void closeDriver() {
-//        DriverManager.quit();
+        DriverManager.quit();
     }
 
     public WebDriver createBrowser(@Optional("chrome") String browser) {

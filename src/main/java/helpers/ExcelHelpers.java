@@ -207,7 +207,6 @@ public class ExcelHelpers {
         return data;
 
     }
-
     public String getTestCaseName(String testCaseName) {
         String value = testCaseName;
         int position = value.indexOf("@");

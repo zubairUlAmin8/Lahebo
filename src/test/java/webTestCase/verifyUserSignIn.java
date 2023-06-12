@@ -1,6 +1,5 @@
 package webTestCase;
 
-import base_test.BaseTest;
 import dataprovider.DataProviderManager;
 import helpers.PropertiesHelpers;
 import org.testng.Assert;

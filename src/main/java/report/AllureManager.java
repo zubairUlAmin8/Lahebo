@@ -25,7 +25,7 @@ public class AllureManager extends BasePage {
     public static void setAllureEnvironmentInformation() {
         AllureEnvironmentWriter.allureEnvironmentWriter(
                 ImmutableMap.<String, String>builder().
-                        put("Test URL", FrameworkConstants.URL_CRM).
+                        put("Test URL", FrameworkConstants.URL_RAHEBO).
                         put("Target Execution", FrameworkConstants.TARGET).
                         put("Global Timeout", String.valueOf(FrameworkConstants.WAIT_DEFAULT)).
                         put("Headless Dode", FrameworkConstants.HEADLESS).

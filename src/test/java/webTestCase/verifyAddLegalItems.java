@@ -1,8 +1,6 @@
 package webTestCase;
 
-import base_test.BaseTest;
 import org.testng.annotations.Test;
-import lahebo.web_pages.LandingPage;
 
 import java.io.IOException;
 

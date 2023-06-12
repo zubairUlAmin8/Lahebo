@@ -13,14 +13,13 @@ import java.util.Hashtable;
 
 public class SignInPage extends BasePage {
         SignInPageElements singInPageElements;
-    WebDriver driver;
+        WebDriver driver;
 //    SingInPageElements singInPageElements = new SingInPageElements(driver);
 
     public SignInPage(WebDriver driver) {
         System.out.println("singINPage Constructor");
         this.driver = driver;
         singInPageElements = new SignInPageElements(driver);
-
     }
 
     ExcelHelpers excelHelpers = new ExcelHelpers();

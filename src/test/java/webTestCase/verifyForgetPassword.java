@@ -2,7 +2,6 @@ package webTestCase;
 
 import Utils.LogUtils;
 import Utils.fakerUtils;
-import base_test.BaseTest;
 import dataprovider.DataProviderManager;
 import helpers.PropertiesHelpers;
 import lahebo.web_pages.SignUpPage;
