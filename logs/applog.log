@@ -118,3 +118,192 @@ Session ID: a7704f0998ce67706e5d8e8083929f33
 [INFO] 12-06-2023 17:39:05 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
 [INFO] 12-06-2023 17:39:08 [main] [LogUtils] - Test case:  is passed.
 [INFO] 12-06-2023 17:39:08 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 18:46:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:46:13 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 18:46:18 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:46:19 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:46:19 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:46:19 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 18:46:32 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 12-06-2023 18:46:35 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 18:46:35 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (8be061ebacb094d508fe430c20569d12)
+[INFO] 12-06-2023 18:46:35 [main] [LogUtils] - Screenshot taken: signInUser
+[INFO] 12-06-2023 18:46:35 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 12-06-2023 18:46:35 [main] [LogUtils] - FAILED !! Screenshot for test case: signInUser
+[ERROR] 12-06-2023 18:46:35 [main] [LogUtils] - java.lang.reflect.InaccessibleObjectException: Unable to make field protected java.lang.reflect.InvocationHandler java.lang.reflect.Proxy.h accessible: module java.base does not "opens java.lang.reflect" to unnamed module @4c70fda8
+[INFO] 12-06-2023 18:46:36 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 18:48:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:48:56 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 18:49:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:49:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:49:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:49:01 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 18:49:16 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 12-06-2023 18:49:18 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 18:49:18 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (1b267aaa108589c8f22e55432923343a)
+[INFO] 12-06-2023 18:49:19 [main] [LogUtils] - Screenshot taken: signInUser
+[INFO] 12-06-2023 18:49:19 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 12-06-2023 18:49:19 [main] [LogUtils] - FAILED !! Screenshot for test case: signInUser
+[ERROR] 12-06-2023 18:49:19 [main] [LogUtils] - java.lang.reflect.InaccessibleObjectException: Unable to make field protected java.lang.reflect.InvocationHandler java.lang.reflect.Proxy.h accessible: module java.base does not "opens java.lang.reflect" to unnamed module @c038203
+[INFO] 12-06-2023 18:49:19 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 18:54:26 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:54:27 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 18:54:31 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:54:31 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:54:31 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:54:31 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 18:54:44 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 12-06-2023 18:54:56 [main] [LogUtils] - Element not exist. By.cssSelector: organizationSettings
+[ERROR] 12-06-2023 18:54:56 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 18:54:56 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (fba91e7ceb4e1b7bdac58c322f63aa0b)
+[INFO] 12-06-2023 18:54:56 [main] [LogUtils] - Screenshot taken: signInUser
+[INFO] 12-06-2023 18:54:56 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 12-06-2023 18:54:56 [main] [LogUtils] - FAILED !! Screenshot for test case: signInUser
+[ERROR] 12-06-2023 18:54:56 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: organizationSettings
+[INFO] 12-06-2023 18:54:56 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 18:55:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:55:38 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 18:55:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:55:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:55:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 18:55:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 18:55:55 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 18:55:57 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 12-06-2023 18:55:57 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 12-06-2023 18:55:57 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 18:55:57 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:09:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:09:56 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:10:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:10:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:10:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:10:01 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 19:10:15 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 12-06-2023 19:10:18 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 19:10:18 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (6a9c7d837058a10c3e97e9d80b976876)
+[INFO] 12-06-2023 19:10:18 [main] [LogUtils] - Screenshot taken: signInUser
+[INFO] 12-06-2023 19:10:18 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 12-06-2023 19:10:18 [main] [LogUtils] - FAILED !! Screenshot for test case: signInUser
+[ERROR] 12-06-2023 19:10:18 [main] [LogUtils] - java.lang.reflect.InaccessibleObjectException: Unable to make field protected java.lang.reflect.InvocationHandler java.lang.reflect.Proxy.h accessible: module java.base does not "opens java.lang.reflect" to unnamed module @5b275dab
+[INFO] 12-06-2023 19:10:18 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:10:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:10:47 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:10:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:10:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:10:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:10:52 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 19:11:06 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 12-06-2023 19:11:59 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 19:11:59 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (1e96baf534b1e533bbb68fe830d62546)
+[INFO] 12-06-2023 19:12:00 [main] [LogUtils] - Screenshot taken: signInUser
+[INFO] 12-06-2023 19:12:00 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 12-06-2023 19:12:00 [main] [LogUtils] - FAILED !! Screenshot for test case: signInUser
+[ERROR] 12-06-2023 19:12:00 [main] [LogUtils] - java.lang.reflect.InaccessibleObjectException: Unable to make field protected java.lang.reflect.InvocationHandler java.lang.reflect.Proxy.h accessible: module java.base does not "opens java.lang.reflect" to unnamed module @cb5822
+[INFO] 12-06-2023 19:12:00 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:17:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:17:01 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:17:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:17:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:17:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:17:06 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 19:17:20 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 19:17:21 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 12-06-2023 19:17:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 12-06-2023 19:17:22 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 19:17:22 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:24:48 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:24:48 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:24:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:24:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:24:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:24:53 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 19:25:07 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 12-06-2023 19:25:09 [main] [LogUtils] - Element not exist. By.cssSelector: ##organizationSettings
+[ERROR] 12-06-2023 19:25:09 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 19:25:09 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (8e224c57fb077f9f6f83cb7880ab5394)
+[INFO] 12-06-2023 19:25:09 [main] [LogUtils] - Screenshot taken: signInUser
+[INFO] 12-06-2023 19:25:09 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 12-06-2023 19:25:09 [main] [LogUtils] - FAILED !! Screenshot for test case: signInUser
+[ERROR] 12-06-2023 19:25:09 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: ##organizationSettings
+[INFO] 12-06-2023 19:25:09 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:25:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:25:42 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:25:48 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:25:48 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:25:48 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:25:48 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 19:26:01 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 19:26:04 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 12-06-2023 19:26:04 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[ERROR] 12-06-2023 19:26:10 [main] [LogUtils] - The element is not visible. Expected condition failed: waiting for visibility of element located by By.cssSelector: #settings-1 (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: jdk.proxy2.$Proxy32
+[ERROR] 12-06-2023 19:26:10 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 19:26:10 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (6c9517023775a78687f341a6f8d1654b)
+[INFO] 12-06-2023 19:26:10 [main] [LogUtils] - Screenshot taken: signInUser
+[INFO] 12-06-2023 19:26:10 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 12-06-2023 19:26:10 [main] [LogUtils] - FAILED !! Screenshot for test case: signInUser
+[ERROR] 12-06-2023 19:26:10 [main] [LogUtils] - java.lang.AssertionError: Timeout waiting for the element Visible. By.cssSelector: #settings-1
+[INFO] 12-06-2023 19:26:10 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:26:41 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:26:41 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:26:48 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 12-06-2023 19:26:48 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 19:26:48 [main] [LogUtils] - Driver for Screenshot: null
+[ERROR] 12-06-2023 19:26:48 [main] [LogUtils] - FAILED !! Screenshot for test case: signInUser
+[ERROR] 12-06-2023 19:26:48 [main] [LogUtils] - java.lang.NullPointerException: Cannot invoke "org.testng.ITestResult.getTestContext()" because the return value of "org.testng.Reporter.getCurrentTestResult()" is null
+[INFO] 12-06-2023 19:26:48 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:28:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:28:30 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:28:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:28:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:28:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:28:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 19:28:47 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 19:28:51 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 12-06-2023 19:28:51 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[ERROR] 12-06-2023 19:29:01 [main] [LogUtils] - The element is not visible. Expected condition failed: waiting for visibility of element located by By.cssSelector: #settings-1 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: jdk.proxy2.$Proxy32
+[ERROR] 12-06-2023 19:29:01 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 19:29:01 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c6e472b8e64592c39032b094e8a638d5)
+[INFO] 12-06-2023 19:29:02 [main] [LogUtils] - Screenshot taken: signInUser
+[INFO] 12-06-2023 19:29:02 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 12-06-2023 19:29:02 [main] [LogUtils] - FAILED !! Screenshot for test case: signInUser
+[ERROR] 12-06-2023 19:29:02 [main] [LogUtils] - java.lang.AssertionError: Timeout waiting for the element Visible. By.cssSelector: #settings-1
+[INFO] 12-06-2023 19:29:02 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:30:07 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:30:07 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:30:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:30:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:30:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:30:12 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 19:30:24 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 19:30:26 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 12-06-2023 19:30:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[ERROR] 12-06-2023 19:30:36 [main] [LogUtils] - The element is not visible. Expected condition failed: waiting for visibility of element located by By.cssSelector: deptItem (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: jdk.proxy2.$Proxy32
+[ERROR] 12-06-2023 19:30:36 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 19:30:36 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (00beaaa18983822ccf4cad6e6f26bab1)
+[INFO] 12-06-2023 19:30:36 [main] [LogUtils] - Screenshot taken: signInUser
+[INFO] 12-06-2023 19:30:36 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 12-06-2023 19:30:36 [main] [LogUtils] - FAILED !! Screenshot for test case: signInUser
+[ERROR] 12-06-2023 19:30:36 [main] [LogUtils] - java.lang.AssertionError: Timeout waiting for the element Visible. By.cssSelector: deptItem
+[INFO] 12-06-2023 19:30:37 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:31:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:31:08 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 19:31:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:31:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:31:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 19:31:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 19:31:27 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 19:31:28 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 12-06-2023 19:31:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 12-06-2023 19:31:28 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 12-06-2023 19:31:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 12-06-2023 19:31:28 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 19:31:28 [main] [LogUtils] - End Suite: login Usging Data Driven Testing

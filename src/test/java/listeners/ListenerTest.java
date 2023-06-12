@@ -9,6 +9,7 @@ import enums.AuthorType;
 import enums.CategoryType;
 import helpers.CaptureHelpers;
 import helpers.PropertiesHelpers;
+import keywords.WebUI;
 import org.testng.*;
 import report.ExtentReportManager;
 

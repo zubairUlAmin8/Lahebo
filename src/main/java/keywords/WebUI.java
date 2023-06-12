@@ -62,9 +62,10 @@ import java.util.*;
 import static constants.FrameworkConstants.*;
 
 
+
 /**
- * Keyword WebUI là class chung làm thư viện xử lý sẵn với nhiều hàm custom từ Selenium và Java.
- * Trả về là một Class chứa các hàm Static. Gọi lại dùng bằng cách lấy tên class chấm tên hàm (WebUI.method)
+ The WebUI keyword is a common class that serves as a library for pre-built functions with various customizations using Selenium and Java.
+ It returns a Class containing static functions. It can be invoked by using the class name followed by the function name (WebUI.method).
  */
 public class WebUI {
 
@@ -300,10 +301,10 @@ public class WebUI {
     }
 
     /**
-     * Get code text of QR Code image
-     *
-     * @param by là an element of object type By
-     * @return text of QR Code
+
+     Retrieve the textual content of a QR Code image.
+     @param by an object of type By representing the element
+     @return the text content of the QR Code
      */
     @Step("Get QR code from image {0}")
     public static String getQRCodeFromImage(By by) {
@@ -338,23 +339,22 @@ public class WebUI {
     //Handle HTML5 validation message and valid value
 
     /**
-     * Kiểm tra field có bắt buộc nhập hay không
-     *
-     * @param by là element thuộc kiểu By
-     * @return true/false tương ứng với required
+     Check if a field is required to be filled or not.
+     @param by an element of type By
+     @return true/false corresponding to the required status
      */
+
     @Step("Verify HTML5 message of element {0} required field")
     public static Boolean verifyHTML5RequiredField(By by) {
         JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
         Boolean verifyRequired = (Boolean) js.executeScript("return arguments[0].required;", getWebElement(by));
         return verifyRequired;
     }
-
     /**
-     * Kiểm tra giá trị trong field nhập có hợp lệ hay chưa
-     *
-     * @param by là element thuộc kiểu By
-     * @return true/false tương ứng với Valid
+
+     Check if the value entered in a field is valid or not.
+     @param by an element of type By
+     @return true/false corresponding to the validity status
      */
     @Step("Verify HTML5 message of element {0} valid")
     public static Boolean verifyHTML5ValidValueField(By by) {
@@ -363,11 +363,12 @@ public class WebUI {
         return verifyValid;
     }
 
+
     /**
-     * Lấy ra câu thông báo từ HTML5 của field
-     *
-     * @param by là element thuộc kiểu By
-     * @return giá trị chuỗi Text của câu thông báo (String)
+
+     Retrieve the validation message from the HTML5 attribute of a field.
+     @param by an element of type By
+     @return the text value of the validation message (String)
      */
     @Step("Get HTML5 message of element {0}")
     public static String getHTML5MessageField(By by) {

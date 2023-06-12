@@ -2,17 +2,11 @@ package lahebo.web_pages;
 
 import Utils.LogUtils;
 import Utils.waits;
-import driver.DriverManager;
-import helpers.PropertiesHelpers;
+import keywords.WebUI;
 import lahebo.path_repo.LandingPagePR;
 import lahebo.web_elements.LandingPageElements;
+import lahebo.elements.landingElements;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class LandingPage {
     WebDriver driver;
@@ -53,5 +47,9 @@ public class LandingPage {
 
     }
 
+    public void goToDepartmentST() throws InterruptedException {
+        WebUI.clickElement(landingElements.organizationSettingTabList);
+        WebUI.clickElement(landingElements.departmentsST,10);
+    }
 
 }
