@@ -73,14 +73,12 @@ public class TwoFactorAuthPage extends BasePage{
         if (withoutScanCode.equals("no")) {
             waits.waitForElements(driver, twoFactorAuthElements.otpCode,  5000);
             twoFactorAuthElements.otpCode.sendKeys(code);
-            twoFactorAuthElements.submitBtn.click();
-        }
-        if (withoutScanCode.equals("yes")) {
+        } else if (withoutScanCode.equals("yes")) {
             waits.waitForElements(driver, twoFactorAuthElements.otpCodeInputWithSecretKey,  5000);
             twoFactorAuthElements.otpCodeInputWithSecretKey.sendKeys(code);
-            twoFactorAuthElements.submitBtn.click();
         }
 
+        twoFactorAuthElements.submitBtn.click();
         if (code.length() < 6) {
             if (verifyCodeLength()) {
                 return false;
@@ -114,7 +112,6 @@ public class TwoFactorAuthPage extends BasePage{
 
         }
     }
-
     public boolean verifyInvalidOTP() {
         try {
             waits.waitForVisibilityOfItem(driver, twoFactorAuthElements.errorPopUp, 5);

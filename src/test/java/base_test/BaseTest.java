@@ -19,6 +19,7 @@ public class BaseTest {
     public static ResetPasswordPage resetPasswordPage;
     public static NewUserSubscriptionPlanPage newUserSubscriptionPlanPage;
     public static SubscribePlanPage subscribePlanPage;
+    public static Congratulation congratulation;
     public static CardPaymentPage cardPaymentPage;
 
     public  WebDriver driver;
@@ -40,6 +41,7 @@ public class BaseTest {
         newUserSubscriptionPlanPage = new NewUserSubscriptionPlanPage(driver);
         subscribePlanPage = new SubscribePlanPage(driver);
         cardPaymentPage = new CardPaymentPage(driver);
+        congratulation = new Congratulation(driver);
     }
     @Parameters("BROWSER")
     @BeforeClass

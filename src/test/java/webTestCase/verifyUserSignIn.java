@@ -48,7 +48,6 @@ public class verifyUserSignIn extends BaseTest {
             Assert.assertFalse(expResult, "Password or Username is not correct");
         }
     }
-
     @Test(priority = 3)
     public void verifyUserSignOut() {
         landingPage.signOut();

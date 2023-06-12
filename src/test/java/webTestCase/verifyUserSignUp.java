@@ -57,5 +57,8 @@ public class verifyUserSignUp extends BaseTest {
         Assert.assertTrue(subscribePlanPage.confirmPlan(),"Payment are not correct");
         cardPaymentPage.fillCardDetails();
     }
-
+    @Test(priority = 6)
+    public void verifyCongratulation() {
+        Assert.assertTrue(congratulation.verifyCongratulation(),"Congratulation page");
+    }
 }

@@ -9,7 +9,7 @@
             <class name="webTestCase.verifyUserSignUp"/>
 <!--            <class name="webTestCase.verifyUserSignIn"/>-->
             <!--            <class name="webTestCase.verifyAddLegalItems"/>-->
-<!--            <class name="webTestCase.verifyForgetPassword"/>-->
+            <class name="webTestCase.verifyForgetPassword"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,0 +1,68 @@
+[INFO] 12-06-2023 13:17:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 13:17:06 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 13:17:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 13:17:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 13:17:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 13:17:10 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 13:17:14 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 13:17:14 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 13:17:16 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 13:17:16 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 13:17:31 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 13:17:31 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:29:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:29:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:29:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:29:46 [main] [LogUtils] - this is my logs
+[INFO] 12-06-2023 14:33:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:33:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:33:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:33:33 [main] [LogUtils] - this is my logs
+[INFO] 12-06-2023 14:33:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:33:49 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 14:33:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:33:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:33:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:33:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:33:53 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 12-06-2023 14:33:54 [main] [LogUtils] - Row: 17 - Column: 13
+[INFO] 12-06-2023 14:33:54 [main] [LogUtils] - StartRow: 17 - EndRow: 17
+[INFO] 12-06-2023 14:33:55 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:33:59 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 12-06-2023 14:34:00 [main] [LogUtils] - We got the pass condition for sighup
+[INFO] 12-06-2023 14:34:00 [main] [LogUtils] - Random phone number: +61201 522 280
+[INFO] 12-06-2023 14:34:00 [main] [LogUtils] - Random Email :zubairulamin8+977@gmail.com
+[INFO] 12-06-2023 14:34:00 [main] [LogUtils] - Random Gmail numbersarahj88977
+[INFO] 12-06-2023 14:34:03 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p[class*="form-error-message"]' (tried for 1 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 14:34:05 [main] [LogUtils] - Register successfully!
+[INFO] 12-06-2023 14:34:05 [main] [LogUtils] - Register successfully!
+[INFO] 12-06-2023 14:34:05 [main] [LogUtils] - All Condition have been Passed and now moving to Email OTP Verification
+[INFO] 12-06-2023 14:34:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:34:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:34:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:34:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:34:26 [main] [LogUtils] - Account confirmed successfully
+[INFO] 12-06-2023 14:34:26 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:34:26 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:34:38 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 14:34:38 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:34:38 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:34:55 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:34:55 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:35:03 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:35:04 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:35:04 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:35:04 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 14:35:04 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:35:04 [main] [LogUtils] - this is my logs
+[INFO] 12-06-2023 14:35:04 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:35:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:35:09 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:35:09 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:35:11 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:35:11 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:35:31 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:35:31 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 14:35:40 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 14:35:40 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 14:35:40 [main] [LogUtils] - Test case:  is starting...

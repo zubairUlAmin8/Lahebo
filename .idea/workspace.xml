@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/CongratulationPR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_elements/CongratulationPageElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/Congratulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/waits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyForgetPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyForgetPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
     </list>
@@ -29,41 +35,67 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QmRgUFEKR1zPmalxUvWxyZElMF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Zapta/Automation/Lahebo/src/test/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Zapta\Automation\Lahebo\src\test\resources" />
+      <recent name="CongratulationPageElements" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lahebo.web_pages" />
       <recent name="lahebo.web_elements" />
       <recent name="lahebo.path_repo" />
-      <recent name="lahebo.web_pages" />
       <recent name="webTestCase" />
       <recent name="helpers" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml">
-    <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
+      <output_file path="$PROJECT_DIR$/ExportData/logs" is_save="true" />
+      <log_file alias="D:\Zapta\Automation\Lahebo\ExportData\logs" path="$PROJECT_DIR$/ExportData/logs" />
       <module name="Lahebo" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verifyForgetPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="verifyForgetPassword.check" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +105,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="webTestCase" />
       <option name="MAIN_CLASS_NAME" value="webTestCase.verifyForgetPassword" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,10 +168,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
+        <item itemvalue="TestNG.verifyForgetPassword.check" />
+        <item itemvalue="TestNG.verifyForgetPassword.verifyUserWithNewPassword" />
         <item itemvalue="TestNG.verifyUserSignUp" />
         <item itemvalue="TestNG.verifyUserSignIn" />
-        <item itemvalue="TestNG.verifyForgetPassword" />
-        <item itemvalue="TestNG.verifyForgetPassword.verifyUserWithNewPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +229,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/helpers/ExcelHelpers.java</url>
           <line>285</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

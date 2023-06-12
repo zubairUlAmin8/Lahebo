@@ -1,5 +1,6 @@
 package webTestCase;
 
+import Utils.LogUtils;
 import Utils.fakerUtils;
 import base_test.BaseTest;
 import dataprovider.DataProviderManager;
@@ -53,5 +54,11 @@ public class verifyForgetPassword extends BaseTest {
         signInPage.signIn(username, password);
         boolean status=twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "no");
         Assert.assertTrue(status, "2FA Authentication Fails");
+        System.out.println("done");
+    }
+
+    @Test
+    public void check() {
+        LogUtils.info("this is my logs");
     }
 }
