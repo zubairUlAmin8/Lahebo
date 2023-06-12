@@ -64,7 +64,7 @@ public class BaseTest {
 
     @AfterClass(alwaysRun = true)
     public void closeDriver() {
-        DriverManager.quit();
+//        DriverManager.quit();
     }
 
     public WebDriver createBrowser(@Optional("chrome") String browser) {

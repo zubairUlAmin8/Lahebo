@@ -2,7 +2,6 @@ package listeners;
 
 import Utils.BrowserInfoUtils;
 import Utils.LogUtils;
-import Utils.WebUI;
 import annotations.FrameworkAnnotation;
 import com.aventstack.extentreports.Status;
 import driver.DriverManager;

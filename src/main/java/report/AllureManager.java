@@ -9,11 +9,14 @@ import Utils.BrowserInfoUtils;
 import com.github.automatedowl.tools.AllureEnvironmentWriter;
 import com.google.common.collect.ImmutableMap;
 import constants.FrameworkConstants;
+import driver.DriverManager;
 import enums.Browser;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import lahebo.web_pages.BasePage;
+
+import java.sql.Driver;
 
 import static org.openqa.selenium.OutputType.BYTES;
 
@@ -48,9 +51,9 @@ public class AllureManager extends BasePage {
     }
 
     @Attachment(value = "Take step screenshot", type = "image/png")
-    public static byte[] takeScreenshotStep(WebDriver driver) {
+    public static byte[] takeScreenshotStep( ) {
         try {
-            return ((TakesScreenshot) driver).getScreenshotAs(BYTES);
+            return ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(BYTES);
         } catch (Exception ex) {
             ex.getMessage();
         }

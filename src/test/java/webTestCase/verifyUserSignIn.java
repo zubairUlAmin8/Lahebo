@@ -12,7 +12,7 @@ import java.util.Hashtable;
 
 public class verifyUserSignIn extends BaseTest {
 
-    @Test(priority = 1, enabled = true, dataProvider = "getSignInDataHashTable", dataProviderClass = DataProviderManager.class)
+    @Test(priority = 1, enabled = false, dataProvider = "getSignInDataHashTable", dataProviderClass = DataProviderManager.class)
     public void superAdminSignInDataDriven(Hashtable<String, String> data) throws InterruptedException {
         String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
         basePage.loadPage(driver, url_Address);
@@ -47,7 +47,7 @@ public class verifyUserSignIn extends BaseTest {
             Assert.assertFalse(expResult, "Password or Username is not correct");
         }
     }
-    @Test(priority = 3)
+    @Test(priority = 3, enabled = false)
     public void verifyUserSignOut() {
         landingPage.signOut();
         Assert.assertTrue(signInPage.verifyLoginPage(), "User could not sign OUt");

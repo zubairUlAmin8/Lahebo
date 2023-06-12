@@ -15,6 +15,31 @@ public class LandingPageElements {
     public WebElement profileIcon;
     @FindBy(css = LandingPagePR.signOutBtn)
     public WebElement signOutBtn;
+    @FindBy(css = LandingPagePR.organizationSettingTab)
+    public WebElement organizationSettingTab;
+    @FindBy(css = LandingPagePR.legislationLibraryTab)
+    public WebElement legislationLibraryTab;
+    @FindBy(css = LandingPagePR.riskRegisterTab)
+    public WebElement riskRegisterTab;
+    @FindBy(css = LandingPagePR.actionCenterTab)
+    public WebElement actionCenterTab;
+    @FindBy(css = LandingPagePR.reportTab)
+    public WebElement reportTab;
+    @FindBy(css = LandingPagePR.organizationDetailsST)
+    public WebElement organizationDetailsST;
+    @FindBy(css = LandingPagePR.departmentsST)
+    public WebElement departmentsST;
+    @FindBy(css = LandingPagePR.locationST)
+    public WebElement locationST;
+    @FindBy(css = LandingPagePR.jobFunctionST)
+    public WebElement jobFunctionST;
+    @FindBy(css = LandingPagePR.userSetupST)
+    public WebElement userSetupST;
+    @FindBy(css = LandingPagePR.manageSubscriptionST)
+    public WebElement manageSubscriptionST;
+    @FindBy(css = LandingPagePR.riskMatrixST)
+    public WebElement riskMatrixST;
+
 
 
     WebDriver driver;

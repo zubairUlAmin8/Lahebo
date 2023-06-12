@@ -1,14 +1,13 @@
 package lahebo.web_pages;
 
 import Utils.LogUtils;
-import Utils.WebUI;
 import Utils.fakerUtils;
 import Utils.waits;
 import constants.FrameworkConstants;
 import driver.DriverManager;
 import helpers.ExcelHelpers;
 import helpers.PropertiesHelpers;
-import models.SignInModel;
+import keywords.WebUI;
 import models.SignUpModel;
 import org.openqa.selenium.WebDriver;
 

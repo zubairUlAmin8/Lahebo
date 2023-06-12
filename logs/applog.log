@@ -66,3 +66,55 @@
 [INFO] 12-06-2023 14:35:40 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
 [INFO] 12-06-2023 14:35:40 [main] [LogUtils] - Test case:  is passed.
 [INFO] 12-06-2023 14:35:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 16:55:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:55:07 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 16:55:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:55:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:55:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:55:14 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 16:55:34 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 16:55:35 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 16:55:35 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 12-06-2023 16:55:41 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: #headlessui-menu-item-12' (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 12-06-2023 16:55:41 [main] [LogUtils] - Test case:  is failed.
+[INFO] 12-06-2023 16:55:41 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (a7704f0998ce67706e5d8e8083929f33)
+[INFO] 12-06-2023 16:55:41 [main] [LogUtils] - Screenshot taken: verifyUserSignOut
+[INFO] 12-06-2023 16:55:41 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 12-06-2023 16:55:41 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyUserSignOut
+[ERROR] 12-06-2023 16:55:41 [main] [LogUtils] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#headlessui-menu-item-12"}
+  (Session info: chrome=113.0.5672.129)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7704f0998ce67706e5d8e8083929f33, findElement {using=css selector, value=#headlessui-menu-item-12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59563}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59563/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7704f0998ce67706e5d8e8083929f33
+[INFO] 12-06-2023 16:55:42 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 16:56:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:56:32 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 16:56:36 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:56:36 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:56:36 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:56:36 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 16:56:50 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 16:56:52 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 16:56:53 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 16:58:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:58:53 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 16:58:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:58:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:58:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 16:58:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 16:59:14 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 16:59:17 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 16:59:17 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 17:38:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 17:38:40 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 12-06-2023 17:38:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 17:38:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 17:38:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 12-06-2023 17:38:45 [main] [LogUtils] - Test case:  is starting...
+[INFO] 12-06-2023 17:39:05 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 12-06-2023 17:39:08 [main] [LogUtils] - Test case:  is passed.
+[INFO] 12-06-2023 17:39:08 [main] [LogUtils] - End Suite: login Usging Data Driven Testing

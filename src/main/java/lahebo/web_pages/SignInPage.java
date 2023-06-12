@@ -1,9 +1,9 @@
 package lahebo.web_pages;
 
-import Utils.WebUI;
 import Utils.waits;
 import constants.FrameworkConstants;
 import helpers.ExcelHelpers;
+import keywords.WebUI;
 import models.SignInModel;
 import models.SignUpModel;
 import org.openqa.selenium.WebDriver;

@@ -3,9 +3,9 @@
  * Automation Framework Selenium
  */
 
-package anhtester.com.utils;
+package Utils;
 
-import anhtester.com.helpers.PropertiesHelpers;
+import helpers.PropertiesHelpers;
 import org.apache.commons.lang3.reflect.FieldUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
