@@ -46,6 +46,8 @@ public class waits {
             wait.until(ExpectedConditions.visibilityOf(element));
         } catch (TimeoutException exception) {
             LogUtils.info(exception.getMessage());
+        } catch (StaleElementReferenceException staleElementReferenceException) {
+            driver.navigate().refresh();
         }
 
     }

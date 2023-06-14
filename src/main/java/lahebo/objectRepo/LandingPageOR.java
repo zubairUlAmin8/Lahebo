@@ -1,8 +1,8 @@
-package lahebo.elements;
+package lahebo.objectRepo;
 
 import org.openqa.selenium.By;
 
-public interface landingElements {
+public interface LandingPageOR {
       By LagislationLibraryTab=By.cssSelector("a[href=\"/legislation-library\"]>span");
       By loaderMain =By.cssSelector( "div[class=\"absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center\"]");
       By profileIcon = By.cssSelector("#headlessui-menu-button-5");
@@ -20,5 +20,6 @@ public interface landingElements {
       By manageSubscriptionST = By.cssSelector("#reportsView");
       By riskMatrixST = By.cssSelector("#reportsView");
       By dashboardTab=By.cssSelector("input[type=\"text\"]");
+      By popUpAlert=By.cssSelector("div[role=\"alert\"]");
 
 }

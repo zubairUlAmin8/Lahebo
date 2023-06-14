@@ -5,7 +5,7 @@ import Utils.waits;
 import keywords.WebUI;
 import lahebo.path_repo.LandingPagePR;
 import lahebo.web_elements.LandingPageElements;
-import lahebo.elements.landingElements;
+import lahebo.objectRepo.LandingPageOR;
 import org.openqa.selenium.*;
 
 public class LandingPage {
@@ -48,8 +48,8 @@ public class LandingPage {
     }
 
     public void goToDepartmentST() throws InterruptedException {
-        WebUI.clickElement(landingElements.organizationSettingTabList);
-        WebUI.clickElement(landingElements.departmentsST,10);
+        WebUI.clickElement(LandingPageOR.organizationSettingTabList);
+        WebUI.clickElement(LandingPageOR.departmentsST,10);
     }
 
 }

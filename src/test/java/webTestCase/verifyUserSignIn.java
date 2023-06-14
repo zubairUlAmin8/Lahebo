@@ -46,7 +46,6 @@ public class verifyUserSignIn extends BaseTest {
             boolean expResult = signInPage.verifyExpectedResult();
             Assert.assertFalse(expResult, "Password or Username is not correct");
         }
-        landingPage.goToDepartmentST();
     }
 
     @Test(priority = 3, enabled = false)

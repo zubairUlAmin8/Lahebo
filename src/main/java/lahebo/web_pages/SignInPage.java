@@ -1,13 +1,16 @@
 package lahebo.web_pages;
 
+import Utils.LogUtils;
 import Utils.waits;
 import constants.FrameworkConstants;
 import helpers.ExcelHelpers;
+import helpers.PropertiesHelpers;
 import keywords.WebUI;
 import models.SignInModel;
 import models.SignUpModel;
 import org.openqa.selenium.WebDriver;
 import lahebo.web_elements.SignInPageElements;
+import org.testng.Assert;
 
 import java.util.Hashtable;
 
@@ -56,13 +59,13 @@ public class SignInPage extends BasePage {
             singInPageElements.signInBtn.click();
 
             if (expectedTitle.equals("pass")) {
-                System.out.println("Username and password are correct");
+                LogUtils.info("Username and password are correct");
                 return true;
 
             } else {
 
                 if (WebUI.verifyErrorPopup(driver,singInPageElements.errorAlert,10)) {
-                    System.out.println("getting erorr but expected condition satisfied");
+                    LogUtils.info("getting erorr but expected condition satisfied");
                     return false;
                 } else {
                     return false;
@@ -99,7 +102,8 @@ public class SignInPage extends BasePage {
             singInPageElements.signInBtn.click();
 
             if (expectedTitle.equals("pass")) {
-                System.out.println("Username and password are correct");
+                LogUtils.info("Username and password are correct");
+
                 return true;
 
             } else {
@@ -145,6 +149,27 @@ public class SignInPage extends BasePage {
             return true;
         } else {
             return false;
+        }
+    }
+
+    public void signInUser() throws InterruptedException {
+        String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
+        String userName = PropertiesHelpers.getValue("New_User_UserName");
+        String password = PropertiesHelpers.getValue("New_User_Password");
+        String secretKey = PropertiesHelpers.getValue("New_User_SecretKey");
+        TwoFactorAuthPage twoFactorAuthPage = new TwoFactorAuthPage(driver);
+        LandingPage landingPage = new LandingPage(driver);
+        System.out.println(secretKey);
+        driver.get(url_Address);
+        if (signIn(userName, password)) {
+            Assert.assertTrue(true, "Password or Username is  correct");
+            Assert.assertTrue(twoFactorAuthPage.authenticationWithSecretKey(secretKey), "2FA Authentication Failed");
+            landingPage.waitForPageLoading();
+            Assert.assertTrue(landingPage.verifyLandingPage(), "landing page could not displayed");
+        } else {
+            System.out.println("im here into 2");
+            boolean expResult = verifyExpectedResult();
+            Assert.assertFalse(expResult, "Password or Username is not correct");
         }
     }
 }

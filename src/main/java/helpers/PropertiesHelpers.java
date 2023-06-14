@@ -28,7 +28,7 @@ public class PropertiesHelpers {
     public static Properties loadAllFiles() {
         LinkedList<String> files = new LinkedList<>();
         //Add all Properties files here according to the form
-//        files.add("src/test/resources/config/datatest.properties");
+        files.add("src/test/resources/config/datatest.properties");
         files.add("src/test/resources/config/config.properties");
 
         try {
@@ -37,13 +37,12 @@ public class PropertiesHelpers {
             for (String f : files) {
                 Properties tempProp = new Properties();
                 linkFile = Helpers.getCurrentDir() + f;
-                System.out.println("link file"+linkFile);
                 file = new FileInputStream(linkFile);
                 tempProp.load(file);
                 properties.putAll(tempProp);
-                System.out.println("Zubair ul amin file count");
+                LogUtils.info("Loaded file: "+linkFile);
+
             }
-            System.out.println("Loaded all properties files.");
             LogUtils.info("Loaded all properties files.");
             return properties;
         } catch (IOException ioe) {

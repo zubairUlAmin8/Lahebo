@@ -22,6 +22,7 @@ import driver.DriverManager;
 import enums.FailureHandling;
 import helpers.Helpers;
 import io.qameta.allure.Step;
+import lombok.extern.java.Log;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.NoSuchElementException;
@@ -70,6 +71,8 @@ import static constants.FrameworkConstants.*;
 public class WebUI {
 
     private static SoftAssert softAssert = new SoftAssert();
+    private static int tryCheck=0;
+
 
     public static void stopSoftAssertAll() {
         softAssert.assertAll();
@@ -102,6 +105,23 @@ public class WebUI {
         } else {
             return false;
         }
+    }
+    public static boolean verifyPopup(By by,String message, int timeout) {
+        WebElement element = waitForElementVisible(by,timeout);
+        if (element.isDisplayed()) {
+            if (element.getText().equalsIgnoreCase(message)) {
+                LogUtils.info(element.getText());
+
+                return true;
+            }
+
+        } else {
+            return false;
+        }
+        LogUtils.info(element.getText());
+        return false;
+
+
     }
     public static void addScreenshotToReport(String screenshotName) {
         if (SCREENSHOT_ALL_STEPS.equals(YES)) {
@@ -696,30 +716,33 @@ public class WebUI {
     //Handle dropdown
 
     /**
-     * Chọn giá trị trong dropdown với dạng động (không phải Select Option thuần)
-     *
-     * @param objectListItem là locator của list item dạng đối tượng By
-     * @param text           giá trị cần chọn dạng Text của item
-     * @return click chọn một item chỉ định với giá trị Text
+     Select a value in the dropdown with dynamic format (not pure Select Option)
+     @param objectListItem is the locator of the list item in the form of By object
+     @param text the value to select in the form of item's Text
+     @return click to select a specified item with the Text value
      */
     public static boolean selectOptionDynamic(By objectListItem, String text) {
         smartWait();
-        //Đối với dropdown động (div, li, span,...không phải dạng select option)
+        // For dynamic dropdowns (div, li, span, etc., not select options)
+
         try {
             List<WebElement> elements = getWebElements(objectListItem);
+            LogUtils.info("size of list: "+elements.size());
 
             for (WebElement element : elements) {
                 LogUtils.info(element.getText());
-                if (element.getText().toLowerCase().trim().contains(text.toLowerCase().trim())) {
+                if (element.getText().equalsIgnoreCase(text)) {
                     element.click();
                     return true;
                 }
+
             }
         } catch (Exception e) {
             LogUtils.info(e.getMessage());
             e.getMessage();
         }
         return false;
+
     }
 
     public static boolean verifyOptionDynamicExist(By objectListItem, String text) {
@@ -2212,6 +2235,16 @@ public class WebUI {
         return waitForElementVisible(by).getAttribute(attributeName);
     }
 
+    public static void waitForInvisibilityOfItem( By by, int time) {
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(time));
+        try {
+            wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
+            LogUtils.info("Element"+by.toString()+"Has been Disappeared");
+        } catch (ElementClickInterceptedException exception) {
+
+        }
+    }
+
     /**
      * Get CSS value of an element
      *
@@ -2368,7 +2401,7 @@ public class WebUI {
         smartWait();
 
         try {
-            WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeOut), Duration.ofMillis(500));
+            WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeOut), Duration.ofMillis(5000));
 
             boolean check = verifyElementVisible(by, timeOut);
             if (check == true) {

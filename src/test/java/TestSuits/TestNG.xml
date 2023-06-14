@@ -3,6 +3,7 @@
 <suite name="login Usging Data Driven Testing"  >
     <listeners>
         <listener class-name="listeners.ListenerTest"/>
+        <listener class-name="listeners.AnnotationTransformer"/>
     </listeners>
     <test name="Login Admin with Different scenerio">
         <classes>
