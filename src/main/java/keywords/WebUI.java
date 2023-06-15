@@ -106,12 +106,13 @@ public class WebUI {
             return false;
         }
     }
-    public static boolean verifyPopup(By by,String message, int timeout) {
+    public static boolean verifyPopup(By by,String message, int timeout) throws InterruptedException {
+        System.out.println("my message"+message);
         WebElement element = waitForElementVisible(by,timeout);
         if (element.isDisplayed()) {
             if (element.getText().equalsIgnoreCase(message)) {
+                System.out.println("result message"+element.getText());
                 LogUtils.info(element.getText());
-
                 return true;
             }
 
@@ -474,11 +475,10 @@ public class WebUI {
     }
 
     /**
-     * Chuyển đổi đối tượng dạng By sang WebElement
-     * Để tìm kiếm nhiều element
-     *
-     * @param by là element thuộc kiểu By
-     * @return Trả về là Danh sách đối tượng WebElement
+     Convert a By object to a WebElement
+     to find multiple elements.
+     @param by is an element of type By
+     @return Returns a List of WebElement objects
      */
     public static List<WebElement> getWebElements(By by) {
         return DriverManager.getDriver().findElements(by);
@@ -712,6 +712,16 @@ public class WebUI {
             return false;
         }
     }
+    //Get element with for dynamic path
+    public static WebElement getWebElementByStringPath(String path) {
+        smartWait();
+        return DriverManager.getDriver().findElement(By.cssSelector(path));
+
+    }
+    public static By getByObjStringPath(String path) {
+        return By.cssSelector(path);
+
+    }
 
     //Handle dropdown
 
@@ -728,6 +738,12 @@ public class WebUI {
         try {
             List<WebElement> elements = getWebElements(objectListItem);
             LogUtils.info("size of list: "+elements.size());
+            WebElement ele = elements.get(0);
+
+            if (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
+                Thread.sleep(5000);
+                elements = getWebElements(objectListItem);
+            }
 
             for (WebElement element : elements) {
                 LogUtils.info(element.getText());
@@ -744,6 +760,7 @@ public class WebUI {
         return false;
 
     }
+
 
     public static boolean verifyOptionDynamicExist(By objectListItem, String text) {
         smartWait();

@@ -39,7 +39,7 @@ public class LandingPage {
         waits.waitForInvisibilityOfItem(driver, LandingPagePR.loaderMain, 30);
     }
 
-    public void signOut() {
+    public void signOut() throws InterruptedException {
         waits.waitForElements(driver,landingPageElements.profileIcon,5);
         landingPageElements.profileIcon.click();
         waits.waitForElements(driver,landingPageElements.signOutBtn, 5);
@@ -50,6 +50,9 @@ public class LandingPage {
     public void goToDepartmentST() throws InterruptedException {
         WebUI.clickElement(LandingPageOR.organizationSettingTabList);
         WebUI.clickElement(LandingPageOR.departmentsST,10);
+    }
+    public void goToDashBoard() throws InterruptedException {
+        WebUI.clickElement(LandingPageOR.dashboardTab);
     }
 
 }

@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/DepartmentPageOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/DepartmentsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/messages/SuccessMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyDepartmentST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/applog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/waits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/PropertiesHelpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/elements/landingElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LandingPageOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/DepartmentPageOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/DepartmentPageOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/DepartmentsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/DepartmentsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/messages/SuccessMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/messages/SuccessMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyDepartmentST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyDepartmentST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config/datatest.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/datatest.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +78,7 @@
       <recent name="Utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.verifyDepartmentST.AddNewDepartment">
+  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml">
     <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
       <output_file path="$PROJECT_DIR$/ExportData/logs" is_save="true" />
       <log_file alias="D:\Zapta\Automation\Lahebo\ExportData\logs" path="$PROJECT_DIR$/ExportData/logs" />
@@ -103,6 +100,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="verifyDepartmentST" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lahebo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTestCase" />
+      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyDepartmentST" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="verifyDepartmentST.AddNewDepartment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <extension name="coverage">
@@ -114,6 +128,24 @@
       <option name="PACKAGE_NAME" value="webTestCase" />
       <option name="MAIN_CLASS_NAME" value="webTestCase.verifyDepartmentST" />
       <option name="METHOD_NAME" value="AddNewDepartment" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="verifyDepartmentST.verifyDeleteDepartment" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lahebo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTestCase" />
+      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyDepartmentST" />
+      <option name="METHOD_NAME" value="verifyDeleteDepartment" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,48 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verifyForgetPassword.verifyUserWithNewPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lahebo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyForgetPassword" />
-      <option name="METHOD_NAME" value="verifyUserWithNewPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="verifyUserSignUp" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lahebo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyUserSignUp" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.verifyDepartmentST.AddNewDepartment" />
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
+        <item itemvalue="TestNG.verifyDepartmentST" />
+        <item itemvalue="TestNG.verifyDepartmentST.AddNewDepartment" />
+        <item itemvalue="TestNG.verifyDepartmentST.verifyDeleteDepartment" />
         <item itemvalue="TestNG.verifyForgetPassword.check" />
-        <item itemvalue="TestNG.verifyForgetPassword.verifyUserWithNewPassword" />
-        <item itemvalue="TestNG.verifyUserSignUp" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +240,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java</url>
           <line>106</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/webTestCase/verifyForgetPassword.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
