@@ -42,6 +42,7 @@ public class verifyForgetPassword extends BaseTest {
         twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "no");
         System.out.println("Random Password: "+randomPassword);
         PropertiesHelpers.setValue("New_User_Password",randomPassword);
+        landingPage.signOut();
     }
     @Test(priority = 5)
     public void verifyUserWithNewPassword() throws MessagingException, IOException, InterruptedException {
@@ -53,11 +54,5 @@ public class verifyForgetPassword extends BaseTest {
         signInPage.signIn(username, password);
         boolean status=twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "no");
         Assert.assertTrue(status, "2FA Authentication Fails");
-        System.out.println("done");
-    }
-
-    @Test
-    public void check() {
-        LogUtils.info("this is my logs");
     }
 }

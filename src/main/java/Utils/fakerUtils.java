@@ -10,6 +10,7 @@ public class fakerUtils {
             String phoneNumber = faker.numerify("######"); // Generate a 10-digit number
             // Format the phone number
             phoneNumber = "+61201"  + " " + phoneNumber.substring(0, 3) + " " + phoneNumber.substring(3);
+            LogUtils.info("Random Phone Number for Australia is Generated: "+phoneNumber);
             return phoneNumber;
 
         }

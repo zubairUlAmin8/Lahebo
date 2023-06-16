@@ -5,8 +5,8 @@ public class LandingPagePR {
     public final static String LagislationLibraryTab="a[href=\"/legislation-library\"]>span";
     public final static String loaderMain = "div[class=\"absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center\"]";
     public final static String profileIcon = "#headlessui-menu-button-5";
-    public final static String signOutBtn = "#headlessui-menu-item-12";
-    public final static String organizationSettingTab = "##organizationSettings";
+    public final static String signOutBtn = "button[class*=\"sign-out-btn\"]";
+    public final static String organizationSettingTab = "#organizationSettings";
     public final static String legislationLibraryTab = "#legislationView";
     public final static String riskRegisterTab = "#risksView";
     public final static String actionCenterTab = "#actionsView";

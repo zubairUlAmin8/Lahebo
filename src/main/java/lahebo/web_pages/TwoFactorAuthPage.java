@@ -135,7 +135,6 @@ public class TwoFactorAuthPage extends BasePage{
             return false;
         }
 
-
         return false;
 
     } public boolean verifyCodeLength() {
@@ -156,10 +155,11 @@ public class TwoFactorAuthPage extends BasePage{
          */
         String keyword = "Welcome to Lahebo, your verification code";
         Date afterDate = new Date(System.currentTimeMillis() - 24 * 60 * 60 * 1000); // Example: Retrieve messages from the last 24 hours
+
         System.out.println("Mail send time : " + afterDate.toString());
 
         List<Message> inboxMessageList = gmailHelper.searchEmail(0, "INBOX", keyword, afterDate);
-        System.out.println("size of list: "+ inboxMessageList.size());
+        LogUtils.info("size of list of message: "+ inboxMessageList.size());
         int listSize = inboxMessageList.size();
         Message firstMessage = inboxMessageList.get(listSize-1);
         String body = gmailHelper.getText(true, firstMessage);
@@ -167,9 +167,9 @@ public class TwoFactorAuthPage extends BasePage{
         System.out.println("Message Subject : " + firstMessage.getSubject());
 //        System.out.println("Message Content : " + body);
         if (body.contains("Please find the OTP :")) {
-            System.out.println("Yes found it");
+            LogUtils.info("Yes found it Message has been found ");
         } else {
-            System.out.println("not found");
+            LogUtils.info("Not found Message");
         }
         String input = body;
         String searchString = "Please find the OTP";
@@ -179,10 +179,15 @@ public class TwoFactorAuthPage extends BasePage{
         String refineNumber = gmailHelper.removeWhitespaceDotColon(charactersAfterString);
 
         if (charactersAfterString != null) {
-            System.out.println(charactersAfterString);
-            System.out.println(refineNumber);
+            System.out.println("Before Refineing"+ charactersAfterString);
+            System.out.println("Before Refineing"+ refineNumber);
+            LogUtils.info("Before Refining OTP Code(Gmail Inbox): "+ charactersAfterString);
+            LogUtils.info("After Refining OTP Code(Gmail Inbox): "+ refineNumber);
+
+
         } else {
-            System.out.println("String not found or not enough characters after the string.");
+            LogUtils.info("String not found or not enough characters after the string");
+
         }
 
         return refineNumber;

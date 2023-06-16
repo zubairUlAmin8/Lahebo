@@ -12,7 +12,7 @@ import java.util.Hashtable;
 
 public class verifyUserSignIn extends BaseTest {
 
-    @Test(priority = 1, enabled = true, dataProvider = "getSignInDataHashTable", dataProviderClass = DataProviderManager.class)
+    @Test(priority = 1, enabled = false, dataProvider = "getSignInDataHashTable", dataProviderClass = DataProviderManager.class)
     public void superAdminSignInDataDriven(Hashtable<String, String> data) throws InterruptedException {
         String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
         basePage.loadPage(driver, url_Address);
@@ -21,12 +21,14 @@ public class verifyUserSignIn extends BaseTest {
             Assert.assertTrue(twoFactorAuthPage.authenticationWithSecretKey(), "2FA Authentication Failed");
             landingPage.waitForPageLoading();
             Assert.assertTrue(landingPage.verifyLandingPage(), "landing page could not displayed");
+            landingPage.signOut();
         } else {
             System.out.println("im here into 2");
             boolean expResult = signInPage.verifyExpectedResult();
             Assert.assertFalse(expResult, "Password or Username is not correct");
         }
     }
+
 
     @Test(priority = 2, enabled = true)
     public void signInUser() throws InterruptedException {

@@ -11,7 +11,8 @@
 <!--            <class name="webTestCase.verifyUserSignIn"/>-->
 <!--            <class name="webTestCase.verifyAddLegalItems"/>-->
 <!--            <class name="webTestCase.verifyForgetPassword"/>-->
-            <class name="webTestCase.verifyDepartmentST"/>
+<!--            <class name="webTestCase.verifyDepartmentST"/>-->
+            <class name="webTestCase.verifyLocationST"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

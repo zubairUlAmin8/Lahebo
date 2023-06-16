@@ -444,3 +444,1235 @@
 [INFO] 16-06-2023 12:18:33 [main] [LogUtils] - Department mydesign Not exist
 [INFO] 16-06-2023 12:18:33 [main] [LogUtils] - Test case:  is passed.
 [INFO] 16-06-2023 12:18:33 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:30:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:30:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:30:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:30:01 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:30:07 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 12:30:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:30:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:30:07 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:30:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:30:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:30:07 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:30:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:30:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:30:07 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:30:08 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 16-06-2023 12:30:09 [main] [LogUtils] - Test case:  is failed.
+[INFO] 16-06-2023 12:30:09 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (35248e49529529fb42e1f61c982bbc0b)
+[ERROR] 16-06-2023 12:30:09 [main] [LogUtils] - FAILED !! Screenshot for test case: AddNewDepartment
+[ERROR] 16-06-2023 12:30:09 [main] [LogUtils] - org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35248e49529529fb42e1f61c982bbc0b, get {url=https://staging.d20q11bfsvbboy.amplifyapp.com/signin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54760/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35248e49529529fb42e1f61c982bbc0b
+[ERROR] 16-06-2023 12:30:09 [main] [LogUtils] - Test case:  is failed.
+[INFO] 16-06-2023 12:30:09 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (35248e49529529fb42e1f61c982bbc0b)
+[ERROR] 16-06-2023 12:30:09 [main] [LogUtils] - FAILED !! Screenshot for test case: AddNewDepartment
+[ERROR] 16-06-2023 12:30:09 [main] [LogUtils] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35248e49529529fb42e1f61c982bbc0b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54760/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35248e49529529fb42e1f61c982bbc0b
+[INFO] 16-06-2023 12:30:09 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:31:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:31:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:31:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:31:24 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:31:34 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:31:39 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 12:31:54 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 12:31:54 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:31:54 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:31:56 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 12:31:56 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 12:31:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 12:31:56 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 16-06-2023 12:31:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 16-06-2023 12:31:56 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:31:57 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:31:58 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 12:31:58 [main] [LogUtils] - Verify element visible By.cssSelector: #addDeptBtn
+[INFO] 16-06-2023 12:31:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #addDeptBtn
+[INFO] 16-06-2023 12:31:58 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 16-06-2023 12:31:58 [main] [LogUtils] - Set text desing on By.cssSelector: #deptNameField
+[INFO] 16-06-2023 12:31:59 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 16-06-2023 12:31:59 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 16-06-2023 12:31:59 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 16-06-2023 12:31:59 [main] [LogUtils] - size of list: 1
+[INFO] 16-06-2023 12:32:04 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-06-2023 12:32:05 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-06-2023 12:32:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-06-2023 12:32:05 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 16-06-2023 12:32:05 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:32:06 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - verification of Department desinghas been started
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department Found:  desing
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department desinghas been verified
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - verification of Department desinghas been started
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department Found:  desing
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department desinghas been verified
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department Index is being searched
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Department Index is: 3
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-3>div>div>button
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-3>div>div>button
+[INFO] 16-06-2023 12:32:07 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-3>div>div>div>button:first-of-type
+[INFO] 16-06-2023 12:32:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-3>div>div>div>button:first-of-type
+[INFO] 16-06-2023 12:32:08 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 16-06-2023 12:32:08 [main] [LogUtils] - Clear value in textbox By.cssSelector: #deptNameField
+[INFO] 16-06-2023 12:32:08 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 16-06-2023 12:32:08 [main] [LogUtils] - Set text mydesign on By.cssSelector: #deptNameField
+[INFO] 16-06-2023 12:32:08 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 16-06-2023 12:32:09 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 16-06-2023 12:32:09 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 16-06-2023 12:32:09 [main] [LogUtils] - size of list: 1
+[INFO] 16-06-2023 12:32:09 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-06-2023 12:32:10 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-06-2023 12:32:10 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-06-2023 12:32:10 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:32:11 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - verification of Department mydesignhas been started
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department Found:  mydesign
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department mydesignhas been verified
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - verification of Department mydesignhas been started
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department Found:  mydesign
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department mydesignhas been verified
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department Index is being searched
+[INFO] 16-06-2023 12:32:13 [main] [LogUtils] - Department Index is: 3
+[INFO] 16-06-2023 12:32:14 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-3>div>div>button
+[INFO] 16-06-2023 12:32:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-3>div>div>button
+[INFO] 16-06-2023 12:32:14 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-3>div>div>div>button:last-of-type
+[INFO] 16-06-2023 12:32:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-3>div>div>div>button:last-of-type
+[INFO] 16-06-2023 12:32:14 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-06-2023 12:32:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-06-2023 12:32:14 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 16-06-2023 12:32:14 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:32:15 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:32:16 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 12:32:16 [main] [LogUtils] - verification of Department mydesignhas been started
+[INFO] 16-06-2023 12:32:16 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 16-06-2023 12:32:16 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 16-06-2023 12:32:16 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 16-06-2023 12:32:16 [main] [LogUtils] - Department Found:  myschool
+[INFO] 16-06-2023 12:32:16 [main] [LogUtils] - Department mydesign Not exist
+[INFO] 16-06-2023 12:32:16 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:32:16 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:38:26 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:38:26 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:38:26 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:38:26 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:38:30 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-06-2023 12:38:31 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-06-2023 12:38:31 [main] [LogUtils] - StartRow: 1 - EndRow: 7
+[INFO] 16-06-2023 12:38:31 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:38:34 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:38:35 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:38:35 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:38:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:38:36 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:38:37 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:38:37 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:38:37 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:38:39 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:38:40 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:38:40 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:38:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:38:41 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:38:44 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:38:44 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:38:44 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:38:45 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:38:46 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:38:49 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:38:49 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:38:49 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:38:49 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:38:50 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:38:54 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:38:54 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:38:54 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:38:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:38:54 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:38:56 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 12:39:03 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 12:39:03 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:39:03 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:39:06 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 12:39:07 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:39:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:40:16 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:40:16 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:40:16 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:40:17 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:40:20 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 12:40:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:40:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:40:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:40:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:40:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:40:21 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:40:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:40:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:40:21 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:40:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:40:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:40:21 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:40:21 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-06-2023 12:40:22 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-06-2023 12:40:22 [main] [LogUtils] - StartRow: 1 - EndRow: 7
+[INFO] 16-06-2023 12:40:22 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:40:24 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:40:25 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:40:25 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:40:25 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:40:26 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:40:27 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:40:27 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:40:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:40:28 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:40:29 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:40:29 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:40:29 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:40:30 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:40:41 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:40:41 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:40:41 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:40:41 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:40:42 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:40:45 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:40:45 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:40:45 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:40:45 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:40:46 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:40:50 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:40:50 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:40:50 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:40:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:40:51 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:40:52 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 12:41:00 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 12:41:00 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:41:01 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:41:04 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 12:41:04 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:41:04 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:42:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:42:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:42:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:42:45 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:42:49 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-06-2023 12:42:50 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-06-2023 12:42:50 [main] [LogUtils] - StartRow: 1 - EndRow: 7
+[INFO] 16-06-2023 12:42:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:42:52 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:42:54 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:42:54 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:42:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:42:55 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:42:55 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:42:55 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:42:55 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:42:56 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:42:57 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:42:57 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:42:57 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:42:58 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:43:03 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:43:03 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:43:03 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:43:03 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:43:04 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:43:07 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:43:07 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:43:07 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:43:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:43:08 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:43:12 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:43:12 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:43:12 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:43:12 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:43:13 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:43:14 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 12:43:22 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 12:43:22 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:43:23 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:43:26 [main] [LogUtils] - Loading finsihed
+[ERROR] 16-06-2023 12:43:31 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: #headlessui-menu-item-12' (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 16-06-2023 12:43:31 [main] [LogUtils] - Test case:  is failed.
+[INFO] 16-06-2023 12:43:31 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (d77d8fe9ee9ff170e8cdce81e395c330)
+[INFO] 16-06-2023 12:43:32 [main] [LogUtils] - Screenshot taken: superAdminSignInDataDriven
+[INFO] 16-06-2023 12:43:32 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 16-06-2023 12:43:32 [main] [LogUtils] - FAILED !! Screenshot for test case: superAdminSignInDataDriven
+[ERROR] 16-06-2023 12:43:32 [main] [LogUtils] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#headlessui-menu-item-12"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d77d8fe9ee9ff170e8cdce81e395c330, findElement {using=css selector, value=#headlessui-menu-item-12}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55412/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d77d8fe9ee9ff170e8cdce81e395c330
+[INFO] 16-06-2023 12:43:32 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:48:28 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:48:28 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:48:28 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:48:28 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:48:32 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-06-2023 12:48:33 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-06-2023 12:48:33 [main] [LogUtils] - StartRow: 1 - EndRow: 7
+[INFO] 16-06-2023 12:48:33 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:48:35 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:48:36 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:48:36 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:48:36 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:48:37 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:48:38 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:48:38 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:48:38 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:48:39 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:48:40 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:48:40 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:48:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:48:41 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:48:45 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:48:45 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:48:45 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:48:45 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:48:46 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:48:49 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:48:49 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:48:49 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:48:49 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:48:50 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:48:54 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:48:54 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:48:54 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:48:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:48:54 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:48:55 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 12:49:03 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 12:49:03 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:49:03 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:49:06 [main] [LogUtils] - Loading finsihed
+[ERROR] 16-06-2023 12:49:12 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: #headlessui-menu-item-21' (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 16-06-2023 12:49:12 [main] [LogUtils] - Test case:  is failed.
+[INFO] 16-06-2023 12:49:12 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (18b502cc69f89043280cb23302bf4c5c)
+[INFO] 16-06-2023 12:49:12 [main] [LogUtils] - Screenshot taken: superAdminSignInDataDriven
+[INFO] 16-06-2023 12:49:12 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 16-06-2023 12:49:12 [main] [LogUtils] - FAILED !! Screenshot for test case: superAdminSignInDataDriven
+[ERROR] 16-06-2023 12:49:12 [main] [LogUtils] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#headlessui-menu-item-21"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18b502cc69f89043280cb23302bf4c5c, findElement {using=css selector, value=#headlessui-menu-item-21}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55630}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55630/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18b502cc69f89043280cb23302bf4c5c
+[INFO] 16-06-2023 12:49:12 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:51:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:51:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:51:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:51:29 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:51:33 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-06-2023 12:51:34 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-06-2023 12:51:34 [main] [LogUtils] - StartRow: 1 - EndRow: 7
+[INFO] 16-06-2023 12:51:34 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:51:37 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:51:38 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:51:38 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:51:38 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:51:39 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:51:39 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:51:39 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:51:39 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:51:40 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:51:42 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:51:42 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:51:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:51:43 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:51:47 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:51:47 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:51:47 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:51:47 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:51:48 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:51:51 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:51:51 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:51:51 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:51:51 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:51:52 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:51:56 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:51:56 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:51:56 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:51:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:51:57 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:51:58 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 12:52:06 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 12:52:06 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:52:06 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:52:09 [main] [LogUtils] - Loading finsihed
+[ERROR] 16-06-2023 12:52:15 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: #button[class*="sign-out-btn"]' (tried for 5 second(s) with 500 milliseconds interval)
+[ERROR] 16-06-2023 12:52:15 [main] [LogUtils] - Test case:  is failed.
+[INFO] 16-06-2023 12:52:15 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (6d370c58e1407e731ab5d005ccb16280)
+[INFO] 16-06-2023 12:52:15 [main] [LogUtils] - Screenshot taken: superAdminSignInDataDriven
+[INFO] 16-06-2023 12:52:15 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 16-06-2023 12:52:15 [main] [LogUtils] - FAILED !! Screenshot for test case: superAdminSignInDataDriven
+[ERROR] 16-06-2023 12:52:15 [main] [LogUtils] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#button[class*="sign-out-btn"]"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d370c58e1407e731ab5d005ccb16280, findElement {using=css selector, value=#button[class*="sign-out-btn"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55814}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55814/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d370c58e1407e731ab5d005ccb16280
+[INFO] 16-06-2023 12:52:15 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:53:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:53:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:53:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:53:39 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:53:42 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-06-2023 12:53:43 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-06-2023 12:53:43 [main] [LogUtils] - StartRow: 1 - EndRow: 7
+[INFO] 16-06-2023 12:53:43 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:53:46 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:53:47 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:53:47 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:53:47 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:53:48 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:53:49 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:53:49 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:53:49 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:53:50 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:53:51 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:53:51 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:53:51 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:53:52 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:53:56 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:53:56 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:53:56 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:53:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:53:57 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:54:00 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:54:00 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:54:00 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:54:00 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:54:01 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:54:05 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:54:05 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:54:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:54:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:54:07 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:54:08 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 12:54:15 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 12:54:15 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:54:16 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:54:18 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 12:54:19 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:54:19 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:55:28 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:55:28 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:55:28 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:55:28 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:55:35 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-06-2023 12:55:38 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-06-2023 12:55:38 [main] [LogUtils] - StartRow: 1 - EndRow: 7
+[INFO] 16-06-2023 12:55:39 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:55:42 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:55:44 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:55:44 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:55:44 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:55:46 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:55:48 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:55:48 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:55:48 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:55:49 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:55:51 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:55:51 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:55:51 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:55:56 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:56:01 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:56:01 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:56:01 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:56:01 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:56:03 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:56:07 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:56:07 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:56:07 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:56:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:56:09 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:56:12 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:56:12 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:56:12 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:56:12 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:56:14 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:56:15 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 12:57:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:57:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:57:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:57:23 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 12:57:32 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 12:57:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:57:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:57:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:57:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:57:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:57:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:57:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:57:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:57:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:57:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 12:57:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 12:57:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 12:57:33 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-06-2023 12:57:34 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-06-2023 12:57:34 [main] [LogUtils] - StartRow: 1 - EndRow: 7
+[INFO] 16-06-2023 12:57:34 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:57:37 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:57:39 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:57:39 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:57:39 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:57:41 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:57:42 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:57:42 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:57:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:57:43 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:57:45 [main] [LogUtils] - Value is required
+[INFO] 16-06-2023 12:57:45 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:57:45 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:57:47 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:57:52 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:57:52 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:57:52 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:57:52 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:57:54 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:57:58 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:57:58 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:57:58 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:57:58 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:57:59 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:58:02 [main] [LogUtils] - Incorrect username or password.
+[INFO] 16-06-2023 12:58:02 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-06-2023 12:58:02 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:58:02 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 12:58:04 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-06-2023 12:58:05 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 12:58:13 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 12:58:13 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 12:58:14 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 12:58:17 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 12:58:18 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 12:58:19 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 13:01:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 13:01:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 13:01:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 13:01:05 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 13:01:11 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 13:01:17 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 13:01:25 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 13:01:25 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 13:01:26 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 13:01:27 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 13:01:27 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 13:01:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 13:01:28 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 13:01:32 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 14:08:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 14:08:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 14:08:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 14:08:05 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - this is my logs
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 14:08:12 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 14:08:16 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 14:08:16 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 14:08:17 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 14:08:17 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 16-06-2023 14:08:26 [main] [LogUtils] - Test case:  is failed.
+[INFO] 16-06-2023 14:08:26 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (e4814ca0047d78d108bb9b85277194dc)
+[INFO] 16-06-2023 14:08:26 [main] [LogUtils] - Screenshot taken: setUpNewPassword
+[INFO] 16-06-2023 14:08:26 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/reset-password?username=sarahj88643
+[ERROR] 16-06-2023 14:08:26 [main] [LogUtils] - FAILED !! Screenshot for test case: setUpNewPassword
+[ERROR] 16-06-2023 14:08:26 [main] [LogUtils] - java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 0
+[INFO] 16-06-2023 14:08:27 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 16-06-2023 14:09:37 [main] [LogUtils] - Test case:  is failed.
+[INFO] 16-06-2023 14:09:37 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (e4814ca0047d78d108bb9b85277194dc)
+[ERROR] 16-06-2023 14:09:37 [main] [LogUtils] - FAILED !! Screenshot for test case: twoFactorAuthentication
+[ERROR] 16-06-2023 14:09:37 [main] [LogUtils] - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4814ca0047d78d108bb9b85277194dc, findElement {using=css selector, value=input[placeholder="e.g. 123456"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56338}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56338/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4814ca0047d78d108bb9b85277194dc
+[ERROR] 16-06-2023 14:09:37 [main] [LogUtils] - Test case:  is failed.
+[INFO] 16-06-2023 14:09:37 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (e4814ca0047d78d108bb9b85277194dc)
+[ERROR] 16-06-2023 14:09:37 [main] [LogUtils] - FAILED !! Screenshot for test case: twoFactorAuthentication
+[ERROR] 16-06-2023 14:09:37 [main] [LogUtils] - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4814ca0047d78d108bb9b85277194dc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56338}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56338/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4814ca0047d78d108bb9b85277194dc
+[INFO] 16-06-2023 14:09:37 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:08:31 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:08:31 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:08:31 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:08:31 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - this is my logs
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:08:37 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:08:42 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:08:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:08:44 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:08:44 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:08:54 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:08:54 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 16-06-2023 15:09:43 [main] [LogUtils] - Test case:  is failed.
+[INFO] 16-06-2023 15:09:43 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (dae2e05997902b88824c1a180ad58d3e)
+[ERROR] 16-06-2023 15:09:43 [main] [LogUtils] - FAILED !! Screenshot for test case: twoFactorAuthentication
+[ERROR] 16-06-2023 15:09:43 [main] [LogUtils] - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dae2e05997902b88824c1a180ad58d3e, findElement {using=css selector, value=input[placeholder="e.g. 123456"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56560}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56560/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dae2e05997902b88824c1a180ad58d3e
+[ERROR] 16-06-2023 15:09:43 [main] [LogUtils] - Test case:  is failed.
+[INFO] 16-06-2023 15:09:43 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (dae2e05997902b88824c1a180ad58d3e)
+[ERROR] 16-06-2023 15:09:43 [main] [LogUtils] - FAILED !! Screenshot for test case: twoFactorAuthentication
+[ERROR] 16-06-2023 15:09:43 [main] [LogUtils] - org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dae2e05997902b88824c1a180ad58d3e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56560}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56560/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dae2e05997902b88824c1a180ad58d3e
+[INFO] 16-06-2023 15:09:43 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:18:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:18:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:18:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:18:24 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:18:29 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 15:18:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:18:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:18:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:18:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:18:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:18:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:18:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:18:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:18:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:18:30 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:18:30 [main] [LogUtils] - this is my logs
+[INFO] 16-06-2023 15:18:30 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:18:30 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:18:34 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:18:34 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:18:35 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:18:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:18:45 [main] [LogUtils] - size of list of message: 1
+[INFO] 16-06-2023 15:18:45 [main] [LogUtils] - Yes found it Message has been found 
+[INFO] 16-06-2023 15:18:45 [main] [LogUtils] - Before Refining OTP Code(Gmail Inbox):  : 163972.
+[INFO] 16-06-2023 15:18:45 [main] [LogUtils] - After Refining OTP Code(Gmail Inbox): 163972
+[INFO] 16-06-2023 15:18:46 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:18:46 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:18:56 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 15:18:56 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:18:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:21:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:21:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:21:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:21:07 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:21:13 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 15:21:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:21:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:21:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:21:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:21:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:21:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:21:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:21:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:21:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:21:14 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:21:17 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:21:17 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:21:19 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:21:19 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:21:28 [main] [LogUtils] - size of list of message: 1
+[INFO] 16-06-2023 15:21:28 [main] [LogUtils] - Yes found it Message has been found 
+[INFO] 16-06-2023 15:21:28 [main] [LogUtils] - Before Refining OTP Code(Gmail Inbox):  : 430411.
+[INFO] 16-06-2023 15:21:28 [main] [LogUtils] - After Refining OTP Code(Gmail Inbox): 430411
+[INFO] 16-06-2023 15:21:29 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:21:29 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:21:39 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 15:21:41 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:21:41 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:21:43 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 15:21:52 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 15:21:52 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:21:53 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:48:22 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 15:48:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:48:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:48:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:48:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:48:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:48:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:48:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:48:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:48:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:48:25 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 15:48:39 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 15:48:39 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 15:48:40 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 15:48:41 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 15:49:41 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:49:41 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:49:41 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:49:42 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:49:42 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:50:58 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:50:58 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:50:58 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:50:58 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:51:02 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:51:05 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 15:51:13 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 15:51:13 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 15:51:14 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 15:51:15 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 15:51:15 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 15:51:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 15:51:15 [main] [LogUtils] - Verify element visible By.cssSelector: #reportsView
+[INFO] 16-06-2023 15:51:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #reportsView
+[INFO] 16-06-2023 15:51:15 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 15:51:45 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 15:51:45 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 15:51:45 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:51:45 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:52:57 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:52:57 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:52:57 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:52:57 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 15:53:01 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 15:53:04 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 15:53:13 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 15:53:13 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 15:53:13 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 15:53:15 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 15:53:15 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 15:53:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 15:53:15 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 16-06-2023 15:53:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 16-06-2023 15:53:15 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 15:53:16 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 15:53:17 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 15:53:17 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 15:53:17 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:14:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:14:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:14:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:14:46 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:14:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 16:14:55 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 16:15:04 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 16:15:04 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:15:05 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:15:06 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:15:06 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:15:07 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:15:07 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 16-06-2023 16:15:07 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 16-06-2023 16:15:07 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:15:07 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:15:09 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:15:09 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 607 084
+[INFO] 16-06-2023 16:15:09 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:15:09 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:15:09 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 16:15:09 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:21:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:21:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:21:04 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:21:05 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:21:08 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 16:21:12 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 16:21:21 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 16:21:21 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:21:22 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:21:23 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:21:23 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:21:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:21:23 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 16-06-2023 16:21:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 16-06-2023 16:21:23 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:21:24 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:21:25 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:21:25 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 509 713
+[INFO] 16-06-2023 16:21:25 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:21:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:21:25 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 16-06-2023 16:21:25 [main] [LogUtils] - Set text desing on By.cssSelector: #locNameField
+[INFO] 16-06-2023 16:21:25 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 16-06-2023 16:21:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 16-06-2023 16:21:26 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 16-06-2023 16:21:26 [main] [LogUtils] - size of list: 1
+[INFO] 16-06-2023 16:21:31 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-06-2023 16:21:32 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-06-2023 16:21:32 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-06-2023 16:21:32 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 16:21:32 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:30:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:30:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:30:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:30:20 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:30:23 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 16:30:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:30:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:30:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:30:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:30:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:30:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:30:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:30:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:30:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:30:24 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 16:30:26 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 16:30:35 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 16:30:35 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:30:37 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:30:40 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:30:40 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:30:40 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:30:40 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 16-06-2023 16:30:40 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 16-06-2023 16:30:40 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:30:41 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:30:42 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:30:42 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 536 377
+[INFO] 16-06-2023 16:30:42 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:30:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:30:43 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 16-06-2023 16:30:43 [main] [LogUtils] - Set text desing on By.cssSelector: #locNameField
+[INFO] 16-06-2023 16:30:43 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 16-06-2023 16:30:44 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 16-06-2023 16:30:44 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 16-06-2023 16:30:45 [main] [LogUtils] - Set text +61201 536 377 on By.cssSelector: #locNumberField>input
+[INFO] 16-06-2023 16:30:45 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 16-06-2023 16:30:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 16-06-2023 16:30:46 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 16-06-2023 16:30:46 [main] [LogUtils] - size of list: 1
+[INFO] 16-06-2023 16:30:46 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-06-2023 16:30:46 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-06-2023 16:30:46 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-06-2023 16:30:46 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 16-06-2023 16:30:46 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 16:30:46 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:35:26 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:35:26 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:35:26 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:35:26 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:35:30 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 16:35:34 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 16:35:42 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 16:35:42 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:35:42 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:35:45 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:35:45 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:35:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:35:45 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 16-06-2023 16:35:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 16-06-2023 16:35:45 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:35:46 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:35:47 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:35:47 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 313 753
+[INFO] 16-06-2023 16:35:47 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:35:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:35:47 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 16-06-2023 16:35:47 [main] [LogUtils] - Set text desing on By.cssSelector: #locNameField
+[INFO] 16-06-2023 16:35:48 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 16-06-2023 16:35:48 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 16-06-2023 16:35:48 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 16-06-2023 16:35:48 [main] [LogUtils] - Set text +61201 313 753 on By.cssSelector: #locNumberField>input
+[INFO] 16-06-2023 16:35:48 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 16-06-2023 16:35:48 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 16-06-2023 16:35:49 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 16-06-2023 16:35:49 [main] [LogUtils] - size of list: 1
+[INFO] 16-06-2023 16:35:49 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-06-2023 16:35:49 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-06-2023 16:35:49 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-06-2023 16:35:50 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 16-06-2023 16:35:50 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 16:35:50 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:40:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:40:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:40:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:40:14 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:40:17 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 16:40:21 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 16:40:30 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 16:40:30 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:40:30 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:40:33 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:40:33 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:40:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:40:33 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 16-06-2023 16:40:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 16-06-2023 16:40:33 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:40:34 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:40:36 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:40:36 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 760 266
+[INFO] 16-06-2023 16:40:36 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:40:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:40:36 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 16-06-2023 16:40:36 [main] [LogUtils] - Set text desing on By.cssSelector: #locNameField
+[INFO] 16-06-2023 16:40:36 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 16-06-2023 16:40:36 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 16-06-2023 16:40:36 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 16-06-2023 16:40:37 [main] [LogUtils] - Set text +61201 760 266 on By.cssSelector: #locNumberField>input
+[INFO] 16-06-2023 16:40:37 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 16-06-2023 16:40:37 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 16-06-2023 16:40:38 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 16-06-2023 16:40:38 [main] [LogUtils] - size of list: 1
+[INFO] 16-06-2023 16:40:38 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-06-2023 16:40:38 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-06-2023 16:40:38 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-06-2023 16:40:38 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 16-06-2023 16:40:38 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:40:40 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:40:40 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:40:40 [main] [LogUtils] - verification of Department desinghas been started
+[INFO] 16-06-2023 16:40:40 [main] [LogUtils] - Department Found:  desing
+[INFO] 16-06-2023 16:40:40 [main] [LogUtils] - Department desinghas been verified
+[INFO] 16-06-2023 16:40:40 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 16:40:40 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:49:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:49:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:49:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:49:36 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 16:49:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 16:49:44 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 16:49:53 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 16:49:53 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:49:53 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:49:55 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:49:55 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:49:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 16:49:56 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 16-06-2023 16:49:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 16-06-2023 16:49:56 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:49:57 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:49:58 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:49:58 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 153 887
+[INFO] 16-06-2023 16:49:58 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:49:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 16:49:58 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 16-06-2023 16:49:59 [main] [LogUtils] - Set text Lahore on By.cssSelector: #locNameField
+[INFO] 16-06-2023 16:49:59 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 16-06-2023 16:49:59 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 16-06-2023 16:49:59 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 16-06-2023 16:49:59 [main] [LogUtils] - Set text +61201 153 887 on By.cssSelector: #locNumberField>input
+[INFO] 16-06-2023 16:50:00 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 16-06-2023 16:50:00 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 16-06-2023 16:50:00 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 16-06-2023 16:50:00 [main] [LogUtils] - size of list: 1
+[INFO] 16-06-2023 16:50:00 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-06-2023 16:50:01 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-06-2023 16:50:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-06-2023 16:50:01 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 16-06-2023 16:50:01 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 30 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - verification of Location Lahorehas been started
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - Location Found:  desing
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - Location Found:  desingada
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - Location Found:  desingadaf
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - Location Found:  desingadfdf
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - Location Found:  Lahore
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - Location Lahorehas been verified
+[INFO] 16-06-2023 16:50:31 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 16:50:32 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 17:14:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 17:14:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 17:14:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 17:14:20 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-06-2023 17:14:24 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-06-2023 17:14:27 [main] [LogUtils] - Username and password are correct
+[INFO] 16-06-2023 17:14:36 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-06-2023 17:14:36 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 17:14:37 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 17:14:40 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 17:14:40 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 17:14:40 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-06-2023 17:14:41 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 16-06-2023 17:14:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 16-06-2023 17:14:41 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 17:14:42 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 17:14:43 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 17:14:43 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 528 631
+[INFO] 16-06-2023 17:14:44 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 17:14:44 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 16-06-2023 17:14:44 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 16-06-2023 17:14:44 [main] [LogUtils] - Set text Lahore on By.cssSelector: #locNameField
+[INFO] 16-06-2023 17:14:44 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 16-06-2023 17:14:44 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 16-06-2023 17:14:44 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 16-06-2023 17:14:45 [main] [LogUtils] - Set text +61201 528 631 on By.cssSelector: #locNumberField>input
+[INFO] 16-06-2023 17:14:45 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 16-06-2023 17:14:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 16-06-2023 17:14:45 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 16-06-2023 17:14:45 [main] [LogUtils] - size of list: 1
+[INFO] 16-06-2023 17:14:45 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-06-2023 17:14:45 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-06-2023 17:14:46 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-06-2023 17:14:46 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 16-06-2023 17:14:46 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-06-2023 17:14:47 [main] [LogUtils] - Loading Started
+[INFO] 16-06-2023 17:14:49 [main] [LogUtils] - Loading finsihed
+[INFO] 16-06-2023 17:14:49 [main] [LogUtils] - verification of Location Lahorehas been started
+[INFO] 16-06-2023 17:14:49 [main] [LogUtils] - Location Found:  desing
+[INFO] 16-06-2023 17:14:49 [main] [LogUtils] - Location Found:  desingada
+[INFO] 16-06-2023 17:14:49 [main] [LogUtils] - Location Found:  desingadaf
+[INFO] 16-06-2023 17:14:49 [main] [LogUtils] - Location Found:  desingadfdf
+[INFO] 16-06-2023 17:14:49 [main] [LogUtils] - Location Found:  Lahore
+[INFO] 16-06-2023 17:14:49 [main] [LogUtils] - Location Lahorehas been verified
+[INFO] 16-06-2023 17:14:49 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-06-2023 17:14:49 [main] [LogUtils] - End Suite: login Usging Data Driven Testing

@@ -58,4 +58,10 @@ public class verifyUserSignUp extends BaseTest {
     public void verifyCongratulation() {
         Assert.assertTrue(congratulation.verifyCongratulation(),"Congratulation page");
     }
+
+    @Test(priority = 7, enabled = true)
+    public void verifyUserSignOut() throws InterruptedException {
+        landingPage.signOut();
+        Assert.assertTrue(signInPage.verifyLoginPage(), "User could not sign OUt");
+    }
 }

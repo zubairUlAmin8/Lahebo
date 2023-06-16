@@ -23,6 +23,7 @@ public class BaseTest {
     Congratulation congratulation;
     CardPaymentPage cardPaymentPage;
     DepartmentsPage departmentsPage;
+    LocationsPage locationsPage;
 
     WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
@@ -43,6 +44,7 @@ public class BaseTest {
         cardPaymentPage = new CardPaymentPage(driver);
         congratulation = new Congratulation(driver);
         departmentsPage = new DepartmentsPage(driver);
+        locationsPage = new LocationsPage(driver);
     }
     @Parameters("BROWSER")
     @BeforeClass
@@ -63,7 +65,7 @@ public class BaseTest {
 
     @AfterClass(alwaysRun = true)
     public void closeDriver() {
-//        DriverManager.quit();
+        DriverManager.quit();
     }
 
     public WebDriver createBrowser(@Optional("chrome") String browser) {

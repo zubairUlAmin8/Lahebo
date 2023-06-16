@@ -25,6 +25,7 @@ public class PropertiesHelpers {
     private static FileInputStream myFile;
     private static FileOutputStream out;
     private static String relPropertiesFilePathDefault = "src/test/resources/config/config.properties";
+    private static String testDataPropertiesFilePathDefault = "src/test/resources/config/datatest.properties";
 
     public static Properties loadAllFiles() {
         LinkedList<String> files = new LinkedList<>();
@@ -98,8 +99,7 @@ public class PropertiesHelpers {
         try {
             if (myFile == null) {
                 properties = new Properties();
-                linkFile = Helpers.getCurrentDir() + relPropertiesFilePathDefault;
-                linkFile = "src/test/resources/config/datatest.properties";
+                linkFile = Helpers.getCurrentDir() + testDataPropertiesFilePathDefault;
                 myFile = new FileInputStream(linkFile);
                 properties.load(myFile);
                 myFile.close();
@@ -122,6 +122,25 @@ public class PropertiesHelpers {
                 properties.load(file);
                 file.close();
                 out = new FileOutputStream(Helpers.getCurrentDir() + relPropertiesFilePathDefault);
+            }
+            //Write to the same Prop file as the extracted file
+            out = new FileOutputStream(linkFile);
+            System.out.println(linkFile);
+            properties.setProperty(key, keyValue);
+            properties.store(out, null);
+            out.close();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    public static void setValue(String key, String keyValue, String fileName) {
+        try {
+            if (file == null) {
+                properties = new Properties();
+                file = new FileInputStream(Helpers.getCurrentDir() + testDataPropertiesFilePathDefault);
+                properties.load(file);
+                file.close();
+                out = new FileOutputStream(Helpers.getCurrentDir() + testDataPropertiesFilePathDefault);
             }
             //Write to the same Prop file as the extracted file
             out = new FileOutputStream(linkFile);

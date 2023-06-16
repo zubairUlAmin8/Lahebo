@@ -14,7 +14,7 @@ public interface LandingPageOR {
       By reportTab = By.cssSelector("#reportsView");
       By organizationDetailsST = By.cssSelector("#reportsView");
       By departmentsST =By.cssSelector( "#deptItem");
-      By locationST = By.cssSelector("#reportsView");
+      By locationST = By.cssSelector("#locItem");
       By jobFunctionST = By.cssSelector("#reportsView");
       By userSetupST =By.cssSelector( "#reportsView");
       By manageSubscriptionST = By.cssSelector("#reportsView");
