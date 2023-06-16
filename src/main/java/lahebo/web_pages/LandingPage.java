@@ -34,9 +34,12 @@ public class LandingPage {
     }
 
     public void waitForPageLoading() throws InterruptedException {
+        LogUtils.info("Waiting for Loading");
         waits.waitForVisibilityOfItem(driver,landingPageElements.loaderMain, 30);
-//        Thread.sleep(500);
+        LogUtils.info("Loading Started");
         waits.waitForInvisibilityOfItem(driver, LandingPagePR.loaderMain, 30);
+        LogUtils.info("Loading finsihed");
+
     }
 
     public void signOut() throws InterruptedException {

@@ -22,6 +22,7 @@ public class PropertiesHelpers {
     private static Properties properties;
     private static String linkFile;
     private static FileInputStream file;
+    private static FileInputStream myFile;
     private static FileOutputStream out;
     private static String relPropertiesFilePathDefault = "src/test/resources/config/config.properties";
 
@@ -92,6 +93,26 @@ public class PropertiesHelpers {
         }
         return keyval;
     }
+    public static String getValue(String key, String fileName) {
+        String keyval = null;
+        try {
+            if (myFile == null) {
+                properties = new Properties();
+                linkFile = Helpers.getCurrentDir() + relPropertiesFilePathDefault;
+                linkFile = "src/test/resources/config/datatest.properties";
+                myFile = new FileInputStream(linkFile);
+                properties.load(myFile);
+                myFile.close();
+            }
+            //Get value from set file
+            keyval = properties.getProperty(key);
+            return LanguageUtils.convertCharset_ISO_8859_1_To_UTF8(keyval);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return keyval;
+    }
+
 
     public static void setValue(String key, String keyValue) {
         try {

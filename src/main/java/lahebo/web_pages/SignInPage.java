@@ -20,7 +20,6 @@ public class SignInPage extends BasePage {
 //    SingInPageElements singInPageElements = new SingInPageElements(driver);
 
     public SignInPage(WebDriver driver) {
-        System.out.println("singINPage Constructor");
         this.driver = driver;
         singInPageElements = new SignInPageElements(driver);
     }
@@ -35,7 +34,6 @@ public class SignInPage extends BasePage {
         String password = data.get(SignUpModel.getPassword());
         expectedTitle = data.get(SignInModel.getExpectedTitle());
         testName = data.get(SignInModel.getTestCaseID()) + ": " + data.get(SignInModel.getTestCaseName());
-        System.out.println("basepage" + driver);
         waits.waitForElements(driver, singInPageElements.userName, 5000);
         System.out.println(singInPageElements.userName.getAttribute("placeholder"));
 

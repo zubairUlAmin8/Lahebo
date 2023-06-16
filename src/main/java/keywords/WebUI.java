@@ -22,6 +22,7 @@ import driver.DriverManager;
 import enums.FailureHandling;
 import helpers.Helpers;
 import io.qameta.allure.Step;
+import lahebo.path_repo.LandingPagePR;
 import lombok.extern.java.Log;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Dimension;
@@ -2632,6 +2633,12 @@ public class WebUI {
         }
     }
 
+    public static void waitForPageLoad() throws InterruptedException {
+        String loaderMain = "div[class=\"absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center\"]";
+        WebElement ele = DriverManager.getDriver().findElement(By.cssSelector(loaderMain));
+        waits.waitForVisibilityOfItem(DriverManager.getDriver(),ele, 30);
+        waits.waitForInvisibilityOfItem(DriverManager.getDriver(), LandingPagePR.loaderMain, 30);
+    }
     /**
      * Chờ đợi JQuery tải xong với thời gian mặc định từ config
      */
