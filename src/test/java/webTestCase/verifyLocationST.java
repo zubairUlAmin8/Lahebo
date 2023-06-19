@@ -31,21 +31,20 @@ public class verifyLocationST extends BaseTest {
         Assert.assertTrue(locationsPage.verifyLocation(locationName),"Location "+locationName+" Not Added" );
 
     }
-//    @Test(priority = 1, enabled = false)
-//    public void verifyEditDepartment() throws IOException, InterruptedException {
-//         EditDepartmentName = PropertiesHelpers.getValue("EDIT_DEPARTMENT_NAME", "dataset");
-//         managerName = "Sarah Johnson";
-//        departmentsPage.editDepartment(EditDepartmentName,managerName,departmentName );
-//        landingPage.waitForPageLoading();
-//        Assert.assertTrue(departmentsPage.verifyDepartment(EditDepartmentName),"Department Not Edited" );
-//
-//    }
-//
-//    @Test(priority = 2, enabled = false)
-//    public void verifyDeleteDepartment() throws IOException, InterruptedException {
-//        departmentsPage.deleteDepartment(EditDepartmentName);
-//        landingPage.waitForPageLoading();
-//        Assert.assertFalse(departmentsPage.verifyDepartment(EditDepartmentName),"Department Not Deleted" );
-//    }
+    @Test(priority = 1, enabled = false)
+    public void verifyEditLocation() throws IOException, InterruptedException {
+        EditLocationName = PropertiesHelpers.getValue("EDIT_LOCATION_NAME", "dataset");
+        keyContact = "Sarah Johnson";
+        locationsPage.editLocation(EditLocationName,keyContact,locationName );
+        landingPage.waitForPageLoading();
+        Assert.assertTrue(locationsPage.verifyLocation(EditLocationName),"Location Not Edited" );
+
+    }
+    @Test(priority = 2, enabled = true)
+    public void verifyDeleteLocation() throws IOException, InterruptedException {
+        locationsPage.deleteLocation(locationName);
+        landingPage.waitForPageLoading();
+        Assert.assertFalse(locationsPage.verifyLocation(locationName),"Location Not Deleted" );
+    }
 
 }

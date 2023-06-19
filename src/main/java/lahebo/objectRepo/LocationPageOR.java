@@ -8,8 +8,8 @@ public interface LocationPageOR {
       By locationAddressIF =By.cssSelector("#locAddressField");
       By locationPhoneNumberIF =By.cssSelector("#locNumberField>input");
       By managerIF =By.cssSelector("#vs1__combobox > div.vs__selected-options > input");
-      By keyContactmanagerList =By.cssSelector("#locContactField");
-      By keyContactmanagerListElements =By.cssSelector("div#locContactField>ul");
+      By keyContactManagerList =By.cssSelector("#locContactField");
+      By keyContactManagerListElements =By.cssSelector("div#locContactField>ul");
       By addButton =By.cssSelector("#doAction");
       By confirmDeleteBtn =By.cssSelector("#confirmDelBtn");
       By allLocations =By.cssSelector("span[id^=\"locName-\"]");
@@ -22,7 +22,7 @@ public interface LocationPageOR {
       String LocationName = "#deptName-";
       String LocationManager = "#deptManager-";
       String LocationOptionBtn = ">div>div>button";   //LocationCard+index+LocationOptionBtn
-      String editLocation = ">div>div>div>button:first-of-type";
+      String editLocation = ">div>div>div>button:nth-of-type(2)";
       String deleteLocation = ">div>div>div>button:last-of-type";
 
 

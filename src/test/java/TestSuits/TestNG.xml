@@ -3,15 +3,15 @@
 <suite name="login Usging Data Driven Testing"  >
     <listeners>
         <listener class-name="listeners.ListenerTest"/>
-<!--        <listener class-name="listeners.AnnotationTransformer"/>-->
+        <listener class-name="listeners.AnnotationTransformer"/>
     </listeners>
-    <test name="Login Admin with Different scenerio">
+    <test name="Login Admin with Different scenerio" parallel="classes">
         <classes>
 <!--            <class name="webTestCase.verifyUserSignUp"/>-->
 <!--            <class name="webTestCase.verifyUserSignIn"/>-->
 <!--            <class name="webTestCase.verifyAddLegalItems"/>-->
 <!--            <class name="webTestCase.verifyForgetPassword"/>-->
-<!--            <class name="webTestCase.verifyDepartmentST"/>-->
+            <class name="webTestCase.verifyDepartmentST"/>
             <class name="webTestCase.verifyLocationST"/>
         </classes>
     </test> <!-- Test -->

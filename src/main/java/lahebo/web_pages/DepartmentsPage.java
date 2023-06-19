@@ -53,7 +53,7 @@ public class DepartmentsPage {
 
     public void editDepartment(String dptEditName, String mngrName, String existingDptName) {
         departmentNameEdit = dptEditName;
-        Assert.assertTrue(verifyDepartment(existingDptName),"Department Not Exist" );
+        Assert.assertTrue(verifyDepartment(existingDptName),existingDptName+": Department Not Exist" );
         int index=getIndexOfDepartment(existingDptName);
         String departmentOptionPath=DepartmentPageOR.departmentCard+index+DepartmentPageOR.departmentOptionBtn;
         String editBtnPath=DepartmentPageOR.departmentCard+index+DepartmentPageOR.editDepartment;

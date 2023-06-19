@@ -3,7 +3,7 @@ package lahebo.web_pages;
 import Utils.LogUtils;
 import driver.DriverManager;
 import keywords.WebUI;
-import lahebo.objectRepo.DepartmentPageOR;
+import lahebo.objectRepo.LocationPageOR;
 import lahebo.objectRepo.LocationPageOR;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,43 +22,42 @@ public class LocationsPage {
         WebUI.setText(LocationPageOR.locationNameIF, locationName);
         WebUI.setText(LocationPageOR.locationAddressIF, locationAddress);
         WebUI.setText(LocationPageOR.locationPhoneNumberIF, phoneNumberForLocation);
-        WebUI.clickElement(LocationPageOR.keyContactmanagerList);
-        WebUI.waitForElementVisible(LocationPageOR.keyContactmanagerListElements,20);
-        boolean managerSelection = WebUI.selectOptionDynamic(LocationPageOR.keyContactmanagerListElements, keyContactManager);
+        WebUI.clickElement(LocationPageOR.keyContactManagerList);
+        WebUI.waitForElementVisible(LocationPageOR.keyContactManagerListElements,20);
+        boolean managerSelection = WebUI.selectOptionDynamic(LocationPageOR.keyContactManagerListElements, keyContactManager);
         Assert.assertTrue(managerSelection, "Key contact Manager is not selected");
         WebUI.clickElement(LocationPageOR.addButton);
         WebUI.waitForElementVisible(LocationPageOR.allLocations,20);
     }
-//
-//    public void deleteDepartment(String dptName) throws InterruptedException {
-//        Assert.assertTrue(verifyDepartment(dptName),"Department Not Exist" );
-//        int index=getIndexOfDepartment(dptName);
-//        String departmentOptionPath=DepartmentPageOR.departmentCard+index+DepartmentPageOR.departmentOptionBtn;
-//        String deleteBtnPath=DepartmentPageOR.departmentCard+index+DepartmentPageOR.deleteDepartment;
-//        WebUI.waitForPageLoaded();
-//        WebUI.clickElement(WebUI.getByObjStringPath(departmentOptionPath));
-//        WebUI.clickElement(WebUI.getByObjStringPath(deleteBtnPath));
-//        WebUI.clickElement(DepartmentPageOR.confirmDeleteBtn);
-//        WebUI.waitForElementVisible(DepartmentPageOR.allDepartments,20);
-//    }
-//
-//    public void editDepartment(String dptEditName, String mngrName, String existingDptName) {
-//        departmentNameEdit = dptEditName;
-//        Assert.assertTrue(verifyDepartment(existingDptName),"Department Not Exist" );
-//        int index=getIndexOfDepartment(existingDptName);
-//        String departmentOptionPath=DepartmentPageOR.departmentCard+index+DepartmentPageOR.departmentOptionBtn;
-//        String editBtnPath=DepartmentPageOR.departmentCard+index+DepartmentPageOR.editDepartment;
-//        WebUI.clickElement(WebUI.getByObjStringPath(departmentOptionPath));
-//        WebUI.clickElement(WebUI.getByObjStringPath(editBtnPath));
-//        WebUI.clearText(DepartmentPageOR.departmentNameIF);
-//        WebUI.setText(DepartmentPageOR.departmentNameIF, departmentNameEdit);
-//        WebUI.clickElement(DepartmentPageOR.managerList);
-//        WebUI.waitForElementVisible(DepartmentPageOR.managerListElements,20);
-//        boolean managerSelection = WebUI.selectOptionDynamic(DepartmentPageOR.managerListElements, mngrName);
-//        Assert.assertTrue(managerSelection, "Manager is not selected");
-//        WebUI.clickElement(DepartmentPageOR.addButton);
-//
-//    }
+
+    public void deleteLocation(String locationName) throws InterruptedException {
+        Assert.assertTrue(verifyLocation(locationName),"Department Not Exist" );
+        int index=getIndexOfLocation(locationName);
+        String locationOptionPath=LocationPageOR.LocationCard+index+LocationPageOR.LocationOptionBtn;
+        String deleteBtnPath=LocationPageOR.LocationCard+index+LocationPageOR.deleteLocation;
+        WebUI.waitForPageLoaded();
+        WebUI.clickElement(WebUI.getByObjStringPath(locationOptionPath));
+        WebUI.clickElement(WebUI.getByObjStringPath(deleteBtnPath));
+        WebUI.clickElement(LocationPageOR.confirmDeleteBtn);
+        WebUI.waitForElementVisible(LocationPageOR.allLocations,20);
+    }
+
+    public void editLocation(String LocationEditName, String keyContactManager, String existingLocationName) {
+        Assert.assertTrue(verifyLocation(existingLocationName),"Department Not Exist" );
+        int index=getIndexOfLocation(existingLocationName);
+        String locationOptionPath=LocationPageOR.LocationCard+index+LocationPageOR.LocationOptionBtn;
+        String editBtnPath=LocationPageOR.LocationCard+index+LocationPageOR.editLocation;
+        WebUI.clickElement(WebUI.getByObjStringPath(locationOptionPath));
+        WebUI.clickElement(WebUI.getByObjStringPath(editBtnPath));
+        WebUI.clearText(LocationPageOR.locationNameIF);
+        WebUI.setText(LocationPageOR.locationNameIF, LocationEditName);
+        WebUI.clickElement(LocationPageOR.keyContactManagerList);
+        WebUI.waitForElementVisible(LocationPageOR.keyContactManagerListElements,20);
+        boolean managerSelection = WebUI.selectOptionDynamic(LocationPageOR.keyContactManagerListElements, keyContactManager);
+        Assert.assertTrue(managerSelection, "Manager is not selected");
+        WebUI.clickElement(LocationPageOR.addButton);
+
+    }
 //
     public boolean verifyLocation(String locationName) {
         LogUtils.info("verification of Location "+locationName+ "has been started");
@@ -75,7 +74,7 @@ public class LocationsPage {
         LogUtils.info("Location "+locationName+ " Not exist");
         return false;
     }
-    public int getIndexOfDepartment(String locationName) {
+    public int getIndexOfLocation(String locationName) {
         LogUtils.info("Location Index is being searched");
         int index = 0;
         List<WebElement> elements = DriverManager.getDriver().findElements(LocationPageOR.allLocations);

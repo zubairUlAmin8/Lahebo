@@ -67,7 +67,6 @@ public class BaseTest {
     public void closeDriver() {
         DriverManager.quit();
     }
-
     public WebDriver createBrowser(@Optional("chrome") String browser) {
         PropertiesHelpers.loadAllFiles();
          driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
