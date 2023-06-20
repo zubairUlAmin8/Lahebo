@@ -31,7 +31,7 @@ public class verifyLocationST extends BaseTest {
         Assert.assertTrue(locationsPage.verifyLocation(locationName),"Location "+locationName+" Not Added" );
 
     }
-    @Test(priority = 1, enabled = false)
+    @Test(priority = 1, enabled = true)
     public void verifyEditLocation() throws IOException, InterruptedException {
         EditLocationName = PropertiesHelpers.getValue("EDIT_LOCATION_NAME", "dataset");
         keyContact = "Sarah Johnson";
@@ -42,9 +42,9 @@ public class verifyLocationST extends BaseTest {
     }
     @Test(priority = 2, enabled = true)
     public void verifyDeleteLocation() throws IOException, InterruptedException {
-        locationsPage.deleteLocation(locationName);
+        locationsPage.deleteLocation(EditLocationName);
         landingPage.waitForPageLoading();
-        Assert.assertFalse(locationsPage.verifyLocation(locationName),"Location Not Deleted" );
+        Assert.assertFalse(locationsPage.verifyLocation(EditLocationName),"Location Not Deleted" );
     }
 
 }

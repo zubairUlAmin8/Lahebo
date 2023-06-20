@@ -54,6 +54,10 @@ public class LandingPage {
         WebUI.clickElement(LandingPageOR.organizationSettingTabList);
         WebUI.clickElement(LandingPageOR.departmentsST,10);
     }
+    public void goToJobFunctionsST() throws InterruptedException {
+        WebUI.clickElement(LandingPageOR.organizationSettingTabList);
+        WebUI.clickElement(LandingPageOR.jobFunctionST,10);
+    }
     public void goToLocationST() throws InterruptedException {
         WebUI.clickElement(LandingPageOR.organizationSettingTabList);
         WebUI.clickElement(LandingPageOR.locationST,10);

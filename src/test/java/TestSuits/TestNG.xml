@@ -5,7 +5,7 @@
         <listener class-name="listeners.ListenerTest"/>
         <listener class-name="listeners.AnnotationTransformer"/>
     </listeners>
-    <test name="Login Admin with Different scenerio" parallel="classes">
+    <test name="Login Admin with Different scenerio" >
         <classes>
 <!--            <class name="webTestCase.verifyUserSignUp"/>-->
 <!--            <class name="webTestCase.verifyUserSignIn"/>-->

@@ -24,6 +24,7 @@ public class BaseTest {
     CardPaymentPage cardPaymentPage;
     DepartmentsPage departmentsPage;
     LocationsPage locationsPage;
+    JobFunctionsPage jobFunctionsPage;
 
     WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
@@ -45,6 +46,7 @@ public class BaseTest {
         congratulation = new Congratulation(driver);
         departmentsPage = new DepartmentsPage(driver);
         locationsPage = new LocationsPage(driver);
+        jobFunctionsPage = new JobFunctionsPage(driver);
     }
     @Parameters("BROWSER")
     @BeforeClass
@@ -65,7 +67,7 @@ public class BaseTest {
 
     @AfterClass(alwaysRun = true)
     public void closeDriver() {
-        DriverManager.quit();
+//        DriverManager.quit();
     }
     public WebDriver createBrowser(@Optional("chrome") String browser) {
         PropertiesHelpers.loadAllFiles();

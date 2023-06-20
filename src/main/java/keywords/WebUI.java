@@ -761,6 +761,36 @@ public class WebUI {
         return false;
 
     }
+    public static boolean selectMultpleCheckBoxDynamic(By objectListItem,By objectCheckBox, String text) {
+        smartWait();
+        // For dynamic dropdowns (div, li, span, etc., not select options)
+
+        try {
+            List<WebElement> elements = getWebElements(objectListItem);
+            LogUtils.info("size of list: "+elements.size());
+            WebElement ele = elements.get(0);
+
+            if (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
+                Thread.sleep(5000);
+                elements = getWebElements(objectListItem);
+            }
+
+            for (WebElement element : elements) {
+                LogUtils.info(element.getText());
+                if (element.getText().equalsIgnoreCase(text)) {
+                    clickElement(objectCheckBox);
+                    element.click();
+                    return true;
+                }
+
+            }
+        } catch (Exception e) {
+            LogUtils.info(e.getMessage());
+            e.getMessage();
+        }
+        return false;
+
+    }
 
 
     public static boolean verifyOptionDynamicExist(By objectListItem, String text) {
