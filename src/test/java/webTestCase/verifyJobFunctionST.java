@@ -30,7 +30,7 @@ public class verifyJobFunctionST extends BaseTest {
         EditJobFunctionName = PropertiesHelpers.getValue("EDIT_JOB_FUNCTION_NAME", "dataset");
         jobFunctionsPage.editJobFunction(EditJobFunctionName,department , jobFunctionName);
         landingPage.waitForPageLoading();
-        Assert.assertTrue(jobFunctionsPage.verifyJobFunction(EditJobFunctionName),"Department Not Edited" );
+        Assert.assertTrue(jobFunctionsPage.verifyJobFunction(EditJobFunctionName),"Job Function Not Edited" );
 
     }
 

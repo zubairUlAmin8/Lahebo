@@ -49,7 +49,7 @@ public class JobFunctionsPage {
         WebUI.clickElement(WebUI.getByObjStringPath(jobFunctionOptionPath));
         WebUI.clickElement(WebUI.getByObjStringPath(editBtnPath));
         WebUI.clearText(JobFunctionPageOR.jobFunctionNameIF);
-//        WebUI.setText(JobFunctionPageOR.departmentNameIF, departmentNameEdit);
+        WebUI.setText(JobFunctionPageOR.jobFunctionNameIF, EditJobFunctionName);
 //        WebUI.clickElement(JobFunctionPageOR.managerList);
 //        WebUI.waitForElementVisible(JobFunctionPageOR.managerListElements,20);
 //        boolean managerSelection = WebUI.selectOptionDynamic(JobFunctionPageOR.managerListElements, mngrName);
