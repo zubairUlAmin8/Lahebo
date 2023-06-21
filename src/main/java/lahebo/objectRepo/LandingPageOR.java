@@ -21,5 +21,6 @@ public interface LandingPageOR {
       By riskMatrixST = By.cssSelector("#reportsView");
       By dashboardTab=By.cssSelector("input[type=\"text\"]");
       By popUpAlert=By.cssSelector("div[role=\"alert\"]");
+      By organizationSettingArrow=By.cssSelector("#organizationSettings>svg:last-of-type");
 
 }

@@ -26,7 +26,7 @@ public class BaseTest {
     LocationsPage locationsPage;
     JobFunctionsPage jobFunctionsPage;
 
-    WebDriver driver;
+    public static WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
 
 
@@ -49,25 +49,28 @@ public class BaseTest {
         jobFunctionsPage = new JobFunctionsPage(driver);
     }
     @Parameters("BROWSER")
-    @BeforeClass
+    @BeforeSuite
     public  void beforeSuite(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
         driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(driver);
         driver.manage().window().maximize();
         LogUtils.info("Driver is Just Initialized");
-        initObject();
+
 
     }
     @Parameters("BROWSER")
-    @BeforeMethod(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     public void createDriver(@Optional("chrome") String browser) {
+        LogUtils.error("driver value: "+driver);
+        initObject();
+
 //        BasePage.setBrowser(driver);
     }
 
     @AfterClass(alwaysRun = true)
     public void closeDriver() {
-        DriverManager.quit();
+//        DriverManager.quit();
     }
     public WebDriver createBrowser(@Optional("chrome") String browser) {
         PropertiesHelpers.loadAllFiles();

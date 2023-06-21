@@ -18,7 +18,8 @@ public class verifyLocationST extends BaseTest {
     //Open Browser and Hit the Base URL
     @Test(priority = 0)
     public void AddNewLocation() throws IOException, InterruptedException {
-        signInPage.signInUser();
+//        signInPage.signInUser();
+        landingPage.waitForPageLoading();
         landingPage.goToLocationST();
         landingPage.waitForPageLoading();
         locationName = PropertiesHelpers.getValue("LOCATION_NAME", "dataset");

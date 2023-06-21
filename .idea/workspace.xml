@@ -8,8 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/applog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LandingPageOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LandingPageOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyDepartmentST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyDepartmentST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyJobFunctionST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyJobFunctionST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyLocationST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyLocationST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +97,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="verifyDepartmentST.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lahebo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTestCase" />
+      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyDepartmentST" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="verifyJobFunctionST" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <extension name="coverage">
@@ -146,30 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verifyLocationST" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lahebo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyLocationST" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
+        <item itemvalue="TestNG.verifyDepartmentST.test" />
         <item itemvalue="TestNG.verifyJobFunctionST" />
         <item itemvalue="TestNG.verifyJobFunctionST.AddNewJobFunction" />
         <item itemvalue="TestNG.verifyJobFunctionST.AddNewDepartment" />
-        <item itemvalue="TestNG.verifyLocationST" />
       </list>
     </recent_temporary>
   </component>

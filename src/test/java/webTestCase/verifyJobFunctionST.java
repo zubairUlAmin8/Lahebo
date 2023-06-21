@@ -15,7 +15,8 @@ public class verifyJobFunctionST extends BaseTest {
     //Open Browser and Hit the Base URL
     @Test(priority = 0)
     public void AddNewJobFunction() throws IOException, InterruptedException {
-        signInPage.signInUser();
+//        signInPage.signInUser();
+        landingPage.waitForPageLoading();
         landingPage.goToJobFunctionsST();
         landingPage.waitForPageLoading();
          jobFunctionName = PropertiesHelpers.getValue("JOB_FUNCTION_NAME", "dataset");
