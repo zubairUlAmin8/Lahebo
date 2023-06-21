@@ -13,6 +13,7 @@
 <!--            <class name="webTestCase.verifyForgetPassword"/>-->
             <class name="webTestCase.verifyDepartmentST"/>
             <class name="webTestCase.verifyLocationST"/>
+            <class name="webTestCase.verifyJobFunctionST"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

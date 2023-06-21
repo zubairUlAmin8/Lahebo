@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/applog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/JobFunctionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/JobFunctionsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyJobFunctionST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyJobFunctionST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <recent name="messages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.verifyJobFunctionST">
+  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml">
     <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
       <output_file path="$PROJECT_DIR$/ExportData/logs" is_save="true" />
       <log_file alias="D:\Zapta\Automation\Lahebo\ExportData\logs" path="$PROJECT_DIR$/ExportData/logs" />
@@ -163,10 +165,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
         <item itemvalue="TestNG.verifyJobFunctionST" />
         <item itemvalue="TestNG.verifyJobFunctionST.AddNewJobFunction" />
         <item itemvalue="TestNG.verifyJobFunctionST.AddNewDepartment" />
-        <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
         <item itemvalue="TestNG.verifyLocationST" />
       </list>
     </recent_temporary>
