@@ -20,45 +20,44 @@ public class JobFunctionsPage {
         
         WebUI.clickElement(JobFunctionPageOR.addJobFunctionBtn);
         WebUI.setText(JobFunctionPageOR.jobFunctionNameIF, jobFunctionName);
-        WebUI.clickElement(JobFunctionPageOR.departmentList);
-        WebUI.waitForElementVisible(JobFunctionPageOR.departmentListElements,20);
-        boolean managerSelection = WebUI.selectMultpleCheckBoxDynamic(JobFunctionPageOR.departmentListElements,JobFunctionPageOR.departmentListElementsCheckBox, departmentName);
+        WebUI.clickElement(JobFunctionPageOR.jobFunctionList);
+        WebUI.waitForElementVisible(JobFunctionPageOR.jobFunctionListElements,20);
+        boolean managerSelection = WebUI.selectMultpleCheckBoxDynamic(JobFunctionPageOR.jobFunctionListElements,JobFunctionPageOR.jobFunctionListElementsCheckBox, departmentName);
         Assert.assertTrue(managerSelection, "Manager is not selected");
-        WebUI.clickElement(JobFunctionPageOR.departmentList);
+        WebUI.clickElement(JobFunctionPageOR.jobFunctionList);
         WebUI.clickElement(JobFunctionPageOR.addButton);
         WebUI.waitForElementVisible(JobFunctionPageOR.allJobFunctions,20);
     }
 
-//    public void deleteDepartment(String dptName) throws InterruptedException {
-//        Assert.assertTrue(verifyDepartment(dptName),"Department Not Exist" );
-//        int index=getIndexOfDepartment(dptName);
-//        String departmentOptionPath=JobFunctionPageOR.departmentCard+index+JobFunctionPageOR.departmentOptionBtn;
-//        String deleteBtnPath=JobFunctionPageOR.departmentCard+index+JobFunctionPageOR.deleteDepartment;
-//        WebUI.waitForPageLoaded();
-//        WebUI.clickElement(WebUI.getByObjStringPath(departmentOptionPath));
-//        WebUI.clickElement(WebUI.getByObjStringPath(deleteBtnPath));
-//        WebUI.clickElement(JobFunctionPageOR.confirmDeleteBtn);
-//        WebUI.waitForElementVisible(JobFunctionPageOR.allDepartments,20);
-//    }
-//
-//    public void editDepartment(String dptEditName, String mngrName, String existingDptName) {
-//        departmentNameEdit = dptEditName;
-//        Assert.assertTrue(verifyDepartment(existingDptName),existingDptName+": Department Not Exist" );
-//        int index=getIndexOfDepartment(existingDptName);
-//        String departmentOptionPath=JobFunctionPageOR.departmentCard+index+JobFunctionPageOR.departmentOptionBtn;
-//        String editBtnPath=JobFunctionPageOR.departmentCard+index+JobFunctionPageOR.editDepartment;
-//        WebUI.clickElement(WebUI.getByObjStringPath(departmentOptionPath));
-//        WebUI.clickElement(WebUI.getByObjStringPath(editBtnPath));
-//        WebUI.clearText(JobFunctionPageOR.departmentNameIF);
+    public void deleteJobFunction(String jobFunctionName) throws InterruptedException {
+        Assert.assertTrue(verifyJobFunction(jobFunctionName),"Department Not Exist" );
+        int index=getIndexOfJobFunction(jobFunctionName);
+        String jobFunctionOptionPath=JobFunctionPageOR.jobFunctionCard+index+JobFunctionPageOR.jobFunctionOptionBtn;
+        String deleteBtnPath=JobFunctionPageOR.jobFunctionCard+index+JobFunctionPageOR.deletejobFunction;
+        WebUI.waitForPageLoaded();
+        WebUI.clickElement(WebUI.getByObjStringPath(jobFunctionOptionPath));
+        WebUI.clickElement(WebUI.getByObjStringPath(deleteBtnPath));
+        WebUI.clickElement(JobFunctionPageOR.confirmDeleteBtn);
+        WebUI.waitForElementVisible(JobFunctionPageOR.allJobFunctions,20);
+    }
+
+    public void editJobFunction(String EditJobFunctionName, String department, String existingJobFunction) {
+        Assert.assertTrue(verifyJobFunction(existingJobFunction),existingJobFunction+": Job Function Not Exist" );
+        int index=getIndexOfJobFunction(existingJobFunction);
+        String jobFunctionOptionPath=JobFunctionPageOR.jobFunctionCard+index+JobFunctionPageOR.jobFunctionOptionBtn;
+        String editBtnPath=JobFunctionPageOR.jobFunctionCard+index+JobFunctionPageOR.editjobFunction;
+        WebUI.clickElement(WebUI.getByObjStringPath(jobFunctionOptionPath));
+        WebUI.clickElement(WebUI.getByObjStringPath(editBtnPath));
+        WebUI.clearText(JobFunctionPageOR.jobFunctionNameIF);
 //        WebUI.setText(JobFunctionPageOR.departmentNameIF, departmentNameEdit);
 //        WebUI.clickElement(JobFunctionPageOR.managerList);
 //        WebUI.waitForElementVisible(JobFunctionPageOR.managerListElements,20);
 //        boolean managerSelection = WebUI.selectOptionDynamic(JobFunctionPageOR.managerListElements, mngrName);
 //        Assert.assertTrue(managerSelection, "Manager is not selected");
-//        WebUI.clickElement(JobFunctionPageOR.addButton);
-//
-//    }
-//
+        WebUI.clickElement(JobFunctionPageOR.addButton);
+
+    }
+
     public boolean verifyJobFunction(String jobFunctionName) {
         LogUtils.info("verification of Job Function "+jobFunctionName+ "has been started");
         List<WebElement> elements = DriverManager.getDriver().findElements(JobFunctionPageOR.allJobFunctions);
@@ -74,19 +73,19 @@ public class JobFunctionsPage {
         LogUtils.info("Job Functions "+jobFunctionName+ " Not exist");
         return false;
     }
-//    public int getIndexOfDepartment(String departmentName) {
-//        LogUtils.info("Department Index is being searched");
-//        int index = 0;
-//        List<WebElement> elements = DriverManager.getDriver().findElements(JobFunctionPageOR.allDepartments);
-//        for (WebElement ele : elements) {
-//            if (ele.getText().equals(departmentName)) {
-//                break;
-//            }
-//            ++index;
-//        }
-//
-//        LogUtils.info("Department Index is: "+index);
-//        return index;
-//    }
+    public int getIndexOfJobFunction(String jobFunctionName) {
+        LogUtils.info("Department Index is being searched");
+        int index = 0;
+        List<WebElement> elements = DriverManager.getDriver().findElements(JobFunctionPageOR.allJobFunctions);
+        for (WebElement ele : elements) {
+            if (ele.getText().equals(jobFunctionName)) {
+                break;
+            }
+            ++index;
+        }
+
+        LogUtils.info("Department Index is: "+index);
+        return index;
+    }
 
 }

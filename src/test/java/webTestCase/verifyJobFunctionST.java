@@ -10,7 +10,7 @@ public class verifyJobFunctionST extends BaseTest {
 
     String jobFunctionName;
     String department;
-    String EditDepartmentName;
+    String EditJobFunctionName;
 
     //Open Browser and Hit the Base URL
     @Test(priority = 0)
@@ -23,23 +23,22 @@ public class verifyJobFunctionST extends BaseTest {
         jobFunctionsPage.addNewJobFunction(jobFunctionName,department);
         landingPage.waitForPageLoading();
         Assert.assertTrue(jobFunctionsPage.verifyJobFunction(jobFunctionName),"Department Not Added" );
-//
+
     }
-//    @Test(priority = 1)
-//    public void verifyEditDepartment() throws IOException, InterruptedException {
-//         EditDepartmentName = PropertiesHelpers.getValue("EDIT_DEPARTMENT_NAME", "dataset");
-//         managerName = "Sarah Johnson";
-//        departmentsPage.editDepartment(EditDepartmentName,managerName,departmentName );
-//        landingPage.waitForPageLoading();
-//        Assert.assertTrue(departmentsPage.verifyDepartment(EditDepartmentName),"Department Not Edited" );
-//
-//    }
-//
-//    @Test(priority = 2)
-//    public void verifyDeleteDepartment() throws IOException, InterruptedException {
-//        departmentsPage.deleteDepartment(EditDepartmentName);
-//        landingPage.waitForPageLoading();
-//        Assert.assertFalse(departmentsPage.verifyDepartment(EditDepartmentName),"Department Not Deleted" );
-//    }
+    @Test(priority = 1)
+    public void editJobFunction() throws IOException, InterruptedException {
+        EditJobFunctionName = PropertiesHelpers.getValue("EDIT_JOB_FUNCTION_NAME", "dataset");
+        jobFunctionsPage.editJobFunction(EditJobFunctionName,department , jobFunctionName);
+        landingPage.waitForPageLoading();
+        Assert.assertTrue(jobFunctionsPage.verifyJobFunction(EditJobFunctionName),"Department Not Edited" );
+
+    }
+
+    @Test(priority = 2)
+    public void verifyDeleteJobFunction() throws IOException, InterruptedException {
+        jobFunctionsPage.deleteJobFunction(EditJobFunctionName);
+        landingPage.waitForPageLoading();
+        Assert.assertFalse(jobFunctionsPage.verifyJobFunction(EditJobFunctionName),"Department Not Deleted" );
+    }
 
 }
