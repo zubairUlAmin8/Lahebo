@@ -2902,3 +2902,614 @@ Driver info: jdk.proxy2.$Proxy15
 [INFO] 21-06-2023 19:28:36 [main] [LogUtils] - Job Functions Billing Not exist
 [INFO] 21-06-2023 19:28:36 [main] [LogUtils] - Test case:  is passed.
 [INFO] 21-06-2023 19:28:36 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 21-06-2023 19:31:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:31:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:31:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:31:30 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 21-06-2023 19:31:34 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (71fe5cc523c59de8a9c1c3ae4dc7d36e)
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:31:34 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:31:37 [main] [LogUtils] - Username and password are correct
+[INFO] 21-06-2023 19:31:46 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 21-06-2023 19:31:46 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:31:47 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:31:50 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:31:50 [main] [LogUtils] - String is my svg-inline--fa fa-angle-right
+[INFO] 21-06-2023 19:31:50 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 21-06-2023 19:31:50 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 21-06-2023 19:31:50 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 21-06-2023 19:31:50 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 21-06-2023 19:31:50 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:31:51 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:31:52 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:31:52 [main] [LogUtils] - Verify element visible By.cssSelector: #addDeptBtn
+[INFO] 21-06-2023 19:31:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #addDeptBtn
+[INFO] 21-06-2023 19:31:52 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:31:53 [main] [LogUtils] - Set text designing on By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:31:53 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:31:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:31:54 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 21-06-2023 19:31:54 [main] [LogUtils] - size of list: 1
+[INFO] 21-06-2023 19:31:54 [main] [LogUtils] - Sarah Johnson
+[INFO] 21-06-2023 19:31:54 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 21-06-2023 19:31:54 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 21-06-2023 19:31:54 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 21-06-2023 19:31:54 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:31:56 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - Department designinghas been verified
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 21-06-2023 19:31:57 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Department designinghas been verified
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Department Index is being searched
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Department Index is: 3
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-3>div>div>button
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-3>div>div>button
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-3>div>div>div>button:first-of-type
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-3>div>div>div>button:first-of-type
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Clear value in textbox By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:31:58 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:31:59 [main] [LogUtils] - Set text accounts on By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:31:59 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:31:59 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:32:00 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 21-06-2023 19:32:00 [main] [LogUtils] - size of list: 1
+[INFO] 21-06-2023 19:32:00 [main] [LogUtils] - Sarah Johnson
+[INFO] 21-06-2023 19:32:00 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 21-06-2023 19:32:00 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 21-06-2023 19:32:00 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:32:02 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Department Found:  accounts
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Department accountshas been verified
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Department Found:  accounts
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Department accountshas been verified
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Department Index is being searched
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Department Index is: 0
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-0>div>div>button
+[INFO] 21-06-2023 19:32:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-0>div>div>button
+[INFO] 21-06-2023 19:32:04 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-0>div>div>div>button:last-of-type
+[INFO] 21-06-2023 19:32:04 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-0>div>div>div>button:last-of-type
+[INFO] 21-06-2023 19:32:04 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 21-06-2023 19:32:04 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 21-06-2023 19:32:04 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 21-06-2023 19:32:04 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:32:05 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - Department Found:  desing
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - Department Found:  myschool
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - Department accounts Not exist
+[INFO] 21-06-2023 19:32:06 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 21-06-2023 19:32:07 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (null)
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Waiting for Loading
+[WARN] 21-06-2023 19:32:07 [main] [LogUtils] - Test case:  is skipped.
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Waiting for Loading
+[WARN] 21-06-2023 19:32:07 [main] [LogUtils] - Test case:  is skipped.
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Waiting for Loading
+[ERROR] 21-06-2023 19:32:07 [main] [LogUtils] - Test case:  is failed.
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (null)
+[ERROR] 21-06-2023 19:32:07 [main] [LogUtils] - FAILED !! Screenshot for test case: AddNewLocation
+[ERROR] 21-06-2023 19:32:07 [main] [LogUtils] - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=css selector, value=div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52032/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[ERROR] 21-06-2023 19:32:07 [main] [LogUtils] - Test case:  is failed.
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (null)
+[ERROR] 21-06-2023 19:32:07 [main] [LogUtils] - FAILED !! Screenshot for test case: AddNewLocation
+[ERROR] 21-06-2023 19:32:07 [main] [LogUtils] - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52032/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 21-06-2023 19:32:07 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 21-06-2023 19:34:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:34:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:34:10 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:34:11 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 21-06-2023 19:34:15 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (d7507e200fe2574748f2d2d85390d9f7)
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:34:15 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:34:19 [main] [LogUtils] - Username and password are correct
+[INFO] 21-06-2023 19:34:29 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 21-06-2023 19:34:29 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:34:30 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:34:33 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:34:33 [main] [LogUtils] - String is my svg-inline--fa fa-angle-right
+[INFO] 21-06-2023 19:34:33 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 21-06-2023 19:34:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 21-06-2023 19:34:33 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 21-06-2023 19:34:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 21-06-2023 19:34:33 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:34:34 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:34:35 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:34:35 [main] [LogUtils] - Verify element visible By.cssSelector: #addDeptBtn
+[INFO] 21-06-2023 19:34:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #addDeptBtn
+[INFO] 21-06-2023 19:34:36 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:34:36 [main] [LogUtils] - Set text designing on By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:34:36 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:34:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:34:37 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 21-06-2023 19:34:37 [main] [LogUtils] - size of list: 1
+[INFO] 21-06-2023 19:34:37 [main] [LogUtils] - Sarah Johnson
+[INFO] 21-06-2023 19:34:37 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 21-06-2023 19:34:37 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 21-06-2023 19:34:37 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 21-06-2023 19:34:37 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:34:39 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department designinghas been verified
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department designinghas been verified
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department Index is being searched
+[INFO] 21-06-2023 19:34:40 [main] [LogUtils] - Department Index is: 3
+[INFO] 21-06-2023 19:34:41 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-3>div>div>button
+[INFO] 21-06-2023 19:34:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-3>div>div>button
+[INFO] 21-06-2023 19:34:41 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-3>div>div>div>button:first-of-type
+[INFO] 21-06-2023 19:34:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-3>div>div>div>button:first-of-type
+[INFO] 21-06-2023 19:34:41 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:34:41 [main] [LogUtils] - Clear value in textbox By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:34:41 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:34:41 [main] [LogUtils] - Set text accounts on By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:34:42 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:34:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:34:42 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 21-06-2023 19:34:42 [main] [LogUtils] - size of list: 1
+[INFO] 21-06-2023 19:34:42 [main] [LogUtils] - Sarah Johnson
+[INFO] 21-06-2023 19:34:43 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 21-06-2023 19:34:43 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 21-06-2023 19:34:43 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:34:45 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - Department Found:  accounts
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - Department accountshas been verified
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - Department Found:  accounts
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - Department accountshas been verified
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - Department Index is being searched
+[INFO] 21-06-2023 19:34:46 [main] [LogUtils] - Department Index is: 0
+[INFO] 21-06-2023 19:34:47 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-0>div>div>button
+[INFO] 21-06-2023 19:34:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-0>div>div>button
+[INFO] 21-06-2023 19:34:47 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-0>div>div>div>button:last-of-type
+[INFO] 21-06-2023 19:34:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-0>div>div>div>button:last-of-type
+[INFO] 21-06-2023 19:34:47 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 21-06-2023 19:34:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 21-06-2023 19:34:47 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 21-06-2023 19:34:47 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:34:48 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - Department Found:  desing
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - Department Found:  myschool
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - Department accounts Not exist
+[INFO] 21-06-2023 19:34:49 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 21-06-2023 19:34:50 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (null)
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Waiting for Loading
+[WARN] 21-06-2023 19:34:50 [main] [LogUtils] - Test case:  is skipped.
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Waiting for Loading
+[WARN] 21-06-2023 19:34:50 [main] [LogUtils] - Test case:  is skipped.
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Waiting for Loading
+[ERROR] 21-06-2023 19:34:50 [main] [LogUtils] - Test case:  is failed.
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (null)
+[ERROR] 21-06-2023 19:34:50 [main] [LogUtils] - FAILED !! Screenshot for test case: AddNewLocation
+[ERROR] 21-06-2023 19:34:50 [main] [LogUtils] - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=css selector, value=div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52070/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[ERROR] 21-06-2023 19:34:50 [main] [LogUtils] - Test case:  is failed.
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (null)
+[ERROR] 21-06-2023 19:34:50 [main] [LogUtils] - FAILED !! Screenshot for test case: AddNewLocation
+[ERROR] 21-06-2023 19:34:50 [main] [LogUtils] - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52070}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52070/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+[INFO] 21-06-2023 19:34:50 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 21-06-2023 19:37:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:37:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:37:07 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:37:07 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 21-06-2023 19:37:11 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (093e02808c4ab52a30951ed72092c77d)
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:37:11 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:37:15 [main] [LogUtils] - Username and password are correct
+[INFO] 21-06-2023 19:37:24 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 21-06-2023 19:37:24 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:37:24 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:37:27 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:37:27 [main] [LogUtils] - String is my svg-inline--fa fa-angle-right
+[INFO] 21-06-2023 19:37:27 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 21-06-2023 19:37:27 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 21-06-2023 19:37:27 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 21-06-2023 19:37:27 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 21-06-2023 19:37:27 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:37:28 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:37:29 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:37:29 [main] [LogUtils] - Verify element visible By.cssSelector: #addDeptBtn
+[INFO] 21-06-2023 19:37:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #addDeptBtn
+[INFO] 21-06-2023 19:37:30 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:37:30 [main] [LogUtils] - Set text designing on By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:37:30 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:37:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:37:31 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 21-06-2023 19:37:31 [main] [LogUtils] - size of list: 1
+[INFO] 21-06-2023 19:37:36 [main] [LogUtils] - Sarah Johnson
+[INFO] 21-06-2023 19:37:36 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 21-06-2023 19:37:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 21-06-2023 19:37:36 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 21-06-2023 19:37:36 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:37:38 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department designinghas been verified
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department designinghas been verified
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department Index is being searched
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Department Index is: 3
+[INFO] 21-06-2023 19:37:39 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-3>div>div>button
+[INFO] 21-06-2023 19:37:40 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-3>div>div>button
+[INFO] 21-06-2023 19:37:40 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-3>div>div>div>button:first-of-type
+[INFO] 21-06-2023 19:37:40 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-3>div>div>div>button:first-of-type
+[INFO] 21-06-2023 19:37:40 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:37:40 [main] [LogUtils] - Clear value in textbox By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:37:40 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:37:40 [main] [LogUtils] - Set text accounts on By.cssSelector: #deptNameField
+[INFO] 21-06-2023 19:37:40 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:37:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 21-06-2023 19:37:41 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 21-06-2023 19:37:41 [main] [LogUtils] - size of list: 1
+[INFO] 21-06-2023 19:37:41 [main] [LogUtils] - Sarah Johnson
+[INFO] 21-06-2023 19:37:41 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 21-06-2023 19:37:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 21-06-2023 19:37:42 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:37:43 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Department Found:  accounts
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Department accountshas been verified
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Department Found:  accounts
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Department accountshas been verified
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Department Index is being searched
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Department Index is: 0
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-0>div>div>button
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-0>div>div>button
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-0>div>div>div>button:last-of-type
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-0>div>div>div>button:last-of-type
+[INFO] 21-06-2023 19:37:45 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 21-06-2023 19:37:46 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 21-06-2023 19:37:46 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 21-06-2023 19:37:46 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:37:47 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:37:47 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:37:47 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 21-06-2023 19:37:47 [main] [LogUtils] - Department Found:  adadfadfa
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Department Found:  adjklasdjjs
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Department Found:  aljklasdjo
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Department Found:  designing
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Department Found:  desing
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Department Found:  myschool
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Department accounts Not exist
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 21-06-2023 19:37:48 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (093e02808c4ab52a30951ed72092c77d)
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:37:48 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:37:53 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 21-06-2023 19:37:53 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:37:53 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:37:53 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 21-06-2023 19:37:53 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 21-06-2023 19:37:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 21-06-2023 19:37:53 [main] [LogUtils] - came Location
+[INFO] 21-06-2023 19:37:53 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:37:54 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:37:55 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:37:55 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 715 690
+[INFO] 21-06-2023 19:37:55 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 21-06-2023 19:37:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 21-06-2023 19:37:56 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 21-06-2023 19:37:56 [main] [LogUtils] - Set text Lahore on By.cssSelector: #locNameField
+[INFO] 21-06-2023 19:37:56 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 21-06-2023 19:37:56 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 21-06-2023 19:37:56 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 21-06-2023 19:37:57 [main] [LogUtils] - Set text +61201 715 690 on By.cssSelector: #locNumberField>input
+[INFO] 21-06-2023 19:37:57 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 21-06-2023 19:37:57 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 21-06-2023 19:37:57 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 21-06-2023 19:37:58 [main] [LogUtils] - size of list: 1
+[INFO] 21-06-2023 19:37:58 [main] [LogUtils] - Sarah Johnson
+[INFO] 21-06-2023 19:37:58 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 21-06-2023 19:37:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 21-06-2023 19:37:58 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 21-06-2023 19:37:58 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:38:00 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:38:00 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:38:00 [main] [LogUtils] - verification of Location Lahorehas been started
+[INFO] 21-06-2023 19:38:00 [main] [LogUtils] - Location Found:  desing
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Found:  desingada
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Found:  desingadaf
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Found:  Lahore
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Lahorehas been verified
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - verification of Location Lahorehas been started
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Found:  desing
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Found:  desingada
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Found:  desingadaf
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Found:  Lahore
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Lahorehas been verified
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Index is being searched
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Location Index is: 3
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Verify element visible By.cssSelector: #locCard-3>div>div>button
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #locCard-3>div>div>button
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Verify element visible By.cssSelector: #locCard-3>div>div>div>button:nth-of-type(2)
+[INFO] 21-06-2023 19:38:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #locCard-3>div>div>div>button:nth-of-type(2)
+[INFO] 21-06-2023 19:38:02 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 21-06-2023 19:38:02 [main] [LogUtils] - Clear value in textbox By.cssSelector: #locNameField
+[INFO] 21-06-2023 19:38:02 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 21-06-2023 19:38:02 [main] [LogUtils] - Set text Karachi on By.cssSelector: #locNameField
+[INFO] 21-06-2023 19:38:02 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 21-06-2023 19:38:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 21-06-2023 19:38:03 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 21-06-2023 19:38:03 [main] [LogUtils] - size of list: 1
+[INFO] 21-06-2023 19:38:03 [main] [LogUtils] - Sarah Johnson
+[INFO] 21-06-2023 19:38:03 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 21-06-2023 19:38:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 21-06-2023 19:38:03 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:38:05 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - verification of Location Karachihas been started
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Found:  desing
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Found:  desingada
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Found:  desingadaf
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Found:  Karachi
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Karachihas been verified
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - verification of Location Karachihas been started
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Found:  desing
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Found:  desingada
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Found:  desingadaf
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Found:  Karachi
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Karachihas been verified
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Index is being searched
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Location Index is: 3
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Verify element visible By.cssSelector: #locCard-3>div>div>button
+[INFO] 21-06-2023 19:38:07 [main] [LogUtils] - Clicked on the element By.cssSelector: #locCard-3>div>div>button
+[INFO] 21-06-2023 19:38:08 [main] [LogUtils] - Verify element visible By.cssSelector: #locCard-3>div>div>div>button:last-of-type
+[INFO] 21-06-2023 19:38:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #locCard-3>div>div>div>button:last-of-type
+[INFO] 21-06-2023 19:38:08 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 21-06-2023 19:38:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 21-06-2023 19:38:08 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 21-06-2023 19:38:08 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - verification of Location Karachihas been started
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Location Found:  desing
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Location Found:  desingada
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Location Found:  desingadaf
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Location Karachi Not exist
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 21-06-2023 19:38:13 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (093e02808c4ab52a30951ed72092c77d)
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:38:13 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:38:19 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 21-06-2023 19:38:19 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:38:19 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:38:19 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 21-06-2023 19:38:19 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionItem
+[INFO] 21-06-2023 19:38:19 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunctionItem
+[INFO] 21-06-2023 19:38:19 [main] [LogUtils] - came Location
+[INFO] 21-06-2023 19:38:19 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:38:19 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:38:21 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:38:21 [main] [LogUtils] - Verify element visible By.cssSelector: #addJobFuncBtn
+[INFO] 21-06-2023 19:38:21 [main] [LogUtils] - Clicked on the element By.cssSelector: #addJobFuncBtn
+[INFO] 21-06-2023 19:38:21 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncNameField
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - Set text hiring on By.cssSelector: #jobFuncNameField
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField>div>div>div
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - size of list: 7
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - adadfadfa
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - adjklasdjjs
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - aljklasdjo
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - designing
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - designing
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - desing
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - myschool
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField>div>div:nth-of-type(2)>input
+[INFO] 21-06-2023 19:38:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField>div>div:nth-of-type(2)>input
+[INFO] 21-06-2023 19:38:23 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField
+[INFO] 21-06-2023 19:38:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField
+[INFO] 21-06-2023 19:38:23 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 21-06-2023 19:38:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 21-06-2023 19:38:23 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="jobFuncName-"]
+[INFO] 21-06-2023 19:38:23 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:38:24 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - verification of Job Function hiringhas been started
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Job Function Found:  hiringkjsdkfj
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Job Function Found:  hiringadafklsdj
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Job Function Found:  hiring
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Job Function hiringhas been verified
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - verification of Job Function hiringhas been started
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Job Function Found:  hiringkjsdkfj
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Job Function Found:  hiringadafklsdj
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Job Function Found:  hiring
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Job Function hiringhas been verified
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Department Index is being searched
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Department Index is: 2
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunc-2>div>div>button
+[INFO] 21-06-2023 19:38:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunc-2>div>div>button
+[INFO] 21-06-2023 19:38:26 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunc-2>div>div>div>button:first-of-type
+[INFO] 21-06-2023 19:38:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunc-2>div>div>div>button:first-of-type
+[INFO] 21-06-2023 19:38:26 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncNameField
+[INFO] 21-06-2023 19:38:26 [main] [LogUtils] - Clear value in textbox By.cssSelector: #jobFuncNameField
+[INFO] 21-06-2023 19:38:26 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncNameField
+[INFO] 21-06-2023 19:38:26 [main] [LogUtils] - Set text Billing on By.cssSelector: #jobFuncNameField
+[INFO] 21-06-2023 19:38:26 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 21-06-2023 19:38:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 21-06-2023 19:38:26 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:38:28 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - verification of Job Function Billinghas been started
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Job Function Found:  hiringkjsdkfj
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Job Function Found:  hiringadafklsdj
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Job Function Found:  Billing
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Job Function Billinghas been verified
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Test case:  is starting...
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - verification of Job Function Billinghas been started
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Job Function Found:  hiringkjsdkfj
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Job Function Found:  hiringadafklsdj
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Job Function Found:  Billing
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Job Function Billinghas been verified
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Department Index is being searched
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Department Index is: 2
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunc-2>div>div>button
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunc-2>div>div>button
+[INFO] 21-06-2023 19:38:29 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunc-2>div>div>div>button:last-of-type
+[INFO] 21-06-2023 19:38:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunc-2>div>div>div>button:last-of-type
+[INFO] 21-06-2023 19:38:30 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 21-06-2023 19:38:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 21-06-2023 19:38:30 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="jobFuncName-"]
+[INFO] 21-06-2023 19:38:30 [main] [LogUtils] - Waiting for Loading
+[INFO] 21-06-2023 19:38:31 [main] [LogUtils] - Loading Started
+[INFO] 21-06-2023 19:38:32 [main] [LogUtils] - Loading finsihed
+[INFO] 21-06-2023 19:38:32 [main] [LogUtils] - verification of Job Function Billinghas been started
+[INFO] 21-06-2023 19:38:32 [main] [LogUtils] - Job Function Found:  hiringkjsdkfj
+[INFO] 21-06-2023 19:38:32 [main] [LogUtils] - Job Function Found:  hiringadafklsdj
+[INFO] 21-06-2023 19:38:32 [main] [LogUtils] - Job Functions Billing Not exist
+[INFO] 21-06-2023 19:38:32 [main] [LogUtils] - Test case:  is passed.
+[INFO] 21-06-2023 19:38:33 [main] [LogUtils] - End Suite: login Usging Data Driven Testing

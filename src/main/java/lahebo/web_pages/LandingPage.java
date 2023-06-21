@@ -52,10 +52,7 @@ public class LandingPage {
     }
 
     public void goToDepartmentST() throws InterruptedException {
-        WebElement element = driver.findElement(By.cssSelector("#organizationSettings>svg:last-of-type"));
-        String string = element.getAttribute("class");
-        LogUtils.info("String is my "+string);
-        if (string.contains("angle-down")) {
+        if (checkOrganizationSettingList()) {
             WebUI.clickElement(LandingPageOR.departmentsST,10);
 
         }
