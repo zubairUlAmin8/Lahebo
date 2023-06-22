@@ -26,16 +26,19 @@ public class verifyDepartmentST extends BaseTest {
         departmentName = PropertiesHelpers.getValue("DEPARTMENT_NAME", "dataset");
         managerName = "Sarah Johnson";
         int currentCount = testContext.getAllTestMethods()[0].getCurrentInvocationCount();
+        LogUtils.info("AddNewDepartment Invocation"+currentCount);
         if (currentCount > 1) {
             randomDepartmentName = fakerUtils.generateRandomDepartment();
             departmentsPage.addNewDepartment(randomDepartmentName, managerName);
             landingPage.waitForPageLoading();
             Assert.assertTrue(departmentsPage.verifyDepartment(randomDepartmentName), "Department Not Added");
+            LogUtils.info("Department "+randomDepartmentName+" is added");
 
         } else {
             departmentsPage.addNewDepartment(departmentName, managerName);
             landingPage.waitForPageLoading();
             Assert.assertTrue(departmentsPage.verifyDepartment(departmentName), "Department Not Added");
+            LogUtils.info("Department "+randomDepartmentName+" is added");
 
         }
     }

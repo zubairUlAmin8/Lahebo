@@ -26,6 +26,7 @@ public class waits {
         try {
             wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
             wait.until(ExpectedConditions.visibilityOf(element));
+            wait.until(ExpectedConditions.visibilityOf(element));
             wait.until(ExpectedConditions.elementToBeClickable(element));
         } catch (TimeoutException exception) {
             LogUtils.error(exception.getMessage());

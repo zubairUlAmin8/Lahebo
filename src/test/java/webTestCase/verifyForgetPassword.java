@@ -30,7 +30,8 @@ public class verifyForgetPassword extends BaseTest {
     }
     @Test(priority = 3)
     public void setUpNewPassword() throws MessagingException, IOException, InterruptedException {
-        Thread.sleep(5000);
+        LogUtils.info("Waiting for OTP....");
+        Thread.sleep(20000);
         String OTPCode = twoFactorAuthPage.getGmailInboxOTP();
         randomPassword = fakerUtils.generateRandomPassword();
         resetPasswordPage.fillResetPasswordForm(OTPCode,randomPassword);

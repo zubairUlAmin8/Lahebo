@@ -40,11 +40,11 @@ public class LandingPage {
         LogUtils.info("Loading Started");
         waits.waitForInvisibilityOfItem(driver, LandingPagePR.loaderMain, 30);
         LogUtils.info("Loading finsihed");
-
     }
 
     public void signOut() throws InterruptedException {
-        waits.waitForElements(driver,landingPageElements.profileIcon,5);
+//        waits.waitForElements(driver,landingPageElements.profileIcon,5);
+        WebUI.waitForElementPresent(LandingPageOR.profileIcon, 10);
         landingPageElements.profileIcon.click();
         waits.waitForElements(driver,landingPageElements.signOutBtn, 5);
         landingPageElements.signOutBtn.click();
