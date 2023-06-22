@@ -61,6 +61,7 @@ public class verifyUserSignUp extends BaseTest {
 
     @Test(priority = 7, enabled = true)
     public void verifyUserSignOut() throws InterruptedException {
+        landingPage.waitForPageLoading();
         landingPage.signOut();
         Assert.assertTrue(signInPage.verifyLoginPage(), "User could not sign OUt");
     }

@@ -54,5 +54,7 @@ public class verifyForgetPassword extends BaseTest {
         signInPage.signIn(username, password);
         boolean status=twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "no");
         Assert.assertTrue(status, "2FA Authentication Fails");
+        landingPage.signOut();
+
     }
 }

@@ -61,5 +61,9 @@ public class fakerUtils {
         }
         return password.toString();
     }
+    public static String generateRandomDepartment() {
+        Faker faker = new Faker();
+        return faker.job().field();
+    }
 }
 

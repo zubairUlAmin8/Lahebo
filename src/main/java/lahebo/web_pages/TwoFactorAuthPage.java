@@ -21,16 +21,19 @@ public class TwoFactorAuthPage extends BasePage{
     TwoFactorAuthElements twoFactorAuthElements;
     String secretKeyNewUser;
     WebDriver driver;
+    String secretKeyForTryAgain;
+    Two2FActorAuthentication two2FActorAuthentication;
     public TwoFactorAuthPage(WebDriver driver) {
         this.driver = driver;
         twoFactorAuthElements = new TwoFactorAuthElements(driver);
+        two2FActorAuthentication = new Two2FActorAuthentication();
 
 
     }
     public boolean authenticationWithSecretKey() throws InterruptedException {
         String secretKey = PropertiesHelpers.getValue("SECRET_KEY");
         waits.waitForElements(driver, twoFactorAuthElements.otpCode,  5000);
-        String code = Two2FActorAuthentication.getOptCode(secretKey);
+        String code = two2FActorAuthentication.getOptCode(secretKey);
         twoFactorAuthElements.otpCode.sendKeys(code);
         twoFactorAuthElements.submitBtn.click();
         if (code.length() < 6) {
@@ -49,8 +52,9 @@ public class TwoFactorAuthPage extends BasePage{
         }
     }
     public boolean authenticationWithSecretKey(String secretKey) throws InterruptedException {
+        secretKeyForTryAgain = secretKey;
         waits.waitForElements(driver, twoFactorAuthElements.otpCode,  500);
-        String code = Two2FActorAuthentication.getOptCode(secretKey);
+        String code = two2FActorAuthentication.getOptCode(secretKey);
         twoFactorAuthElements.otpCode.sendKeys(code);
         twoFactorAuthElements.submitBtn.click();
         if (code.length() < 6) {
@@ -69,7 +73,8 @@ public class TwoFactorAuthPage extends BasePage{
         }
     }
     public boolean authenticationWithSecretKeyWithScanCode(String secretKey, String withoutScanCode) throws InterruptedException {
-        String code=Two2FActorAuthentication.getOptCode(secretKey);
+        String code=two2FActorAuthentication.getOptCode(secretKey);
+        secretKeyForTryAgain = secretKey;
         if (withoutScanCode.equals("no")) {
             waits.waitForElements(driver, twoFactorAuthElements.otpCode,  5000);
             twoFactorAuthElements.otpCode.sendKeys(code);
@@ -117,6 +122,7 @@ public class TwoFactorAuthPage extends BasePage{
             waits.waitForVisibilityOfItem(driver, twoFactorAuthElements.errorPopUp, 5);
             if (twoFactorAuthElements.errorPopUp.isDisplayed()) {
                 String successMSg = twoFactorAuthElements.errorPopUp.getText();
+                LogUtils.info("Message from OTP api: "+successMSg);
                 System.out.println(successMSg);
                 if (successMSg.equals("Account confirmed successfully.")) {
                     LogUtils.info("Account confirmed successfully");
@@ -124,7 +130,18 @@ public class TwoFactorAuthPage extends BasePage{
                 }
                 else if (successMSg.equals("Account confirmed .") ){
                     return false;
+                } else if (successMSg.contains("already been used")) {
+                    LogUtils.info("code is already used so we are waiting for 30 second for new code");
+                    Thread.sleep(30000);
+                    LogUtils.info("wait is over so, again try");
+                    String code=two2FActorAuthentication.getOptCode(secretKeyForTryAgain);
+                    twoFactorAuthElements.otpCode.clear();
+                    waits.waitForElements(driver, twoFactorAuthElements.otpCode,  5000);
+                    twoFactorAuthElements.otpCode.sendKeys(code);
+                    twoFactorAuthElements.submitBtn.click();
+                    return false;
                 }
+
                 return true;
             }
 
@@ -133,6 +150,8 @@ public class TwoFactorAuthPage extends BasePage{
             return false;
         } catch (NoSuchElementException exception) {
             return false;
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
 
         return false;

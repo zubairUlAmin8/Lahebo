@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e85c561-d84a-497b-b950-cd41d5da08ad" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/DepartmentModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/applog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Two2FActorAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/Two2FActorAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/fakerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/fakerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataprovider/DataProviderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyDepartmentST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyDepartmentST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyForgetPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyForgetPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/ClientsDataExcel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/ClientsDataExcel.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +118,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="verifyForgetPassword.testRecursive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lahebo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTestCase" />
+      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyForgetPassword" />
+      <option name="METHOD_NAME" value="testRecursive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="verifyJobFunctionST" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <extension name="coverage">
@@ -125,24 +147,6 @@
       <option name="PACKAGE_NAME" value="webTestCase" />
       <option name="MAIN_CLASS_NAME" value="webTestCase.verifyJobFunctionST" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="verifyJobFunctionST.AddNewDepartment" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lahebo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyJobFunctionST" />
-      <option name="METHOD_NAME" value="AddNewDepartment" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -170,10 +174,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
+        <item itemvalue="TestNG.verifyForgetPassword.testRecursive" />
         <item itemvalue="TestNG.verifyDepartmentST.test" />
         <item itemvalue="TestNG.verifyJobFunctionST" />
         <item itemvalue="TestNG.verifyJobFunctionST.AddNewJobFunction" />
-        <item itemvalue="TestNG.verifyJobFunctionST.AddNewDepartment" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +238,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/lahebo/web_pages/TwoFactorAuthPage.java</url>
-          <line>106</line>
+          <line>111</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>

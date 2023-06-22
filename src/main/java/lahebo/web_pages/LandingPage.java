@@ -24,12 +24,12 @@ public class LandingPage {
     }
     public boolean verifyLandingPage() {
         try {
+            waits.waitForVisibilityOfItem(driver,landingPageElements.LagislationLibraryTab, 5);
             if (landingPageElements.LagislationLibraryTab.isDisplayed()) {
                 return true;
             }
         } catch (NoSuchElementException exception) {
-            LogUtils.info(exception.getMessage());
-
+            LogUtils.error(exception.getMessage());
         }
         return false;
     }
