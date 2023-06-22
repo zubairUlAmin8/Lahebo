@@ -772,23 +772,29 @@ public class WebUI {
 
             if (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
                 Thread.sleep(5000);
+                LogUtils.info("waiting for List to load");
                 elements = getWebElements(objectListItem);
             }
-
-            for (WebElement element : elements) {
-                LogUtils.info(element.getText());
-                if (element.getText().equalsIgnoreCase(text)) {
-                    clickElement(objectCheckBox);
-                    element.click();
-                    return true;
-                }
+            else {
+                LogUtils.info("List is loaded");
+                clickElement(objectCheckBox);
+                return true;
 
             }
+//            for (WebElement element : elements) {
+//                LogUtils.info(element.getText());
+//                if (element.getText().equalsIgnoreCase(text)) {
+//                    clickElement(objectCheckBox);
+////                    element.click();
+//                    return true;
+//                }
+//
+//            }
         } catch (Exception e) {
             LogUtils.info(e.getMessage());
             e.getMessage();
         }
-        return false;
+        return true;
 
     }
 

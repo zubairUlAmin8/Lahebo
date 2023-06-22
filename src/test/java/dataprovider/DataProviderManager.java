@@ -48,11 +48,17 @@ public final class DataProviderManager {
         System.out.println("getSignInData: " + data);
         return data;
     }
-
     @DataProvider(name = "getSignUpDataHashTable", parallel = false)
     public static Object[][] getSignUpdata() {
         ExcelHelpers excelHelpers = new ExcelHelpers();
         Object[][] data = excelHelpers.getDataHashTable(Helpers.getCurrentDir() + FrameworkConstants.EXCEL_DATA_FILE_PATH, "SignUp", 17, 17);
+        System.out.println("getSignInData: " + data);
+        return data;
+    }
+    @DataProvider(name = "getDepartmentDataHashTable", parallel = false)
+    public static Object[][] getDepartmentData() {
+        ExcelHelpers excelHelpers = new ExcelHelpers();
+        Object[][] data = excelHelpers.getDataHashTable(Helpers.getCurrentDir() + FrameworkConstants.EXCEL_DATA_FILE_PATH, "Departments", 1, 7);
         System.out.println("getSignInData: " + data);
         return data;
     }
