@@ -40,7 +40,6 @@ public final class ExtentReportManager extends BasePage {
                 link = EXTENT_REPORT_FILE_PATH;
                 System.out.println("link report:" + link);
             }
-
             ExtentSparkReporter spark = new ExtentSparkReporter(link);
             extentReports.attachReporter(spark);
             spark.config().setTheme(Theme.STANDARD);

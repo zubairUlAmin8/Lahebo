@@ -9,11 +9,15 @@ import enums.AuthorType;
 import enums.CategoryType;
 import helpers.CaptureHelpers;
 import helpers.PropertiesHelpers;
+import helpers.ScreenRecoderHelpers;
 import keywords.WebUI;
 import org.testng.*;
 import report.ExtentReportManager;
 
 import lahebo.web_pages.SignInPage;
+
+import java.awt.*;
+import java.io.IOException;
 
 import static constants.FrameworkConstants.*;
 
@@ -23,6 +27,11 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
     static int count_passedTCs;
     static int count_skippedTCs;
     static int count_failedTCs;
+    private ScreenRecoderHelpers screenRecorder;
+
+    public ListenerTest() {
+
+    }
 
     public String getTestName(ITestResult result) {
         return result.getTestName() != null ? result.getTestName() : result.getMethod().getConstructorOrMethod().getName();
@@ -54,6 +63,10 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
         WebUI.stopSoftAssertAll();
         //End Suite and execute Extents Report
         ExtentReportManager.flushReports();
+
+        if (VIDEO_RECORD.toLowerCase().trim().equals(YES)) {
+            screenRecorder.stopRecording(true);
+        }
     }
 
     @Override
@@ -71,6 +84,15 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
         System.out.println("========= INSTALLED CONFIGURATION DATA =========");
         System.out.println("");
         LogUtils.info("Starting Suite: " + iSuite.getName());
+        try {
+            screenRecorder = new ScreenRecoderHelpers();
+        } catch (IOException | AWTException e) {
+            System.out.println(e.getMessage());
+        }
+        if (VIDEO_RECORD.toLowerCase().trim().equals(YES)) {
+            screenRecorder.startRecording(iSuite.getName());
+        }
+
 
     }
 
@@ -100,6 +122,9 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
 
         //AllureManager.takeScreenshotToAttachOnAllureReport();
         //AllureManager.saveTextLog(iTestResult.getThrowable().toString());
+//        if (VIDEO_RECORD.toLowerCase().trim().equals(YES)) {
+//            screenRecorder.stopRecording(true);
+//        }
 
     }
 
@@ -113,6 +138,9 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
         }
 
         ExtentReportManager.logMessage(Status.SKIP, "Test case: " + getTestName(iTestResult) + " is skipped.");
+//        if (VIDEO_RECORD.toLowerCase().trim().equals(YES)) {
+//            screenRecorder.stopRecording(true);
+//        }
 
     }
 
@@ -133,6 +161,7 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
         ExtentReportManager.info(BrowserInfoUtils.getOSInfo());
         count_totalTCs = count_totalTCs + 1;
 
+
     }
 
     @Override
@@ -146,6 +175,9 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
 
         //ExtentReports log operation for passed tests.
         ExtentReportManager.logMessage(Status.PASS, "Test case: " + getTestName(iTestResult) + " is passed.");
+//        if (VIDEO_RECORD.trim().toLowerCase().equals(YES)) {
+//            screenRecorder.stopRecording(true);
+//        }
 
 
     }

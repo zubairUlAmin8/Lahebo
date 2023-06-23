@@ -8,6 +8,7 @@ import lahebo.path_repo.LandingPagePR;
 import lahebo.web_elements.LandingPageElements;
 import lahebo.objectRepo.LandingPageOR;
 import org.openqa.selenium.*;
+import constants.FrameworkConstants.*;
 
 public class LandingPage {
     WebDriver driver;
@@ -44,7 +45,12 @@ public class LandingPage {
 
     public void signOut() throws InterruptedException {
 //        waits.waitForElements(driver,landingPageElements.profileIcon,5);
-        WebUI.waitForElementPresent(LandingPageOR.profileIcon, 10);
+        try {
+            WebUI.waitForElementPresent(LandingPageOR.profileIcon,10 );
+
+        } catch (ElementClickInterceptedException exception) {
+            WebUI.waitForElementVisible(LandingPageOR.profileIcon,10);
+        }
         landingPageElements.profileIcon.click();
         waits.waitForElements(driver,landingPageElements.signOutBtn, 5);
         landingPageElements.signOutBtn.click();
