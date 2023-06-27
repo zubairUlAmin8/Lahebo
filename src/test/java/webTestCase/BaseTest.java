@@ -49,14 +49,13 @@ public class BaseTest {
         jobFunctionsPage = new JobFunctionsPage(driver);
     }
     @Parameters("BROWSER")
-    @BeforeSuite
+    @BeforeSuite(groups = {"dataDrivenTestCases"})
     public  void beforeSuite(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
         driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(driver);
         driver.manage().window().maximize();
         LogUtils.info("Driver is Just Initialized");
-
 
     }
     @Parameters("BROWSER")
@@ -68,7 +67,7 @@ public class BaseTest {
 //        BasePage.setBrowser(driver);
     }
 
-    @AfterSuite(alwaysRun = true)
+    @AfterSuite(alwaysRun = true, groups = {"addDepartment"})
     public void closeDriver() {
         DriverManager.quit();
     }

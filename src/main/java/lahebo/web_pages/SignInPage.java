@@ -152,9 +152,9 @@ public class SignInPage extends BasePage {
 
     public void signInUser() throws InterruptedException {
         String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
-        String userName = PropertiesHelpers.getValue("New_User_UserName");
-        String password = PropertiesHelpers.getValue("New_User_Password");
-        String secretKey = PropertiesHelpers.getValue("New_User_SecretKey");
+        String userName = PropertiesHelpers.getValue("Existing_User_UserName");
+        String password = PropertiesHelpers.getValue("Existing_User_Password");
+        String secretKey = PropertiesHelpers.getValue("Existing_User_SecretKey");
         TwoFactorAuthPage twoFactorAuthPage = new TwoFactorAuthPage(driver);
         LandingPage landingPage = new LandingPage(driver);
         System.out.println(secretKey);

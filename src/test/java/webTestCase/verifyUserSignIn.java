@@ -55,4 +55,9 @@ public class verifyUserSignIn extends BaseTest {
         landingPage.signOut();
         Assert.assertTrue(signInPage.verifyLoginPage(), "User could not sign OUt");
     }
+    @Test(groups = {"dataDrivenTestCases"})
+    public void signIn() throws InterruptedException {
+        signInPage.signInUser();
+        landingPage.waitForPageLoading();
+    }
 }

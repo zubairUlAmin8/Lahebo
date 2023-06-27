@@ -55,10 +55,24 @@ public final class DataProviderManager {
         System.out.println("getSignInData: " + data);
         return data;
     }
+    @DataProvider(name = "getLocationDataHashTable", parallel = false)
+    public static Object[][] getLocationData() {
+        ExcelHelpers excelHelpers = new ExcelHelpers();
+        Object[][] data = excelHelpers.getDataHashTable(Helpers.getCurrentDir() + FrameworkConstants.EXCEL_DATA_FILE_PATH, "Locations", 1, 3);
+        System.out.println("getLocationDataHashTable: " + data);
+        return data;
+    }
+    @DataProvider(name = "getJobFunctionDataHashTable", parallel = false)
+    public static Object[][] getJobFunctionData() {
+        ExcelHelpers excelHelpers = new ExcelHelpers();
+        Object[][] data = excelHelpers.getDataHashTable(Helpers.getCurrentDir() + FrameworkConstants.EXCEL_DATA_FILE_PATH, "JobFunction", 1, 3);
+        System.out.println("getJobFunctionDataHashTable: " + data);
+        return data;
+    }
     @DataProvider(name = "getDepartmentDataHashTable", parallel = false)
     public static Object[][] getDepartmentData() {
         ExcelHelpers excelHelpers = new ExcelHelpers();
-        Object[][] data = excelHelpers.getDataHashTable(Helpers.getCurrentDir() + FrameworkConstants.EXCEL_DATA_FILE_PATH, "Departments", 1, 7);
+        Object[][] data = excelHelpers.getDataHashTable(Helpers.getCurrentDir() + FrameworkConstants.EXCEL_DATA_FILE_PATH, "Departments", 1, 3);
         System.out.println("getSignInData: " + data);
         return data;
     }
