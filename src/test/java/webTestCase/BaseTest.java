@@ -50,13 +50,21 @@ public class BaseTest {
     }
     @Parameters("BROWSER")
     @BeforeSuite(groups = {"dataDrivenTestCases"})
+    public  void beforeSuite_dataDrivenTestCases(@Optional("chrome") String browser) {
+//        System.setProperty("webdriver.http.factory", "jdk-http-client");
+        driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
+        DriverManager.setDriver(driver);
+        driver.manage().window().maximize();
+        LogUtils.info("Driver is Just Initialized");
+    }
+    @Parameters("BROWSER")
+    @BeforeSuite()
     public  void beforeSuite(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
         driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(driver);
         driver.manage().window().maximize();
         LogUtils.info("Driver is Just Initialized");
-
     }
     @Parameters("BROWSER")
     @BeforeClass(alwaysRun = true)
