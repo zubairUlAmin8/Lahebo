@@ -25,6 +25,7 @@ public class BaseTest {
     DepartmentsPage departmentsPage;
     LocationsPage locationsPage;
     JobFunctionsPage jobFunctionsPage;
+    ProfileDetailsPage profileDetailsPage;
 
     public static WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
@@ -47,6 +48,7 @@ public class BaseTest {
         departmentsPage = new DepartmentsPage(driver);
         locationsPage = new LocationsPage(driver);
         jobFunctionsPage = new JobFunctionsPage(driver);
+        profileDetailsPage = new ProfileDetailsPage(driver);
     }
     @Parameters("BROWSER")
     @BeforeSuite(groups = {"dataDrivenTestCases"})
@@ -55,7 +57,7 @@ public class BaseTest {
         driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(driver);
         driver.manage().window().maximize();
-        LogUtils.info("Driver is Just Initialized");
+        LogUtils.info("Driver is Just Initialized: dataDrivenTestCases");
     }
     @Parameters("BROWSER")
     @BeforeSuite()

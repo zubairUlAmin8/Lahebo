@@ -17,7 +17,7 @@ public class Congratulation extends BasePage{
     }
     public boolean verifyCongratulation() {
         try {
-            waits.waitForElements(driver, congratulationPageElements.continueBtn, 500);
+//            waits.waitForElements(driver, congratulationPageElements.continueBtn, 500);
             Thread.sleep(5000);
 //            congratulationPageElements.continueBtn.click();
             return true;

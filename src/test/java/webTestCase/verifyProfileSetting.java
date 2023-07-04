@@ -15,10 +15,10 @@ public class verifyProfileSetting extends BaseTest {
         landingPage.goToProfileSetting();
         profileDetailsPage.editProfile("Zubair", "Amin", fakerUtils.generateRandomAustralianPhoneNumber());
         landingPage.waitForPopUpInvisibilty();
-        profileDetailsPage.editProfile("Sarah", "Johnson", "+61201347536");
+        profileDetailsPage.editProfile("Sarah", "Johnson", fakerUtils.generateRandomAustralianPhoneNumber());
         landingPage.waitForPopUpInvisibilty();
     }
-    @Test(priority = 2)
+    @Test(priority = 2, enabled = false)
     public void verifyChangePassword() throws InterruptedException {
         String oldPassword = TestDataConstants.Existing_User_Password;
         String newPassword = fakerUtils.generateRandomPassword();

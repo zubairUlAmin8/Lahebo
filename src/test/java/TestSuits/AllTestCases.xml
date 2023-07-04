@@ -15,6 +15,7 @@
             <class name="webTestCase.verifyUserSignUp"/>
             <class name="webTestCase.verifyForgetPassword"/>
             <class name="webTestCase.verifyUserSignIn"/>
+            <class name="webTestCase.verifyProfileSetting"/>
 <!--            <class name="webTestCase.verifyAddLegalItems"/>-->
             <class name="webTestCase.verifyDepartmentST"/>
             <class name="webTestCase.verifyLocationST"/>

@@ -59,6 +59,7 @@ public class fakerUtils {
             password.setCharAt(i, password.charAt(j));
             password.setCharAt(j, temp);
         }
+        LogUtils.info("Random Password is Generated: "+password.toString());
         return password.toString();
     }
     public static String generateRandomDepartment() {
