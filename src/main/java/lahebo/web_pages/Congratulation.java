@@ -18,11 +18,14 @@ public class Congratulation extends BasePage{
     public boolean verifyCongratulation() {
         try {
             waits.waitForElements(driver, congratulationPageElements.continueBtn, 500);
-            congratulationPageElements.continueBtn.click();
+            Thread.sleep(5000);
+//            congratulationPageElements.continueBtn.click();
             return true;
         } catch (TimeoutException exception) {
             LogUtils.error(exception.getMessage());
             return false;
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
 
     }

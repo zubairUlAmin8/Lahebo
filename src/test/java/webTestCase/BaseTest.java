@@ -75,7 +75,11 @@ public class BaseTest {
 //        BasePage.setBrowser(driver);
     }
 
-    @AfterSuite(alwaysRun = true, groups = {"addDepartment"})
+    @AfterSuite(alwaysRun = true, groups = {"dataDrivenTestCases"})
+    public void closeDriver_dataDrivenTestCases() {
+        DriverManager.quit();
+    }
+    @AfterSuite(alwaysRun = true)
     public void closeDriver() {
         DriverManager.quit();
     }
