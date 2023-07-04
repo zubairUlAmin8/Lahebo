@@ -1,0 +1,1197 @@
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:54:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:54:31 [main] [LogUtils] - Starting Suite: test_suite
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 14:54:39 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (5645057c78fd040e0cd35d3e2851bebf)
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:54:39 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:54:43 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 14:54:57 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:54:57 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:54:59 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:08 [main] [LogUtils] - Starting Suite: test_suite
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 14:57:14 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (cd03b9bcd5d8f923d6e208692965d745)
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:14 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:57:18 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 14:57:27 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:57:27 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:57:28 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:57:29 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:57:29 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 03-07-2023 14:57:35 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (cd03b9bcd5d8f923d6e208692965d745)
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:57:35 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 03-07-2023 14:57:36 [main] [LogUtils] - Row: 3 - Column: 2
+[INFO] 03-07-2023 14:57:36 [main] [LogUtils] - StartRow: 1 - EndRow: 3
+[INFO] 03-07-2023 14:57:36 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:57:37 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: Departments
+[INFO] 03-07-2023 14:57:37 [main] [LogUtils] - String is my svg-inline--fa fa-angle-right
+[INFO] 03-07-2023 14:57:37 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 03-07-2023 14:57:38 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 03-07-2023 14:57:38 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 03-07-2023 14:57:38 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 03-07-2023 14:57:38 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:57:38 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:57:40 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:57:40 [main] [LogUtils] - Verify element visible By.cssSelector: #addDeptBtn
+[INFO] 03-07-2023 14:57:40 [main] [LogUtils] - Clicked on the element By.cssSelector: #addDeptBtn
+[INFO] 03-07-2023 14:57:40 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 03-07-2023 14:57:41 [main] [LogUtils] - Set text design department on By.cssSelector: #deptNameField
+[INFO] 03-07-2023 14:57:41 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 03-07-2023 14:57:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 03-07-2023 14:57:41 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 03-07-2023 14:57:41 [main] [LogUtils] - size of list: 1
+[INFO] 03-07-2023 14:57:47 [main] [LogUtils] - Sarah Johnson
+[INFO] 03-07-2023 14:57:47 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 14:57:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 14:57:49 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 03-07-2023 14:57:49 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:57:54 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:57:54 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:57:54 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:57:54 [main] [LogUtils] - verification of Department design departmenthas been started
+[INFO] 03-07-2023 14:57:54 [main] [LogUtils] - Department Found:  design department
+[INFO] 03-07-2023 14:57:54 [main] [LogUtils] - Department design departmenthas been verified
+[INFO] 03-07-2023 14:57:54 [main] [LogUtils] - Department design department is added
+[INFO] 03-07-2023 14:57:54 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 14:57:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:57:55 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: Departments
+[INFO] 03-07-2023 14:57:55 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 03-07-2023 14:57:55 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 03-07-2023 14:57:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 03-07-2023 14:57:55 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:01 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:58:01 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:01 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:01 [main] [LogUtils] - Verify element visible By.cssSelector: #addDeptBtn
+[INFO] 03-07-2023 14:58:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #addDeptBtn
+[INFO] 03-07-2023 14:58:01 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 03-07-2023 14:58:01 [main] [LogUtils] - Set text finance department on By.cssSelector: #deptNameField
+[INFO] 03-07-2023 14:58:01 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 03-07-2023 14:58:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 03-07-2023 14:58:02 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 03-07-2023 14:58:02 [main] [LogUtils] - size of list: 1
+[INFO] 03-07-2023 14:58:02 [main] [LogUtils] - Sarah Johnson
+[INFO] 03-07-2023 14:58:02 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 14:58:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 14:58:02 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 03-07-2023 14:58:03 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:04 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - verification of Department finance departmenthas been started
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Department Found:  design department
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Department Found:  finance department
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Department finance departmenthas been verified
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Department finance department is added
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: Departments
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 03-07-2023 14:58:05 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:10 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:58:10 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:10 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:11 [main] [LogUtils] - Verify element visible By.cssSelector: #addDeptBtn
+[INFO] 03-07-2023 14:58:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #addDeptBtn
+[INFO] 03-07-2023 14:58:11 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 03-07-2023 14:58:11 [main] [LogUtils] - Set text dev department on By.cssSelector: #deptNameField
+[INFO] 03-07-2023 14:58:11 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 03-07-2023 14:58:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 03-07-2023 14:58:12 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 03-07-2023 14:58:12 [main] [LogUtils] - size of list: 1
+[INFO] 03-07-2023 14:58:12 [main] [LogUtils] - Sarah Johnson
+[INFO] 03-07-2023 14:58:12 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 14:58:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 14:58:12 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 03-07-2023 14:58:12 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - verification of Department dev departmenthas been started
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Department Found:  design department
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Department Found:  dev department
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Department dev departmenthas been verified
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Department dev department is added
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 03-07-2023 14:58:14 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (cd03b9bcd5d8f923d6e208692965d745)
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:58:14 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 03-07-2023 14:58:15 [main] [LogUtils] - Row: 3 - Column: 2
+[INFO] 03-07-2023 14:58:15 [main] [LogUtils] - StartRow: 1 - EndRow: 3
+[INFO] 03-07-2023 14:58:15 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:58:15 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: Locations
+[INFO] 03-07-2023 14:58:15 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:20 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:58:20 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:20 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:20 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 03-07-2023 14:58:20 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 03-07-2023 14:58:20 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 03-07-2023 14:58:20 [main] [LogUtils] - came Location
+[INFO] 03-07-2023 14:58:20 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:21 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:23 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:23 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 133 441
+[INFO] 03-07-2023 14:58:23 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 03-07-2023 14:58:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 03-07-2023 14:58:23 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 03-07-2023 14:58:24 [main] [LogUtils] - Set text lahore on By.cssSelector: #locNameField
+[INFO] 03-07-2023 14:58:24 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 03-07-2023 14:58:24 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 03-07-2023 14:58:24 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 03-07-2023 14:58:24 [main] [LogUtils] - Set text +61201 133 441 on By.cssSelector: #locNumberField>input
+[INFO] 03-07-2023 14:58:24 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 03-07-2023 14:58:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 03-07-2023 14:58:25 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 03-07-2023 14:58:25 [main] [LogUtils] - size of list: 1
+[INFO] 03-07-2023 14:58:25 [main] [LogUtils] - Sarah Johnson
+[INFO] 03-07-2023 14:58:25 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 14:58:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 14:58:27 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 03-07-2023 14:58:27 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:32 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:58:32 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:32 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:32 [main] [LogUtils] - verification of Location lahorehas been started
+[INFO] 03-07-2023 14:58:32 [main] [LogUtils] - Location Found:  lahore
+[INFO] 03-07-2023 14:58:32 [main] [LogUtils] - Location lahorehas been verified
+[INFO] 03-07-2023 14:58:32 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 14:58:32 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:58:33 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: Locations
+[INFO] 03-07-2023 14:58:33 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:38 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:58:38 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:38 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:38 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 03-07-2023 14:58:38 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 03-07-2023 14:58:38 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 03-07-2023 14:58:38 [main] [LogUtils] - came Location
+[INFO] 03-07-2023 14:58:38 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:44 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:58:44 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:44 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:44 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 864 368
+[INFO] 03-07-2023 14:58:44 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 03-07-2023 14:58:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 03-07-2023 14:58:45 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 03-07-2023 14:58:45 [main] [LogUtils] - Set text karachi on By.cssSelector: #locNameField
+[INFO] 03-07-2023 14:58:45 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 03-07-2023 14:58:45 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 03-07-2023 14:58:45 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 03-07-2023 14:58:46 [main] [LogUtils] - Set text +61201 864 368 on By.cssSelector: #locNumberField>input
+[INFO] 03-07-2023 14:58:46 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 03-07-2023 14:58:46 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 03-07-2023 14:58:46 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 03-07-2023 14:58:46 [main] [LogUtils] - size of list: 1
+[INFO] 03-07-2023 14:58:46 [main] [LogUtils] - Sarah Johnson
+[INFO] 03-07-2023 14:58:47 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 14:58:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 14:58:47 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 03-07-2023 14:58:47 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:49 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:49 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:49 [main] [LogUtils] - verification of Location karachihas been started
+[INFO] 03-07-2023 14:58:49 [main] [LogUtils] - Location Found:  karachi
+[INFO] 03-07-2023 14:58:50 [main] [LogUtils] - Location karachihas been verified
+[INFO] 03-07-2023 14:58:50 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 14:58:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:58:50 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: Locations
+[INFO] 03-07-2023 14:58:50 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:58:55 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:58:55 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:58:55 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:58:55 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 03-07-2023 14:58:55 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 03-07-2023 14:58:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 03-07-2023 14:58:55 [main] [LogUtils] - came Location
+[INFO] 03-07-2023 14:58:55 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:01 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:59:01 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:01 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:01 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 751 970
+[INFO] 03-07-2023 14:59:01 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 03-07-2023 14:59:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 03-07-2023 14:59:01 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 03-07-2023 14:59:01 [main] [LogUtils] - Set text islamabad on By.cssSelector: #locNameField
+[INFO] 03-07-2023 14:59:02 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 03-07-2023 14:59:02 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 03-07-2023 14:59:02 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 03-07-2023 14:59:02 [main] [LogUtils] - Set text +61201 751 970 on By.cssSelector: #locNumberField>input
+[INFO] 03-07-2023 14:59:02 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 03-07-2023 14:59:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 03-07-2023 14:59:03 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 03-07-2023 14:59:03 [main] [LogUtils] - size of list: 1
+[INFO] 03-07-2023 14:59:03 [main] [LogUtils] - Sarah Johnson
+[INFO] 03-07-2023 14:59:04 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 14:59:04 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 14:59:04 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 03-07-2023 14:59:04 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - verification of Location islamabadhas been started
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Location Found:  islamabad
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Location islamabadhas been verified
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 03-07-2023 14:59:06 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (cd03b9bcd5d8f923d6e208692965d745)
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 14:59:06 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 03-07-2023 14:59:07 [main] [LogUtils] - Row: 3 - Column: 2
+[INFO] 03-07-2023 14:59:07 [main] [LogUtils] - StartRow: 1 - EndRow: 3
+[INFO] 03-07-2023 14:59:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:59:07 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: JobFunction
+[INFO] 03-07-2023 14:59:07 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:12 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:59:12 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:12 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:13 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 03-07-2023 14:59:13 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionItem
+[INFO] 03-07-2023 14:59:13 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunctionItem
+[INFO] 03-07-2023 14:59:13 [main] [LogUtils] - came Location
+[INFO] 03-07-2023 14:59:13 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:13 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:15 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:15 [main] [LogUtils] - Verify element visible By.cssSelector: #addJobFuncBtn
+[INFO] 03-07-2023 14:59:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #addJobFuncBtn
+[INFO] 03-07-2023 14:59:15 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncNameField
+[INFO] 03-07-2023 14:59:16 [main] [LogUtils] - Set text hiring on By.cssSelector: #jobFuncNameField
+[INFO] 03-07-2023 14:59:16 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:16 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField>div>div>div
+[INFO] 03-07-2023 14:59:16 [main] [LogUtils] - size of list: 3
+[INFO] 03-07-2023 14:59:16 [main] [LogUtils] - List is loaded
+[INFO] 03-07-2023 14:59:16 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField>div>div:nth-of-type(2)>input
+[INFO] 03-07-2023 14:59:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField>div>div:nth-of-type(2)>input
+[INFO] 03-07-2023 14:59:17 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:17 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 14:59:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 14:59:20 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="jobFuncName-"]
+[INFO] 03-07-2023 14:59:20 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:25 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:59:25 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:25 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:25 [main] [LogUtils] - verification of Job Function hiringhas been started
+[INFO] 03-07-2023 14:59:25 [main] [LogUtils] - Job Function Found:  hiring
+[INFO] 03-07-2023 14:59:25 [main] [LogUtils] - Job Function hiringhas been verified
+[INFO] 03-07-2023 14:59:25 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 14:59:25 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:59:25 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: JobFunction
+[INFO] 03-07-2023 14:59:25 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:31 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:59:31 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:31 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:31 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 03-07-2023 14:59:31 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionItem
+[INFO] 03-07-2023 14:59:31 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunctionItem
+[INFO] 03-07-2023 14:59:31 [main] [LogUtils] - came Location
+[INFO] 03-07-2023 14:59:31 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:36 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:59:36 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:36 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:37 [main] [LogUtils] - Verify element visible By.cssSelector: #addJobFuncBtn
+[INFO] 03-07-2023 14:59:37 [main] [LogUtils] - Clicked on the element By.cssSelector: #addJobFuncBtn
+[INFO] 03-07-2023 14:59:37 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncNameField
+[INFO] 03-07-2023 14:59:38 [main] [LogUtils] - Set text billing on By.cssSelector: #jobFuncNameField
+[INFO] 03-07-2023 14:59:38 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:38 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField>div>div>div
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - size of list: 3
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - List is loaded
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField>div>div:nth-of-type(2)>input
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField>div>div:nth-of-type(2)>input
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="jobFuncName-"]
+[INFO] 03-07-2023 14:59:39 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:41 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:42 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:42 [main] [LogUtils] - verification of Job Function billinghas been started
+[INFO] 03-07-2023 14:59:42 [main] [LogUtils] - Job Function Found:  hiring
+[INFO] 03-07-2023 14:59:42 [main] [LogUtils] - Job Function Found:  billing
+[INFO] 03-07-2023 14:59:42 [main] [LogUtils] - Job Function billinghas been verified
+[INFO] 03-07-2023 14:59:42 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 14:59:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 14:59:42 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: JobFunction
+[INFO] 03-07-2023 14:59:42 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:47 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:59:47 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:47 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:47 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 03-07-2023 14:59:47 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionItem
+[INFO] 03-07-2023 14:59:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunctionItem
+[INFO] 03-07-2023 14:59:47 [main] [LogUtils] - came Location
+[INFO] 03-07-2023 14:59:47 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:53 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 14:59:53 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:53 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:53 [main] [LogUtils] - Verify element visible By.cssSelector: #addJobFuncBtn
+[INFO] 03-07-2023 14:59:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #addJobFuncBtn
+[INFO] 03-07-2023 14:59:53 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncNameField
+[INFO] 03-07-2023 14:59:53 [main] [LogUtils] - Set text typing on By.cssSelector: #jobFuncNameField
+[INFO] 03-07-2023 14:59:53 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:54 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField>div>div>div
+[INFO] 03-07-2023 14:59:54 [main] [LogUtils] - size of list: 3
+[INFO] 03-07-2023 14:59:54 [main] [LogUtils] - List is loaded
+[INFO] 03-07-2023 14:59:54 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField>div>div:nth-of-type(2)>input
+[INFO] 03-07-2023 14:59:54 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField>div>div:nth-of-type(2)>input
+[INFO] 03-07-2023 14:59:54 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:54 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField
+[INFO] 03-07-2023 14:59:54 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 14:59:54 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 14:59:55 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="jobFuncName-"]
+[INFO] 03-07-2023 14:59:55 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 14:59:56 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 14:59:56 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 14:59:56 [main] [LogUtils] - verification of Job Function typinghas been started
+[INFO] 03-07-2023 14:59:56 [main] [LogUtils] - Job Function Found:  hiring
+[INFO] 03-07-2023 14:59:56 [main] [LogUtils] - Job Function Found:  billing
+[INFO] 03-07-2023 14:59:56 [main] [LogUtils] - Job Function Found:  typing
+[INFO] 03-07-2023 14:59:56 [main] [LogUtils] - Job Function typinghas been verified
+[INFO] 03-07-2023 14:59:56 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 14:59:59 [main] [LogUtils] - End Suite: test_suite
+[INFO] 03-07-2023 16:44:51 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 16:44:52 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 16:44:52 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (3de8cb7cba7e5e364065c1fae888311a)
+[INFO] 03-07-2023 16:44:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:44:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:44:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:44:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:44:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:44:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:44:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:44:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:44:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:44:56 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 16:45:07 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:45:07 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:45:08 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:45:11 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:45:11 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:45:16 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:45:16 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:45:16 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:45:45 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 16:45:46 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 16:45:46 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (16648a7b27529677778baffefbca7469)
+[INFO] 03-07-2023 16:45:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:45:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:45:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:45:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:45:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:45:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:45:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:45:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:45:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:45:49 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 16:45:58 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:45:58 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:45:59 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:46:02 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:46:02 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:46:07 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:46:07 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:46:07 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:48:48 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 16:48:50 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 16:48:50 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (6e59c3a745e89492b8f7ee9d19af7d2d)
+[INFO] 03-07-2023 16:48:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:48:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:48:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:48:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:48:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:48:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:48:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:48:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:48:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:48:54 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 16:49:03 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:49:03 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:49:04 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:49:07 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:49:07 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:49:12 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:49:12 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:49:12 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:49:36 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 16:49:37 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 16:49:37 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (bf6d571e87bd83674a99899e0f4ae809)
+[INFO] 03-07-2023 16:49:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:49:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:49:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:49:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:49:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:49:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:49:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:49:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:49:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:49:41 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 16:49:50 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:49:50 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:49:50 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:49:52 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:49:52 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:49:57 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:49:57 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:49:57 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:51:18 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 16:51:18 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (e7d26f0a2293e4322f0fa6596174d7a5)
+[INFO] 03-07-2023 16:51:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:51:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:51:18 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:51:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:51:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:51:18 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:51:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:51:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:51:18 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:51:23 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 16:51:32 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:51:32 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:51:32 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:51:35 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:51:35 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:51:40 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:51:40 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:51:40 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:53:29 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 16:53:29 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (72bf90777ac2417c9d9640bd880c15f2)
+[INFO] 03-07-2023 16:53:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:53:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:53:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:53:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:53:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:53:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:53:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 16:53:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 16:53:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 16:53:32 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 16:53:41 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 16:53:41 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 16:53:41 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 16:53:43 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 16:53:43 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:01:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:01:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:01:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:01:27 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 03-07-2023 17:01:32 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 17:01:35 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (61ae6425ed81ade030e48d8c269a2db8)
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:01:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 17:01:41 [main] [LogUtils] - Username and password are correct
+[ERROR] 03-07-2023 17:01:53 [main] [LogUtils] - Test case:  is failed.
+[INFO] 03-07-2023 17:01:53 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (61ae6425ed81ade030e48d8c269a2db8)
+[ERROR] 03-07-2023 17:01:53 [main] [LogUtils] - FAILED !! Screenshot for test case: GenerateReport
+[ERROR] 03-07-2023 17:01:53 [main] [LogUtils] - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61ae6425ed81ade030e48d8c269a2db8, findElement {using=css selector, value=div.Vue-Toastification__toast-body}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56295/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61ae6425ed81ade030e48d8c269a2db8
+[ERROR] 03-07-2023 17:01:53 [main] [LogUtils] - Test case:  is failed.
+[INFO] 03-07-2023 17:01:53 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (61ae6425ed81ade030e48d8c269a2db8)
+[ERROR] 03-07-2023 17:01:53 [main] [LogUtils] - FAILED !! Screenshot for test case: GenerateReport
+[ERROR] 03-07-2023 17:01:53 [main] [LogUtils] - org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61ae6425ed81ade030e48d8c269a2db8, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56295/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61ae6425ed81ade030e48d8c269a2db8
+[INFO] 03-07-2023 17:01:53 [main] [LogUtils] - End Suite: login Usging Data Driven Testing
+[INFO] 03-07-2023 17:03:19 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:03:19 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:03:19 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:03:19 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:03:19 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:03:19 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:03:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:03:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:03:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:03:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:03:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:03:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:03:20 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 03-07-2023 17:03:25 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Driver is Just Initialized: dataDrivenTestCases
+[ERROR] 03-07-2023 17:03:27 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (1ddf066004fc6706c868d9cce0a6a82d)
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:03:27 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 03-07-2023 17:03:29 [main] [LogUtils] - Row: 17 - Column: 13
+[INFO] 03-07-2023 17:03:29 [main] [LogUtils] - StartRow: 17 - EndRow: 17
+[INFO] 03-07-2023 17:03:29 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 17:03:32 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 03-07-2023 17:05:07 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 17:05:08 [main] [LogUtils] - Driver is Just Initialized: dataDrivenTestCases
+[ERROR] 03-07-2023 17:05:08 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (ade996820ebc035d8bf3bb9d4e28ca2c)
+[INFO] 03-07-2023 17:05:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:05:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:05:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:05:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:05:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:05:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:05:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:05:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:05:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:05:13 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 17:05:22 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:05:22 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:05:23 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:05:25 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 17:05:25 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:05:31 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:05:31 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:05:31 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 17:06:07 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 17:06:09 [main] [LogUtils] - Driver is Just Initialized: dataDrivenTestCases
+[ERROR] 03-07-2023 17:06:09 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (73ab2bdbc876f9195de6ea6297221adc)
+[INFO] 03-07-2023 17:06:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:06:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:06:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:06:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:06:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:06:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:06:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:06:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:06:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:06:12 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 17:06:21 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:06:21 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:06:21 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:12:17 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 17:12:18 [main] [LogUtils] - Driver is Just Initialized: dataDrivenTestCases
+[ERROR] 03-07-2023 17:12:18 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (5f79dfa8f535683ebb1260959a617e1b)
+[INFO] 03-07-2023 17:12:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:12:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:12:18 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:12:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:12:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:12:18 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:12:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:12:18 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:12:18 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:13:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:13:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:13:03 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:13:04 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 17:13:09 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (272ad87be75c147713c5d4301f37bdf3)
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:13:09 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 03-07-2023 17:13:14 [main] [LogUtils] - Test case:  is failed.
+[INFO] 03-07-2023 17:13:14 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (272ad87be75c147713c5d4301f37bdf3)
+[ERROR] 03-07-2023 17:13:14 [main] [LogUtils] - FAILED !! Screenshot for test case: GenerateReport
+[ERROR] 03-07-2023 17:13:14 [main] [LogUtils] - org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from target frame detached
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [272ad87be75c147713c5d4301f37bdf3, sendKeysToElement {id=65E9CD888EF997DB9CC150A19A697F67_element_12, value=[Ljava.lang.CharSequence;@3b7c58e7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57272/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (272ad87be75c147713c5d4301f37bdf3)] -> css selector: input[type="text"]]
+Session ID: 272ad87be75c147713c5d4301f37bdf3
+[ERROR] 03-07-2023 17:13:15 [main] [LogUtils] - Test case:  is failed.
+[INFO] 03-07-2023 17:13:15 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (272ad87be75c147713c5d4301f37bdf3)
+[ERROR] 03-07-2023 17:13:15 [main] [LogUtils] - FAILED !! Screenshot for test case: GenerateReport
+[ERROR] 03-07-2023 17:13:15 [main] [LogUtils] - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [272ad87be75c147713c5d4301f37bdf3, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57272/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 272ad87be75c147713c5d4301f37bdf3
+[INFO] 03-07-2023 17:13:15 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 17:13:47 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 17:13:49 [main] [LogUtils] - Driver is Just Initialized: dataDrivenTestCases
+[ERROR] 03-07-2023 17:13:49 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (e2003f600377d6932eba37a981256505)
+[INFO] 03-07-2023 17:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:13:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:13:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:13:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:13:54 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 17:14:03 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:14:03 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:14:03 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:14:06 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 17:14:06 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:14:11 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:14:11 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:14:11 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 17:15:42 [main] [LogUtils] - Driver is Just Initialized
+[INFO] 03-07-2023 17:15:43 [main] [LogUtils] - Driver is Just Initialized: dataDrivenTestCases
+[ERROR] 03-07-2023 17:15:43 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (f0623029e2fe8ea8ab5ea6346b2dd3fe)
+[INFO] 03-07-2023 17:15:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:15:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:15:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:15:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:15:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:15:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:15:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:15:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:15:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:15:46 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 17:15:55 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:15:55 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:15:57 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:15:59 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 17:15:59 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:16:04 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:16:04 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:16:04 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 17:16:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:16:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:16:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:16:39 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 17:16:43 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 17:16:44 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (20ceaa116056c90809bf06b918ff5da2)
+[INFO] 03-07-2023 17:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:16:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:16:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:16:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:16:44 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 17:16:47 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 17:16:56 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:16:56 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:16:57 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:17:00 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 17:17:00 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:17:06 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:17:06 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:17:06 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 17:17:06 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 17:17:07 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 17:24:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:24:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:24:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:24:43 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 17:24:43 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 17:25:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:25:07 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:25:07 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:25:08 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 17:25:13 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (320806f81304c4bb26cc001fc739394b)
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 17:25:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 17:25:17 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 17:25:26 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:25:26 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:25:27 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:25:29 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 17:25:30 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 17:25:35 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 17:25:35 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 17:25:35 [main] [LogUtils] - Loading finsihed
+[ERROR] 03-07-2023 17:25:45 [main] [LogUtils] - Element not exist. By.cssSelector: #headlessui-menu-item-27
+[ERROR] 03-07-2023 17:25:45 [main] [LogUtils] - Test case:  is failed.
+[INFO] 03-07-2023 17:25:45 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (320806f81304c4bb26cc001fc739394b)
+[INFO] 03-07-2023 17:25:45 [main] [LogUtils] - Screenshot taken: verifyEditProfile
+[INFO] 03-07-2023 17:25:45 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 03-07-2023 17:25:45 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditProfile
+[ERROR] 03-07-2023 17:25:45 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #headlessui-menu-item-27
+[INFO] 03-07-2023 17:25:47 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 18:17:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:17:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:17:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:17:32 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 18:17:38 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 18:17:38 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (234eb1f091d86ccf064305713960d70f)
+[INFO] 03-07-2023 18:17:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:17:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:17:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:17:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:17:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:17:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:17:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:17:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:17:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:17:39 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 18:17:42 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 18:17:56 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 18:17:56 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 18:17:57 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 18:18:00 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 18:18:00 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 18:18:06 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 18:18:06 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 18:18:06 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 18:18:06 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 18:18:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 18:18:06 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 18:18:08 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 18:19:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:19:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:19:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:19:17 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 18:19:25 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (0a8047a2e68f80320c89334866ee85fb)
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:19:25 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 18:19:29 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 18:19:38 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 18:19:38 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 18:19:39 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 18:19:41 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 18:19:41 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 18:19:47 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 18:19:47 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 18:19:47 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 18:19:48 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 18:19:48 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 18:19:48 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 18:19:48 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 18:52:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:52:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:52:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:52:56 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 18:53:01 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 18:53:01 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (e796af238a8e36db193978ba2c3c3768)
+[INFO] 03-07-2023 18:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:53:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:53:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 18:53:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 18:53:01 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 18:53:02 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 18:53:06 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 18:53:15 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 18:53:15 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 18:53:16 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 18:53:19 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 18:53:19 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 18:53:24 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 18:53:24 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 18:53:24 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 18:53:25 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 18:53:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 18:53:30 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 18:53:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 18:53:30 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 18:53:31 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 19:01:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:01:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:01:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:01:35 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 19:01:40 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (81a1ed8a7023c59a1d3c996f9fc749ed)
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:01:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 19:01:44 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 19:01:54 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:01:54 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:01:54 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:01:57 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:01:57 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:02:02 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:02:02 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:02:02 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:02:02 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:02:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:02:03 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:02:04 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:02:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:02:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:02:04 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:02:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:02:04 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:02:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:02:04 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:02:05 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 19:02:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 19:02:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 19:02:05 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 19:21:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:21:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:21:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:21:15 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 19:21:24 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (ebe85ecdea5e07383a7698f7e631d08e)
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:21:24 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 19:21:28 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 19:21:42 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:21:42 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:21:42 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:21:46 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:21:46 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:21:51 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:21:51 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:21:51 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:21:51 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:21:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:21:52 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:21:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:21:52 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:21:53 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:21:53 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:21:53 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:21:53 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:21:53 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:21:53 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:21:53 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 19:21:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[ERROR] 03-07-2023 19:21:55 [main] [LogUtils] - Test case:  is failed.
+[INFO] 03-07-2023 19:21:55 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (ebe85ecdea5e07383a7698f7e631d08e)
+[INFO] 03-07-2023 19:21:55 [main] [LogUtils] - Screenshot taken: verifyEditProfile
+[INFO] 03-07-2023 19:21:55 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/me
+[ERROR] 03-07-2023 19:21:55 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditProfile
+[ERROR] 03-07-2023 19:21:55 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="headlessui-menu-button-5" type="button" aria-haspopup="menu" aria-expanded="false" data-headlessui-state="" class="text-primary-500 transition-colors duration-200 focus:shadow-outline-purple focus:outline-none">...</button> is not clickable at point (1841, 42). Other element would receive the click: <div data-v-c4bd1caa="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebe85ecdea5e07383a7698f7e631d08e, clickElement {id=A10E967D0D526256D9111386127F5EB6_element_78}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63650/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ebe85ecdea5e07383a7698f7e631d08e)] -> css selector: #headlessui-menu-button-5]
+Session ID: ebe85ecdea5e07383a7698f7e631d08e
+[INFO] 03-07-2023 19:21:55 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 19:23:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:23:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:23:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:23:08 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 19:23:14 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 19:23:14 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (2da4e480ac0ae6bbab577831881c4df3)
+[INFO] 03-07-2023 19:23:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:23:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:23:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:23:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:23:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:23:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:23:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:23:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:23:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:23:15 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 19:23:19 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 19:23:29 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:23:30 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:23:32 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:23:34 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:23:34 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:23:40 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:23:40 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:23:40 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:23:40 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:23:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:23:41 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:23:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:23:42 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:23:42 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:23:42 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:23:42 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:23:42 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:23:42 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:23:42 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:23:42 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 19:23:43 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 19:23:43 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:23:48 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:23:48 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:23:48 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:23:48 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>button[class*="sign-out-btn"]
+[INFO] 03-07-2023 19:23:48 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>button[class*="sign-out-btn"]
+[INFO] 03-07-2023 19:23:48 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 19:23:48 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 19:26:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:26:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:26:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:26:43 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 19:26:49 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (8f48a5d39f2175ce62b3c0d8e7f00be4)
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:26:49 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 19:26:54 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 19:27:04 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:27:04 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:27:04 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:27:09 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:27:09 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:27:14 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:27:14 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:27:14 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:27:15 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:27:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:27:15 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:27:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:27:16 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:27:16 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:27:16 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:27:16 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:27:16 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:27:16 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:27:16 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:27:16 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 19:27:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 19:27:18 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>button[class*="sign-out-btn"]
+[INFO] 03-07-2023 19:27:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>button[class*="sign-out-btn"]
+[INFO] 03-07-2023 19:27:18 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 19:27:18 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 19:35:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:35:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:35:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:35:02 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 19:35:09 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 19:35:10 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (07814ac5c16338e04e2320915d6d3e74)
+[INFO] 03-07-2023 19:35:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:35:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:35:10 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:35:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:35:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:35:10 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:35:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:35:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:35:10 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:35:10 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 19:35:15 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 19:35:24 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:35:24 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:35:25 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:35:27 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:35:27 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:35:33 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:35:33 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:35:33 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:35:34 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:35:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:35:35 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:35:35 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:35:35 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:35:35 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:35:35 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:35:35 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:35:36 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:35:36 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:35:36 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:35:36 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 19:35:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 19:35:36 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:35:42 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:35:42 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:35:42 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:35:42 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 03-07-2023 19:35:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 03-07-2023 19:35:42 [main] [LogUtils] - Test case:  is passed.
+[INFO] 03-07-2023 19:35:42 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 03-07-2023 19:40:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:40:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:40:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:40:17 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 03-07-2023 19:40:23 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (06fbb38409c5e49cff79ab7f99d4f7ef)
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-07-2023 19:40:23 [main] [LogUtils] - Test case:  is starting...
+[INFO] 03-07-2023 19:40:29 [main] [LogUtils] - Username and password are correct
+[INFO] 03-07-2023 19:40:38 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:40:38 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:40:40 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:40:42 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:40:42 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:40:47 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:40:47 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:40:48 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:40:48 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:40:48 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 03-07-2023 19:40:49 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:40:49 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 03-07-2023 19:40:49 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:40:50 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:40:50 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 03-07-2023 19:40:50 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:40:50 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 03-07-2023 19:40:50 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:40:50 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 03-07-2023 19:40:51 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 03-07-2023 19:40:51 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 03-07-2023 19:40:51 [main] [LogUtils] - Waiting for Loading
+[INFO] 03-07-2023 19:40:56 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 03-07-2023 19:40:56 [main] [LogUtils] - Loading Started
+[INFO] 03-07-2023 19:40:56 [main] [LogUtils] - Loading finsihed
+[INFO] 03-07-2023 19:40:56 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[ERROR] 03-07-2023 19:40:57 [main] [LogUtils] - Test case:  is failed.
+[INFO] 03-07-2023 19:40:57 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (06fbb38409c5e49cff79ab7f99d4f7ef)
+[INFO] 03-07-2023 19:40:58 [main] [LogUtils] - Screenshot taken: verifyEditProfile
+[INFO] 03-07-2023 19:40:58 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/me
+[ERROR] 03-07-2023 19:40:58 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditProfile
+[ERROR] 03-07-2023 19:40:58 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="mb-6 lg:mb-0 text-base-white float-right mr-3 bg-primary-500 disabled:bg-primary-300 disabled:cursor-not-allowed transition-colors duration-200 hover:bg-primary-700 focus:ring-2 focus:ring-primary-300 font-medium rounded px-4 h-[36px] focus:outline-none dark:focus:ring-blue-800">...</button> is not clickable at point (1376, 280). Other element would receive the click: <div data-v-c4bd1caa="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06fbb38409c5e49cff79ab7f99d4f7ef, clickElement {id=CACB987CA5AAC6A4E224CBD0A3BA3107_element_90}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64889}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64889/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (06fbb38409c5e49cff79ab7f99d4f7ef)] -> css selector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800]
+Session ID: 06fbb38409c5e49cff79ab7f99d4f7ef
+[INFO] 03-07-2023 19:40:59 [main] [LogUtils] - End Suite: All Test Cases
