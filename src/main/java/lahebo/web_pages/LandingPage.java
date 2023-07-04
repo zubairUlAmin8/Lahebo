@@ -42,6 +42,11 @@ public class LandingPage {
         waits.waitForInvisibilityOfItem(driver, LandingPagePR.loaderMain, 30);
         LogUtils.info("Loading finsihed");
     }
+    public void waitForPopUpInvisibilty() throws InterruptedException {
+        WebUI.waitForElementVisible(LandingPageOR.popUpAlert, 5);
+        WebUI.waitForInvisibilityOfItem(LandingPageOR.popUpAlert, 5);
+
+    }
 
     public void signOut() throws InterruptedException {
 //        waits.waitForElements(driver,landingPageElements.profileIcon,5);
@@ -56,7 +61,19 @@ public class LandingPage {
         landingPageElements.signOutBtn.click();
 
     }
+    public void signOutTest() throws InterruptedException {
+        try {
+            WebUI.waitForElementPresent(LandingPageOR.profileIcon,10 );
 
+        } catch (ElementClickInterceptedException exception) {
+            WebUI.waitForElementVisible(LandingPageOR.profileIcon,10);
+        }
+        landingPageElements.profileIcon.click();
+//        waits.waitForElements(driver,landingPageElements.signOutBtn, 5);
+        WebUI.clickElement(LandingPageOR.signOutBtn);
+//
+
+    }
     public void goToDepartmentST() throws InterruptedException {
         if (checkOrganizationSettingList()) {
             WebUI.clickElement(LandingPageOR.departmentsST,10);
@@ -108,6 +125,18 @@ public class LandingPage {
             return false;
         }
 
+    }
+
+    public void goToProfileSetting() {
+        try {
+            WebUI.waitForElementPresent(LandingPageOR.profileIcon,10 );
+
+        } catch (ElementClickInterceptedException exception) {
+            WebUI.waitForElementVisible(LandingPageOR.profileIcon,10);
+        }
+        landingPageElements.profileIcon.click();
+//        waits.waitForElements(driver,landingPageElements.signOutBtn, 5);
+        WebUI.clickElement(LandingPageOR.profileSetting);
     }
 
 }

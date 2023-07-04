@@ -5,8 +5,10 @@ import org.openqa.selenium.By;
 public interface LandingPageOR {
       By LagislationLibraryTab=By.cssSelector("a[href=\"/legislation-library\"]>span");
       By loaderMain =By.cssSelector( "div[class=\"absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center\"]");
-      By profileIcon = By.cssSelector("#headlessui-menu-button-5");
-      By signOutBtn =By.cssSelector( "#headlessui-menu-item-12");
+      By profileIcon = By.cssSelector("#profileDD");
+      By profileSetting = By.cssSelector("#profileDD>div>div");
+
+      By signOutBtn =By.cssSelector( "#profileDD>div>button[class*=\"sign-out-btn\"]");
       By organizationSettingTabList = By.cssSelector("#organizationSettings");
       By legislationLibraryTab =By.cssSelector( "#legislationView");
       By riskRegisterTab = By.cssSelector("#risksView");
