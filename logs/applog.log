@@ -430,3 +430,185 @@
 [INFO] 03-07-2023 14:59:56 [main] [LogUtils] - Job Function typinghas been verified
 [INFO] 03-07-2023 14:59:56 [main] [LogUtils] - Test case:  is passed.
 [INFO] 03-07-2023 14:59:59 [main] [LogUtils] - End Suite: test_suite
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:29:03 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:29:04 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-07-2023 14:29:09 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (60431fbf4110a9da9b347a2ed150c0b3)
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:29:09 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 04-07-2023 14:29:11 [main] [LogUtils] - Row: 17 - Column: 13
+[INFO] 04-07-2023 14:29:11 [main] [LogUtils] - StartRow: 17 - EndRow: 17
+[INFO] 04-07-2023 14:29:11 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:29:14 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 04-07-2023 14:29:15 [main] [LogUtils] - We got the pass condition for sighup
+[INFO] 04-07-2023 14:29:15 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 213 701
+[INFO] 04-07-2023 14:29:15 [main] [LogUtils] - Random phone number: +61201 213 701
+[INFO] 04-07-2023 14:29:15 [main] [LogUtils] - Random Email :zubairulamin8+618@gmail.com
+[INFO] 04-07-2023 14:29:15 [main] [LogUtils] - Random Gmail numbersarahj88618
+[INFO] 04-07-2023 14:29:19 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p[class*="form-error-message"]' (tried for 1 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 14:29:21 [main] [LogUtils] - Register successfully!
+[INFO] 04-07-2023 14:29:21 [main] [LogUtils] - Register successfully!
+[INFO] 04-07-2023 14:29:21 [main] [LogUtils] - All Condition have been Passed and now moving to Email OTP Verification
+[INFO] 04-07-2023 14:29:21 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:29:21 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:29:21 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:29:21 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:29:30 [main] [LogUtils] - size of list of message: 1
+[INFO] 04-07-2023 14:29:30 [main] [LogUtils] - Yes found it Message has been found 
+[INFO] 04-07-2023 14:29:30 [main] [LogUtils] - Before Refining OTP Code(Gmail Inbox):  : 706026.
+[INFO] 04-07-2023 14:29:30 [main] [LogUtils] - After Refining OTP Code(Gmail Inbox): 706026
+[INFO] 04-07-2023 14:29:33 [main] [LogUtils] - Message from OTP api: Account confirmed successfully.
+[INFO] 04-07-2023 14:29:33 [main] [LogUtils] - Account confirmed successfully
+[INFO] 04-07-2023 14:29:33 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:29:33 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:29:34 [main] [LogUtils] - Username and password are correct
+[INFO] 04-07-2023 14:29:45 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 14:29:45 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:29:45 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:30:01 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:30:01 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:35:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:35:40 [main] [LogUtils] - Starting Suite: login Usging Data Driven Testing
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-07-2023 14:35:45 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (aed431c22358e45627d5e5fa73417f6e)
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:35:45 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 04-07-2023 14:35:47 [main] [LogUtils] - Row: 17 - Column: 13
+[INFO] 04-07-2023 14:35:47 [main] [LogUtils] - StartRow: 17 - EndRow: 17
+[INFO] 04-07-2023 14:35:47 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:35:50 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 04-07-2023 14:35:50 [main] [LogUtils] - We got the pass condition for sighup
+[INFO] 04-07-2023 14:35:50 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 951 469
+[INFO] 04-07-2023 14:35:50 [main] [LogUtils] - Random phone number: +61201 951 469
+[INFO] 04-07-2023 14:35:50 [main] [LogUtils] - Random Email :zubairulamin8+591@gmail.com
+[INFO] 04-07-2023 14:35:50 [main] [LogUtils] - Random Gmail numbersarahj88591
+[INFO] 04-07-2023 14:35:56 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p[class*="form-error-message"]' (tried for 1 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 14:35:57 [main] [LogUtils] - Register successfully!
+[INFO] 04-07-2023 14:35:57 [main] [LogUtils] - Register successfully!
+[INFO] 04-07-2023 14:35:57 [main] [LogUtils] - All Condition have been Passed and now moving to Email OTP Verification
+[INFO] 04-07-2023 14:35:57 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:35:57 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:35:57 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:35:57 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:36:06 [main] [LogUtils] - size of list of message: 1
+[INFO] 04-07-2023 14:36:06 [main] [LogUtils] - Yes found it Message has been found 
+[INFO] 04-07-2023 14:36:06 [main] [LogUtils] - Before Refining OTP Code(Gmail Inbox):  : 706026.
+[INFO] 04-07-2023 14:36:06 [main] [LogUtils] - After Refining OTP Code(Gmail Inbox): 706026
+[INFO] 04-07-2023 14:36:08 [main] [LogUtils] - Message from OTP api: Invalid verification code provided, please try again.
+[ERROR] 04-07-2023 14:36:08 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-07-2023 14:36:08 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (aed431c22358e45627d5e5fa73417f6e)
+[INFO] 04-07-2023 14:36:09 [main] [LogUtils] - Screenshot taken: verifyGmailOTP
+[INFO] 04-07-2023 14:36:09 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/verify?username=sarahj88591&email=zubairulamin8%2B591@gmail.com
+[ERROR] 04-07-2023 14:36:09 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyGmailOTP
+[ERROR] 04-07-2023 14:36:09 [main] [LogUtils] - java.lang.AssertionError: OTP is not correct expected [true] but found [false]
+[INFO] 04-07-2023 14:36:09 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 04-07-2023 14:36:10 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-07-2023 14:36:10 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (aed431c22358e45627d5e5fa73417f6e)
+[INFO] 04-07-2023 14:36:10 [main] [LogUtils] - Screenshot taken: verifyNewUser
+[INFO] 04-07-2023 14:36:10 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/verify?username=sarahj88591&email=zubairulamin8%2B591@gmail.com
+[ERROR] 04-07-2023 14:36:10 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyNewUser
+[ERROR] 04-07-2023 14:36:10 [main] [LogUtils] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[type="password"]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aed431c22358e45627d5e5fa73417f6e, findElement {using=css selector, value=input[type="password"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56990/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aed431c22358e45627d5e5fa73417f6e
+[INFO] 04-07-2023 14:36:11 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 04-07-2023 14:36:26 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: #app > div > div > div > div > div.grid.gap-8.md\:grid-cols-2.xl\:grid-cols-3.items-end > div:nth-child(1) > div > button' (tried for 15 second(s) with 500 milliseconds interval)
+[ERROR] 04-07-2023 14:36:26 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-07-2023 14:36:26 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (aed431c22358e45627d5e5fa73417f6e)
+[INFO] 04-07-2023 14:36:26 [main] [LogUtils] - Screenshot taken: choosePlan
+[INFO] 04-07-2023 14:36:26 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/verify?username=sarahj88591&email=zubairulamin8%2B591@gmail.com
+[ERROR] 04-07-2023 14:36:26 [main] [LogUtils] - FAILED !! Screenshot for test case: choosePlan
+[ERROR] 04-07-2023 14:36:26 [main] [LogUtils] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#app > div > div > div > div > div.grid.gap-8.md\:grid-cols-2.xl\:grid-cols-3.items-end > div:nth-child(1) > div > button"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aed431c22358e45627d5e5fa73417f6e, findElement {using=css selector, value=#app > div > div > div > div > div.grid.gap-8.md\:grid-cols-2.xl\:grid-cols-3.items-end > div:nth-child(1) > div > button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56990}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56990/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aed431c22358e45627d5e5fa73417f6e
+[INFO] 04-07-2023 14:36:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:37:14 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:37:14 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:37:14 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-07-2023 14:37:19 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 14:37:19 [main] [LogUtils] - Loading Started
+[INFO] 04-07-2023 14:37:19 [main] [LogUtils] - Loading finsihed
+[ERROR] 04-07-2023 14:37:29 [main] [LogUtils] - Timeout waiting for the element to exist. By.cssSelector: #headlessui-menu-button-5
+[ERROR] 04-07-2023 14:37:29 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-07-2023 14:37:29 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (aed431c22358e45627d5e5fa73417f6e)
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Screenshot taken: verifyUserSignOut
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/verify?username=sarahj88591&email=zubairulamin8%2B591@gmail.com
+[ERROR] 04-07-2023 14:37:30 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyUserSignOut
+[ERROR] 04-07-2023 14:37:30 [main] [LogUtils] - java.lang.AssertionError: Timeout waiting for the element to exist. By.cssSelector: #headlessui-menu-button-5
+[ERROR] 04-07-2023 14:37:30 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (aed431c22358e45627d5e5fa73417f6e)
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:37:30 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:37:33 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:37:33 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:37:35 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:37:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:37:35 [main] [LogUtils] - Waiting for OTP....
+[INFO] 04-07-2023 14:38:00 [main] [LogUtils] - size of list of message: 2
+[INFO] 04-07-2023 14:38:00 [main] [LogUtils] - Yes found it Message has been found 
+[INFO] 04-07-2023 14:38:00 [main] [LogUtils] - Before Refining OTP Code(Gmail Inbox):  : 558027.
+[INFO] 04-07-2023 14:38:00 [main] [LogUtils] - After Refining OTP Code(Gmail Inbox): 558027
+[INFO] 04-07-2023 14:38:00 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:38:00 [main] [LogUtils] - Test case:  is starting...
