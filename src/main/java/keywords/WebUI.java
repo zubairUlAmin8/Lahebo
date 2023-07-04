@@ -2143,10 +2143,10 @@ public class WebUI {
     }
 
     /**
-     * Điền giá trị vào ô Text
-     *
-     * @param by    an element of object type By
-     * @param value giá trị cần điền vào ô text
+
+     Enter a value into a Text field.
+     @param by an element of object type By
+     @param value the value to enter into the Text field
      */
     @Step("Clear and Fill text on text box")
     public static void clearAndFillText(By by, String value) {
@@ -2201,9 +2201,9 @@ public class WebUI {
     }
 
     /**
-     * Click chuột vào Element trên web với Javascript (click ngầm không sợ bị che)
-     *
-     * @param by an element of object type By
+
+     Click on an Element on the web using JavaScript (performing an implicit click without being obstructed).
+     @param by an element of object type By
      */
     @Step("Click on the element by Javascript {0}")
     public static void clickElementWithJs(By by) {
@@ -2245,9 +2245,9 @@ public class WebUI {
     }
 
     /**
-     * Click chuột phải vào đối tượng Element trên web
-     *
-     * @param by an element of object type By
+
+     Right-click on an Element object on the web.
+     @param by an element of object type By
      */
     @Step("Right click on element {0}")
     public static void rightClickElement(By by) {
@@ -2277,11 +2277,11 @@ public class WebUI {
     }
 
     /**
-     * Lấy giá trị từ thuộc tính của element
-     *
-     * @param by            an element of object type By
-     * @param attributeName tên thuộc tính
-     * @return giá trị thuộc tính của element
+
+     Get the value from an attribute of an element.
+     @param by an element of object type By
+     @param attributeName the attribute name
+     @return the value of the element's attribute
      */
     @Step("Get attribute {1} of element {0}")
     public static String getAttributeElement(By by, String attributeName) {
@@ -2300,11 +2300,11 @@ public class WebUI {
     }
 
     /**
-     * Get CSS value of an element
-     *
-     * @param by      an element of object type By
-     * @param cssName is CSS attribute name
-     * @return value of CSS attribute
+
+     Get the CSS value of an element.
+     @param by an element of object type By
+     @param cssName the CSS attribute name
+     @return the value of the CSS attribute
      */
     @Step("Get CSS value {1} of element {0}")
     public static String getCssValueElement(By by, String cssName) {
@@ -2333,10 +2333,10 @@ public class WebUI {
     //Handle Table
 
     /**
-     * Kiểm tra giá trị từng cột của table khi tìm kiếm theo điều kiện BẰNG (equals)
+     * Check the values of each column in a table when searching for a condition EQUALS.
      *
-     * @param column vị trí cột
-     * @param value  giá trị cần so sánh
+     * @param column the position of the column
+     * @param value the value to compare
      */
     @Step("Check data by EQUALS type after searching on the Table by Column.")
     public static void checkEqualsValueOnTableByColumn(int column, String value) {
@@ -2359,10 +2359,10 @@ public class WebUI {
     }
 
     /**
-     * Kiểm tra giá trị từng cột của table khi tìm kiếm theo điều kiện CHỨA (contains)
+     * Check the values of each column in a table when searching for a condition CONTAINS.
      *
-     * @param column vị trí cột
-     * @param value  giá trị cần so sánh
+     * @param column the position of the column
+     * @param value the value to compare
      */
     @Step("Check data by CONTAINS type after searching on the Table by Column.")
     public static void checkContainsValueOnTableByColumn(int column, String value) {
@@ -2385,11 +2385,11 @@ public class WebUI {
     }
 
     /**
-     * Kiểm tra giá trị từng cột của table khi tìm kiếm theo điều kiện CHỨA với xpath tuỳ chỉnh
+     * Check the values of each column in a table when searching for a condition CONTAINING with a custom xpath.
      *
-     * @param column           vị trí cột
-     * @param value            giá trị cần so sánh
-     * @param xpathToTRtagname giá trị xpath tính đến thẻ TR
+     * @param column the position of the column
+     * @param value the value to compare
+     * @param xpathToTRtagname the xpath value up to the TR tag
      */
     @Step("Check data by CONTAINS type after searching on the Table by Column.")
     public static void checkContainsValueOnTableByColumn(int column, String value, String xpathToTRtagname) {
@@ -2414,10 +2414,10 @@ public class WebUI {
     }
 
     /**
-     * Lấy giá trị của một cột từ table
+     * Get the values of a column from a table.
      *
-     * @param column vị trí cột
-     * @return mảng danh sách giá trị của một cột
+     * @param column the position of the column
+     * @return an array or list of values in a column
      */
     public static ArrayList getValueTableByColumn(int column) {
         smartWait();
@@ -2445,11 +2445,11 @@ public class WebUI {
     //Wait Element
 
     /**
-     * Chờ đợi element sẵn sàng hiển thị để thao tác theo thời gian tuỳ ý
+     * Wait for the element to be ready for interaction within a specified time limit.
      *
-     * @param by      an element of object type By
-     * @param timeOut thời gian chờ tối đa
-     * @return một đối tượng WebElement đã sẵn sàng để thao tác
+     * @param by an element of object type By
+     * @param timeOut the maximum waiting time
+     * @return a WebElement object that is ready for interaction
      */
     public static WebElement waitForElementVisible(By by, long timeOut) {
         smartWait();
@@ -2537,11 +2537,11 @@ public class WebUI {
     }
 
     /**
-     * Chờ đợi element sẵn sàng tồn tại trong DOM theo thời gian tuỳ ý
-     *
-     * @param by      an element of object type By
-     * @param timeOut thời gian chờ tối đa
-     * @return một đối tượng WebElement đã tồn tại
+
+     Wait for an element to exist in the DOM within a specified time limit.
+     @param by an element of object type By
+     @param timeOut the maximum waiting time
+     @return a WebElement object that exists
      */
     public static WebElement waitForElementPresent(By by, long timeOut) {
         smartWait();
@@ -2596,13 +2596,14 @@ public class WebUI {
         return false;
     }
 
+
     /**
-     * Kiểm tra giá trị từ thuộc tính của một element có đúng hay không
-     *
-     * @param by        an element of object type By
-     * @param attribute tên thuộc tính
-     * @param value     giá trị
-     * @return true/false
+
+     Check if the value of an attribute of an element is correct or not.
+     @param by an element of object type By
+     @param attribute the attribute name
+     @param value the value to check
+     @return true/false
      */
     @Step("Verify element {0} with attribute {1} has value is {2}")
     public static boolean verifyElementAttributeValue(By by, String attribute, String value) {
@@ -2620,13 +2621,14 @@ public class WebUI {
         }
     }
 
+
     /**
-     * Chờ đợi thuộc tính của một element tồn tại với thời gian tuỳ chỉnh
-     *
-     * @param by        an element of object type By
-     * @param attribute tên thuộc tính
-     * @return true/false
-     * @timeOut thời gian chờ tối đa
+
+     Wait for the attribute of an element to exist with a custom timeout.
+     @param by an element of object type By
+     @param attribute the attribute name
+     @param timeOut the maximum waiting time
+     @return true/false
      */
     @Step("Verify element {0} has attribute {1} with timeout {2} second")
     public static boolean verifyElementHasAttribute(By by, String attribute, int timeOut) {
@@ -2669,14 +2671,10 @@ public class WebUI {
         }
     }
 
-    public static void waitForPageLoad() throws InterruptedException {
-        String loaderMain = "div[class=\"absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center\"]";
-        WebElement ele = DriverManager.getDriver().findElement(By.cssSelector(loaderMain));
-        waits.waitForVisibilityOfItem(DriverManager.getDriver(),ele, 30);
-        waits.waitForInvisibilityOfItem(DriverManager.getDriver(), LandingPagePR.loaderMain, 30);
-    }
+
     /**
-     * Chờ đợi JQuery tải xong với thời gian mặc định từ config
+
+     Wait for jQuery to finish loading with the default timeout from the configuration.
      */
     public static void waitForJQueryLoad() {
         WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(WAIT_PAGE_LOADED), Duration.ofMillis(500));
@@ -2706,7 +2704,8 @@ public class WebUI {
     //Wait for Angular Load
 
     /**
-     * Chờ đợi Angular tải xong với thời gian mặc định từ config
+
+     Wait for Angular to finish loading with the default timeout from the configuration.
      */
     public static void waitForAngularLoad() {
         WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(WAIT_PAGE_LOADED), Duration.ofMillis(500));

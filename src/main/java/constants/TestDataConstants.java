@@ -19,5 +19,6 @@ public final class TestDataConstants {
 
     public static final String DEPARTMENT_NAME = PropertiesHelpers.getValue("DEPARTMENT_NAME");
     public static final String EDIT_DEPARTMENT_NAME = PropertiesHelpers.getValue("EDIT_DEPARTMENT_NAME");
+    public static final String Existing_User_Password = PropertiesHelpers.getValue("Existing_User_Password");
 
 }

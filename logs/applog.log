@@ -248,3 +248,573 @@ Session ID: 5363e441aebfaf35307bfa70823582a3
 [INFO] 04-07-2023 11:34:46 [main] [LogUtils] - Clicked on the element By.cssSelector: #changePassBtn
 [INFO] 04-07-2023 11:34:46 [main] [LogUtils] - Test case:  is passed.
 [INFO] 04-07-2023 11:34:46 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 04-07-2023 11:55:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 11:55:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 11:55:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 11:55:30 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-07-2023 11:55:35 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-07-2023 11:55:35 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (3d5b5de14a62053d0f66befe623b67f2)
+[INFO] 04-07-2023 11:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 11:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 11:55:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 11:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 11:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 11:55:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 11:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 11:55:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 11:55:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 11:55:36 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 11:55:39 [main] [LogUtils] - Username and password are correct
+[INFO] 04-07-2023 11:55:53 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 11:55:53 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-07-2023 11:55:54 [main] [LogUtils] - Loading Started
+[INFO] 04-07-2023 11:55:57 [main] [LogUtils] - Loading finsihed
+[INFO] 04-07-2023 11:55:58 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 11:55:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 11:55:58 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 156 505
+[INFO] 04-07-2023 11:55:58 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 11:55:59 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 11:55:59 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 11:55:59 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 11:55:59 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 11:55:59 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 11:55:59 [main] [LogUtils] - Set text Zubair on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 11:55:59 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 11:55:59 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 11:56:00 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 11:56:00 [main] [LogUtils] - Set text Amin on By.cssSelector: #userLastName
+[INFO] 04-07-2023 11:56:00 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 11:56:00 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 11:56:00 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 11:56:00 [main] [LogUtils] - Set text +61201 156 505 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 11:56:00 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 11:56:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 11:56:03 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 11:56:04 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 11:56:05 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 11:56:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 11:56:05 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 11:56:05 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 11:56:05 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 11:56:05 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 11:56:05 [main] [LogUtils] - Set text Sarah on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 11:56:05 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 11:56:05 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 11:56:05 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 11:56:06 [main] [LogUtils] - Set text Johnson on By.cssSelector: #userLastName
+[INFO] 04-07-2023 11:56:06 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 11:56:06 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 11:56:06 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 11:56:06 [main] [LogUtils] - Set text +61201347536 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 11:56:06 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 11:56:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 11:56:09 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 11:56:11 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 11:56:11 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 11:56:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 11:56:11 [main] [LogUtils] - Verify element visible By.cssSelector: #userOldPass
+[INFO] 04-07-2023 11:56:11 [main] [LogUtils] - Set text old pasword on By.cssSelector: #userOldPass
+[INFO] 04-07-2023 11:56:11 [main] [LogUtils] - Verify element visible By.cssSelector: #userNewPass
+[INFO] 04-07-2023 11:56:11 [main] [LogUtils] - Set text old pasword on By.cssSelector: #userNewPass
+[INFO] 04-07-2023 11:56:12 [main] [LogUtils] - Verify element visible By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 11:56:12 [main] [LogUtils] - Set text old pasword on By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 11:56:12 [main] [LogUtils] - Verify element visible By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 11:56:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 11:56:12 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 11:56:12 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 04-07-2023 13:08:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:08:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:08:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:08:32 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-07-2023 13:08:40 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-07-2023 13:08:40 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (d9285141aea152981e3c50ef0b675270)
+[INFO] 04-07-2023 13:08:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:08:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:08:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:08:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:08:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:08:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:08:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:08:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:08:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:08:41 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 13:08:46 [main] [LogUtils] - Username and password are correct
+[INFO] 04-07-2023 13:08:59 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 13:08:59 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-07-2023 13:09:01 [main] [LogUtils] - Loading Started
+[INFO] 04-07-2023 13:09:04 [main] [LogUtils] - Loading finsihed
+[INFO] 04-07-2023 13:09:04 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 13:09:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 13:09:05 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 240 807
+[INFO] 04-07-2023 13:09:06 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:09:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:09:06 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:09:06 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:09:06 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:09:06 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:09:06 [main] [LogUtils] - Set text Zubair on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:09:06 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:09:07 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:09:07 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:09:07 [main] [LogUtils] - Set text Amin on By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:09:07 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:09:07 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:09:07 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:09:07 [main] [LogUtils] - Set text +61201 240 807 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:09:08 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 13:09:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 13:09:10 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 13:09:12 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 13:09:12 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:09:13 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:09:13 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:09:13 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:09:13 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:09:13 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:09:13 [main] [LogUtils] - Set text Sarah on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:09:13 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:09:13 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:09:13 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:09:14 [main] [LogUtils] - Set text Johnson on By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:09:14 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:09:14 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:09:14 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:09:14 [main] [LogUtils] - Set text +61201347536 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:09:14 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 13:09:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 13:09:16 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 13:09:18 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 13:09:18 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 13:09:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 13:09:18 [main] [LogUtils] - Verify element visible By.cssSelector: #userOldPass
+[INFO] 04-07-2023 13:09:19 [main] [LogUtils] - Set text old pasword on By.cssSelector: #userOldPass
+[INFO] 04-07-2023 13:09:19 [main] [LogUtils] - Verify element visible By.cssSelector: #userNewPass
+[INFO] 04-07-2023 13:09:19 [main] [LogUtils] - Set text old pasword on By.cssSelector: #userNewPass
+[INFO] 04-07-2023 13:09:19 [main] [LogUtils] - Verify element visible By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 13:09:19 [main] [LogUtils] - Set text old pasword on By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 13:09:19 [main] [LogUtils] - Verify element visible By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 13:09:19 [main] [LogUtils] - Clicked on the element By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 13:09:19 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 13:09:20 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 04-07-2023 13:09:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:09:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:09:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:09:39 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-07-2023 13:09:44 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (69ec7f3fbd4bbdff1a3780bc79fb4ec4)
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:09:44 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 04-07-2023 13:09:54 [main] [LogUtils] - Element not exist. By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[ERROR] 04-07-2023 13:09:54 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-07-2023 13:09:54 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (69ec7f3fbd4bbdff1a3780bc79fb4ec4)
+[INFO] 04-07-2023 13:09:54 [main] [LogUtils] - Screenshot taken: verifyChangePassword
+[INFO] 04-07-2023 13:09:54 [main] [LogUtils] - Screenshot taken current URL: data:,
+[ERROR] 04-07-2023 13:09:54 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyChangePassword
+[ERROR] 04-07-2023 13:09:54 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 13:09:55 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 13:09:59 [main] [LogUtils] - Username and password are correct
+[INFO] 04-07-2023 13:10:09 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 13:10:09 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-07-2023 13:10:10 [main] [LogUtils] - Loading Started
+[INFO] 04-07-2023 13:10:13 [main] [LogUtils] - Loading finsihed
+[INFO] 04-07-2023 13:10:14 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 13:10:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 13:10:14 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 857 075
+[INFO] 04-07-2023 13:10:14 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:10:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:10:15 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:10:15 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:10:15 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:10:15 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:10:15 [main] [LogUtils] - Set text Zubair on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:10:15 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:10:15 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:10:15 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:10:16 [main] [LogUtils] - Set text Amin on By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:10:16 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:10:16 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:10:16 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:10:16 [main] [LogUtils] - Set text +61201 857 075 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:10:16 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 13:10:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 13:10:19 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 13:10:21 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 13:10:21 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:10:21 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:10:21 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:10:21 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:10:21 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:10:21 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:10:22 [main] [LogUtils] - Set text Sarah on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:10:22 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:10:22 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:10:22 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:10:22 [main] [LogUtils] - Set text Johnson on By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:10:22 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:10:22 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:10:22 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:10:23 [main] [LogUtils] - Set text +61201347536 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:10:23 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 13:10:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 13:10:25 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 13:10:27 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 13:10:27 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 13:10:27 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 04-07-2023 13:18:51 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:18:51 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:18:51 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:18:51 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-07-2023 13:18:56 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (edf3fd266e6826a85401f18dbd1c4fc9)
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:18:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 13:19:01 [main] [LogUtils] - Username and password are correct
+[INFO] 04-07-2023 13:19:11 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 13:19:11 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-07-2023 13:19:12 [main] [LogUtils] - Loading Started
+[INFO] 04-07-2023 13:19:15 [main] [LogUtils] - Loading finsihed
+[INFO] 04-07-2023 13:19:16 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 13:19:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 13:19:16 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 859 743
+[INFO] 04-07-2023 13:19:16 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:19:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:19:17 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:19:17 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:19:17 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:19:17 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:19:17 [main] [LogUtils] - Set text Zubair on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:19:17 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:19:18 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:19:18 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:19:18 [main] [LogUtils] - Set text Amin on By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:19:18 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:19:18 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:19:18 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:19:19 [main] [LogUtils] - Set text +61201 859 743 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:19:19 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 13:19:19 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 13:19:21 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 13:19:23 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 13:19:23 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:19:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:19:24 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:19:24 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:19:24 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:19:24 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:19:24 [main] [LogUtils] - Set text Sarah on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:19:24 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:19:24 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:19:24 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:19:24 [main] [LogUtils] - Set text Johnson on By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:19:25 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:19:25 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:19:25 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:19:25 [main] [LogUtils] - Set text +61201347536 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:19:25 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 13:19:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 13:19:27 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 13:19:29 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 13:19:29 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 13:19:29 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 13:19:29 [main] [LogUtils] - Random Password is Generated: 254vS&735
+[INFO] 04-07-2023 13:19:29 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 13:19:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 13:19:29 [main] [LogUtils] - Verify element visible By.cssSelector: #userOldPass
+[INFO] 04-07-2023 13:19:30 [main] [LogUtils] - Set text 81R*9173c on By.cssSelector: #userOldPass
+[INFO] 04-07-2023 13:19:30 [main] [LogUtils] - Verify element visible By.cssSelector: #userNewPass
+[INFO] 04-07-2023 13:19:30 [main] [LogUtils] - Set text 254vS&735 on By.cssSelector: #userNewPass
+[INFO] 04-07-2023 13:19:30 [main] [LogUtils] - Verify element visible By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 13:19:30 [main] [LogUtils] - Set text 254vS&735 on By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 13:19:30 [main] [LogUtils] - Verify element visible By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 13:19:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 13:19:30 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[ERROR] 04-07-2023 13:19:32 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-07-2023 13:19:32 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (edf3fd266e6826a85401f18dbd1c4fc9)
+[INFO] 04-07-2023 13:19:32 [main] [LogUtils] - Screenshot taken: verifyChangePassword
+[INFO] 04-07-2023 13:19:32 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/me
+[ERROR] 04-07-2023 13:19:32 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyChangePassword
+[ERROR] 04-07-2023 13:19:32 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="mb-6 lg:mb-0 text-base-white float-right mr-3 bg-primary-500 disabled:bg-primary-300 disabled:cursor-not-allowed transition-colors duration-200 hover:bg-primary-700 focus:ring-2 focus:ring-primary-300 font-medium rounded px-4 h-[36px] focus:outline-none dark:focus:ring-blue-800">...</button> is not clickable at point (1376, 280). Other element would receive the click: <div data-v-c4bd1caa="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edf3fd266e6826a85401f18dbd1c4fc9, clickElement {id=E9DC70AF40909D583153C469E0ED9E58_element_98}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56000}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56000/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (edf3fd266e6826a85401f18dbd1c4fc9)] -> css selector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800]
+Session ID: edf3fd266e6826a85401f18dbd1c4fc9
+[INFO] 04-07-2023 13:19:33 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 04-07-2023 13:22:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:22:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:22:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:22:22 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-07-2023 13:22:27 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (e23fa363e8741d32935c008f7b9b621f)
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:22:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 13:22:31 [main] [LogUtils] - Username and password are correct
+[INFO] 04-07-2023 13:22:40 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 13:22:40 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-07-2023 13:22:41 [main] [LogUtils] - Loading Started
+[INFO] 04-07-2023 13:22:44 [main] [LogUtils] - Loading finsihed
+[INFO] 04-07-2023 13:22:45 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 13:22:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 13:22:45 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 892 318
+[INFO] 04-07-2023 13:22:45 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:22:46 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:22:46 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:22:46 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:22:46 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:22:46 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:22:46 [main] [LogUtils] - Set text Zubair on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:22:47 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:22:47 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:22:47 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:22:47 [main] [LogUtils] - Set text Amin on By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:22:47 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:22:47 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:22:47 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:22:48 [main] [LogUtils] - Set text +61201 892 318 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:22:48 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 13:22:48 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 13:22:50 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 13:22:52 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 13:22:52 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:22:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:22:52 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:22:52 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:22:52 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:22:52 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:22:53 [main] [LogUtils] - Set text Sarah on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:22:53 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:22:53 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:22:53 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:22:53 [main] [LogUtils] - Set text Johnson on By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:22:53 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:22:53 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:22:53 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:22:53 [main] [LogUtils] - Set text +61201347536 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:22:54 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 13:22:54 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 13:22:56 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 13:22:58 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 13:22:58 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 13:22:58 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 13:22:58 [main] [LogUtils] - Random Password is Generated: 36W813u9%
+[INFO] 04-07-2023 13:22:58 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 13:22:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 13:22:58 [main] [LogUtils] - Verify element visible By.cssSelector: #userOldPass
+[INFO] 04-07-2023 13:22:59 [main] [LogUtils] - Set text 254vS&735 on By.cssSelector: #userOldPass
+[INFO] 04-07-2023 13:22:59 [main] [LogUtils] - Verify element visible By.cssSelector: #userNewPass
+[INFO] 04-07-2023 13:22:59 [main] [LogUtils] - Set text 36W813u9% on By.cssSelector: #userNewPass
+[INFO] 04-07-2023 13:22:59 [main] [LogUtils] - Verify element visible By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 13:22:59 [main] [LogUtils] - Set text 36W813u9% on By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 13:22:59 [main] [LogUtils] - Verify element visible By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 13:22:59 [main] [LogUtils] - Clicked on the element By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 13:27:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:27:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:27:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:27:40 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-07-2023 13:27:45 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (4e43e781ee45c8e458f226c4498e6364)
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:27:45 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 13:27:49 [main] [LogUtils] - Username and password are correct
+[INFO] 04-07-2023 13:27:58 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 13:27:58 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-07-2023 13:27:59 [main] [LogUtils] - Loading Started
+[INFO] 04-07-2023 13:28:02 [main] [LogUtils] - Loading finsihed
+[INFO] 04-07-2023 13:28:02 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 13:28:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 13:28:03 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 960 885
+[INFO] 04-07-2023 13:28:03 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:28:04 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:28:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:28:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:28:04 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:28:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:28:04 [main] [LogUtils] - Set text Zubair on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:28:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:28:05 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:28:05 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:28:05 [main] [LogUtils] - Set text Amin on By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:28:05 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:28:05 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:28:05 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:28:06 [main] [LogUtils] - Set text +61201 960 885 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:28:06 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 13:28:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 13:28:08 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 13:28:10 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 13:28:10 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:28:10 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 13:28:10 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:28:10 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:28:10 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:28:10 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:28:11 [main] [LogUtils] - Set text Sarah on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 13:28:11 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:28:11 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:28:11 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:28:11 [main] [LogUtils] - Set text Johnson on By.cssSelector: #userLastName
+[INFO] 04-07-2023 13:28:11 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:28:11 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:28:11 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:28:12 [main] [LogUtils] - Set text +61201347536 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 13:28:12 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 13:28:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 13:28:14 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 13:28:16 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 13:28:16 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 13:28:16 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 13:28:16 [main] [LogUtils] - Random Password is Generated: 7101y!02Z
+[INFO] 04-07-2023 13:28:16 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 13:28:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 13:28:16 [main] [LogUtils] - Verify element visible By.cssSelector: #userOldPass
+[INFO] 04-07-2023 13:28:16 [main] [LogUtils] - Set text 36W813u9% on By.cssSelector: #userOldPass
+[INFO] 04-07-2023 13:28:16 [main] [LogUtils] - Verify element visible By.cssSelector: #userNewPass
+[INFO] 04-07-2023 13:28:16 [main] [LogUtils] - Set text 7101y!02Z on By.cssSelector: #userNewPass
+[INFO] 04-07-2023 13:28:17 [main] [LogUtils] - Verify element visible By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 13:28:17 [main] [LogUtils] - Set text 7101y!02Z on By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 13:28:17 [main] [LogUtils] - Verify element visible By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 13:28:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #changePassBtn
+[ERROR] 04-07-2023 13:29:05 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-07-2023 13:29:05 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (4e43e781ee45c8e458f226c4498e6364)
+[INFO] 04-07-2023 13:29:06 [main] [LogUtils] - Screenshot taken: verifyChangePassword
+[INFO] 04-07-2023 13:29:06 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/risks?col=createdAt&direction=DESC&keyword=sarahj88136&dueDateTo=&pageSize=10&current=0
+[ERROR] 04-07-2023 13:29:06 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyChangePassword
+[ERROR] 04-07-2023 13:29:06 [main] [LogUtils] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[type="password"]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e43e781ee45c8e458f226c4498e6364, findElement {using=css selector, value=input[type="password"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56119}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56119/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e43e781ee45c8e458f226c4498e6364
+[INFO] 04-07-2023 13:29:06 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 04-07-2023 13:30:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:30:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:30:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:30:39 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-07-2023 13:30:44 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (a106fe79bc427a649906dfdc4e08dd9a)
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 13:30:44 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 13:30:48 [main] [LogUtils] - Username and password are correct
+[INFO] 04-07-2023 14:20:31 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:20:31 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:20:31 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:20:31 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-07-2023 14:20:38 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (e3b13186c06095f6221dcf70dcc76147)
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-07-2023 14:20:38 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:20:42 [main] [LogUtils] - Username and password are correct
+[INFO] 04-07-2023 14:20:51 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-07-2023 14:20:51 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-07-2023 14:20:52 [main] [LogUtils] - Loading Started
+[INFO] 04-07-2023 14:20:55 [main] [LogUtils] - Loading finsihed
+[INFO] 04-07-2023 14:20:56 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 14:20:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 04-07-2023 14:20:56 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 109 013
+[INFO] 04-07-2023 14:20:57 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 14:20:57 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 14:20:57 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 14:20:58 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 14:20:58 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 14:20:58 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 14:20:58 [main] [LogUtils] - Set text Zubair on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 14:20:58 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 14:20:58 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 14:20:58 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 14:20:58 [main] [LogUtils] - Set text Amin on By.cssSelector: #userLastName
+[INFO] 04-07-2023 14:20:59 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 14:20:59 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 14:20:59 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 14:20:59 [main] [LogUtils] - Set text +61201 109 013 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 14:20:59 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 14:20:59 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 14:21:01 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 14:21:03 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 14:21:03 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 14:21:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-07-2023 14:21:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 14:21:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 14:21:04 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-07-2023 14:21:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-07-2023 14:21:04 [main] [LogUtils] - Set text Sarah on By.cssSelector: #userFirstName
+[INFO] 04-07-2023 14:21:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 14:21:04 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-07-2023 14:21:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-07-2023 14:21:04 [main] [LogUtils] - Set text Johnson on By.cssSelector: #userLastName
+[INFO] 04-07-2023 14:21:04 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 14:21:05 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 14:21:05 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 14:21:05 [main] [LogUtils] - Set text +61201347536 on By.cssSelector: #userTelephone>input
+[INFO] 04-07-2023 14:21:05 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-07-2023 14:21:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-07-2023 14:21:07 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-07-2023 14:21:09 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-07-2023 14:21:09 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:21:09 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-07-2023 14:21:09 [main] [LogUtils] - Random Password is Generated: N1b*3514
+[INFO] 04-07-2023 14:21:09 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 14:21:09 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.mb-6.lg\:mb-0.text-base-white.float-right.mr-3.bg-primary-500.disabled\:bg-primary-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-primary-700.focus\:ring-2.focus\:ring-primary-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-blue-800
+[INFO] 04-07-2023 14:21:09 [main] [LogUtils] - Verify element visible By.cssSelector: #userOldPass
+[INFO] 04-07-2023 14:21:10 [main] [LogUtils] - Set text 36W813u9% on By.cssSelector: #userOldPass
+[INFO] 04-07-2023 14:21:10 [main] [LogUtils] - Verify element visible By.cssSelector: #userNewPass
+[INFO] 04-07-2023 14:21:10 [main] [LogUtils] - Set text N1b*3514 on By.cssSelector: #userNewPass
+[INFO] 04-07-2023 14:21:10 [main] [LogUtils] - Verify element visible By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 14:21:10 [main] [LogUtils] - Set text N1b*3514 on By.cssSelector: #userConfirmPass
+[INFO] 04-07-2023 14:21:10 [main] [LogUtils] - Verify element visible By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 14:21:10 [main] [LogUtils] - Clicked on the element By.cssSelector: #changePassBtn
+[INFO] 04-07-2023 14:21:12 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-07-2023 14:21:12 [main] [LogUtils] - End Suite: All Test Cases
