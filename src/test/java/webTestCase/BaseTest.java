@@ -26,6 +26,7 @@ public class BaseTest {
     LocationsPage locationsPage;
     JobFunctionsPage jobFunctionsPage;
     ProfileDetailsPage profileDetailsPage;
+    LegislationLibraryPage legislationLibraryPage;
 
     public static WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
@@ -49,6 +50,7 @@ public class BaseTest {
         locationsPage = new LocationsPage(driver);
         jobFunctionsPage = new JobFunctionsPage(driver);
         profileDetailsPage = new ProfileDetailsPage(driver);
+        legislationLibraryPage = new LegislationLibraryPage(driver);
     }
     @Parameters("BROWSER")
     @BeforeSuite(groups = {"dataDrivenTestCases"})
@@ -77,13 +79,13 @@ public class BaseTest {
 //        BasePage.setBrowser(driver);
     }
 
-    @AfterSuite(alwaysRun = true, groups = {"dataDrivenTestCases"})
+    @AfterSuite(groups = {"dataDrivenTestCases"})
     public void closeDriver_dataDrivenTestCases() {
         DriverManager.quit();
     }
     @AfterSuite(alwaysRun = true)
     public void closeDriver() {
-        DriverManager.quit();
+//        DriverManager.quit();
     }
     public WebDriver createBrowser(@Optional("chrome") String browser) {
         PropertiesHelpers.loadAllFiles();

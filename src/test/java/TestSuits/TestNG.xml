@@ -19,7 +19,8 @@
 <!--            <class name="webTestCase.verifyDepartmentST"/>-->
 <!--            <class name="webTestCase.verifyLocationST"/>-->
 <!--            <class name="webTestCase.verifyJobFunctionST"/>-->
-            <class name="webTestCase.verifyProfileSetting"/>
+<!--            <class name="webTestCase.verifyProfileSetting"/>-->
+            <class name="webTestCase.verifyLegislationLibrary"/>
 
         </classes>
     </test> <!-- Test -->
