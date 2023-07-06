@@ -2,9 +2,12 @@ package lahebo.web_pages;
 
 import Utils.LogUtils;
 import Utils.fakerUtils;
+import Utils.utility;
+import constants.FrameworkConstants;
 import driver.DriverManager;
 import keywords.WebUI;
 import lahebo.objectRepo.DepartmentPageOR;
+import lahebo.objectRepo.LandingPageOR;
 import lahebo.objectRepo.LegislationLibraryOR;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,6 +36,8 @@ public class LegislationLibraryPage {
         WebUI.clickElement(LegislationLibraryOR.LL_SearchBtn);
         WebUI.clickElement(LegislationLibraryOR.LL_SubscribeBtn);
         WebUI.clickElement(LegislationLibraryOR.LL_ConfirmSubscriptionBtn);
+        WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+        WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
 
     }
 
@@ -69,10 +74,28 @@ public class LegislationLibraryPage {
         WebUI.setText(LegislationLibraryOR.LR_StateIF, fakerUtils.generateDummyData(5));
         WebUI.setText(LegislationLibraryOR.LR_RemarksIF, fakerUtils.generateDummyData(20));
         WebUI.clickElement(LegislationLibraryOR.LR_AddFinalBtn);
+        WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+        WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
 
+    }
 
+    public void unsubscribeAllItems() throws InterruptedException {
+        WebUI.clickElement(LegislationLibraryOR.subscribeItemsTab);
+        WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+        WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+        WebUI.scrollToElementToBottom(LegislationLibraryOR.SI_TotalItemsCount);
+        String countText = WebUI.getTextElement(LegislationLibraryOR.SI_TotalItemsCount);
+        LogUtils.info("Total Subscribe Items: "+countText);
+        LogUtils.info("Total Subscribe Items: "+ utility.extractIntegerFromString(countText)+ " length: "+countText.length());
+        int totalItems = utility.extractIntegerFromString(countText);
+        LogUtils.info("Total Subscribe Items Int: "+totalItems);
 
-
+        for (int i = totalItems; i > 0; i--) {
+            WebUI.clickElement(LegislationLibraryOR.LL_SubscribeBtn);
+            WebUI.clickElement(LegislationLibraryOR.SI_ConfirmOkBtn);
+            WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+            WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+        }
 
     }
 

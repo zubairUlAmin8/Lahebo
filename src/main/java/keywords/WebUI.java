@@ -2583,10 +2583,31 @@ public class WebUI {
     /**
      * Wait for the element to be ready for interaction within a specified time limit.
      *
-     * @param by an element of object type By
+     * @param by      an element of object type By
      * @param timeOut the maximum waiting time
      * @return a WebElement object that is ready for interaction
      */
+    public static void waitSpinner(By by, long timeOut) {
+        smartWait();
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeOut), Duration.ofMillis(5000));
+
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+            LogUtils.error(" Element Visible. " + by.toString());
+
+        } catch (Throwable error) {
+            LogUtils.error("Timeout waiting for the element Visible. " + by.toString());
+        }
+
+        try {
+            wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
+            LogUtils.info("Element"+by.toString()+"Has been Disappeared");
+        } catch (ElementClickInterceptedException exception) {
+            LogUtils.error("Element"+by.toString()+"Has Not been Disappeared");
+        }
+
+
+    }
     public static WebElement waitForElementVisible(By by, long timeOut) {
         smartWait();
 

@@ -24,5 +24,6 @@ public interface LandingPageOR {
       By dashboardTab=By.cssSelector("input[type=\"text\"]");
       By popUpAlert=By.cssSelector("div[role=\"alert\"]");
       By organizationSettingArrow=By.cssSelector("#organizationSettings>svg:last-of-type");
+      By spinnerLoader=By.cssSelector("#dotSpinner");
 
 }

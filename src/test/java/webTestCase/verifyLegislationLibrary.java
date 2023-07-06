@@ -28,6 +28,12 @@ public class verifyLegislationLibrary extends BaseTest {
         legislationLibraryPage.addLegalRegister();
         Thread.sleep(5000);
     }
+    @Test(priority = 3, enabled = true)
+    public void unsubscribeAllItems() throws InterruptedException {
+        landingPage.goToLegislationLibrary();
+        legislationLibraryPage.unsubscribeAllItems();
+        Thread.sleep(5000);
+    }
 
     @Test( enabled = false)
     public void testscrap() {

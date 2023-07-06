@@ -10,6 +10,7 @@ import models.SignInModel;
 import models.SignUpModel;
 import org.openqa.selenium.WebDriver;
 import lahebo.web_elements.SignInPageElements;
+import org.openqa.selenium.WebDriverException;
 import org.testng.Assert;
 
 import java.util.Hashtable;
@@ -158,7 +159,12 @@ public class SignInPage extends BasePage {
         TwoFactorAuthPage twoFactorAuthPage = new TwoFactorAuthPage(driver);
         LandingPage landingPage = new LandingPage(driver);
         System.out.println(secretKey);
-        driver.get(url_Address);
+        try {
+            driver.get(url_Address);
+        } catch (WebDriverException e) {
+            LogUtils.error("Driver could not Installed");
+            Assert.fail("Driver could not Installed");
+        }
         if (signIn(userName, password)) {
             Assert.assertTrue(true, "Password or Username is  correct");
             Assert.assertTrue(twoFactorAuthPage.authenticationWithSecretKey(secretKey), "2FA Authentication Failed");

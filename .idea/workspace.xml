@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed167683-20e1-4c65-b78a-146b0c62a34f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LegislationLibraryOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LegislationLibraryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyLegislationLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/applog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/fakerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/fakerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/AllTestCases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/AllTestCases.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/datatest.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/datatest.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LandingPageOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LandingPageOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LegislationLibraryOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LegislationLibraryOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LegislationLibraryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LegislationLibraryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyLegislationLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyLegislationLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
