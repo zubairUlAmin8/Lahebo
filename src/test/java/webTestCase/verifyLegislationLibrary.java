@@ -4,6 +4,8 @@ import Utils.fakerUtils;
 import constants.TestDataConstants;
 import driver.DriverManager;
 import helpers.PropertiesHelpers;
+import keywords.WebUI;
+import lahebo.objectRepo.LandingPageOR;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -15,14 +17,14 @@ public class verifyLegislationLibrary extends BaseTest {
         signInPage.signInUser();
     }
 
-    @Test(priority = 1, invocationCount = 5, enabled = true)
+    @Test(priority = 1, invocationCount = 20, enabled = true)
     public void verifysubscribeItems() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.subscribeItems();
         Thread.sleep(5000);
     }
 
-    @Test(priority = 2, enabled = true, invocationCount = 5)
+    @Test(priority = 2, enabled = false, invocationCount = 5)
     public void verifyLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.addLegalRegister();
@@ -35,11 +37,19 @@ public class verifyLegislationLibrary extends BaseTest {
         Thread.sleep(5000);
     }
 
-    @Test( enabled = false)
-    public void testscrap() {
-        DriverManager.getDriver().get("https://www.legislation.gov.au/Details/C2021C00336");
-        WebElement element= DriverManager.getDriver().findElement(By.id("MainContent_RadPageHTML"));
-        System.out.println(element.getAttribute("innerText"));
+    @Test( enabled = false, invocationCount = 20)
+    public void testscrap() throws InterruptedException {
+//        for (int i = 0; i < 20; i++) {
+            landingPage.goToDashBoard();
+            WebUI.waitSpinner(LandingPageOR.spinnerLoader, 10);
+            landingPage.goToActionCenter();
+            WebUI.waitSpinner(LandingPageOR.spinnerLoader, 10);
+            landingPage.goToLegislationLibrary();
+            WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
+//            WebUI.waitSpinner(LandingPageOR.spinnerLoader, 10);
+//        }
+
     }
+
 
 }

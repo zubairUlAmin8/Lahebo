@@ -89,12 +89,16 @@ public class LegislationLibraryPage {
         LogUtils.info("Total Subscribe Items: "+ utility.extractIntegerFromString(countText)+ " length: "+countText.length());
         int totalItems = utility.extractIntegerFromString(countText);
         LogUtils.info("Total Subscribe Items Int: "+totalItems);
-
         for (int i = totalItems; i > 0; i--) {
+            WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
             WebUI.clickElement(LegislationLibraryOR.LL_SubscribeBtn);
             WebUI.clickElement(LegislationLibraryOR.SI_ConfirmOkBtn);
-            WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
-            WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+            WebUI.waitForElementToBeGone(LandingPageOR.confirmModel,5);
+
+
+
+//            WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+//            WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
         }
 
     }

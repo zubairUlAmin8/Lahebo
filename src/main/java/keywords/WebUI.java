@@ -2578,6 +2578,30 @@ public class WebUI {
         return arrayList;
     }
 
+    public static boolean isElementDisplayed(WebElement element) {
+        try {
+            WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofMillis(500));
+            wait.until(ExpectedConditions.visibilityOf(element));
+            return element.isDisplayed();
+        } catch (org.openqa.selenium.NoSuchElementException
+                 | org.openqa.selenium.StaleElementReferenceException
+                 | org.openqa.selenium.TimeoutException e) {
+            return false;
+        }
+    }
+    public static void waitForElementToBeGone(By by, int timeout) {
+        try {
+            WebElement element = DriverManager.getDriver().findElement(by);
+            if (isElementDisplayed(element)) {
+                new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeout)).until(ExpectedConditions.not(ExpectedConditions.visibilityOf(element)));
+            }
+        } catch (NoSuchElementException e) {
+            LogUtils.info("we are into exception");
+        } catch (StaleElementReferenceException e) {
+            LogUtils.info("we are into stale element");
+        }
+
+    }
     //Wait Element
 
     /**
@@ -2589,7 +2613,7 @@ public class WebUI {
      */
     public static void waitSpinner(By by, long timeOut) {
         smartWait();
-        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeOut), Duration.ofMillis(5000));
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeOut), Duration.ofMillis(100));
 
         try {
             wait.until(ExpectedConditions.visibilityOfElementLocated(by));
