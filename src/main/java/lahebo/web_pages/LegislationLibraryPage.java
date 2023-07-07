@@ -28,7 +28,7 @@ public class LegislationLibraryPage {
         this.driver = driver;
     }
 
-    public void subscribeItems() {
+    public void subscribeItems() throws InterruptedException {
         WebUI.clickElement(LegislationLibraryOR.LL_LegislationList);
         WebUI.selectListOptionRandomly(LegislationLibraryOR.LL_LegislationListElements);
         WebUI.clickElement(LegislationLibraryOR.LL_DivisionList);
@@ -36,8 +36,9 @@ public class LegislationLibraryPage {
         WebUI.clickElement(LegislationLibraryOR.LL_SearchBtn);
         WebUI.clickElement(LegislationLibraryOR.LL_SubscribeBtn);
         WebUI.clickElement(LegislationLibraryOR.LL_ConfirmSubscriptionBtn);
-        WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
-        WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+        WebUI.waitForElementToBeGone(LandingPageOR.confirmModel,5);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
+
 
     }
 
@@ -79,16 +80,37 @@ public class LegislationLibraryPage {
 
     }
 
-    public void unsubscribeAllItems() throws InterruptedException {
+    public void deleteLegalRegister() throws InterruptedException {
+//        utility.handleZoomInZoomOut(90);
+        WebUI.clickElement(LegislationLibraryOR.legalRegisterTab);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,10);
+        WebUI.clickElement(LegislationLibraryOR.LR_DeleteLegalRegisterBtn);
+        WebUI.clickElement(LegislationLibraryOR.LR_ConfirmDeleteLegalRegisterBtn);
+        WebUI.waitForElementToBeGone(LandingPageOR.confirmModel,5);
+
+
+
+    }
+        public void unsubscribeAllItems() throws InterruptedException {
         WebUI.clickElement(LegislationLibraryOR.subscribeItemsTab);
-        WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
-        WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,10);
         WebUI.scrollToElementToBottom(LegislationLibraryOR.SI_TotalItemsCount);
         String countText = WebUI.getTextElement(LegislationLibraryOR.SI_TotalItemsCount);
         LogUtils.info("Total Subscribe Items: "+countText);
         LogUtils.info("Total Subscribe Items: "+ utility.extractIntegerFromString(countText)+ " length: "+countText.length());
         int totalItems = utility.extractIntegerFromString(countText);
         LogUtils.info("Total Subscribe Items Int: "+totalItems);
+        if (totalItems == 0) {
+            utility.handleZoomInZoomOut(30);
+             countText = WebUI.getTextElement(LegislationLibraryOR.SI_TotalItemsCount);
+            LogUtils.info("Total Subscribe Items: "+countText);
+            LogUtils.info("Total Subscribe Items: "+ utility.extractIntegerFromString(countText)+ " length: "+countText.length());
+             totalItems = utility.extractIntegerFromString(countText);
+            LogUtils.info("Total Subscribe Items Int: "+totalItems);
+        }
+        utility.handleZoomInZoomOut(100);
+        WebUI.scrollToElementToTop(LegislationLibraryOR.subscribeItemsTab);
+
         for (int i = totalItems; i > 0; i--) {
             WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
             WebUI.clickElement(LegislationLibraryOR.LL_SubscribeBtn);

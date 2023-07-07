@@ -11,6 +11,7 @@ public interface LegislationLibraryOR {
       By LL_DescriptionIF =By.cssSelector("#legislationDesc");
       By LL_SearchBtn =By.cssSelector("#searchBtn");
       By LL_SubscribeBtn =By.cssSelector("tr:first-of-type>td:last-of-type>button");
+      By LL_UnSubscribeBtn =By.cssSelector("tr:first-of-type>td:last-of-type>button");
       By LL_ConfirmSubscriptionBtn =By.cssSelector("#confirmOKBtn");
 
 
@@ -38,6 +39,8 @@ public interface LegislationLibraryOR {
       By LR_StateIF =By.cssSelector("#stateField");
       By LR_RemarksIF =By.cssSelector("#remarksField");
       By LR_AddFinalBtn =By.cssSelector("#formActionBtn");
+      By LR_DeleteLegalRegisterBtn =By.cssSelector("tr:first-of-type>td:last-of-type>div>span:last-of-type");
+      By LR_ConfirmDeleteLegalRegisterBtn =By.cssSelector("#confirmDelBtn");
 
 //      Subscribed Items
 

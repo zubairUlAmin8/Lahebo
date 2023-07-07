@@ -66,6 +66,7 @@ import static constants.FrameworkConstants.*;
  The WebUI keyword is a common class that serves as a library for pre-built functions with various customizations using Selenium and Java.
  It returns a Class containing static functions. It can be invoked by using the class name followed by the function name (WebUI.method).
  */
+
 public class WebUI {
 
     private static SoftAssert softAssert = new SoftAssert();
@@ -2306,11 +2307,16 @@ public class WebUI {
      */
     @Step("Click on the element {0}")
     public static void clickElement(By by) {
-        waitForElementVisible(by).click();
-        LogUtils.info("Clicked on the element " + by.toString());
+        try {
 
-        if (ExtentTestManager.getExtentTest() != null) {
-            ExtentReportManager.pass("Clicked on the element " + by.toString());
+            waitForElementVisible(by).click();
+            LogUtils.info("Clicked on the element " + by.toString());
+
+            if (ExtentTestManager.getExtentTest() != null) {
+                ExtentReportManager.pass("Clicked on the element " + by.toString());
+            }
+        } catch (ElementClickInterceptedException e) {
+            waitForElementClickable(by).click();
         }
         AllureManager.saveTextLog("Clicked on the element " + by.toString());
 
@@ -2589,17 +2595,30 @@ public class WebUI {
             return false;
         }
     }
-    public static void waitForElementToBeGone(By by, int timeout) {
+    public static void waitForElementToBeGone(By by, int timeout) throws InterruptedException {
         try {
             WebElement element = DriverManager.getDriver().findElement(by);
             if (isElementDisplayed(element)) {
                 new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeout)).until(ExpectedConditions.not(ExpectedConditions.visibilityOf(element)));
+                LogUtils.info("Element has been disappear: "+by);
+            }else {
+                LogUtils.info("Element is still displayed "+by);
             }
         } catch (NoSuchElementException e) {
-            LogUtils.info("we are into exception");
+            tryCheck++;
+            if(tryCheck==1){
+                Thread.sleep(1000);
+                LogUtils.info("we are into NoSuchElementException");
+                waitForElementToBeGone(by, timeout);
+            }
+
         } catch (StaleElementReferenceException e) {
-            LogUtils.info("we are into stale element");
+            LogUtils.info("we are into StaleElementReferenceException ");
         }
+        catch (WebDriverException e) {
+            LogUtils.info("we are into WebDriverException ");
+        }
+
 
     }
     //Wait Element
@@ -2671,7 +2690,7 @@ public class WebUI {
                 scrollToElementToBottom(by);
                 return wait.until(ExpectedConditions.visibilityOfElementLocated(by));
             }
-        } catch (Throwable error) {
+        } catch (Throwable error ) {
             LogUtils.error("Timeout waiting for the element Visible. " + by.toString());
             Assert.fail("Timeout waiting for the element Visible. " + by.toString());
         }
