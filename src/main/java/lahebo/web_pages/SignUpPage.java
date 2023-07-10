@@ -25,6 +25,7 @@ public class SignUpPage extends BasePage{
     public static String randomEmail;
     public static String randomPhone;
     public static String password;
+    public static String orgName;
 
 
 
@@ -54,7 +55,7 @@ public class SignUpPage extends BasePage{
         excelHelpers.setExcelFile(FrameworkConstants.EXCEL_DATA_FILE_PATH, "SignUp");
         String firstName=data.get(SignUpModel.getFirstName());
         String LastName=data.get(SignUpModel.getLastName());
-        String orgName=data.get(SignUpModel.getOrganizationName());
+         orgName=data.get(SignUpModel.getOrganizationName());
         String email=data.get(SignUpModel.getEmail());
         String userName=data.get(SignUpModel.getUsername());
         String phoneNumber = data.get(SignUpModel.getPhoneNumber());
@@ -62,9 +63,8 @@ public class SignUpPage extends BasePage{
         String confirmPassword=data.get(SignUpModel.getConfirmPassword());
         waits.waitForElements(DriverManager.getDriver(),signUpPageElements.firstName,5000);
         expectedTitle = data.get(SignUpModel.getExpectedTitle());
-        String verifyPass=data.get(SignUpModel.getExpectedTitle());
 
-        if (verifyPass.equals("Pass")) {
+        if (expectedTitle.equals("Pass")) {
             LogUtils.info("We got the pass condition for sighup");
             phoneNumber = fakerUtils.generateRandomAustralianPhoneNumber();
             LogUtils.info("Random phone number: "+phoneNumber);
@@ -81,6 +81,7 @@ public class SignUpPage extends BasePage{
             userName=fileUserName+randomInt;
             LogUtils.info("Random Gmail number"+userName);
             randomUsername = userName;
+            orgName = orgName+randomInt;
 
 
         }

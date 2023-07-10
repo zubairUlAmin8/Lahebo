@@ -28,7 +28,7 @@ public class SubscribePlanPage extends BasePage{
     }
 
     public boolean confirmPlan() {
-        waits.waitForVisibilityOfItem(driver, subscribePlanElements.confirmAmount, 10);
+        waits.waitForVisibilityOfItem(driver, subscribePlanElements.confirmAmount, 20);
         String amount = subscribePlanElements.confirmAmount.getText();
         if (amount.equals("2400.00 AUD")) {
             subscribePlanElements.buyNowConfirmBtn.click();

@@ -12,14 +12,14 @@
     </listeners>
     <test name="All Test Cases" >
         <classes>
-<!--            <class name="webTestCase.verifyUserSignUp"/>-->
+            <class name="webTestCase.verifyUserSignUp"/>
 <!--            <class name="webTestCase.verifyForgetPassword"/>-->
 <!--            <class name="webTestCase.verifyUserSignIn"/>-->
-<!--&lt;!&ndash;            <class name="webTestCase.verifyAddLegalItems"/>&ndash;&gt;-->
+<!--            <class name="webTestCase.verifyAddLegalItems"/>-->
 <!--            <class name="webTestCase.verifyDepartmentST"/>-->
 <!--            <class name="webTestCase.verifyLocationST"/>-->
 <!--            <class name="webTestCase.verifyJobFunctionST"/>-->
-            <class name="webTestCase.verifyProfileSetting"/>
+<!--            <class name="webTestCase.verifyProfileSetting"/>-->
 
         </classes>
     </test> <!-- Test -->
