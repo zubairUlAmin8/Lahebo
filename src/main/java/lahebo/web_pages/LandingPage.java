@@ -112,6 +112,9 @@ public class LandingPage {
     public void goToLegislationLibrary() throws InterruptedException {
         WebUI.clickElement(LandingPageOR.legislationLibraryTab);
     }
+    public void goToActionCenter() throws InterruptedException {
+        WebUI.clickElement(LandingPageOR.actionCenterTab);
+    }
 
     public boolean checkOrganizationSettingList() {
         WebElement element = DriverManager.getDriver().findElement(LandingPageOR.organizationSettingArrow);

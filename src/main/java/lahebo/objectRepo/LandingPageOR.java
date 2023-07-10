@@ -21,8 +21,10 @@ public interface LandingPageOR {
       By userSetupST =By.cssSelector( "#reportsView");
       By manageSubscriptionST = By.cssSelector("#reportsView");
       By riskMatrixST = By.cssSelector("#reportsView");
-      By dashboardTab=By.cssSelector("input[type=\"text\"]");
+      By dashboardTab=By.cssSelector("#dashboardView");
       By popUpAlert=By.cssSelector("div[role=\"alert\"]");
       By organizationSettingArrow=By.cssSelector("#organizationSettings>svg:last-of-type");
+      By spinnerLoader=By.cssSelector("#dotSpinner");
+      By confirmModel=By.cssSelector("#defaultModal");
 
 }

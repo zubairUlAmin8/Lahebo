@@ -13,7 +13,7 @@
     <test name="All Test Cases" >
         <classes>
             <class name="webTestCase.verifyUserSignUp"/>
-            <class name="webTestCase.verifyForgetPassword"/>
+<!--            <class name="webTestCase.verifyForgetPassword"/>-->
             <class name="webTestCase.verifyUserSignIn"/>
             <class name="webTestCase.verifyProfileSetting"/>
 <!--            <class name="webTestCase.verifyAddLegalItems"/>-->

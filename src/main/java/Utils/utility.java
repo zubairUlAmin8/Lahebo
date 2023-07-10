@@ -30,10 +30,24 @@ public class utility {
         //Copy file at destination
         FileUtils.copyFile(SrcFile, DestFile);
     }
-    public static void handleZoomInZoomOut() {
+    public static void handleZoomInZoomOut(int size) {
         //driver.findElement(By.tagName("html")).sendKeys(Keys.chord(Keys.CONTROL,Keys.ADD));
         //driver.findElement(By.tagName("html")).sendKeys(Keys.chord(Keys.CONTROL,Keys.SUBTRACT));
-        WebUI.getJsExecutor().executeScript("document.body.style.zoom = '80%';");
+        WebUI.getJsExecutor().executeScript("document.body.style.zoom = '"+size+"%';");
 //        WebUI.sleep(1);
+    }
+    public static int extractIntegerFromString(String input) {
+        String regex = "\\d+"; // Regular expression to match one or more digits
+        String extractedNumber = input.replaceAll("[^\\d]", ""); // Remove non-digit characters
+
+        int integerValue = 0;
+        try {
+            integerValue = Integer.parseInt(extractedNumber);
+        } catch (NumberFormatException e) {
+            // Handle the case where no integer value is found in the string
+            System.out.println("No integer value found in the string.");
+        }
+
+        return integerValue;
     }
 }

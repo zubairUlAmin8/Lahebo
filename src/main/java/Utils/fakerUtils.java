@@ -19,6 +19,15 @@ public class fakerUtils {
         int number = faker.number().numberBetween(1, 999);
         return number;
     }
+    public static int generateRandomInt(int uperBound) {
+        int number = faker.number().numberBetween(1, uperBound);
+        return number;
+    }
+    public static String generateDummyData(int size) {
+        Faker faker = new Faker();
+        String dummyData = faker.lorem().characters(size);
+        return dummyData;
+    }
     public static String generateRandomPassword() {
         Faker faker = new Faker();
 

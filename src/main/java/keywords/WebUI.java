@@ -6,10 +6,7 @@
 package keywords;
 
 
-import Utils.BrowserInfoUtils;
-import Utils.DateUtils;
-import Utils.LogUtils;
-import Utils.waits;
+import Utils.*;
 import com.google.common.util.concurrent.Uninterruptibles;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.LuminanceSource;
@@ -69,6 +66,7 @@ import static constants.FrameworkConstants.*;
  The WebUI keyword is a common class that serves as a library for pre-built functions with various customizations using Selenium and Java.
  It returns a Class containing static functions. It can be invoked by using the class name followed by the function name (WebUI.method).
  */
+
 public class WebUI {
 
     private static SoftAssert softAssert = new SoftAssert();
@@ -752,6 +750,145 @@ public class WebUI {
                     element.click();
                     return true;
                 }
+
+            }
+        } catch (Exception e) {
+            LogUtils.info(e.getMessage());
+            e.getMessage();
+        }
+        return false;
+
+    }
+    public static boolean selectListOptionRandomly(By objectListItem) {
+        smartWait();
+        int randomOption=0;
+        int iteration = 1;
+        int wait = 0;
+        // For dynamic dropdowns (div, li, span, etc., not select options)
+
+        try {
+            List<WebElement> elements = getWebElements(objectListItem);
+
+            WebElement ele = elements.get(0);
+
+            if (elements.size() == 1) {
+                LogUtils.info("waiting for List Items to Load");
+            }
+        try {
+            while (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
+
+                elements = getWebElements(objectListItem);
+                ele = elements.get(0);
+                LogUtils.info("Still Waiting...");
+                wait++;
+                if (wait == 1000) {
+                    LogUtils.info("could not load in expected time");
+                    break;
+                }
+            }
+        }catch (StaleElementReferenceException e) {
+                    // Handle the StaleElementReferenceException here
+                    // You can log the exception or perform any other desired action
+                    LogUtils.info("here in catch ");
+                    elements=DriverManager.getDriver().findElements(objectListItem);
+            selectListOptionRandomly(objectListItem);
+
+                }
+
+            LogUtils.info("Wait Over!! size of list: "+elements.size());
+            randomOption=fakerUtils.generateRandomInt(elements.size());
+            LogUtils.info("random number generated to select list is: " + randomOption);
+//            if (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
+//                Thread.sleep(5000);
+//                elements = getWebElements(objectListItem);
+//                LogUtils.info("size of list: "+elements.size());
+//                randomOption=fakerUtils.generateRandomInt(elements.size());
+//            }
+
+            try{
+            for (WebElement element : elements) {
+
+                if (randomOption==iteration) {
+                    LogUtils.info("random number: "+randomOption+" iteration: "+iteration);
+                    element.click();
+                    LogUtils.info(iteration+" :"+element.getText()+" Selected ");
+                    return true;
+                }
+                iteration++;
+            }
+        }catch (StaleElementReferenceException e) {
+            // Handle the StaleElementReferenceException here
+            // You can log the exception or perform any other desired action
+            LogUtils.info("here in catch ");
+
+            elements=DriverManager.getDriver().findElements(objectListItem);
+                selectListOptionRandomly(objectListItem);
+
+        }
+        } catch (Exception e) {
+            LogUtils.info(e.getMessage());
+            e.getMessage();
+        }
+        return false;
+
+    }
+    public static boolean selectCheckBoxOptionRandomly(By objectListItem) {
+        smartWait();
+        int randomOption=0;
+        int iteration = 1;
+        // For dynamic dropdowns (div, li, span, etc., not select options)
+
+        try {
+            List<WebElement> elements = getWebElements(objectListItem);
+
+            WebElement ele = elements.get(0);
+
+            if (elements.size() == 1) {
+                LogUtils.info("waiting for List Items to Load");
+            }
+            try {
+                while (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
+
+                    elements = getWebElements(objectListItem);
+                    ele = elements.get(0);
+                    LogUtils.info("Still Waiting...");
+                }
+            }catch (StaleElementReferenceException e) {
+                // Handle the StaleElementReferenceException here
+                // You can log the exception or perform any other desired action
+                LogUtils.info("here in catch ");
+                elements=DriverManager.getDriver().findElements(objectListItem);
+                selectCheckBoxOptionRandomly(objectListItem);
+
+            }
+
+            LogUtils.info("Wait Over!! size of list: "+elements.size());
+            randomOption=fakerUtils.generateRandomInt(elements.size());
+
+//            if (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
+//                Thread.sleep(5000);
+//                elements = getWebElements(objectListItem);
+//                LogUtils.info("size of list: "+elements.size());
+//                randomOption=fakerUtils.generateRandomInt(elements.size());
+//            }
+
+            try{
+                for (WebElement element : elements) {
+
+                    if (randomOption==iteration) {
+                        element.click();
+                        LogUtils.info(iteration+" :"+element.getText()+" Selected ");
+                        return true;
+                    }
+                    iteration++;
+                }
+            }catch (StaleElementReferenceException e) {
+                // Handle the StaleElementReferenceException here
+                // You can log the exception or perform any other desired action
+                LogUtils.info("here in catch ");
+
+                elements=DriverManager.getDriver().findElements(objectListItem);
+                selectCheckBoxOptionRandomly(objectListItem);
 
             }
         } catch (Exception e) {
@@ -2170,11 +2307,16 @@ public class WebUI {
      */
     @Step("Click on the element {0}")
     public static void clickElement(By by) {
-        waitForElementVisible(by).click();
-        LogUtils.info("Clicked on the element " + by.toString());
+        try {
 
-        if (ExtentTestManager.getExtentTest() != null) {
-            ExtentReportManager.pass("Clicked on the element " + by.toString());
+            waitForElementVisible(by).click();
+            LogUtils.info("Clicked on the element " + by.toString());
+
+            if (ExtentTestManager.getExtentTest() != null) {
+                ExtentReportManager.pass("Clicked on the element " + by.toString());
+            }
+        } catch (ElementClickInterceptedException e) {
+            waitForElementClickable(by).click();
         }
         AllureManager.saveTextLog("Clicked on the element " + by.toString());
 
@@ -2442,15 +2584,73 @@ public class WebUI {
         return arrayList;
     }
 
+    public static boolean isElementDisplayed(WebElement element) {
+        try {
+            WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofMillis(500));
+            wait.until(ExpectedConditions.visibilityOf(element));
+            return element.isDisplayed();
+        } catch (org.openqa.selenium.NoSuchElementException
+                 | org.openqa.selenium.StaleElementReferenceException
+                 | org.openqa.selenium.TimeoutException e) {
+            return false;
+        }
+    }
+    public static void waitForElementToBeGone(By by, int timeout) throws InterruptedException {
+        try {
+            WebElement element = DriverManager.getDriver().findElement(by);
+            if (isElementDisplayed(element)) {
+                new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeout)).until(ExpectedConditions.not(ExpectedConditions.visibilityOf(element)));
+                LogUtils.info("Element has been disappear: "+by);
+            }else {
+                LogUtils.info("Element is still displayed "+by);
+            }
+        } catch (NoSuchElementException e) {
+            tryCheck++;
+            if(tryCheck==1){
+                Thread.sleep(1000);
+                LogUtils.info("we are into NoSuchElementException");
+                waitForElementToBeGone(by, timeout);
+            }
+
+        } catch (StaleElementReferenceException e) {
+            LogUtils.info("we are into StaleElementReferenceException ");
+        }
+        catch (WebDriverException e) {
+            LogUtils.info("we are into WebDriverException ");
+        }
+
+
+    }
     //Wait Element
 
     /**
      * Wait for the element to be ready for interaction within a specified time limit.
      *
-     * @param by an element of object type By
+     * @param by      an element of object type By
      * @param timeOut the maximum waiting time
      * @return a WebElement object that is ready for interaction
      */
+    public static void waitSpinner(By by, long timeOut) {
+        smartWait();
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeOut), Duration.ofMillis(100));
+
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+            LogUtils.error(" Element Visible. " + by.toString());
+
+        } catch (Throwable error) {
+            LogUtils.error("Timeout waiting for the element Visible. " + by.toString());
+        }
+
+        try {
+            wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
+            LogUtils.info("Element"+by.toString()+"Has been Disappeared");
+        } catch (ElementClickInterceptedException exception) {
+            LogUtils.error("Element"+by.toString()+"Has Not been Disappeared");
+        }
+
+
+    }
     public static WebElement waitForElementVisible(By by, long timeOut) {
         smartWait();
 
@@ -2490,7 +2690,7 @@ public class WebUI {
                 scrollToElementToBottom(by);
                 return wait.until(ExpectedConditions.visibilityOfElementLocated(by));
             }
-        } catch (Throwable error) {
+        } catch (Throwable error ) {
             LogUtils.error("Timeout waiting for the element Visible. " + by.toString());
             Assert.fail("Timeout waiting for the element Visible. " + by.toString());
         }
