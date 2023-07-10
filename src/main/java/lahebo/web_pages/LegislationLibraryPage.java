@@ -93,7 +93,7 @@ public class LegislationLibraryPage {
         WebUI.clickElement(LegislationLibraryOR.legalRegisterTab);
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,10);
         WebUI.clickElement(LegislationLibraryOR.LR_EditLegalRegisterBtn);
-//        WebUI.clickElement(LegislationLibraryOR.LR_AddBtn);
+        WebUI.clickElement(LegislationLibraryOR.LR_AddBtn);
 
 
     }

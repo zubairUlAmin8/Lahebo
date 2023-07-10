@@ -31,7 +31,7 @@ public interface LegislationLibraryOR {
       By LR_DepartmentList =By.cssSelector("#depField");
       By LR_DepartmentListListElement =By.cssSelector("#depField>div>div>input");
       By LR_AddControlBtn =By.cssSelector("span>svg[data-icon=\"circle-plus\"]");
-      By LR_MarkAsActionCB =By.cssSelector("#action-item");
+      By LR_MarkAsActionCB =By.cssSelector("#markActionItem");
       By LR_AssigneeList =By.cssSelector("div[class=\"vs__dropdown-toggle\"]");
       By LR_AssigneeListElement =By.cssSelector("div[class=\"vs__dropdown-toggle\"]+ul>li");
       By LR_ContentForControlTA =By.cssSelector("textarea[class=\"form-input\"]");
