@@ -31,6 +31,7 @@ public class LegislationLibraryPage {
     public void subscribeItems() throws InterruptedException {
         WebUI.clickElement(LegislationLibraryOR.LL_LegislationList);
         WebUI.selectListOptionRandomly(LegislationLibraryOR.LL_LegislationListElements);
+        Thread.sleep(3000);
         WebUI.clickElement(LegislationLibraryOR.LL_DivisionList);
         WebUI.selectListOptionRandomly(LegislationLibraryOR.LL_DivisionListElements);
         WebUI.clickElement(LegislationLibraryOR.LL_SearchBtn);
@@ -93,6 +94,10 @@ public class LegislationLibraryPage {
         WebUI.clickElement(LegislationLibraryOR.legalRegisterTab);
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,10);
         WebUI.clickElement(LegislationLibraryOR.LR_EditLegalRegisterBtn);
+
+//        WebUI.clickElement(LegislationLibraryOR.LR_ISOStandard_clear_Edit);
+        WebUI.clearAndFillText(LegislationLibraryOR.LR_ReferenceNumber_Edit, "edit");
+
         WebUI.clickElement(LegislationLibraryOR.LR_AddBtn);
 
 

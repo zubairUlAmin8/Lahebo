@@ -23,9 +23,13 @@ public interface LegislationLibraryOR {
       By LR_DivisionList =By.cssSelector("#selectDivField");
       By LR_DivisionListElement =By.cssSelector("#selectDivField>ul>li");
       By LR_ReferenceNumber =By.cssSelector("#refNumField");
+      By LR_ReferenceNumber_Edit =By.cssSelector("#legRefNumField");
       By LR_NextBtn =By.cssSelector("#nextTabBtn");
       By LR_ISOStandardList =By.cssSelector("#isoField");
+
       By LR_ISOStandardListListElement =By.cssSelector("#isoField>ul>li");
+      By LR_ISOStandardList_Edit =By.cssSelector("#legISOField");
+      By LR_ISOStandard_clear_Edit =By.cssSelector("#legISOField>div>div>button");
       By LR_LocationList =By.cssSelector("#locField");
       By LR_LocationListListElement =By.cssSelector("#locField>div>div>input");
       By LR_DepartmentList =By.cssSelector("#depField");
