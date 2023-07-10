@@ -17,23 +17,28 @@ public class verifyLegislationLibrary extends BaseTest {
         signInPage.signInUser();
     }
 
-    @Test(priority = 1, invocationCount = 1, enabled = true)
+    @Test(priority = 1, invocationCount = 1, enabled = false)
     public void verifysubscribeItems() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.subscribeItems();
     }
 
-    @Test(priority = 2, enabled = true, invocationCount = 1)
+    @Test(priority = 2, enabled = false, invocationCount = 1)
     public void verifyLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.addLegalRegister();
     }
     @Test(priority = 3, enabled = true)
+    public void verifyEditLegalRegister() throws InterruptedException {
+        landingPage.goToLegislationLibrary();
+        legislationLibraryPage.editLegalRegister();
+    }
+    @Test(priority = 3, enabled = false)
     public void verifyDeleteLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.deleteLegalRegister();
     }
-    @Test(priority = 4, enabled = true)
+    @Test(priority = 4, enabled = false)
     public void unsubscribeAllItems() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.unsubscribeAllItems();

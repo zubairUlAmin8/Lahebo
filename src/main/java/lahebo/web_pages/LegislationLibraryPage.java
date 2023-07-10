@@ -88,6 +88,12 @@ public class LegislationLibraryPage {
         WebUI.clickElement(LegislationLibraryOR.LR_ConfirmDeleteLegalRegisterBtn);
         WebUI.waitForElementToBeGone(LandingPageOR.confirmModel,5);
 
+    }
+    public void editLegalRegister() throws InterruptedException {
+        WebUI.clickElement(LegislationLibraryOR.legalRegisterTab);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,10);
+        WebUI.clickElement(LegislationLibraryOR.LR_EditLegalRegisterBtn);
+//        WebUI.clickElement(LegislationLibraryOR.LR_AddBtn);
 
 
     }

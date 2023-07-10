@@ -40,6 +40,7 @@ public interface LegislationLibraryOR {
       By LR_RemarksIF =By.cssSelector("#remarksField");
       By LR_AddFinalBtn =By.cssSelector("#formActionBtn");
       By LR_DeleteLegalRegisterBtn =By.cssSelector("tr:first-of-type>td:last-of-type>div>span:last-of-type");
+      By LR_EditLegalRegisterBtn =By.cssSelector("tr:first-of-type>td:last-of-type>div>span:first-of-type");
       By LR_ConfirmDeleteLegalRegisterBtn =By.cssSelector("#confirmDelBtn");
 
 //      Subscribed Items
