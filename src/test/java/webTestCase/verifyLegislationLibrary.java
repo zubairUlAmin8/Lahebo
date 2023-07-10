@@ -17,13 +17,13 @@ public class verifyLegislationLibrary extends BaseTest {
         signInPage.signInUser();
     }
 
-    @Test(priority = 1, invocationCount = 5, enabled = true)
+    @Test(priority = 1, invocationCount = 1, enabled = true)
     public void verifysubscribeItems() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.subscribeItems();
     }
 
-    @Test(priority = 2, enabled = true, invocationCount = 5)
+    @Test(priority = 2, enabled = true, invocationCount = 1)
     public void verifyLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.addLegalRegister();

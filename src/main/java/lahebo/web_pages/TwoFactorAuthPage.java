@@ -30,7 +30,7 @@ public class TwoFactorAuthPage extends BasePage{
 
 
     }
-    public boolean authenticationWithSecretKey() throws InterruptedException {
+    public boolean authenticationWithoutSecretKey() throws InterruptedException {
         String secretKey = PropertiesHelpers.getValue("SECRET_KEY");
         waits.waitForElements(driver, twoFactorAuthElements.otpCode,  5000);
         String code = two2FActorAuthentication.getOptCode(secretKey);
