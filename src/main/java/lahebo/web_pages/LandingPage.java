@@ -112,6 +112,12 @@ public class LandingPage {
     public void goToLegislationLibrary() throws InterruptedException {
         WebUI.clickElement(LandingPageOR.legislationLibraryTab);
     }
+    public void goToRiskRegister() throws InterruptedException {
+//        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
+        WebUI.clickElement(LandingPageOR.riskRegisterTab);
+//        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
+
+    }
     public void goToActionCenter() throws InterruptedException {
         WebUI.clickElement(LandingPageOR.actionCenterTab);
     }

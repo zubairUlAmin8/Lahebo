@@ -773,8 +773,12 @@ public class WebUI {
 
             if (elements.size() == 1) {
                 LogUtils.info("waiting for List Items to Load");
+            } else if (elements.size() == 0) {
+                LogUtils.info("waiting for List Items to Load");
+
             }
-        try {
+
+            try {
             while (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
 
                 elements = getWebElements(objectListItem);
@@ -832,6 +836,81 @@ public class WebUI {
         return false;
 
     }
+    public static boolean selectListOptionByIndex(By objectListItem, int index) {
+        smartWait();
+        int iteration = 1;
+        int wait = 0;
+        // For dynamic dropdowns (div, li, span, etc., not select options)
+
+        try {
+            List<WebElement> elements = getWebElements(objectListItem);
+
+            WebElement ele = elements.get(0);
+
+            if (elements.size() == 1) {
+                LogUtils.info("waiting for List Items to Load");
+            } else if (elements.size() == 0) {
+                LogUtils.info("waiting for List Items to Load");
+
+            }
+
+            try {
+                while (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
+
+                    elements = getWebElements(objectListItem);
+                    ele = elements.get(0);
+                    LogUtils.info("Still Waiting...");
+                    wait++;
+                    if (wait == 1000) {
+                        LogUtils.info("could not load in expected time");
+                        break;
+                    }
+                }
+            }catch (StaleElementReferenceException e) {
+                // Handle the StaleElementReferenceException here
+                // You can log the exception or perform any other desired action
+                LogUtils.info("here in catch ");
+                elements=DriverManager.getDriver().findElements(objectListItem);
+                selectListOptionRandomly(objectListItem);
+
+            }
+
+            LogUtils.info("Wait Over!! size of list: "+elements.size());
+//            if (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
+//                Thread.sleep(5000);
+//                elements = getWebElements(objectListItem);
+//                LogUtils.info("size of list: "+elements.size());
+//                randomOption=fakerUtils.generateRandomInt(elements.size());
+//            }
+
+            try{
+                for (WebElement element : elements) {
+
+                    if (index==iteration) {
+                        LogUtils.info("Index number: "+index+" iteration: "+iteration);
+                        element.click();
+                        LogUtils.info(iteration+" :"+element.getText()+" Selected ");
+                        return true;
+                    }
+                    iteration++;
+                }
+            }catch (StaleElementReferenceException e) {
+                // Handle the StaleElementReferenceException here
+                // You can log the exception or perform any other desired action
+                LogUtils.info("here in catch ");
+
+                elements=DriverManager.getDriver().findElements(objectListItem);
+                selectListOptionRandomly(objectListItem);
+
+            }
+        } catch (Exception e) {
+            LogUtils.info(e.getMessage());
+            e.getMessage();
+        }
+        return false;
+
+    }
+
     public static boolean selectCheckBoxOptionRandomly(By objectListItem) {
         smartWait();
         int randomOption=0;

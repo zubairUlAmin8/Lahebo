@@ -26,5 +26,6 @@ public interface LandingPageOR {
       By organizationSettingArrow=By.cssSelector("#organizationSettings>svg:last-of-type");
       By spinnerLoader=By.cssSelector("#dotSpinner");
       By confirmModel=By.cssSelector("#defaultModal");
+      By appModel=By.cssSelector("#app-modal");
 
 }

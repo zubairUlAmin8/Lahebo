@@ -27,6 +27,7 @@ public class BaseTest {
     JobFunctionsPage jobFunctionsPage;
     ProfileDetailsPage profileDetailsPage;
     LegislationLibraryPage legislationLibraryPage;
+    RiskRegisterPage riskRegisterPage;
 
     public static WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
@@ -51,6 +52,7 @@ public class BaseTest {
         jobFunctionsPage = new JobFunctionsPage(driver);
         profileDetailsPage = new ProfileDetailsPage(driver);
         legislationLibraryPage = new LegislationLibraryPage(driver);
+        riskRegisterPage = new RiskRegisterPage(driver);
     }
     @Parameters("BROWSER")
     @BeforeSuite(groups = {"dataDrivenTestCases"})

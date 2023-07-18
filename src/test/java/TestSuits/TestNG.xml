@@ -22,6 +22,7 @@
 <!--            <class name="webTestCase.verifyProfileSetting"/>-->
             <class name="webTestCase.verifyLegislationLibrary"/>
 <!--            <class name="webTestCase.verifyProfileSetting"/>-->
+            <class name="webTestCase.verifyRiskRegister"/>
 
         </classes>
     </test> <!-- Test -->

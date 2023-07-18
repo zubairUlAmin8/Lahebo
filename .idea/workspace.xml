@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed167683-20e1-4c65-b78a-146b0c62a34f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/RiskRegisterOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/RiskRegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyRiskRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/applog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LandingPageOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LandingPageOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/datatest.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/datatest.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +57,13 @@
       <recent name="D:\Zapta\Automation\Lahebo\src\test\java\TestSuits" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="webTestCase" />
       <recent name="lahebo.web_pages" />
       <recent name="lahebo.objectRepo" />
-      <recent name="webTestCase" />
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml">
+  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddDepartmentFromFile.xml">
     <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddDepartmentFromFile.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/AddDepartmentFromFile.xml" />
@@ -121,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddDepartmentFromFile.xml" />
+        <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AllTestCases.xml" />
         <item itemvalue="TestNG.verifyForgetPassword" />
         <item itemvalue="TestNG.verifyUserSignUp.verifyNewUser" />
