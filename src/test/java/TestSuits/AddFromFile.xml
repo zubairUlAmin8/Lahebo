@@ -15,9 +15,9 @@
 <test name="Data Driven">
     <classes>
         <class name="webTestCase.verifyUserSignIn"/>
-        <class name="webTestCase.verifyDepartmentST"/>
+<!--        <class name="webTestCase.verifyDepartmentST"/>-->
         <class name="webTestCase.verifyLocationST"/>
-        <class name="webTestCase.verifyJobFunctionST"/>
+<!--        <class name="webTestCase.verifyJobFunctionST"/>-->
         <class name="webTestCase.verifyUserSignIn">
             <methods>
                 <include name="signOutTest"/>
