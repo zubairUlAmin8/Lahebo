@@ -193,6 +193,7 @@
           <version>2.22.2</version>
           <configuration>
             <suiteXmlFiles>
+              <suiteXmlFile>src/test/java/TestSuits/AddFromFile.xml</suiteXmlFile>
               <suiteXmlFile>src/test/java/TestSuits/TestNG.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>

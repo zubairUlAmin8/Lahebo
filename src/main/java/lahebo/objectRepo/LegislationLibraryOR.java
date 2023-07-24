@@ -10,7 +10,7 @@ public interface LegislationLibraryOR {
       By LL_DivisionListElements =By.cssSelector("#searchLegislationDivisions>ul>li");
       By LL_DescriptionIF =By.cssSelector("#legislationDesc");
       By LL_SearchBtn =By.cssSelector("#searchBtn");
-      By LL_SubscribeBtn =By.cssSelector("tr:first-of-type>td:last-of-type>button");
+      By LL_SubscribeBtn =By.cssSelector("tr:first-of-type>td:last-of-type>span");
       By LL_UnSubscribeBtn =By.cssSelector("tr:first-of-type>td:last-of-type>button");
       By LL_ConfirmSubscriptionBtn =By.cssSelector("#confirmOKBtn");
 

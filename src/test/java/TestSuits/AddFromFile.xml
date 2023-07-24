@@ -18,6 +18,11 @@
         <class name="webTestCase.verifyDepartmentST"/>
         <class name="webTestCase.verifyLocationST"/>
         <class name="webTestCase.verifyJobFunctionST"/>
+        <class name="webTestCase.verifyUserSignIn">
+            <methods>
+                <include name="signOutTest"/>
+            </methods>
+        </class>
     </classes>
 </test> <!-- Test -->
 </suite> <!-- Suite -->

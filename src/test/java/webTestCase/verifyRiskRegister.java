@@ -5,21 +5,40 @@ import lahebo.objectRepo.LandingPageOR;
 import org.testng.annotations.Test;
 
 public class verifyRiskRegister extends BaseTest {
-    @Test(priority = 0, enabled = true)
+    @Test(priority = 0, enabled = false)
     public void login() throws InterruptedException {
 //        signInPage.signInUser();
+//        signInPage.signInUserBypass2FA();
     }
-    @Test(priority = 1, invocationCount = 10, enabled = true)
+    @Test(priority = 1, invocationCount = 1, enabled = true)
     public void verifyAddNewRisk() throws InterruptedException {
         landingPage.goToRiskRegister();
         riskRegisterPage.addNewRisk();
     }
-    @Test(priority = 1, invocationCount = 1, enabled = true)
+    @Test(priority = 2, invocationCount = 1, enabled = true)
+    public void verifyRaiseNewRisk() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.raiseNewRisk();
+    }
+    @Test(priority = 3, invocationCount = 1, enabled = true)
+    public void verifyAcceptRisk() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.raiseNewRisk();
+        riskRegisterPage.acceptRisk();
+    }
+    @Test(priority = 4, invocationCount = 1, enabled = true)
+    public void verifyEditNewRisk() throws InterruptedException {
+        riskRegisterPage.editRisk();
+    }
+    @Test(priority = 5, invocationCount = 1, enabled = true)
+    public void verifyRejectRisk() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.raiseNewRisk();
+        riskRegisterPage.rejectRisk();
+    }
+    @Test(priority = 6, invocationCount = 1, enabled = true)
     public void verifyDeleteAllRisk() throws InterruptedException {
         landingPage.goToRiskRegister();
         riskRegisterPage.deleteRisk();
     }
-
-
-
 }

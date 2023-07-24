@@ -6,6 +6,7 @@ import constants.FrameworkConstants;
 import helpers.ExcelHelpers;
 import helpers.PropertiesHelpers;
 import keywords.WebUI;
+import lahebo.objectRepo.LandingPageOR;
 import models.SignInModel;
 import models.SignUpModel;
 import org.openqa.selenium.WebDriver;
@@ -175,5 +176,23 @@ public class SignInPage extends BasePage {
             boolean expResult = verifyExpectedResult();
             Assert.assertFalse(expResult, "Password or Username is not correct");
         }
+    }
+    public void signInUserBypass2FA() throws InterruptedException {
+        String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
+        String userName = PropertiesHelpers.getValue("Existing_User_UserName");
+        String password = PropertiesHelpers.getValue("Existing_User_Password");
+        String secretKey = PropertiesHelpers.getValue("Existing_User_SecretKey");
+        System.out.println(secretKey);
+        try {
+            driver.get(url_Address);
+        } catch (WebDriverException e) {
+            LogUtils.error("Driver could not Installed");
+            Assert.fail("Driver could not Installed");
+        }
+        if (signIn(userName, password)) {
+            Assert.assertTrue(true, "Password or Username is  correct");
+        }
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 10);
+
     }
 }

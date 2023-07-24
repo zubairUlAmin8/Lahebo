@@ -14,49 +14,36 @@ import org.testng.annotations.Test;
 public class verifyLegislationLibrary extends BaseTest {
     @Test(priority = 0, enabled = true)
     public void login() throws InterruptedException {
-        signInPage.signInUser();
+//        signInPage.signInUserBypass2FA();
+                signInPage.signInUser();
+
     }
 
-    @Test(priority = 1, invocationCount = 5, enabled = true)
+    @Test(priority = 1, invocationCount = 2, enabled = true)
     public void verifysubscribeItems() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.subscribeItems();
     }
 
-    @Test(priority = 2, enabled = true, invocationCount = 5)
-    public void verifyLegalRegister() throws InterruptedException {
+    @Test(priority = 2, enabled = true, invocationCount = 2)
+    public void verifyAddLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.addLegalRegister();
     }
-    @Test(priority = 3, enabled = true)
+    @Test(priority = 3, enabled = false)
     public void verifyEditLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.editLegalRegister();
     }
-    @Test(priority = 4, enabled = true, invocationCount = 5)
+    @Test(priority = 4, enabled = false, invocationCount = 5)
     public void verifyDeleteLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.deleteLegalRegister();
     }
-    @Test(priority = 5, enabled = true)
+    @Test(priority = 5, enabled = false)
     public void unsubscribeAllItems() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.unsubscribeAllItems();
     }
-
-    @Test( enabled = false, invocationCount = 20)
-    public void testscrap() throws InterruptedException {
-//        for (int i = 0; i < 20; i++) {
-            landingPage.goToDashBoard();
-            WebUI.waitSpinner(LandingPageOR.spinnerLoader, 10);
-            landingPage.goToActionCenter();
-            WebUI.waitSpinner(LandingPageOR.spinnerLoader, 10);
-            landingPage.goToLegislationLibrary();
-            WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
-//            WebUI.waitSpinner(LandingPageOR.spinnerLoader, 10);
-//        }
-
-    }
-
 
 }

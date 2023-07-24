@@ -6,6 +6,7 @@ public interface RiskRegisterOR {
       //Legal List
       By addRiskBtn =By.cssSelector("#addRaiseRiskBtn");
       By addRiskChildBtn =By.cssSelector("#addRiskBtn");
+      By raiseRiskChildBtn =By.cssSelector("#raiseRiskBtn");
       By descriptionTextArea =By.cssSelector("#descField");
       By isoStandardList =By.cssSelector("#isoField");
       By isoStandardListElements =By.cssSelector("#isoField>ul>li");
@@ -42,17 +43,17 @@ public interface RiskRegisterOR {
       By JobFunctionListElements =By.cssSelector("#jobFunctionField>ul>li");
       By hazardList =By.cssSelector("#hazardField");
       By hazardListElements =By.cssSelector("#hazardField>ul>li");
-      By hazardDescriptionIF =By.cssSelector("#potentialHazardField");
+      By hazardDescriptionIF =By.cssSelector("#hazardDescField");
       By potentialHazardIF =By.cssSelector("#potentialHazardField");
       By peopleAtRiskIF =By.cssSelector("#peopleAtRiskField");
       By totalItemsCount =By.cssSelector("div.text-gray-500");
       By itemOptionBtn =By.cssSelector("tr:first-of-type>td:last-of-type>div>button");
       By deleteRiskOption =By.cssSelector("tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type");
+      By acceptRiskOption =By.cssSelector("tr:first-of-type>td:last-of-type>div>div>div:first-of-type>button:first-of-type");
+      By rejectRiskOption =By.cssSelector("tr:first-of-type>td:last-of-type>div>div>div:first-of-type>button:last-of-type");
       By deleteRiskBtn =By.cssSelector("#confirmDelBtn");
-
-
-
-
+      By confirmAcceptRiskBtn =By.cssSelector("#confirmOKBtn");
+      By rejectRiskReasonTextArea=By.cssSelector("textarea[placeholder=\"Input Reason\"]");
 
 
 }

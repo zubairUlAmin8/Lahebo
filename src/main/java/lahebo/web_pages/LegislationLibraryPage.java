@@ -124,7 +124,7 @@ public class LegislationLibraryPage {
 
         for (int i = totalItems; i > 0; i--) {
             WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
-            WebUI.clickElement(LegislationLibraryOR.LL_SubscribeBtn);
+            WebUI.clickElement(LegislationLibraryOR.LL_UnSubscribeBtn);
             WebUI.clickElement(LegislationLibraryOR.SI_ConfirmOkBtn);
             WebUI.waitForElementToBeGone(LandingPageOR.confirmModel,5);
 
