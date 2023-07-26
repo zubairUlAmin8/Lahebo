@@ -152,7 +152,7 @@ public class SignInPage extends BasePage {
         }
     }
 
-    public void signInUser() throws InterruptedException {
+    public void signInExistingUser() throws InterruptedException {
         String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
         String userName = PropertiesHelpers.getValue("Existing_User_UserName");
         String password = PropertiesHelpers.getValue("Existing_User_Password");
@@ -176,6 +176,8 @@ public class SignInPage extends BasePage {
             boolean expResult = verifyExpectedResult();
             Assert.assertFalse(expResult, "Password or Username is not correct");
         }
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 10);
+
     }
     public void signInUserBypass2FA() throws InterruptedException {
         String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");

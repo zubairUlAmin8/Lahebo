@@ -24,6 +24,6 @@ public class verifyProfileSetting extends BaseTest {
         profileDetailsPage.changePassword(oldPassword,newPassword);
         Assert.assertTrue(signInPage.verifyLoginPage(), "Password has not been changed");
         PropertiesHelpers.setValue("Existing_User_Password", newPassword);
-        signInPage.signInUser();
+        signInPage.signInExistingUser();
     }
 }

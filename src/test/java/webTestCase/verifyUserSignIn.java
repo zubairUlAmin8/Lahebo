@@ -57,12 +57,12 @@ public class verifyUserSignIn extends BaseTest {
     }
     @Test(groups = {"dataDrivenTestCases"})
     public void signInDataDrivenTestCases() throws InterruptedException {
-        signInPage.signInUser();
+        signInPage.signInExistingUser();
         landingPage.waitForPageLoading();
     }
     @Test
-    public void signIn() throws InterruptedException {
-        signInPage.signInUser();
+    public void signInExistingUser() throws InterruptedException {
+        signInPage.signInExistingUser();
         landingPage.waitForPageLoading();
     }
 }

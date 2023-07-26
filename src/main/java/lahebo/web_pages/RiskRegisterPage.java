@@ -209,14 +209,39 @@ public class RiskRegisterPage {
         WebUI.clickElement(RiskRegisterOR.submitBtn);
 
         //WAIT FOR LOADING
-        WebUI.waitForElementToBeGone(LandingPageOR.appModel, 5);
-        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 5);
+        WebUI.waitForElementToBeGone(LandingPageOR.appModel, FrameworkConstants.WAIT_EXPLICIT);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
     }
     public void addRiskBySWOT() throws InterruptedException {
         WebUI.clickElement(RiskRegisterOR.viewSWOTBtn);
+
+        for (int boardNumber = 1; boardNumber < 5; boardNumber++) {
+            addStrength(boardNumber);
+        }
     }
-    public void addStrength() throws InterruptedException {
-        WebUI.clickElement(RiskRegisterOR.viewSWOTBtn);
+    public void addStrength(int boardNumber) throws InterruptedException {
+        switch(boardNumber) {
+            case 2:
+                WebUI.clickElement(RiskRegisterOR.addWeaknessesBtn);
+
+                break;
+            case 3:
+                WebUI.clickElement(RiskRegisterOR.addOpportunitiesBtn);
+
+                break;
+            case 4:
+                WebUI.clickElement(RiskRegisterOR.addThreatsBtn);
+                break;
+            default:
+                WebUI.clickElement(RiskRegisterOR.addStrengthsBtn);
+
+        }
+        WebUI.setText(RiskRegisterOR.swotDescriptionTextArea, fakerUtils.generateDummyData(10));
+        WebUI.clickElement(RiskRegisterOR.submitDoActionBtn);
+        //WAIT FOR LOADING
+        WebUI.waitForElementToBeGone(LandingPageOR.appModel, FrameworkConstants.WAIT_EXPLICIT);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+
     }
 
     }

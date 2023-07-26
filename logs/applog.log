@@ -5467,3 +5467,707 @@ Session ID: 70d8f99a7260adbe22ee6fc6cf6d27f3
 [INFO] 26-07-2023 16:46:56 [main] [LogUtils] - we are into StaleElementReferenceException 
 [INFO] 26-07-2023 16:46:56 [main] [LogUtils] - Test case:  is passed.
 [INFO] 26-07-2023 16:46:56 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 18:26:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:26:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:26:25 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:26:26 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 18:26:31 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 18:26:32 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (4f34388c38f78932b43afd64ed1c5f9d)
+[INFO] 26-07-2023 18:26:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:26:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:26:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:26:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:26:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:26:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:26:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:26:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:26:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:26:32 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 18:26:36 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 18:26:43 [main] [LogUtils] - Message from OTP api: Invalid code received for user
+[ERROR] 26-07-2023 18:26:43 [main] [LogUtils] - Test case:  is failed.
+[INFO] 26-07-2023 18:26:43 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (4f34388c38f78932b43afd64ed1c5f9d)
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Screenshot taken: signInExistingUser
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/mfa-signin
+[ERROR] 26-07-2023 18:26:44 [main] [LogUtils] - FAILED !! Screenshot for test case: signInExistingUser
+[ERROR] 26-07-2023 18:26:44 [main] [LogUtils] - java.lang.AssertionError: 2FA Authentication Failed expected [true] but found [false]
+[ERROR] 26-07-2023 18:26:44 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (4f34388c38f78932b43afd64ed1c5f9d)
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:26:44 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 26-07-2023 18:26:54 [main] [LogUtils] - Element not exist. By.cssSelector: #risksView
+[ERROR] 26-07-2023 18:26:54 [main] [LogUtils] - Test case:  is failed.
+[INFO] 26-07-2023 18:26:54 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (4f34388c38f78932b43afd64ed1c5f9d)
+[INFO] 26-07-2023 18:26:55 [main] [LogUtils] - Screenshot taken: verifyRaiseRiskWithSWOT
+[INFO] 26-07-2023 18:26:55 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/mfa-signin
+[ERROR] 26-07-2023 18:26:55 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRaiseRiskWithSWOT
+[ERROR] 26-07-2023 18:26:55 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #risksView
+[INFO] 26-07-2023 18:26:55 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 18:27:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:27:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:27:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:27:24 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 18:27:29 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c8150362d460b9e62a9a6c3ed54a1fd2)
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:27:29 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 18:27:33 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 18:27:41 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 18:27:41 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 18:27:42 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 18:27:45 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 18:27:45 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 26-07-2023 18:27:50 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c8150362d460b9e62a9a6c3ed54a1fd2)
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 26-07-2023 18:27:50 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 26-07-2023 18:27:51 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 26-07-2023 18:28:00 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 18:28:00 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 18:28:00 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 18:28:00 [main] [LogUtils] - Test case:  is passed.
+[INFO] 26-07-2023 18:28:00 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 18:37:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:37:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:37:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:37:23 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 18:37:28 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 18:37:29 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (af3dd20ea5a7f58e50a0aedb493c06e5)
+[INFO] 26-07-2023 18:37:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:37:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:37:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:37:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:37:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:37:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:37:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:37:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:37:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:37:29 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 18:37:34 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 18:37:43 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 18:37:44 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 18:37:45 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 18:37:47 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 18:37:48 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 26-07-2023 18:37:53 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (af3dd20ea5a7f58e50a0aedb493c06e5)
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 26-07-2023 18:37:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 26-07-2023 18:37:54 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 26-07-2023 18:37:56 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 18:37:56 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 18:37:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 18:37:56 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 18:37:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 18:37:57 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 18:37:57 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsBtn
+[ERROR] 26-07-2023 18:38:08 [main] [LogUtils] - Element not exist. By.cssSelector: #descField
+[ERROR] 26-07-2023 18:38:08 [main] [LogUtils] - Test case:  is failed.
+[INFO] 26-07-2023 18:38:08 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (af3dd20ea5a7f58e50a0aedb493c06e5)
+[INFO] 26-07-2023 18:38:08 [main] [LogUtils] - Screenshot taken: verifyRaiseRiskWithSWOT
+[INFO] 26-07-2023 18:38:08 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/swot
+[ERROR] 26-07-2023 18:38:08 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRaiseRiskWithSWOT
+[ERROR] 26-07-2023 18:38:08 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #descField
+[INFO] 26-07-2023 18:38:08 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 18:51:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:51:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:51:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:51:39 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 18:51:44 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 18:51:45 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (35b17f33033a4ff53821bcc0baf3e5de)
+[INFO] 26-07-2023 18:51:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:51:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:51:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:51:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:51:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:51:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:51:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:51:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:51:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:51:45 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 18:51:51 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 18:55:13 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 18:55:13 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 18:55:15 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 18:55:18 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 18:55:18 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 26-07-2023 18:55:24 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (35b17f33033a4ff53821bcc0baf3e5de)
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 26-07-2023 18:55:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 26-07-2023 18:55:25 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 26-07-2023 18:55:27 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 18:55:27 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 18:55:27 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 18:55:27 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 18:55:27 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 18:55:29 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 18:55:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 18:55:29 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 18:55:29 [main] [LogUtils] - Set text yawrg360vd on By.cssSelector: #swotField
+[INFO] 26-07-2023 18:55:29 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 18:55:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 18:55:29 [main] [LogUtils] - Test case:  is passed.
+[INFO] 26-07-2023 18:55:29 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 19:01:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:01:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:01:54 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:01:54 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 19:01:59 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (a35d3c5208cf57f067ee6f2634ce3f1a)
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:01:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:02:03 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 19:02:12 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:02:12 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:02:13 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:02:16 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:02:16 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 26-07-2023 19:02:22 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (a35d3c5208cf57f067ee6f2634ce3f1a)
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 26-07-2023 19:02:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 26-07-2023 19:02:23 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 26-07-2023 19:02:24 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:02:24 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:02:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:02:25 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:02:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:02:26 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:02:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:02:26 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:02:26 [main] [LogUtils] - Set text vxv1jfdlka on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:02:27 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:02:27 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:02:27 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:02:27 [main] [LogUtils] - Test case:  is passed.
+[INFO] 26-07-2023 19:02:27 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 19:03:53 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:03:53 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:03:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:03:54 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 19:03:59 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (768a6ad74cb10ab3f997b5d575254329)
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:03:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:04:03 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 19:04:14 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:04:14 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:04:14 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:04:17 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:04:17 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 26-07-2023 19:04:22 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (768a6ad74cb10ab3f997b5d575254329)
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 26-07-2023 19:04:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 26-07-2023 19:04:23 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 26-07-2023 19:04:25 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:04:25 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:04:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:04:26 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[ERROR] 26-07-2023 19:04:26 [main] [LogUtils] - Test case:  is failed.
+[INFO] 26-07-2023 19:04:26 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (768a6ad74cb10ab3f997b5d575254329)
+[INFO] 26-07-2023 19:04:26 [main] [LogUtils] - Screenshot taken: verifyRaiseRiskWithSWOT
+[INFO] 26-07-2023 19:04:26 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/swot
+[ERROR] 26-07-2023 19:04:26 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRaiseRiskWithSWOT
+[ERROR] 26-07-2023 19:04:26 [main] [LogUtils] - org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=114.0.5735.248)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [768a6ad74cb10ab3f997b5d575254329, clickElement {id=E32779D37EF382CD9D4306C27426EDCD_element_74}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.248, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65332/devtoo..., se:cdpVersion: 114.0.5735.248, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (768a6ad74cb10ab3f997b5d575254329)] -> css selector: #viewSwotBtn]
+Session ID: 768a6ad74cb10ab3f997b5d575254329
+[INFO] 26-07-2023 19:04:27 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 19:05:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:05:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:05:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:05:37 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 19:05:42 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (bb472e7e1d7752a7c657a9e013ca33a7)
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:05:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:05:46 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 19:05:55 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:05:55 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:05:57 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:06:00 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:06:00 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 26-07-2023 19:06:06 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (bb472e7e1d7752a7c657a9e013ca33a7)
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 26-07-2023 19:06:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 26-07-2023 19:06:07 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 26-07-2023 19:06:08 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:06:09 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:06:09 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:06:09 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:06:09 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:06:10 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:06:10 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:06:10 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:06:11 [main] [LogUtils] - Set text 6ld9oxsehu on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:06:11 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:06:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:06:11 [main] [LogUtils] - we are into StaleElementReferenceException 
+[ERROR] 26-07-2023 19:06:22 [main] [LogUtils] - Element not exist. By.cssSelector: #viewSwotBtn
+[ERROR] 26-07-2023 19:06:22 [main] [LogUtils] - Test case:  is failed.
+[INFO] 26-07-2023 19:06:22 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (bb472e7e1d7752a7c657a9e013ca33a7)
+[INFO] 26-07-2023 19:06:22 [main] [LogUtils] - Screenshot taken: verifyRaiseRiskWithSWOT
+[INFO] 26-07-2023 19:06:22 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/swot
+[ERROR] 26-07-2023 19:06:22 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRaiseRiskWithSWOT
+[ERROR] 26-07-2023 19:06:22 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:06:23 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 19:07:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:07:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:07:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:07:37 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 19:07:42 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (ffe101809e8e9dc18ddaba7b6c7f64fd)
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:07:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:07:46 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 19:07:55 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:07:55 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:07:57 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:08:00 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:08:00 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 26-07-2023 19:08:05 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (ffe101809e8e9dc18ddaba7b6c7f64fd)
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 26-07-2023 19:08:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 26-07-2023 19:08:06 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 26-07-2023 19:08:08 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:08 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:08:09 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:08:11 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:11 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:12 [main] [LogUtils] - Set text qdvwr41x3w on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:12 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:13 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:14 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:14 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:14 [main] [LogUtils] - Set text 3wykv86njp on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:14 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:15 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:15 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:16 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:16 [main] [LogUtils] - Set text nm5825j4bk on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:16 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:17 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:18 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 19:08:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 19:08:18 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:19 [main] [LogUtils] - Set text tbk7edonwp on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:19 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:19 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:20 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:21 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:21 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:21 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:21 [main] [LogUtils] - Set text k6mb31yq7l on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:21 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:22 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:22 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:23 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:23 [main] [LogUtils] - Set text d54800xtyw on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:23 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:24 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:24 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 19:08:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 19:08:24 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:24 [main] [LogUtils] - Set text yslrxpoxtn on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:24 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:27 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:27 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:27 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:28 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:28 [main] [LogUtils] - Set text mp03qxms58 on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:28 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:29 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:31 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:31 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:31 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:31 [main] [LogUtils] - Set text 96jhzxstdz on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:31 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:32 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:33 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:34 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:08:34 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:34 [main] [LogUtils] - Set text 6d4fjyhv0m on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:08:34 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:08:36 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:08:36 [main] [LogUtils] - Test case:  is passed.
+[INFO] 26-07-2023 19:08:36 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 19:13:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:13:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:13:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:13:40 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 19:13:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:13:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:13:47 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:13:48 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 19:13:49 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 19:13:49 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (50d8019d7da4807e960d18947464ec1b)
+[INFO] 26-07-2023 19:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:13:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:13:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:13:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:13:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:13:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:13:59 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 19:14:00 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (3bb3af66f61046973bfec6c9af10d1b3)
+[INFO] 26-07-2023 19:14:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:14:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:14:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:14:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:14:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:14:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:14:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:14:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:14:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:14:00 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:14:02 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 19:14:09 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 19:14:11 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:14:11 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:14:13 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:14:16 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:14:16 [main] [LogUtils] - Message from OTP api: Your software token has already been used once.
+[INFO] 26-07-2023 19:14:16 [main] [LogUtils] - code is already used so we are waiting for 30 second for new code
+[INFO] 26-07-2023 19:14:17 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 26-07-2023 19:14:17 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 26-07-2023 19:14:23 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (50d8019d7da4807e960d18947464ec1b)
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:14:23 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 26-07-2023 19:14:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 26-07-2023 19:14:25 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:14:29 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 19:14:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 19:14:29 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:14:29 [main] [LogUtils] - Set text uzh0g4g1nc on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:14:29 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:14:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:14:30 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:14:31 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:14:31 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:14:32 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:14:32 [main] [LogUtils] - Set text pho25i46pv on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:14:32 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:14:32 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:14:33 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:14:33 [main] [LogUtils] - Verify element visible By.cssSelector: #OpportunitiesBtn
+[INFO] 26-07-2023 19:14:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #OpportunitiesBtn
+[INFO] 26-07-2023 19:14:33 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:14:34 [main] [LogUtils] - Set text mb4dcvg8z2 on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:14:34 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:14:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:14:35 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:14:35 [main] [LogUtils] - Verify element visible By.cssSelector: #ThreatsBtn
+[INFO] 26-07-2023 19:14:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #ThreatsBtn
+[INFO] 26-07-2023 19:14:36 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:14:36 [main] [LogUtils] - Set text pdearwjadp on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:14:36 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:14:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:14:37 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:14:37 [main] [LogUtils] - Test case:  is passed.
+[INFO] 26-07-2023 19:14:37 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 19:14:46 [main] [LogUtils] - wait is over so, again try
+[INFO] 26-07-2023 19:14:47 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:14:52 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:14:52 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:14:52 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:14:56 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:14:56 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 26-07-2023 19:15:02 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (3bb3af66f61046973bfec6c9af10d1b3)
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 26-07-2023 19:15:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 26-07-2023 19:15:03 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 26-07-2023 19:15:05 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:15:05 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:15:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:15:07 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 19:15:07 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 19:15:07 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:15:08 [main] [LogUtils] - Set text 0fzzjdrksu on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:15:08 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:15:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:15:08 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:15:09 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:15:09 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:15:09 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:15:09 [main] [LogUtils] - Set text j5jgumlhlu on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:15:10 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:15:10 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:15:11 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:15:12 [main] [LogUtils] - Verify element visible By.cssSelector: #OpportunitiesBtn
+[INFO] 26-07-2023 19:15:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #OpportunitiesBtn
+[INFO] 26-07-2023 19:15:12 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:15:12 [main] [LogUtils] - Set text ulywe28y9r on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:15:12 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:15:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:15:13 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:15:13 [main] [LogUtils] - Verify element visible By.cssSelector: #ThreatsBtn
+[INFO] 26-07-2023 19:15:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #ThreatsBtn
+[INFO] 26-07-2023 19:15:14 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:15:14 [main] [LogUtils] - Set text 1yb2ctzr2a on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:15:14 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:15:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:15:16 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:15:16 [main] [LogUtils] - Test case:  is passed.
+[INFO] 26-07-2023 19:15:16 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 26-07-2023 19:21:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:21:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:21:54 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:21:54 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 26-07-2023 19:21:59 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (6345665c617a49ca5291e6e6b490ace9)
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:21:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:22:03 [main] [LogUtils] - Username and password are correct
+[INFO] 26-07-2023 19:22:13 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:22:13 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:22:14 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:22:17 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:22:18 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 26-07-2023 19:22:18 [main] [LogUtils] - Waiting for Loading
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loading Started
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loading finsihed
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 26-07-2023 19:22:23 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (6345665c617a49ca5291e6e6b490ace9)
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Test case:  is starting...
+[INFO] 26-07-2023 19:22:23 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 26-07-2023 19:22:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 26-07-2023 19:22:24 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 26-07-2023 19:22:28 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 19:22:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsBtn
+[INFO] 26-07-2023 19:22:28 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:22:28 [main] [LogUtils] - Set text 67aytigmnw on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:22:28 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:22:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:22:30 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:22:30 [main] [LogUtils] - Verify element visible By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:22:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #WeaknessesBtn
+[INFO] 26-07-2023 19:22:30 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:22:30 [main] [LogUtils] - Set text 4sa5lgqz97 on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:22:30 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:22:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:22:32 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:22:32 [main] [LogUtils] - Verify element visible By.cssSelector: #OpportunitiesBtn
+[INFO] 26-07-2023 19:22:32 [main] [LogUtils] - Clicked on the element By.cssSelector: #OpportunitiesBtn
+[INFO] 26-07-2023 19:22:32 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:22:32 [main] [LogUtils] - Set text ctc7g7hhnw on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:22:32 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:22:32 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:22:33 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:22:33 [main] [LogUtils] - Verify element visible By.cssSelector: #ThreatsBtn
+[INFO] 26-07-2023 19:22:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #ThreatsBtn
+[INFO] 26-07-2023 19:22:33 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 26-07-2023 19:22:33 [main] [LogUtils] - Set text 4yksqenz2a on By.cssSelector: #swotField
+[INFO] 26-07-2023 19:22:34 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 26-07-2023 19:22:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 26-07-2023 19:22:34 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 26-07-2023 19:22:34 [main] [LogUtils] - Test case:  is passed.
+[INFO] 26-07-2023 19:22:34 [main] [LogUtils] - End Suite: All Test Cases
