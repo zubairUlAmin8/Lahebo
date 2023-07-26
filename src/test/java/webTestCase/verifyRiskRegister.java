@@ -5,11 +5,6 @@ import lahebo.objectRepo.LandingPageOR;
 import org.testng.annotations.Test;
 
 public class verifyRiskRegister extends BaseTest {
-    @Test(priority = 0, enabled = false)
-    public void login() throws InterruptedException {
-//        signInPage.signInUser();
-//        signInPage.signInUserBypass2FA();
-    }
     @Test(priority = 1, invocationCount = 1, enabled = true)
     public void verifyAddNewRisk() throws InterruptedException {
         landingPage.goToRiskRegister();
@@ -37,6 +32,11 @@ public class verifyRiskRegister extends BaseTest {
         riskRegisterPage.rejectRisk();
     }
     @Test(priority = 6, invocationCount = 1, enabled = true)
+    public void verifyRaiseRiskWithSWOT() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.addRiskBySWOT();
+    }
+    @Test(priority = 7, invocationCount = 1, enabled = true)
     public void verifyDeleteAllRisk() throws InterruptedException {
         landingPage.goToRiskRegister();
         riskRegisterPage.deleteRisk();

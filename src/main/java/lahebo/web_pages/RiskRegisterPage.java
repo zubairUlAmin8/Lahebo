@@ -211,7 +211,12 @@ public class RiskRegisterPage {
         //WAIT FOR LOADING
         WebUI.waitForElementToBeGone(LandingPageOR.appModel, 5);
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 5);
-
-
     }
+    public void addRiskBySWOT() throws InterruptedException {
+        WebUI.clickElement(RiskRegisterOR.viewSWOTBtn);
+    }
+    public void addStrength() throws InterruptedException {
+        WebUI.clickElement(RiskRegisterOR.viewSWOTBtn);
+    }
+
     }

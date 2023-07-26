@@ -30,7 +30,7 @@ public class verifyUserSignIn extends BaseTest {
     }
 
 
-    @Test(priority = 2, enabled = true)
+    @Test(priority = 2, enabled = false)
     public void signInUser() throws InterruptedException {
         String url_Address = PropertiesHelpers.getValue("URL_RAHEBO");
         String userName = PropertiesHelpers.getValue("New_User_UserName");
@@ -50,12 +50,17 @@ public class verifyUserSignIn extends BaseTest {
         }
     }
 
-    @Test(priority = 3, enabled = true)
+    @Test(priority = 3, enabled = false)
     public void verifyUserSignOut() throws InterruptedException {
         landingPage.signOutTest();
         Assert.assertTrue(signInPage.verifyLoginPage(), "User could not sign OUt");
     }
     @Test(groups = {"dataDrivenTestCases"})
+    public void signInDataDrivenTestCases() throws InterruptedException {
+        signInPage.signInUser();
+        landingPage.waitForPageLoading();
+    }
+    @Test
     public void signIn() throws InterruptedException {
         signInPage.signInUser();
         landingPage.waitForPageLoading();

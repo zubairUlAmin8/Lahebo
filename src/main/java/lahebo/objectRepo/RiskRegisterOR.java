@@ -54,6 +54,6 @@ public interface RiskRegisterOR {
       By deleteRiskBtn =By.cssSelector("#confirmDelBtn");
       By confirmAcceptRiskBtn =By.cssSelector("#confirmOKBtn");
       By rejectRiskReasonTextArea=By.cssSelector("textarea[placeholder=\"Input Reason\"]");
-
+      By viewSWOTBtn=By.cssSelector("#viewSwotBtn");
 
 }

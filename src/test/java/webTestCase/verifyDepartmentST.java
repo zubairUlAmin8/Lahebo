@@ -27,7 +27,6 @@ public class verifyDepartmentST extends BaseTest {
     //Open Browser and Hit the Base URL
     @Test(priority = 0, invocationCount = 2)
     public void AddNewDepartment(ITestContext testContext) throws IOException, InterruptedException {
-//        signInPage.signInUser();
         landingPage.goToDepartmentST();
         landingPage.waitForPageLoading();
         departmentName = PropertiesHelpers.getValue("DEPARTMENT_NAME", "dataset");

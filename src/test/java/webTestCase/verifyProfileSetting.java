@@ -11,7 +11,6 @@ public class verifyProfileSetting extends BaseTest {
 
     @Test(priority = 1)
     public void verifyEditProfile() throws InterruptedException {
-        signInPage.signInUser();
         landingPage.goToProfileSetting();
         profileDetailsPage.editProfile("Zubair", "Amin", fakerUtils.generateRandomAustralianPhoneNumber());
         landingPage.waitForPopUpInvisibilty();

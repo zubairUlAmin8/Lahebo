@@ -2,6 +2,7 @@ package lahebo.web_pages;
 
 import Utils.LogUtils;
 import Utils.waits;
+import constants.FrameworkConstants;
 import driver.DriverManager;
 import keywords.WebUI;
 import lahebo.path_repo.LandingPagePR;
@@ -113,9 +114,8 @@ public class LandingPage {
         WebUI.clickElement(LandingPageOR.legislationLibraryTab);
     }
     public void goToRiskRegister() throws InterruptedException {
-//        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
         WebUI.clickElement(LandingPageOR.riskRegisterTab);
-//        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
 
     }
     public void goToActionCenter() throws InterruptedException {
