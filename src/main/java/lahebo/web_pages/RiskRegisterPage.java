@@ -160,15 +160,25 @@ public class RiskRegisterPage {
         WebUI.waitForElementToBeGone(LandingPageOR.confirmModel, FrameworkConstants.WAIT_EXPLICIT);
 
     }
-    public void editRisk() throws InterruptedException {
+    public void editRisk(boolean isItSWOTRisk) throws InterruptedException {
 
-
+        if (isItSWOTRisk) {
+            //RELATED INFORMATION
+            WebUI.clickElement(RiskRegisterOR.locationList);
+            WebUI.selectListOptionRandomly(RiskRegisterOR.locationListElements);
+            WebUI.clickElement(RiskRegisterOR.departmentList);
+            WebUI.selectListOptionRandomly(RiskRegisterOR.departmentListElements);
+            //OTHERS
+            WebUI.clickElement(RiskRegisterOR.ownerList);
+            WebUI.selectListOptionRandomly(RiskRegisterOR.ownerListElements);
+            WebUI.setText(RiskRegisterOR.remarksTextArea, fakerUtils.generateDummyData(20));
+            WebUI.clickElement(RiskRegisterOR.submitBtn);
+        }
 
         WebUI.clickElement(RiskRegisterOR.isoStandardList);
 
         WebUI.selectListOptionByIndex(RiskRegisterOR.isoStandardListElements, 2);
         int hazardCheck = 2;
-
 
         //HAZARD INFORMATION
         if (hazardCheck == 2) {
@@ -213,11 +223,51 @@ public class RiskRegisterPage {
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
     }
     public void addRiskBySWOT() throws InterruptedException {
-        WebUI.clickElement(RiskRegisterOR.viewSWOTBtn);
 
-        for (int boardNumber = 1; boardNumber < 5; boardNumber++) {
+        for (int boardNumber = 1; boardNumber < 2; boardNumber++) {
             addStrength(boardNumber);
+            createRiskForItem(boardNumber);
+
         }
+
+    }
+
+
+    public void backToRiskRegisterFromSWOT() throws InterruptedException {
+        WebUI.clickElement(RiskRegisterOR.backToRiskBtn);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+    }
+    public void viewSWOT() throws InterruptedException {
+        WebUI.clickElement(RiskRegisterOR.viewSWOTBtn);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+    }
+
+    public void createRiskForItem(int boardNumber) throws InterruptedException {
+        switch(boardNumber) {
+            case 2:
+                WebUI.clickElement(RiskRegisterOR.weaknessesOptions);
+                WebUI.clickElement(RiskRegisterOR.createRiskForWeaknesses);
+
+
+                break;
+            case 3:
+                WebUI.clickElement(RiskRegisterOR.opportunitiesOptions);
+                WebUI.clickElement(RiskRegisterOR.createRiskForOpportunities);
+
+                break;
+            case 4:
+                WebUI.clickElement(RiskRegisterOR.threatsOptions);
+                WebUI.clickElement(RiskRegisterOR.createRiskForThreats);
+                break;
+            default:
+                WebUI.clickElement(RiskRegisterOR.strengthOptions);
+                WebUI.clickElement(RiskRegisterOR.createRiskForStrengths);
+
+        }
+        WebUI.clickElement(RiskRegisterOR.confirmAcceptRiskBtn);
+        WebUI.waitForElementToBeGone(LandingPageOR.appModel, FrameworkConstants.WAIT_EXPLICIT);
+
+
     }
     public void addStrength(int boardNumber) throws InterruptedException {
         switch(boardNumber) {

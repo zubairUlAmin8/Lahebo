@@ -10,9 +10,6 @@
       <change beforePath="$PROJECT_DIR$/logs/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/applog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/RiskRegisterOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/RiskRegisterOR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/RiskRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/RiskRegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyProfileSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyProfileSetting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyRiskRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyRiskRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyUserSignIn.java" afterDir="false" />
     </list>

@@ -61,5 +61,14 @@ public interface RiskRegisterOR {
       By addThreatsBtn=By.cssSelector("#ThreatsBtn");
       By swotDescriptionTextArea=By.cssSelector("#swotField");
       By submitDoActionBtn=By.cssSelector("#doAction");
+      By strengthOptions=By.cssSelector("#StrengthsCard>ul>li:nth-of-type(1)>div>button");
+      By weaknessesOptions=By.cssSelector("#WeaknessesCard>ul>li:nth-of-type(1)>div>button");
+      By opportunitiesOptions=By.cssSelector("#OpportunitiesCard>ul>li:nth-of-type(1)>div>button");
+      By threatsOptions=By.cssSelector("#ThreatsCard>ul>li:nth-of-type(1)>div>button");
+      By createRiskForStrengths=By.cssSelector("#StrengthsRiskBtn");
+      By createRiskForWeaknesses=By.cssSelector("#WeaknessesRiskBtn");
+      By createRiskForOpportunities=By.cssSelector("#OpportunitiesRiskBtn");
+      By createRiskForThreats=By.cssSelector("#ThreatsRiskBtn");
+      By backToRiskBtn=By.cssSelector("#backToRiskBtn");
 
 }

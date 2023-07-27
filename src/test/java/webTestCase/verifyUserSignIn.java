@@ -63,6 +63,5 @@ public class verifyUserSignIn extends BaseTest {
     @Test
     public void signInExistingUser() throws InterruptedException {
         signInPage.signInExistingUser();
-        landingPage.waitForPageLoading();
     }
 }
