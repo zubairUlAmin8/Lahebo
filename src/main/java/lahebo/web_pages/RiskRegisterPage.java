@@ -13,7 +13,6 @@ import org.openqa.selenium.WebDriver;
 public class RiskRegisterPage {
     WebDriver driver;
 
-
     public RiskRegisterPage(WebDriver driver) {
         this.driver = driver;
     }

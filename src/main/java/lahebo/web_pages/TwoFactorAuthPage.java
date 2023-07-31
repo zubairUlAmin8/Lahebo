@@ -165,7 +165,7 @@ public class TwoFactorAuthPage extends BasePage{
     }
     public String getGmailInboxOTP() throws InterruptedException, MessagingException, IOException, MessagingException {
         String userName = "zubairulamin8@gmail.com";
-        String password = "ixrvngupvrvtkuqk";
+        String password = "feqgtjluipmlouep";  //generate google password
 
         GMailHelper gmailHelper = new GMailHelper(userName, password);
 
