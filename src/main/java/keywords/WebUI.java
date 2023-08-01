@@ -2741,9 +2741,10 @@ public class WebUI {
         }
     }
     public static void waitForElementToBeGone(By by, int timeout) throws InterruptedException {
+        WebElement element;
         LogUtils.info("loading function");
         try {
-            WebElement element = DriverManager.getDriver().findElement(by);
+             element = DriverManager.getDriver().findElement(by);
             if (isElementDisplayed(element)) {
                 new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeout)).until(ExpectedConditions.not(ExpectedConditions.visibilityOf(element)));
                 LogUtils.info("Element has been disappear: "+by);
@@ -2760,6 +2761,8 @@ public class WebUI {
 
         } catch (StaleElementReferenceException e) {
             LogUtils.info("we are into StaleElementReferenceException ");
+            tryCheck=0;
+            waitForElementToBeGone(by, timeout);
         }
         catch (WebDriverException e) {
             LogUtils.info("we are into WebDriverException ");
