@@ -65,4 +65,15 @@ public class verifyRiskRegister extends BaseTest {
         landingPage.goToRiskRegister();
         riskRegisterPage.deleteRisk();
     }
+    @Test(priority = 11, invocationCount = 10, enabled = false)
+    public void addingIssuesForFilters() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.addNewRisk();
+    }
+    @Test(priority = 12, invocationCount = 1, enabled = false)
+    public void verifyDepartmentFilter() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.verifyDepartmentFilter();
+    }
+
 }

@@ -977,6 +977,72 @@ public class WebUI {
         return false;
 
     }
+    public static boolean selectCheckBoxOptionByIndex(By objectListItem, int index) {
+        smartWait();
+        int randomOption=0;
+        int iteration = 1;
+        // For dynamic dropdowns (div, li, span, etc., not select options)
+
+        try {
+            List<WebElement> elements = getWebElements(objectListItem);
+
+            WebElement ele = elements.get(0);
+
+            if (elements.size() == 1) {
+                LogUtils.info("waiting for List Items to Load");
+            }
+            try {
+                while (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
+
+                    elements = getWebElements(objectListItem);
+                    ele = elements.get(0);
+                    LogUtils.info("Still Waiting...");
+                }
+            }catch (StaleElementReferenceException e) {
+                // Handle the StaleElementReferenceException here
+                // You can log the exception or perform any other desired action
+                LogUtils.info("here in catch ");
+                elements=DriverManager.getDriver().findElements(objectListItem);
+                selectCheckBoxOptionRandomly(objectListItem);
+
+            }
+
+            LogUtils.info("Wait Over!! size of list: "+elements.size());
+            randomOption=fakerUtils.generateRandomInt(elements.size());
+
+//            if (ele.getText().equalsIgnoreCase("Sorry, no matching options.")) {
+//                Thread.sleep(5000);
+//                elements = getWebElements(objectListItem);
+//                LogUtils.info("size of list: "+elements.size());
+//                randomOption=fakerUtils.generateRandomInt(elements.size());
+//            }
+
+            try{
+                for (WebElement element : elements) {
+
+                    if (index==iteration) {
+                        element.click();
+                        LogUtils.info(iteration+" :"+element.getText()+" Selected ");
+                        return true;
+                    }
+                    iteration++;
+                }
+            }catch (StaleElementReferenceException e) {
+                // Handle the StaleElementReferenceException here
+                // You can log the exception or perform any other desired action
+                LogUtils.info("here in catch ");
+
+                elements=DriverManager.getDriver().findElements(objectListItem);
+                selectCheckBoxOptionRandomly(objectListItem);
+
+            }
+        } catch (Exception e) {
+            LogUtils.info(e.getMessage());
+            e.getMessage();
+        }
+        return false;
+
+    }
     public static boolean selectMultpleCheckBoxDynamic(By objectListItem,By objectCheckBox, String text) {
         smartWait();
         // For dynamic dropdowns (div, li, span, etc., not select options)
@@ -2675,6 +2741,7 @@ public class WebUI {
         }
     }
     public static void waitForElementToBeGone(By by, int timeout) throws InterruptedException {
+        LogUtils.info("loading function");
         try {
             WebElement element = DriverManager.getDriver().findElement(by);
             if (isElementDisplayed(element)) {

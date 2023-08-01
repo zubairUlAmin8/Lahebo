@@ -120,6 +120,7 @@ public class LandingPage {
     }
     public void goToActionCenter() throws InterruptedException {
         WebUI.clickElement(LandingPageOR.actionCenterTab);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
     }
 
     public boolean checkOrganizationSettingList() {

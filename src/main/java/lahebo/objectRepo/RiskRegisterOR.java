@@ -71,4 +71,13 @@ public interface RiskRegisterOR {
       By createRiskForThreats=By.cssSelector("#ThreatsRiskBtn");
       By backToRiskBtn=By.cssSelector("#backToRiskBtn");
 
+
+      //Filters
+
+      By departmentFilterList=By.cssSelector("#DepartmentsFilter");
+      By departmentFilterListElements=By.cssSelector("div>button#DepartmentsFilter+div>div>input");
+      By departmentFilterListElementsText=By.cssSelector("div>button#Departments(1)Filter+div>div:nth-of-type(3)>div");
+      By verifyDepartmentName=By.cssSelector("tr:first-of-type>td:nth-of-type(6)>div");
+
+
 }

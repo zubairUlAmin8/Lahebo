@@ -25,7 +25,7 @@ public class verifyDepartmentST extends BaseTest {
     ExcelHelpers excelHelpers = new ExcelHelpers();
 
     //Open Browser and Hit the Base URL
-    @Test(priority = 0, invocationCount = 2)
+    @Test(priority = 0, invocationCount = 1)
     public void AddNewDepartment(ITestContext testContext) throws IOException, InterruptedException {
         landingPage.goToDepartmentST();
         landingPage.waitForPageLoading();

@@ -169,7 +169,7 @@ public class SignInPage extends BasePage {
         if (signIn(userName, password)) {
             Assert.assertTrue(true, "Password or Username is  correct");
             Assert.assertTrue(twoFactorAuthPage.authenticationWithSecretKey(secretKey), "2FA Authentication Failed");
-            landingPage.waitForPageLoading();
+            WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 10);
             Assert.assertTrue(landingPage.verifyLandingPage(), "landing page could not displayed");
         } else {
             System.out.println("im here into 2");

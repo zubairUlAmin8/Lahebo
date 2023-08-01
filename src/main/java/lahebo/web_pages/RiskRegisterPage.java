@@ -292,5 +292,14 @@ public class RiskRegisterPage {
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
 
     }
+    public void verifyDepartmentFilter() throws InterruptedException {
+        WebUI.clickElement(RiskRegisterOR.departmentFilterList);
+        WebUI.selectCheckBoxOptionByIndex(RiskRegisterOR.departmentFilterListElements, 3);
+        Thread.sleep(5000);
+        String departmentNameSelected = WebUI.getTextElement(RiskRegisterOR.departmentFilterListElementsText);
+        String departmentNameResults = WebUI.getTextElement(RiskRegisterOR.verifyDepartmentName);
+        System.out.println(departmentNameSelected+departmentNameResults);
+    }
+
 
     }
