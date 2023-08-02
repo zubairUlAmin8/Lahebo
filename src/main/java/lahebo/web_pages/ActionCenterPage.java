@@ -35,9 +35,12 @@ public class ActionCenterPage {
         WebUI.clickElement(ActionCenterOR.departmentList);
         WebUI.selectListOptionRandomly(ActionCenterOR.departmentListElements);
         WebUI.clickElement(ActionCenterOR.sourceList);
-        WebUI.selectListOptionRandomly(ActionCenterOR.sourceListElements);
-        WebUI.clickElement(ActionCenterOR.riskList);
-        WebUI.selectListOptionRandomly(ActionCenterOR.riskListElements);
+        String selectedSource=WebUI.selectListOptionRandomly(ActionCenterOR.sourceListElements);
+
+        if(selectedSource.contains("Risk Module")){
+            WebUI.clickElement(ActionCenterOR.riskList);
+            WebUI.selectListOptionRandomly(ActionCenterOR.riskListElements);
+        }
 
         //MITIGATION
         WebUI.clickElement(ActionCenterOR.assigneeList);
@@ -61,7 +64,6 @@ public class ActionCenterPage {
 
 
     public void deleteAllAction() throws InterruptedException {
-//        utility.handleZoomInZoomOut(75);
 
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 10);
         WebUI.scrollToElementToBottom(ActionCenterOR.totalItemsCount);
@@ -78,7 +80,7 @@ public class ActionCenterPage {
             totalItems = utility.extractIntegerFromString(countText);
             LogUtils.info("Total Risk Items Int: " + totalItems);
         }
-
+        utility.handleZoomInZoomOut(100);
         for (int i = totalItems; i > 0; i--) {
             WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
             WebUI.moveToElement(ActionCenterOR.itemOptionBtn);

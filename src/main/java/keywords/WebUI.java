@@ -759,7 +759,7 @@ public class WebUI {
         return false;
 
     }
-    public static boolean selectListOptionRandomly(By objectListItem) {
+    public static String selectListOptionRandomly(By objectListItem) {
         smartWait();
         int randomOption=0;
         int iteration = 1;
@@ -816,7 +816,7 @@ public class WebUI {
                     LogUtils.info("random number: "+randomOption+" iteration: "+iteration);
                     element.click();
                     LogUtils.info(iteration+" :"+element.getText()+" Selected ");
-                    return true;
+                    return element.getText();
                 }
                 iteration++;
             }
@@ -833,7 +833,7 @@ public class WebUI {
             LogUtils.info(e.getMessage());
             e.getMessage();
         }
-        return false;
+        return "";
 
     }
     public static boolean selectListOptionByIndex(By objectListItem, int index) {
@@ -2745,11 +2745,13 @@ public class WebUI {
         LogUtils.info("loading function");
         try {
              element = DriverManager.getDriver().findElement(by);
-            if (isElementDisplayed(element)) {
+            if (!isElementDisplayed(element)) {
                 new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeout)).until(ExpectedConditions.not(ExpectedConditions.visibilityOf(element)));
                 LogUtils.info("Element has been disappear: "+by);
             }else {
                 LogUtils.info("Element is still displayed "+by);
+                Thread.sleep(1000);
+                waitForElementToBeGone(by, timeout);
             }
         } catch (NoSuchElementException e) {
             tryCheck++;

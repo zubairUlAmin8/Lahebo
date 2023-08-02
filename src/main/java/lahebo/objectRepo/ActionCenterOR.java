@@ -16,7 +16,6 @@ public interface ActionCenterOR {
       By isoStandardList =By.cssSelector("#isoField");
       By isoStandardListElements =By.cssSelector("#isoField>ul>li");
       By remarksTextArea =By.cssSelector("#remarksField");
-      By markAsActionCB =By.cssSelector("#action-item");
 
       By assigneeList =By.cssSelector("#assigneeField");
       By fileUploadSpinner =By.cssSelector("#fileUploadSpinner");
