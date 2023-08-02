@@ -25,4 +25,10 @@ public interface ActionCenterOR {
 
       By addBtn =By.cssSelector("#doAction");
 
+      By totalItemsCount =By.cssSelector("div.text-gray-500");
+      By itemOptionBtn =By.cssSelector("tr:first-of-type>td:last-of-type>div>button");
+      By deleteRiskOption =By.cssSelector("tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type");
+      By deleteRiskBtn =By.cssSelector("#confirmDelBtn");
+
+
 }

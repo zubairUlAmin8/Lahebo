@@ -2766,6 +2766,8 @@ public class WebUI {
         }
         catch (WebDriverException e) {
             LogUtils.info("we are into WebDriverException ");
+            tryCheck=0;
+            waitForElementToBeGone(by, timeout);
         }
 
 

@@ -115,7 +115,6 @@ public class RiskRegisterPage {
 
     }
     public void deleteRisk() throws InterruptedException {
-//        utility.handleZoomInZoomOut(75);
 
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 10);
         WebUI.scrollToElementToBottom(RiskRegisterOR.totalItemsCount);

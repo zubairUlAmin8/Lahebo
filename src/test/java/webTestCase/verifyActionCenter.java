@@ -8,5 +8,10 @@ public class verifyActionCenter extends BaseTest {
         landingPage.goToActionCenter();
         actionCenterPage.addNewAction();
     }
+    @Test(priority = 2, invocationCount = 1, enabled = true)
+    public void verifyDeleteAllAction() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        actionCenterPage.deleteAllAction();
+    }
 
 }

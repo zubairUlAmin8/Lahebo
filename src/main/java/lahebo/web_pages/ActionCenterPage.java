@@ -60,33 +60,33 @@ public class ActionCenterPage {
     }
 
 
-    public void deleteRisk() throws InterruptedException {
+    public void deleteAllAction() throws InterruptedException {
 //        utility.handleZoomInZoomOut(75);
-//
-//        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 10);
-//        WebUI.scrollToElementToBottom(ActionCenterOR.totalItemsCount);
-//        String countText = WebUI.getTextElement(ActionCenterOR.totalItemsCount);
-//        LogUtils.info("Total Risk Items: " + countText);
-//        LogUtils.info("Total Risk Items: " + utility.extractIntegerFromString(countText) + " length: " + countText.length());
-//        int totalItems = utility.extractIntegerFromString(countText);
-//        LogUtils.info("Total Risk Items Int: " + totalItems);
-//        if (totalItems == 0) {
-//            utility.handleZoomInZoomOut(30);
-//            countText = WebUI.getTextElement(ActionCenterOR.totalItemsCount);
-//            LogUtils.info("Total Risk Items: " + countText);
-//            LogUtils.info("Total Risk Items: " + utility.extractIntegerFromString(countText) + " length: " + countText.length());
-//            totalItems = utility.extractIntegerFromString(countText);
-//            LogUtils.info("Total Risk Items Int: " + totalItems);
-//        }
-//
-//        for (int i = totalItems; i > 0; i--) {
-//            WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
-//            WebUI.moveToElement(ActionCenterOR.itemOptionBtn);
-//            WebUI.clickElement(ActionCenterOR.itemOptionBtn);
-//            WebUI.clickElement(ActionCenterOR.deleteRiskOption);
-//            WebUI.clickElement(ActionCenterOR.deleteRiskBtn);
-//            WebUI.waitForElementToBeGone(LandingPageOR.confirmModel, FrameworkConstants.WAIT_EXPLICIT);
-//        }
+
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 10);
+        WebUI.scrollToElementToBottom(ActionCenterOR.totalItemsCount);
+        String countText = WebUI.getTextElement(ActionCenterOR.totalItemsCount);
+        LogUtils.info("Total Risk Items: " + countText);
+        LogUtils.info("Total Risk Items: " + utility.extractIntegerFromString(countText) + " length: " + countText.length());
+        int totalItems = utility.extractIntegerFromString(countText);
+        LogUtils.info("Total Risk Items Int: " + totalItems);
+        if (totalItems == 0) {
+            utility.handleZoomInZoomOut(30);
+            countText = WebUI.getTextElement(ActionCenterOR.totalItemsCount);
+            LogUtils.info("Total Risk Items: " + countText);
+            LogUtils.info("Total Risk Items: " + utility.extractIntegerFromString(countText) + " length: " + countText.length());
+            totalItems = utility.extractIntegerFromString(countText);
+            LogUtils.info("Total Risk Items Int: " + totalItems);
+        }
+
+        for (int i = totalItems; i > 0; i--) {
+            WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+            WebUI.moveToElement(ActionCenterOR.itemOptionBtn);
+            WebUI.clickElement(ActionCenterOR.itemOptionBtn);
+            WebUI.clickElement(ActionCenterOR.deleteRiskOption);
+            WebUI.clickElement(ActionCenterOR.deleteRiskBtn);
+            WebUI.waitForElementToBeGone(LandingPageOR.confirmModel, FrameworkConstants.WAIT_EXPLICIT);
+        }
 
     }
 
