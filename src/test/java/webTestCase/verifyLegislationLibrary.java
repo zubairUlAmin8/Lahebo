@@ -38,5 +38,10 @@ public class verifyLegislationLibrary extends BaseTest {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.unsubscribeAllItems();
     }
+    @Test(priority = 2, enabled = true, invocationCount = 2)
+    public void verifyAddLegalRegisterForRisk() throws InterruptedException {
+        landingPage.goToLegislationLibrary();
+        legislationLibraryPage.addLegalRegister();
+    }
 
 }

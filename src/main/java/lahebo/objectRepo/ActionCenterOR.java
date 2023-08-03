@@ -28,6 +28,8 @@ public interface ActionCenterOR {
       By itemOptionBtn =By.cssSelector("tr:first-of-type>td:last-of-type>div>button");
       By deleteRiskOption =By.cssSelector("tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type");
       By deleteRiskBtn =By.cssSelector("#confirmDelBtn");
+      By editRiskOption =By.cssSelector("tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:first-of-type");
+
 
 
 }

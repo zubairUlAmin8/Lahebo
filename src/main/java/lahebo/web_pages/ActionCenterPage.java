@@ -61,6 +61,49 @@ public class ActionCenterPage {
         WebUI.waitForElementToBeGone(LandingPageOR.appModel, 5);
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 5);
     }
+    public void editAction() throws InterruptedException {
+
+        //Navigation
+        WebUI.moveToElement(ActionCenterOR.itemOptionBtn);
+        WebUI.clickElement(ActionCenterOR.itemOptionBtn);
+        WebUI.clickElement(ActionCenterOR.editRiskOption);
+
+        //GENERAL INFORMATION
+        WebUI.setText(ActionCenterOR.descriptionTextArea, fakerUtils.generateDummyData(20));
+
+
+        //RELATED INFORMATION
+        WebUI.clickElement(ActionCenterOR.locationList);
+        WebUI.selectListOptionRandomly(ActionCenterOR.locationListElements);
+        WebUI.clickElement(ActionCenterOR.departmentList);
+        WebUI.selectListOptionRandomly(ActionCenterOR.departmentListElements);
+        WebUI.clickElement(ActionCenterOR.sourceList);
+        String selectedSource=WebUI.selectListOptionRandomly(ActionCenterOR.sourceListElements);
+
+        if(selectedSource.contains("Risk Module")){
+            WebUI.clickElement(ActionCenterOR.riskList);
+            WebUI.selectListOptionRandomly(ActionCenterOR.riskListElements);
+        }
+
+        //MITIGATION
+        WebUI.clickElement(ActionCenterOR.assigneeList);
+        WebUI.selectListOptionRandomly(ActionCenterOR.assigneeListElements);
+
+        WebUI.clickElement(ActionCenterOR.isoStandardList);
+        WebUI.selectListOptionByIndex(ActionCenterOR.isoStandardListElements, 2);
+        DriverManager.getDriver().findElement(ActionCenterOR.uploadFileIF).sendKeys("D:\\Zapta\\Automation\\Lahebo\\ExtentReports\\ExtentReports.html");
+        WebUI.waitForElementToBeGone(ActionCenterOR.fileUploadSpinner, FrameworkConstants.WAIT_EXPLICIT);
+
+
+//        WebUI.setText(ActionCenterOR.uploadFileIF, "ExtentReports/ExtentReports.html");
+        //OTHERS
+        WebUI.setText(ActionCenterOR.remarksTextArea, fakerUtils.generateDummyData(20));
+        WebUI.clickElement(ActionCenterOR.addBtn);
+
+        //WAIT FOR LOADING
+        WebUI.waitForElementToBeGone(LandingPageOR.appModel, 5);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, 5);
+    }
 
 
     public void deleteAllAction() throws InterruptedException {
