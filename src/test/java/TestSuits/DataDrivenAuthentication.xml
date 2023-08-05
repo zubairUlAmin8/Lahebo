@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test_suite">
+
+<groups>
+    <run>
+        <include name="dataDrivenTestCases"/>
+    </run>
+</groups>
+    <listeners>
+        <listener class-name="listeners.ListenerTest"/>
+        <!--        <listener class-name="listeners.AnnotationTransformer"/>-->
+    </listeners>
+
+<test name="Data Driven">
+    <classes>
+        <class name="webTestCase.verifyUserSignIn"/>
+        <class name="webTestCase.verifyDepartmentST"/>
+        <class name="webTestCase.verifyLocationST"/>
+        <class name="webTestCase.verifyJobFunctionST"/>
+    </classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->

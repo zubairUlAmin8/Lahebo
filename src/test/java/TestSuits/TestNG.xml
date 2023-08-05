@@ -18,10 +18,10 @@
 <!--            <class name="webTestCase.verifyDepartmentST"/>-->
 <!--            <class name="webTestCase.verifyLocationST"/>-->
 <!--            <class name="webTestCase.verifyJobFunctionST"/>-->
-<!--            <class name="webTestCase.verifyProfileSetting"/>-->
+            <class name="webTestCase.verifyProfileSetting"/>
 <!--            <class name="webTestCase.verifyLegislationLibrary"/>-->
-            <class name="webTestCase.verifyRiskRegister"/>
-            <class name="webTestCase.verifyActionCenter"/>
+<!--            <class name="webTestCase.verifyRiskRegister"/>-->
+<!--            <class name="webTestCase.verifyActionCenter"/>-->
 
         </classes>
     </test> <!-- Test -->
