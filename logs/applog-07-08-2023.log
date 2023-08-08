@@ -1,0 +1,812 @@
+[INFO] 04-08-2023 15:12:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:12:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:12:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:12:36 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-08-2023 15:12:44 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (848bfd00fe42d9def7d018c2aa21c5d5)
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:12:44 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:12:48 [main] [LogUtils] - Username and password are correct
+[INFO] 04-08-2023 15:13:03 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-08-2023 15:13:03 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:13:04 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 04-08-2023 15:13:04 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:13:04 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 04-08-2023 15:13:05 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:13:05 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 04-08-2023 15:13:06 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:13:07 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:13:07 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-08-2023 15:13:07 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 04-08-2023 15:50:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:50:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:50:25 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:50:26 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-08-2023 15:50:33 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-08-2023 15:50:34 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (b8ca76ebb022faabffc4c1e28980648e)
+[INFO] 04-08-2023 15:50:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:50:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:50:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:50:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:50:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:50:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:50:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:50:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:50:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:50:34 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:50:38 [main] [LogUtils] - Username and password are correct
+[INFO] 04-08-2023 15:50:52 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-08-2023 15:50:52 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:50:53 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 04-08-2023 15:50:53 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:50:54 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 04-08-2023 15:50:55 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:50:55 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 04-08-2023 15:50:56 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:50:56 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 04-08-2023 15:50:57 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:50:57 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:50:57 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-08-2023 15:50:57 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:51:25 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:51:26 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-08-2023 15:51:33 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-08-2023 15:51:34 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:51:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:51:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:51:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:51:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:51:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:51:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:51:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:51:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:51:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:51:34 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:51:38 [main] [LogUtils] - Username and password are correct
+[INFO] 04-08-2023 15:51:48 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-08-2023 15:51:48 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:51:49 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 04-08-2023 15:51:49 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:51:49 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 04-08-2023 15:51:50 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:51:50 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 04-08-2023 15:51:51 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 04-08-2023 15:51:52 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - String is my svg-inline--fa fa-angle-right
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 04-08-2023 15:51:52 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-08-2023 15:51:53 [main] [LogUtils] - Loading Started
+[INFO] 04-08-2023 15:51:54 [main] [LogUtils] - Loading finsihed
+[INFO] 04-08-2023 15:51:54 [main] [LogUtils] - AddNewDepartment Invocation0
+[INFO] 04-08-2023 15:51:55 [main] [LogUtils] - Verify element visible By.cssSelector: #addDeptBtn
+[INFO] 04-08-2023 15:51:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #addDeptBtn
+[INFO] 04-08-2023 15:51:56 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 04-08-2023 15:51:56 [main] [LogUtils] - Set text designing on By.cssSelector: #deptNameField
+[INFO] 04-08-2023 15:51:56 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 04-08-2023 15:51:57 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 04-08-2023 15:51:57 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 04-08-2023 15:51:57 [main] [LogUtils] - size of list: 1
+[INFO] 04-08-2023 15:51:57 [main] [LogUtils] - Zubair Amin
+[ERROR] 04-08-2023 15:51:57 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:51:57 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:51:58 [main] [LogUtils] - Screenshot taken: AddNewDepartment
+[INFO] 04-08-2023 15:51:58 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:51:58 [main] [LogUtils] - FAILED !! Screenshot for test case: AddNewDepartment
+[ERROR] 04-08-2023 15:51:58 [main] [LogUtils] - java.lang.AssertionError: Manager is not selected expected [true] but found [false]
+[INFO] 04-08-2023 15:51:58 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:51:58 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 04-08-2023 15:51:58 [main] [LogUtils] - Department Found:  design department
+[INFO] 04-08-2023 15:51:58 [main] [LogUtils] - Department Found:  dev department
+[INFO] 04-08-2023 15:51:58 [main] [LogUtils] - Department Found:  finance department
+[INFO] 04-08-2023 15:51:58 [main] [LogUtils] - Department designing Not exist
+[ERROR] 04-08-2023 15:51:58 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:51:58 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - Screenshot taken: verifyEditDepartment
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:51:59 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditDepartment
+[ERROR] 04-08-2023 15:51:59 [main] [LogUtils] - java.lang.AssertionError: designing: Department Not Exist expected [true] but found [false]
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - Department Found:  design department
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - Department Found:  dev department
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - Department Found:  finance department
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - Department accounts Not exist
+[ERROR] 04-08-2023 15:51:59 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - Screenshot taken: verifyDeleteDepartment
+[INFO] 04-08-2023 15:51:59 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:51:59 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyDeleteDepartment
+[ERROR] 04-08-2023 15:51:59 [main] [LogUtils] - java.lang.AssertionError: Department Not Exist expected [true] but found [false]
+[ERROR] 04-08-2023 15:52:00 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:00 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-08-2023 15:52:05 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-08-2023 15:52:05 [main] [LogUtils] - Loading Started
+[INFO] 04-08-2023 15:52:05 [main] [LogUtils] - Loading finsihed
+[INFO] 04-08-2023 15:52:05 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 04-08-2023 15:52:05 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[ERROR] 04-08-2023 15:52:06 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:06 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:07 [main] [LogUtils] - Screenshot taken: AddNewLocation
+[INFO] 04-08-2023 15:52:07 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:07 [main] [LogUtils] - FAILED !! Screenshot for test case: AddNewLocation
+[ERROR] 04-08-2023 15:52:07 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/organisation-settings/locations" class="org-menu-item sub-item" id="locItem">...</a> is not clickable at point (133, 720). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_114}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #locItem]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:52:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:07 [main] [LogUtils] - verification of Location nullhas been started
+[INFO] 04-08-2023 15:52:07 [main] [LogUtils] - Location null Not exist
+[ERROR] 04-08-2023 15:52:07 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:07 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:07 [main] [LogUtils] - Screenshot taken: verifyEditLocation
+[INFO] 04-08-2023 15:52:07 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:07 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditLocation
+[ERROR] 04-08-2023 15:52:07 [main] [LogUtils] - java.lang.AssertionError: Department Not Exist expected [true] but found [false]
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - verification of Location Califtonhas been started
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Location Califton Not exist
+[ERROR] 04-08-2023 15:52:08 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Screenshot taken: verifyDeleteLocation
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:08 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyDeleteLocation
+[ERROR] 04-08-2023 15:52:08 [main] [LogUtils] - java.lang.AssertionError: Department Not Exist expected [true] but found [false]
+[ERROR] 04-08-2023 15:52:08 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:08 [main] [LogUtils] - Waiting for Loading
+[INFO] 04-08-2023 15:52:13 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-08-2023 15:52:13 [main] [LogUtils] - Loading Started
+[INFO] 04-08-2023 15:52:14 [main] [LogUtils] - Loading finsihed
+[INFO] 04-08-2023 15:52:14 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 04-08-2023 15:52:14 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionItem
+[ERROR] 04-08-2023 15:52:15 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:15 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:15 [main] [LogUtils] - Screenshot taken: AddNewJobFunction
+[INFO] 04-08-2023 15:52:15 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:15 [main] [LogUtils] - FAILED !! Screenshot for test case: AddNewJobFunction
+[ERROR] 04-08-2023 15:52:15 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/organisation-settings/job-functions" class="org-menu-item sub-item" id="jobFunctionItem">...</a> is not clickable at point (133, 757). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_115}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #jobFunctionItem]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:52:15 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:15 [main] [LogUtils] - verification of Job Function nullhas been started
+[INFO] 04-08-2023 15:52:15 [main] [LogUtils] - Job Functions null Not exist
+[ERROR] 04-08-2023 15:52:15 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:15 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:16 [main] [LogUtils] - Screenshot taken: editJobFunction
+[INFO] 04-08-2023 15:52:16 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:16 [main] [LogUtils] - FAILED !! Screenshot for test case: editJobFunction
+[ERROR] 04-08-2023 15:52:16 [main] [LogUtils] - java.lang.AssertionError: null: Job Function Not Exist expected [true] but found [false]
+[INFO] 04-08-2023 15:52:16 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:16 [main] [LogUtils] - verification of Job Function Paintinghas been started
+[INFO] 04-08-2023 15:52:16 [main] [LogUtils] - Job Functions Painting Not exist
+[ERROR] 04-08-2023 15:52:16 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:16 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:16 [main] [LogUtils] - Screenshot taken: verifyDeleteJobFunction
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:17 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyDeleteJobFunction
+[ERROR] 04-08-2023 15:52:17 [main] [LogUtils] - java.lang.AssertionError: Department Not Exist expected [true] but found [false]
+[ERROR] 04-08-2023 15:52:17 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:17 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD
+[ERROR] 04-08-2023 15:52:20 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Screenshot taken: verifyEditProfile
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:20 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditProfile
+[ERROR] 04-08-2023 15:52:20 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div data-headlessui-state="" id="profileDD" class="relative inline-block text-left">...</div> is not clickable at point (1721, 42). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #profileDD]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[ERROR] 04-08-2023 15:52:20 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:20 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:21 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[ERROR] 04-08-2023 15:52:23 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:23 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:23 [main] [LogUtils] - Screenshot taken: verifysubscribeItems
+[INFO] 04-08-2023 15:52:23 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:23 [main] [LogUtils] - FAILED !! Screenshot for test case: verifysubscribeItems
+[ERROR] 04-08-2023 15:52:23 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/legislation-library" class="sidbar-item" id="legislationView">...</a> is not clickable at point (133, 196). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #legislationView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:52:23 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:24 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[ERROR] 04-08-2023 15:52:26 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:26 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:26 [main] [LogUtils] - Screenshot taken: verifyAddLegalRegister
+[INFO] 04-08-2023 15:52:26 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:26 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddLegalRegister
+[ERROR] 04-08-2023 15:52:26 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/legislation-library" class="sidbar-item" id="legislationView">...</a> is not clickable at point (133, 196). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #legislationView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:52:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:27 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[ERROR] 04-08-2023 15:52:30 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:30 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:30 [main] [LogUtils] - Screenshot taken: verifyAddLegalRegisterForRisk
+[INFO] 04-08-2023 15:52:31 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:31 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddLegalRegisterForRisk
+[ERROR] 04-08-2023 15:52:31 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/legislation-library" class="sidbar-item" id="legislationView">...</a> is not clickable at point (133, 196). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #legislationView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:52:32 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:33 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[ERROR] 04-08-2023 15:52:36 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:36 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:36 [main] [LogUtils] - Screenshot taken: verifyAddLegalRegisterForRisk
+[INFO] 04-08-2023 15:52:36 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:36 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddLegalRegisterForRisk
+[ERROR] 04-08-2023 15:52:36 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/legislation-library" class="sidbar-item" id="legislationView">...</a> is not clickable at point (133, 196). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #legislationView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:52:37 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:37 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[ERROR] 04-08-2023 15:52:40 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:40 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:40 [main] [LogUtils] - Screenshot taken: verifyEditLegalRegister
+[INFO] 04-08-2023 15:52:40 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:40 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditLegalRegister
+[ERROR] 04-08-2023 15:52:40 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/legislation-library" class="sidbar-item" id="legislationView">...</a> is not clickable at point (133, 196). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #legislationView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:52:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:40 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[ERROR] 04-08-2023 15:52:43 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Screenshot taken: verifyDeleteLegalRegister
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:43 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyDeleteLegalRegister
+[ERROR] 04-08-2023 15:52:43 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/legislation-library" class="sidbar-item" id="legislationView">...</a> is not clickable at point (133, 196). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #legislationView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[ERROR] 04-08-2023 15:52:43 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:43 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[ERROR] 04-08-2023 15:52:46 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:46 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:46 [main] [LogUtils] - Screenshot taken: verifyAddNewRisk
+[INFO] 04-08-2023 15:52:46 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:46 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddNewRisk
+[ERROR] 04-08-2023 15:52:46 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/risks" class="sidbar-item" id="risksView">...</a> is not clickable at point (133, 263). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #risksView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:52:46 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:46 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[ERROR] 04-08-2023 15:52:49 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:49 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:49 [main] [LogUtils] - Screenshot taken: verifyRaiseNewRisk
+[INFO] 04-08-2023 15:52:49 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:49 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRaiseNewRisk
+[ERROR] 04-08-2023 15:52:49 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/risks" class="sidbar-item" id="risksView">...</a> is not clickable at point (133, 263). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #risksView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:52:49 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:52:49 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[ERROR] 04-08-2023 15:52:52 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:52:52 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:52:52 [main] [LogUtils] - Screenshot taken: verifyAcceptRisk
+[INFO] 04-08-2023 15:52:52 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:52:52 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAcceptRisk
+[ERROR] 04-08-2023 15:52:52 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/risks" class="sidbar-item" id="risksView">...</a> is not clickable at point (133, 263). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #risksView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:52:52 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 04-08-2023 15:53:02 [main] [LogUtils] - Element not exist. By.cssSelector: #isoField
+[ERROR] 04-08-2023 15:53:02 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:02 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:02 [main] [LogUtils] - Screenshot taken: verifyEditNewRisk
+[INFO] 04-08-2023 15:53:02 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:02 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditNewRisk
+[ERROR] 04-08-2023 15:53:02 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #isoField
+[INFO] 04-08-2023 15:53:03 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:03 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[ERROR] 04-08-2023 15:53:05 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:05 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:05 [main] [LogUtils] - Screenshot taken: verifyRejectRisk
+[INFO] 04-08-2023 15:53:05 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:05 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRejectRisk
+[ERROR] 04-08-2023 15:53:05 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/risks" class="sidbar-item" id="risksView">...</a> is not clickable at point (133, 263). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #risksView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:53:06 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:06 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[ERROR] 04-08-2023 15:53:08 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:08 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:08 [main] [LogUtils] - Screenshot taken: verifyRaiseRiskWithSWOT
+[INFO] 04-08-2023 15:53:08 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:08 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRaiseRiskWithSWOT
+[ERROR] 04-08-2023 15:53:08 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/risks" class="sidbar-item" id="risksView">...</a> is not clickable at point (133, 263). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #risksView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:53:09 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:09 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[ERROR] 04-08-2023 15:53:11 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:11 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:11 [main] [LogUtils] - Screenshot taken: verifyAcceptSWOTRisk
+[INFO] 04-08-2023 15:53:11 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:11 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAcceptSWOTRisk
+[ERROR] 04-08-2023 15:53:11 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/risks" class="sidbar-item" id="risksView">...</a> is not clickable at point (133, 263). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #risksView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:53:12 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 04-08-2023 15:53:22 [main] [LogUtils] - Element not exist. By.cssSelector: #locField
+[ERROR] 04-08-2023 15:53:22 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:22 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:22 [main] [LogUtils] - Screenshot taken: verifyEditSWOTRisk
+[INFO] 04-08-2023 15:53:22 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:22 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditSWOTRisk
+[ERROR] 04-08-2023 15:53:22 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #locField
+[INFO] 04-08-2023 15:53:22 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:23 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[ERROR] 04-08-2023 15:53:25 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:25 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:25 [main] [LogUtils] - Screenshot taken: verifyRejectSWOTRisk
+[INFO] 04-08-2023 15:53:25 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:25 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRejectSWOTRisk
+[ERROR] 04-08-2023 15:53:25 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/risks" class="sidbar-item" id="risksView">...</a> is not clickable at point (133, 263). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #risksView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:53:25 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:25 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[ERROR] 04-08-2023 15:53:28 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:28 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:28 [main] [LogUtils] - Screenshot taken: verifyDeleteAllRisk
+[INFO] 04-08-2023 15:53:28 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:28 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyDeleteAllRisk
+[ERROR] 04-08-2023 15:53:28 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/risks" class="sidbar-item" id="risksView">...</a> is not clickable at point (133, 263). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #risksView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:53:28 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:28 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[ERROR] 04-08-2023 15:53:31 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:31 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:31 [main] [LogUtils] - Screenshot taken: addingIssuesForFilters
+[INFO] 04-08-2023 15:53:31 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:31 [main] [LogUtils] - FAILED !! Screenshot for test case: addingIssuesForFilters
+[ERROR] 04-08-2023 15:53:31 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/risks" class="sidbar-item" id="risksView">...</a> is not clickable at point (133, 263). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #risksView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:53:31 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:31 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[ERROR] 04-08-2023 15:53:34 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Screenshot taken: addingIssuesForFilters
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:34 [main] [LogUtils] - FAILED !! Screenshot for test case: addingIssuesForFilters
+[ERROR] 04-08-2023 15:53:34 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/risks" class="sidbar-item" id="risksView">...</a> is not clickable at point (133, 263). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #risksView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[ERROR] 04-08-2023 15:53:34 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:34 [main] [LogUtils] - Verify element visible By.cssSelector: #actionsView
+[ERROR] 04-08-2023 15:53:37 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:37 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:37 [main] [LogUtils] - Screenshot taken: verifyAddNewAction
+[INFO] 04-08-2023 15:53:37 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:37 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddNewAction
+[ERROR] 04-08-2023 15:53:37 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/actions" class="sidbar-item" id="actionsView">...</a> is not clickable at point (133, 330). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_118}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #actionsView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:53:37 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:37 [main] [LogUtils] - Verify element visible By.cssSelector: #actionsView
+[ERROR] 04-08-2023 15:53:40 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:40 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:40 [main] [LogUtils] - Screenshot taken: verifyAddNewAction
+[INFO] 04-08-2023 15:53:40 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:40 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddNewAction
+[ERROR] 04-08-2023 15:53:40 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/actions" class="sidbar-item" id="actionsView">...</a> is not clickable at point (133, 330). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_118}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #actionsView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:53:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:40 [main] [LogUtils] - Verify element visible By.cssSelector: #actionsView
+[ERROR] 04-08-2023 15:53:44 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:44 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:44 [main] [LogUtils] - Screenshot taken: verifyEditAction
+[INFO] 04-08-2023 15:53:44 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:44 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditAction
+[ERROR] 04-08-2023 15:53:44 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/actions" class="sidbar-item" id="actionsView">...</a> is not clickable at point (133, 330). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_118}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #actionsView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:53:44 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 15:53:44 [main] [LogUtils] - Verify element visible By.cssSelector: #actionsView
+[ERROR] 04-08-2023 15:53:47 [main] [LogUtils] - Test case:  is failed.
+[INFO] 04-08-2023 15:53:47 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)
+[INFO] 04-08-2023 15:53:47 [main] [LogUtils] - Screenshot taken: verifyDeleteAllAction
+[INFO] 04-08-2023 15:53:47 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/departments
+[ERROR] 04-08-2023 15:53:47 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyDeleteAllAction
+[ERROR] 04-08-2023 15:53:47 [main] [LogUtils] - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a data-v-0bd48513="" href="/actions" class="sidbar-item" id="actionsView">...</a> is not clickable at point (133, 330). Other element would receive the click: <div data-v-3b294a61="" id="app-modal" class="fixed z-[9999] top-0 left-0 w-full h-full bg-base-black/40 flex items-center justify-center">...</div>
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [badfd8c8fa97df8e8827cd643c978452, clickElement {id=E340192472B9BBFF6FF4978A74901221_element_118}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62436/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (badfd8c8fa97df8e8827cd643c978452)] -> css selector: #actionsView]
+Session ID: badfd8c8fa97df8e8827cd643c978452
+[INFO] 04-08-2023 15:53:47 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 04-08-2023 19:36:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 19:36:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 19:36:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 19:36:13 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 04-08-2023 19:36:27 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (a93dbc2a2ba56af3c64def8add5a0d5c)
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 19:36:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 19:36:33 [main] [LogUtils] - Username and password are correct
+[INFO] 04-08-2023 19:36:43 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 04-08-2023 19:36:43 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 19:36:44 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 04-08-2023 19:36:44 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 19:36:46 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 04-08-2023 19:36:47 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 19:36:47 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 04-08-2023 19:36:48 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 19:36:48 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 04-08-2023 19:36:49 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - loading function
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 04-08-2023 19:36:50 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (a93dbc2a2ba56af3c64def8add5a0d5c)
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD
+[INFO] 04-08-2023 19:36:50 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD
+[INFO] 04-08-2023 19:36:51 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 04-08-2023 19:36:51 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 04-08-2023 19:36:51 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 995 278
+[INFO] 04-08-2023 19:36:51 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-08-2023 19:36:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-08-2023 19:36:52 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-08-2023 19:36:52 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-08-2023 19:36:54 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-08-2023 19:36:54 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-08-2023 19:36:54 [main] [LogUtils] - Set text Zubair on By.cssSelector: #userFirstName
+[INFO] 04-08-2023 19:36:54 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-08-2023 19:36:55 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-08-2023 19:36:55 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-08-2023 19:36:55 [main] [LogUtils] - Set text Amin on By.cssSelector: #userLastName
+[INFO] 04-08-2023 19:36:55 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-08-2023 19:36:55 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-08-2023 19:36:55 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-08-2023 19:36:56 [main] [LogUtils] - Set text +61201 995 278 on By.cssSelector: #userTelephone>input
+[INFO] 04-08-2023 19:36:56 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-08-2023 19:36:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-08-2023 19:36:59 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-08-2023 19:37:00 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-08-2023 19:37:00 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 497 677
+[INFO] 04-08-2023 19:37:01 [main] [LogUtils] - Verify element visible By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-08-2023 19:37:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[INFO] 04-08-2023 19:37:01 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-08-2023 19:37:01 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-08-2023 19:37:02 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userFirstName
+[INFO] 04-08-2023 19:37:02 [main] [LogUtils] - Verify element visible By.cssSelector: #userFirstName
+[INFO] 04-08-2023 19:37:02 [main] [LogUtils] - Set text Sarah on By.cssSelector: #userFirstName
+[INFO] 04-08-2023 19:37:02 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-08-2023 19:37:02 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userLastName
+[INFO] 04-08-2023 19:37:03 [main] [LogUtils] - Verify element visible By.cssSelector: #userLastName
+[INFO] 04-08-2023 19:37:03 [main] [LogUtils] - Set text Johnson on By.cssSelector: #userLastName
+[INFO] 04-08-2023 19:37:03 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-08-2023 19:37:03 [main] [LogUtils] - Clear value in textbox By.cssSelector: #userTelephone>input
+[INFO] 04-08-2023 19:37:03 [main] [LogUtils] - Verify element visible By.cssSelector: #userTelephone>input
+[INFO] 04-08-2023 19:37:04 [main] [LogUtils] - Set text +61201 497 677 on By.cssSelector: #userTelephone>input
+[INFO] 04-08-2023 19:37:04 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 04-08-2023 19:37:04 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 04-08-2023 19:37:07 [main] [LogUtils] - Verify element visible By.cssSelector: div[role="alert"]
+[INFO] 04-08-2023 19:37:08 [main] [LogUtils] - ElementBy.cssSelector: div[role="alert"]Has been Disappeared
+[INFO] 04-08-2023 19:37:08 [main] [LogUtils] - Test case:  is passed.
+[INFO] 04-08-2023 19:37:09 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 07-08-2023 19:43:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 19:43:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 19:43:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 19:43:27 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 07-08-2023 19:43:37 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (df3a7486165c56b10d6253bd21007ef8)
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 19:43:37 [main] [LogUtils] - Test case:  is starting...
+[INFO] 07-08-2023 19:43:42 [main] [LogUtils] - Username and password are correct
+[INFO] 07-08-2023 19:43:57 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 07-08-2023 19:43:57 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 19:43:58 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 07-08-2023 19:43:58 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 19:44:00 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 19:44:00 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 07-08-2023 19:44:01 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 19:44:02 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 07-08-2023 19:44:03 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 19:44:03 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 07-08-2023 19:44:04 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 19:44:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 07-08-2023 19:44:05 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 07-08-2023 23:26:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 23:26:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 23:26:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 23:26:09 [main] [LogUtils] - Starting Suite: All Test Cases
+[ERROR] 07-08-2023 23:26:20 [main] [LogUtils] - driver value: null
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 07-08-2023 23:26:20 [main] [LogUtils] - Test case:  is failed.
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - Driver for Screenshot: null
+[ERROR] 07-08-2023 23:26:20 [main] [LogUtils] - FAILED !! Screenshot for test case: signInExistingUser
+[ERROR] 07-08-2023 23:26:20 [main] [LogUtils] - java.lang.NullPointerException: Cannot invoke "org.testng.ITestResult.getTestContext()" because the return value of "org.testng.Reporter.getCurrentTestResult()" is null
+[INFO] 07-08-2023 23:26:20 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 07-08-2023 23:26:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 23:26:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 23:26:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 23:26:43 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 07-08-2023 23:26:51 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 07-08-2023 23:26:51 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (af3a97bb919a7cb8cc2051ceec66b874)
+[INFO] 07-08-2023 23:26:51 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 23:26:51 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 23:26:51 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 23:26:51 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 23:26:51 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 23:26:51 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 23:26:51 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 07-08-2023 23:26:51 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 07-08-2023 23:26:51 [main] [LogUtils] - Loaded all properties files.
+[INFO] 07-08-2023 23:26:52 [main] [LogUtils] - Test case:  is starting...
+[INFO] 07-08-2023 23:26:57 [main] [LogUtils] - Username and password are correct
+[INFO] 07-08-2023 23:27:12 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 07-08-2023 23:27:12 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 23:27:14 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 07-08-2023 23:27:14 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 23:27:17 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 23:27:18 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 07-08-2023 23:27:19 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 23:27:19 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 07-08-2023 23:27:20 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 23:27:20 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 07-08-2023 23:27:21 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 23:27:21 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 07-08-2023 23:27:22 [main] [LogUtils] - loading function
+[INFO] 07-08-2023 23:27:22 [main] [LogUtils] - Test case:  is passed.
+[INFO] 07-08-2023 23:27:22 [main] [LogUtils] - End Suite: All Test Cases
