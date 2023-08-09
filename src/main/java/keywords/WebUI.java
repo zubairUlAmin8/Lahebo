@@ -29,8 +29,9 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
-import org.openqa.selenium.devtools.v112.network.Network;
-import org.openqa.selenium.devtools.v112.network.model.Headers;
+
+import org.openqa.selenium.devtools.v115.network.Network;
+import org.openqa.selenium.devtools.v115.network.model.Headers;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.print.PrintOptions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
