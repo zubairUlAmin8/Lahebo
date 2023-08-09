@@ -163,7 +163,6 @@ public class SignInPage extends BasePage {
         LogUtils.info("PASSWORD: "+password);
         LogUtils.info("SECRET KEY: "+secretKey);
 
-        System.out.println(secretKey);
         try {
             driver.get(url_Address);
         } catch (WebDriverException e) {

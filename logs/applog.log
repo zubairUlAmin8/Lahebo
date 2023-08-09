@@ -336,3 +336,129 @@ Session ID: aa639e3533b18b568214464cc1dca95a
 [INFO] 09-08-2023 15:10:23 [main] [LogUtils] - loading function
 [INFO] 09-08-2023 15:10:23 [main] [LogUtils] - Test case:  is passed.
 [INFO] 09-08-2023 15:10:23 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 09-08-2023 16:29:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 16:29:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 16:29:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 16:29:03 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 09-08-2023 16:29:12 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 09-08-2023 16:29:12 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (4401037bc01b77c72781e961c1e481e3)
+[INFO] 09-08-2023 16:29:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 16:29:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 16:29:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 16:29:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 16:29:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 16:29:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 16:29:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 16:29:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 16:29:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 16:29:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 09-08-2023 16:29:13 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 09-08-2023 16:29:13 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 09-08-2023 16:29:13 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 09-08-2023 16:29:17 [main] [LogUtils] - Username and password are correct
+[INFO] 09-08-2023 16:29:32 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 09-08-2023 16:29:32 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 16:29:33 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 09-08-2023 16:29:33 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 16:29:35 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 16:29:35 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 09-08-2023 16:29:36 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 16:29:36 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 09-08-2023 16:29:37 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 16:29:37 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 09-08-2023 16:29:38 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 16:29:38 [main] [LogUtils] - Test case:  is passed.
+[INFO] 09-08-2023 16:29:38 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 09-08-2023 17:21:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:21:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:21:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:21:05 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 09-08-2023 17:21:10 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 09-08-2023 17:21:10 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (9ff2254f0e23e686b58a4f486513bd9c)
+[INFO] 09-08-2023 17:21:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:21:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:21:10 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:21:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:21:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:21:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:21:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:21:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:21:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:21:11 [main] [LogUtils] - Test case:  is starting...
+[INFO] 09-08-2023 17:21:11 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 09-08-2023 17:21:11 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 09-08-2023 17:21:11 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 09-08-2023 17:21:14 [main] [LogUtils] - Username and password are correct
+[INFO] 09-08-2023 17:21:26 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 09-08-2023 17:21:26 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:21:26 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 09-08-2023 17:21:27 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:21:28 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 09-08-2023 17:21:29 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:21:30 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 09-08-2023 17:21:30 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:21:30 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:21:30 [main] [LogUtils] - Test case:  is passed.
+[INFO] 09-08-2023 17:21:30 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 09-08-2023 17:31:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:31:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:31:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:31:15 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 09-08-2023 17:31:22 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (458d7b268bfe0ed10afe0deede8408b0)
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - Test case:  is starting...
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 09-08-2023 17:31:22 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 09-08-2023 17:31:26 [main] [LogUtils] - Username and password are correct
+[INFO] 09-08-2023 17:31:36 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 09-08-2023 17:31:36 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:31:37 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 09-08-2023 17:31:37 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:31:37 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 09-08-2023 17:31:38 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:31:38 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 09-08-2023 17:31:39 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:31:40 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:31:40 [main] [LogUtils] - Test case:  is passed.
+[INFO] 09-08-2023 17:31:40 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 09-08-2023 17:32:41 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:32:41 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:32:41 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:32:41 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 09-08-2023 17:32:46 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (422686b26d38573deb67cfcc979a61b4)
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - Test case:  is starting...
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 09-08-2023 17:32:46 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 09-08-2023 17:32:47 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 09-08-2023 17:32:50 [main] [LogUtils] - Username and password are correct
+[INFO] 09-08-2023 17:33:00 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 09-08-2023 17:33:00 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:33:01 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 09-08-2023 17:33:01 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:33:01 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 09-08-2023 17:33:02 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:33:02 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 09-08-2023 17:33:03 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:33:03 [main] [LogUtils] - loading function
+[INFO] 09-08-2023 17:33:03 [main] [LogUtils] - Test case:  is passed.
+[INFO] 09-08-2023 17:33:03 [main] [LogUtils] - End Suite: All Test Cases
