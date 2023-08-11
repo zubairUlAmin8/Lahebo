@@ -172,3 +172,903 @@ Session ID: 09ba6a6350d7568ca8f398b8ab6e7e83
 [INFO] 11-08-2023 16:48:33 [main] [LogUtils] - loading function
 [INFO] 11-08-2023 16:48:34 [main] [LogUtils] - Test case:  is passed.
 [INFO] 11-08-2023 16:48:34 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 11-08-2023 17:28:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 17:28:27 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 17:28:27 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 17:28:28 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 11-08-2023 17:28:35 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 11-08-2023 17:28:35 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (8a80571507cd857493839621e95d5c3b)
+[INFO] 11-08-2023 17:28:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 17:28:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 17:28:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 17:28:36 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 17:28:36 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 17:28:36 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 17:28:36 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 17:28:36 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 17:28:36 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 17:28:36 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 17:28:36 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 17:28:36 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 17:28:36 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 11-08-2023 17:28:39 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 11-08-2023 17:28:39 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 11-08-2023 17:28:39 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 17:28:41 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 17:28:51 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 17:28:51 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 17:28:51 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 17:28:52 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 17:29:00 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 17:29:00 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 17:29:00 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 17:29:01 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 17:29:09 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 17:29:09 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 17:29:09 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 17:29:10 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 17:29:23 [main] [LogUtils] - 
+[INFO] 11-08-2023 17:29:23 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 17:29:23 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 17:29:23 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 17:29:24 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 17:29:30 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 17:29:30 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 17:29:30 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 17:29:30 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 17:29:31 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 17:29:37 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 17:29:37 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 17:29:37 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 17:29:37 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 17:29:37 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 11-08-2023 17:29:37 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 11-08-2023 17:29:37 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 11-08-2023 17:29:44 [main] [LogUtils] - Username and password are correct
+[INFO] 11-08-2023 17:29:56 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 11-08-2023 17:29:56 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 17:29:58 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 11-08-2023 17:29:58 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 17:30:00 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 17:30:00 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 17:30:00 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 11-08-2023 18:15:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:15:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:15:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:15:36 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 11-08-2023 18:15:47 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 11-08-2023 18:15:47 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (923759bb81a8b80a641c17b2547e370b)
+[INFO] 11-08-2023 18:15:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:15:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:15:47 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:15:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:15:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:15:47 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:15:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:15:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:15:47 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:15:48 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:15:48 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:15:48 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:15:48 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 11-08-2023 18:15:50 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 11-08-2023 18:15:50 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 11-08-2023 18:15:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:15:56 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:16:04 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:16:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:16:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:16:08 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:16:10 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:16:10 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:16:10 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:16:13 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:16:17 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:16:17 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:16:17 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:16:19 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:16:23 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 18:16:23 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 18:16:23 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:16:23 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:16:24 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:16:27 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 18:16:27 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 18:16:27 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:16:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:16:29 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:16:35 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 18:16:35 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 18:16:35 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:16:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:16:35 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 11-08-2023 18:16:35 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 11-08-2023 18:16:35 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 11-08-2023 18:16:38 [main] [LogUtils] - Username and password are correct
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:19:21 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:19:22 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 11-08-2023 18:19:32 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:19:32 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 11-08-2023 18:19:34 [main] [LogUtils] - Row: 17 - Column: 13
+[INFO] 11-08-2023 18:19:34 [main] [LogUtils] - StartRow: 1 - EndRow: 16
+[INFO] 11-08-2023 18:19:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:19:43 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:19:48 [main] [LogUtils] - Phone number is invalid
+[INFO] 11-08-2023 18:19:48 [main] [LogUtils] - Phone number is invalid
+[INFO] 11-08-2023 18:19:48 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:19:48 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:19:50 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:19:55 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p[class*="form-error-message"]' (tried for 1 second(s) with 500 milliseconds interval)
+[INFO] 11-08-2023 18:19:56 [main] [LogUtils] - Organizations already exists!
+[INFO] 11-08-2023 18:19:56 [main] [LogUtils] - Organizations already exists!
+[INFO] 11-08-2023 18:19:56 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:19:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:19:58 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:01 [main] [LogUtils] - The value must be equal to the other value
+[INFO] 11-08-2023 18:20:01 [main] [LogUtils] - The value must be equal to the other value
+[INFO] 11-08-2023 18:20:01 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:01 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:02 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:05 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:05 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:07 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:09 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:09 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:09 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:09 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:10 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:13 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:13 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:13 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:14 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:17 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:17 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:17 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:17 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:19 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:21 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:21 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:21 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:21 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:22 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:25 [main] [LogUtils] - Phone number is invalid
+[INFO] 11-08-2023 18:20:25 [main] [LogUtils] - Phone number is invalid
+[INFO] 11-08-2023 18:20:25 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:25 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:26 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:29 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:29 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:29 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:29 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:31 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:33 [main] [LogUtils] - Value is not a valid email address
+[INFO] 11-08-2023 18:20:33 [main] [LogUtils] - Value is not a valid email address
+[INFO] 11-08-2023 18:20:33 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:33 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:35 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:38 [main] [LogUtils] - Require at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character
+[INFO] 11-08-2023 18:20:38 [main] [LogUtils] - Require at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character
+[INFO] 11-08-2023 18:20:38 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:38 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:39 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:41 [main] [LogUtils] - Require at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character
+[INFO] 11-08-2023 18:20:42 [main] [LogUtils] - Require at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character
+[INFO] 11-08-2023 18:20:42 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:43 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:46 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p[class*="form-error-message"]' (tried for 1 second(s) with 500 milliseconds interval)
+[INFO] 11-08-2023 18:20:47 [main] [LogUtils] - Organizations already exists!
+[INFO] 11-08-2023 18:20:47 [main] [LogUtils] - Organizations already exists!
+[INFO] 11-08-2023 18:20:47 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:47 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:48 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:51 [main] [LogUtils] - This field should be at least 8 characters long
+[INFO] 11-08-2023 18:20:52 [main] [LogUtils] - This field should be at least 8 characters long
+[INFO] 11-08-2023 18:20:52 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:52 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:53 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - The value must be equal to the other value
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - The value must be equal to the other value
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 11-08-2023 18:20:56 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 11-08-2023 18:20:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:20:57 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:20:59 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:20:59 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:20:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:21:00 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:21:02 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:21:02 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:21:02 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:21:03 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:21:05 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 18:21:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:21:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:21:06 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:21:11 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 18:21:11 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 18:21:11 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:21:11 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:21:12 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:21:14 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 18:21:14 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 18:21:14 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:21:14 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:21:16 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 18:21:20 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 18:21:20 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 18:21:20 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:21:20 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:21:20 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 11-08-2023 18:21:20 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 11-08-2023 18:21:20 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 11-08-2023 18:21:22 [main] [LogUtils] - Username and password are correct
+[INFO] 11-08-2023 18:21:32 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 11-08-2023 18:21:32 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:21:33 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 11-08-2023 18:21:33 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:21:34 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 11-08-2023 18:21:35 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:21:35 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 11-08-2023 18:21:36 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:21:36 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 11-08-2023 18:21:37 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:21:37 [main] [LogUtils] - String is my svg-inline--fa fa-angle-right
+[INFO] 11-08-2023 18:21:38 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 11-08-2023 18:21:38 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 11-08-2023 18:21:38 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 11-08-2023 18:21:38 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 11-08-2023 18:21:38 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:21:39 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:21:41 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:21:41 [main] [LogUtils] - AddNewDepartment Invocation0
+[INFO] 11-08-2023 18:21:41 [main] [LogUtils] - Verify element visible By.cssSelector: #addDeptBtn
+[INFO] 11-08-2023 18:21:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #addDeptBtn
+[INFO] 11-08-2023 18:21:41 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 11-08-2023 18:21:41 [main] [LogUtils] - Set text designing on By.cssSelector: #deptNameField
+[INFO] 11-08-2023 18:21:41 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 11-08-2023 18:21:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 11-08-2023 18:21:42 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 11-08-2023 18:21:43 [main] [LogUtils] - size of list: 1
+[INFO] 11-08-2023 18:21:43 [main] [LogUtils] - Sarah Johnson
+[INFO] 11-08-2023 18:21:43 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 11-08-2023 18:21:43 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 11-08-2023 18:21:43 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 11-08-2023 18:21:43 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:21:45 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Department Found:  design department
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Department Found:  designing
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Department designinghas been verified
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Department null is added
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Department Found:  design department
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Department Found:  designing
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Department designinghas been verified
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Department Index is being searched
+[INFO] 11-08-2023 18:21:46 [main] [LogUtils] - Department Index is: 1
+[INFO] 11-08-2023 18:21:47 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-1>div>div>button
+[INFO] 11-08-2023 18:21:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-1>div>div>button
+[INFO] 11-08-2023 18:21:47 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-1>div>div>div>button:first-of-type
+[INFO] 11-08-2023 18:21:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-1>div>div>div>button:first-of-type
+[INFO] 11-08-2023 18:21:47 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 11-08-2023 18:21:47 [main] [LogUtils] - Clear value in textbox By.cssSelector: #deptNameField
+[INFO] 11-08-2023 18:21:47 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 11-08-2023 18:21:48 [main] [LogUtils] - Set text accounts on By.cssSelector: #deptNameField
+[INFO] 11-08-2023 18:21:48 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 11-08-2023 18:21:48 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 11-08-2023 18:21:49 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 11-08-2023 18:21:49 [main] [LogUtils] - size of list: 1
+[INFO] 11-08-2023 18:21:49 [main] [LogUtils] - Sarah Johnson
+[INFO] 11-08-2023 18:21:49 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 11-08-2023 18:21:49 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 11-08-2023 18:21:49 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:21:51 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Department Found:  accounts
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Department accountshas been verified
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Department Found:  accounts
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Department accountshas been verified
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Department Index is being searched
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Department Index is: 0
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-0>div>div>button
+[INFO] 11-08-2023 18:21:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-0>div>div>button
+[INFO] 11-08-2023 18:21:53 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-0>div>div>div>button:last-of-type
+[INFO] 11-08-2023 18:21:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-0>div>div>div>button:last-of-type
+[INFO] 11-08-2023 18:21:53 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 11-08-2023 18:21:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 11-08-2023 18:21:53 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 11-08-2023 18:21:53 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:21:54 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Department Found:  design department
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Department Found:  dev department
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Department Found:  finance department
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Department accounts Not exist
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 11-08-2023 18:21:55 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:21:55 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:22:00 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 11-08-2023 18:22:00 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:22:01 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:22:01 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 11-08-2023 18:22:01 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 11-08-2023 18:22:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 11-08-2023 18:22:01 [main] [LogUtils] - came Location
+[INFO] 11-08-2023 18:22:01 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:22:01 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:22:03 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:22:03 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 611 038
+[INFO] 11-08-2023 18:22:03 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 11-08-2023 18:22:04 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 11-08-2023 18:22:04 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 11-08-2023 18:22:04 [main] [LogUtils] - Set text Newcity on By.cssSelector: #locNameField
+[INFO] 11-08-2023 18:22:04 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 11-08-2023 18:22:05 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 11-08-2023 18:22:05 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 11-08-2023 18:22:05 [main] [LogUtils] - Set text +61201 611 038 on By.cssSelector: #locNumberField>input
+[INFO] 11-08-2023 18:22:05 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 11-08-2023 18:22:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 11-08-2023 18:22:06 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 11-08-2023 18:22:06 [main] [LogUtils] - size of list: 1
+[INFO] 11-08-2023 18:22:06 [main] [LogUtils] - Sarah Johnson
+[INFO] 11-08-2023 18:22:06 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 11-08-2023 18:22:07 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 11-08-2023 18:22:07 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 11-08-2023 18:22:07 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:22:08 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - verification of Location Newcityhas been started
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Location Found:  islamabad
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Location Found:  karachi
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Location Found:  lahore
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Location Found:  Newcity
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Location Newcityhas been verified
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - verification of Location Newcityhas been started
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Location Found:  islamabad
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Location Found:  karachi
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Location Found:  lahore
+[INFO] 11-08-2023 18:22:09 [main] [LogUtils] - Location Found:  Newcity
+[INFO] 11-08-2023 18:22:10 [main] [LogUtils] - Location Newcityhas been verified
+[INFO] 11-08-2023 18:22:10 [main] [LogUtils] - Location Index is being searched
+[INFO] 11-08-2023 18:22:10 [main] [LogUtils] - Location Index is: 3
+[INFO] 11-08-2023 18:22:10 [main] [LogUtils] - Verify element visible By.cssSelector: #locCard-3>div>div>button
+[INFO] 11-08-2023 18:22:10 [main] [LogUtils] - Clicked on the element By.cssSelector: #locCard-3>div>div>button
+[INFO] 11-08-2023 18:22:10 [main] [LogUtils] - Verify element visible By.cssSelector: #locCard-3>div>div>div>button:nth-of-type(2)
+[INFO] 11-08-2023 18:22:10 [main] [LogUtils] - Clicked on the element By.cssSelector: #locCard-3>div>div>div>button:nth-of-type(2)
+[INFO] 11-08-2023 18:22:10 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 11-08-2023 18:22:10 [main] [LogUtils] - Clear value in textbox By.cssSelector: #locNameField
+[INFO] 11-08-2023 18:22:11 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 11-08-2023 18:22:11 [main] [LogUtils] - Set text Califton on By.cssSelector: #locNameField
+[INFO] 11-08-2023 18:22:11 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 11-08-2023 18:22:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 11-08-2023 18:22:12 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 11-08-2023 18:22:12 [main] [LogUtils] - size of list: 1
+[INFO] 11-08-2023 18:22:12 [main] [LogUtils] - Sarah Johnson
+[INFO] 11-08-2023 18:22:12 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 11-08-2023 18:22:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 11-08-2023 18:22:12 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:22:14 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - verification of Location Califtonhas been started
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Location Found:  Califton
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Location Califtonhas been verified
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - verification of Location Califtonhas been started
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Location Found:  Califton
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Location Califtonhas been verified
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Location Index is being searched
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Location Index is: 0
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Verify element visible By.cssSelector: #locCard-0>div>div>button
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #locCard-0>div>div>button
+[INFO] 11-08-2023 18:22:16 [main] [LogUtils] - Verify element visible By.cssSelector: #locCard-0>div>div>div>button:last-of-type
+[INFO] 11-08-2023 18:22:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #locCard-0>div>div>div>button:last-of-type
+[INFO] 11-08-2023 18:22:17 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 11-08-2023 18:22:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 11-08-2023 18:22:17 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 11-08-2023 18:22:17 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:22:22 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 11-08-2023 18:22:22 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:22:22 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:22:22 [main] [LogUtils] - verification of Location Califtonhas been started
+[INFO] 11-08-2023 18:22:22 [main] [LogUtils] - Location Found:  islamabad
+[INFO] 11-08-2023 18:22:22 [main] [LogUtils] - Location Found:  karachi
+[INFO] 11-08-2023 18:22:22 [main] [LogUtils] - Location Found:  lahore
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Location Califton Not exist
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 11-08-2023 18:22:23 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:22:23 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:22:28 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 11-08-2023 18:22:28 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:22:28 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:22:28 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 11-08-2023 18:22:28 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionItem
+[INFO] 11-08-2023 18:22:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunctionItem
+[INFO] 11-08-2023 18:22:28 [main] [LogUtils] - came Location
+[INFO] 11-08-2023 18:22:28 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:22:29 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:22:30 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:22:30 [main] [LogUtils] - Verify element visible By.cssSelector: #addJobFuncBtn
+[INFO] 11-08-2023 18:22:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #addJobFuncBtn
+[INFO] 11-08-2023 18:22:30 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncNameField
+[INFO] 11-08-2023 18:22:31 [main] [LogUtils] - Set text hiring on By.cssSelector: #jobFuncNameField
+[INFO] 11-08-2023 18:22:31 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField
+[INFO] 11-08-2023 18:22:31 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField
+[INFO] 11-08-2023 18:22:32 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField>div>div>div
+[INFO] 11-08-2023 18:22:32 [main] [LogUtils] - size of list: 3
+[INFO] 11-08-2023 18:22:32 [main] [LogUtils] - List is loaded
+[INFO] 11-08-2023 18:22:32 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField>div>div:nth-of-type(2)>input
+[INFO] 11-08-2023 18:22:32 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField>div>div:nth-of-type(2)>input
+[INFO] 11-08-2023 18:22:32 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncDeptField
+[INFO] 11-08-2023 18:22:32 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFuncDeptField
+[INFO] 11-08-2023 18:22:32 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 11-08-2023 18:22:32 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 11-08-2023 18:22:33 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="jobFuncName-"]
+[INFO] 11-08-2023 18:22:33 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:22:34 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - verification of Job Function hiringhas been started
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Job Function Found:  billing
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Job Function Found:  typing
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Job Function Found:  hiring
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Job Function hiringhas been verified
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - verification of Job Function hiringhas been started
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Job Function Found:  billing
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Job Function Found:  typing
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Job Function Found:  hiring
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Job Function hiringhas been verified
+[INFO] 11-08-2023 18:22:35 [main] [LogUtils] - Department Index is being searched
+[INFO] 11-08-2023 18:22:36 [main] [LogUtils] - Department Index is: 2
+[INFO] 11-08-2023 18:22:36 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunc-2>div>div>button
+[INFO] 11-08-2023 18:22:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunc-2>div>div>button
+[INFO] 11-08-2023 18:22:36 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunc-2>div>div>div>button:first-of-type
+[INFO] 11-08-2023 18:22:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunc-2>div>div>div>button:first-of-type
+[INFO] 11-08-2023 18:22:36 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncNameField
+[INFO] 11-08-2023 18:22:36 [main] [LogUtils] - Clear value in textbox By.cssSelector: #jobFuncNameField
+[INFO] 11-08-2023 18:22:37 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFuncNameField
+[INFO] 11-08-2023 18:22:37 [main] [LogUtils] - Set text Painting on By.cssSelector: #jobFuncNameField
+[INFO] 11-08-2023 18:22:37 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 11-08-2023 18:22:37 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 11-08-2023 18:22:37 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:22:39 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - verification of Job Function Paintinghas been started
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Job Function Found:  billing
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Job Function Found:  typing
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Job Function Found:  hiring
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Job Function Found:  Painting
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Job Function Paintinghas been verified
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - verification of Job Function Paintinghas been started
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Job Function Found:  billing
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Job Function Found:  typing
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Job Function Found:  hiring
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Job Function Found:  Painting
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Job Function Paintinghas been verified
+[INFO] 11-08-2023 18:22:40 [main] [LogUtils] - Department Index is being searched
+[INFO] 11-08-2023 18:22:41 [main] [LogUtils] - Department Index is: 3
+[INFO] 11-08-2023 18:22:41 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunc-3>div>div>button
+[INFO] 11-08-2023 18:22:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunc-3>div>div>button
+[INFO] 11-08-2023 18:22:41 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunc-3>div>div>div>button:last-of-type
+[INFO] 11-08-2023 18:22:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunc-3>div>div>div>button:last-of-type
+[INFO] 11-08-2023 18:22:41 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 11-08-2023 18:22:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 11-08-2023 18:22:41 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="jobFuncName-"]
+[INFO] 11-08-2023 18:22:41 [main] [LogUtils] - Waiting for Loading
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loading Started
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loading finsihed
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - verification of Job Function Paintinghas been started
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Job Function Found:  billing
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Job Function Found:  typing
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Job Function Found:  hiring
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Job Functions Painting Not exist
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 11-08-2023 18:22:43 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:22:43 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:22:44 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD
+[INFO] 11-08-2023 18:22:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD
+[INFO] 11-08-2023 18:22:45 [main] [LogUtils] - Verify element visible By.cssSelector: #profileDD>div>div
+[INFO] 11-08-2023 18:22:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #profileDD>div>div
+[INFO] 11-08-2023 18:22:45 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 853 124
+[ERROR] 11-08-2023 18:22:55 [main] [LogUtils] - Element not exist. By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[ERROR] 11-08-2023 18:22:55 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:22:55 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Screenshot taken: verifyEditProfile
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/job-functions
+[ERROR] 11-08-2023 18:22:56 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditProfile
+[ERROR] 11-08-2023 18:22:56 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #app > div > div > section > div > div.content.p-4.md\:p-\[2\.4rem\].h-full > div > div > div > div.flex-1 > div.bg-base-white.rounded-lg.px-6.py-8.lg\:p-10 > div > div:nth-child(1) > button.text-base-white.bg-gray-500.float-right.disabled\:bg-gray-300.disabled\:cursor-not-allowed.transition-colors.duration-200.hover\:bg-gray-700.focus\:ring-2.focus\:ring-gray-300.font-medium.rounded.px-4.h-\[36px\].focus\:outline-none.dark\:focus\:ring-gray-800
+[ERROR] 11-08-2023 18:22:56 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 11-08-2023 18:22:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[ERROR] 11-08-2023 18:23:07 [main] [LogUtils] - Element not exist. By.cssSelector: #searchLegislations
+[ERROR] 11-08-2023 18:23:07 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:23:07 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:23:07 [main] [LogUtils] - Screenshot taken: verifysubscribeItems
+[INFO] 11-08-2023 18:23:07 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/job-functions
+[ERROR] 11-08-2023 18:23:07 [main] [LogUtils] - FAILED !! Screenshot for test case: verifysubscribeItems
+[ERROR] 11-08-2023 18:23:07 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #searchLegislations
+[INFO] 11-08-2023 18:23:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:23:07 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 11-08-2023 18:23:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[ERROR] 11-08-2023 18:23:18 [main] [LogUtils] - Element not exist. By.cssSelector: #legalRegister
+[ERROR] 11-08-2023 18:23:18 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:23:18 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:23:18 [main] [LogUtils] - Screenshot taken: verifyAddLegalRegister
+[INFO] 11-08-2023 18:23:18 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/job-functions
+[ERROR] 11-08-2023 18:23:18 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddLegalRegister
+[ERROR] 11-08-2023 18:23:18 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #legalRegister
+[INFO] 11-08-2023 18:23:19 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:23:19 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 11-08-2023 18:23:19 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[ERROR] 11-08-2023 18:23:30 [main] [LogUtils] - Element not exist. By.cssSelector: #legalRegister
+[ERROR] 11-08-2023 18:23:30 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:23:30 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:23:30 [main] [LogUtils] - Screenshot taken: verifyAddLegalRegisterForRisk
+[INFO] 11-08-2023 18:23:30 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/organisation-settings/job-functions
+[ERROR] 11-08-2023 18:23:30 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddLegalRegisterForRisk
+[ERROR] 11-08-2023 18:23:30 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #legalRegister
+[INFO] 11-08-2023 18:23:30 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:23:30 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 11-08-2023 18:23:31 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[ERROR] 11-08-2023 18:23:41 [main] [LogUtils] - Element not exist. By.cssSelector: #legalRegister
+[ERROR] 11-08-2023 18:23:41 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:23:41 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:23:41 [main] [LogUtils] - Screenshot taken: verifyAddLegalRegisterForRisk
+[INFO] 11-08-2023 18:23:41 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:23:41 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddLegalRegisterForRisk
+[ERROR] 11-08-2023 18:23:41 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #legalRegister
+[INFO] 11-08-2023 18:23:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:23:42 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[ERROR] 11-08-2023 18:23:54 [main] [LogUtils] - Element not exist. By.cssSelector: #legalRegister
+[ERROR] 11-08-2023 18:23:54 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:23:54 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:23:55 [main] [LogUtils] - Screenshot taken: verifyEditLegalRegister
+[INFO] 11-08-2023 18:23:55 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:23:55 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditLegalRegister
+[ERROR] 11-08-2023 18:23:55 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #legalRegister
+[INFO] 11-08-2023 18:23:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:23:56 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 11-08-2023 18:23:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[ERROR] 11-08-2023 18:24:07 [main] [LogUtils] - Element not exist. By.cssSelector: #legalRegister
+[ERROR] 11-08-2023 18:24:07 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:24:07 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:24:08 [main] [LogUtils] - Screenshot taken: verifyDeleteLegalRegister
+[INFO] 11-08-2023 18:24:08 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:24:08 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyDeleteLegalRegister
+[ERROR] 11-08-2023 18:24:08 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #legalRegister
+[ERROR] 11-08-2023 18:24:09 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:24:09 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 11-08-2023 18:24:10 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 11-08-2023 18:24:10 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:24:10 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:24:20 [main] [LogUtils] - Element not exist. By.cssSelector: #addRaiseRiskBtn
+[ERROR] 11-08-2023 18:24:20 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:24:20 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:24:21 [main] [LogUtils] - Screenshot taken: verifyAddNewRisk
+[INFO] 11-08-2023 18:24:21 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:24:21 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddNewRisk
+[ERROR] 11-08-2023 18:24:21 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #addRaiseRiskBtn
+[INFO] 11-08-2023 18:24:21 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:24:21 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 11-08-2023 18:24:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 11-08-2023 18:24:22 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:24:32 [main] [LogUtils] - Element not exist. By.cssSelector: #addRaiseRiskBtn
+[ERROR] 11-08-2023 18:24:32 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:24:32 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:24:32 [main] [LogUtils] - Screenshot taken: verifyRaiseNewRisk
+[INFO] 11-08-2023 18:24:32 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:24:32 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRaiseNewRisk
+[ERROR] 11-08-2023 18:24:32 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #addRaiseRiskBtn
+[INFO] 11-08-2023 18:24:33 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:24:33 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 11-08-2023 18:24:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 11-08-2023 18:24:33 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:24:43 [main] [LogUtils] - Element not exist. By.cssSelector: #addRaiseRiskBtn
+[ERROR] 11-08-2023 18:24:43 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:24:43 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:24:44 [main] [LogUtils] - Screenshot taken: verifyAcceptRisk
+[INFO] 11-08-2023 18:24:44 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:24:44 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAcceptRisk
+[ERROR] 11-08-2023 18:24:44 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #addRaiseRiskBtn
+[INFO] 11-08-2023 18:24:44 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 11-08-2023 18:24:54 [main] [LogUtils] - Element not exist. By.cssSelector: #isoField
+[ERROR] 11-08-2023 18:24:54 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:24:54 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:24:55 [main] [LogUtils] - Screenshot taken: verifyEditNewRisk
+[INFO] 11-08-2023 18:24:55 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:24:55 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditNewRisk
+[ERROR] 11-08-2023 18:24:55 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #isoField
+[INFO] 11-08-2023 18:24:55 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:24:55 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 11-08-2023 18:24:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 11-08-2023 18:24:55 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:25:06 [main] [LogUtils] - Element not exist. By.cssSelector: #addRaiseRiskBtn
+[ERROR] 11-08-2023 18:25:06 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:25:06 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:25:06 [main] [LogUtils] - Screenshot taken: verifyRejectRisk
+[INFO] 11-08-2023 18:25:06 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:25:06 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRejectRisk
+[ERROR] 11-08-2023 18:25:06 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #addRaiseRiskBtn
+[INFO] 11-08-2023 18:25:07 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:25:07 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 11-08-2023 18:25:07 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 11-08-2023 18:25:07 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:25:18 [main] [LogUtils] - Element not exist. By.cssSelector: #viewSwotBtn
+[ERROR] 11-08-2023 18:25:18 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:25:18 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:25:18 [main] [LogUtils] - Screenshot taken: verifyRaiseRiskWithSWOT
+[INFO] 11-08-2023 18:25:18 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:25:18 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRaiseRiskWithSWOT
+[ERROR] 11-08-2023 18:25:18 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #viewSwotBtn
+[INFO] 11-08-2023 18:25:19 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:25:19 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 11-08-2023 18:25:19 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 11-08-2023 18:25:19 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:25:19 [main] [LogUtils] - no such element: Unable to locate element: {"method":"css selector","selector":"tr:first-of-type>td:last-of-type>div>button"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1b87568acc7e18ea7c34f3bb52c4058, findElement {using=css selector, value=tr:first-of-type>td:last-of-type>div>button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55937/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1b87568acc7e18ea7c34f3bb52c4058
+[ERROR] 11-08-2023 18:25:29 [main] [LogUtils] - Element not exist. By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[ERROR] 11-08-2023 18:25:29 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:25:29 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:25:30 [main] [LogUtils] - Screenshot taken: verifyAcceptSWOTRisk
+[INFO] 11-08-2023 18:25:30 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:25:30 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAcceptSWOTRisk
+[ERROR] 11-08-2023 18:25:30 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 11-08-2023 18:25:30 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 11-08-2023 18:25:41 [main] [LogUtils] - Element not exist. By.cssSelector: #locField
+[ERROR] 11-08-2023 18:25:41 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:25:41 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:25:41 [main] [LogUtils] - Screenshot taken: verifyEditSWOTRisk
+[INFO] 11-08-2023 18:25:41 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:25:41 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditSWOTRisk
+[ERROR] 11-08-2023 18:25:41 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #locField
+[INFO] 11-08-2023 18:25:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:25:42 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 11-08-2023 18:25:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 11-08-2023 18:25:42 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:25:52 [main] [LogUtils] - Element not exist. By.cssSelector: #viewSwotBtn
+[ERROR] 11-08-2023 18:25:52 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:25:52 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:25:53 [main] [LogUtils] - Screenshot taken: verifyRejectSWOTRisk
+[INFO] 11-08-2023 18:25:53 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:25:53 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyRejectSWOTRisk
+[ERROR] 11-08-2023 18:25:53 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #viewSwotBtn
+[INFO] 11-08-2023 18:25:53 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:25:53 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 11-08-2023 18:25:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 11-08-2023 18:25:53 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:25:53 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:25:53 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:25:53 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:25:54 [main] [LogUtils] - Screenshot taken: verifyDeleteAllRisk
+[INFO] 11-08-2023 18:25:54 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:25:54 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyDeleteAllRisk
+[ERROR] 11-08-2023 18:25:54 [main] [LogUtils] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.text-gray-500"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1b87568acc7e18ea7c34f3bb52c4058, findElement {using=css selector, value=div.text-gray-500}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55937/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1b87568acc7e18ea7c34f3bb52c4058
+[INFO] 11-08-2023 18:25:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:25:54 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 11-08-2023 18:25:54 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 11-08-2023 18:25:54 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:25:54 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:26:05 [main] [LogUtils] - Element not exist. By.cssSelector: #addRaiseRiskBtn
+[ERROR] 11-08-2023 18:26:05 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:26:05 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:26:05 [main] [LogUtils] - Screenshot taken: addingIssuesForFilters
+[INFO] 11-08-2023 18:26:05 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:26:05 [main] [LogUtils] - FAILED !! Screenshot for test case: addingIssuesForFilters
+[ERROR] 11-08-2023 18:26:05 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #addRaiseRiskBtn
+[INFO] 11-08-2023 18:26:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:26:06 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 11-08-2023 18:26:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 11-08-2023 18:26:06 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:26:06 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:26:16 [main] [LogUtils] - Element not exist. By.cssSelector: #addRaiseRiskBtn
+[ERROR] 11-08-2023 18:26:16 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:26:16 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Screenshot taken: addingIssuesForFilters
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:26:17 [main] [LogUtils] - FAILED !! Screenshot for test case: addingIssuesForFilters
+[ERROR] 11-08-2023 18:26:17 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #addRaiseRiskBtn
+[ERROR] 11-08-2023 18:26:17 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Verify element visible By.cssSelector: #actionsView
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #actionsView
+[INFO] 11-08-2023 18:26:17 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:26:28 [main] [LogUtils] - Element not exist. By.cssSelector: #addActionBtn
+[ERROR] 11-08-2023 18:26:28 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:26:28 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:26:28 [main] [LogUtils] - Screenshot taken: verifyAddNewAction
+[INFO] 11-08-2023 18:26:28 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:26:28 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddNewAction
+[ERROR] 11-08-2023 18:26:28 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #addActionBtn
+[INFO] 11-08-2023 18:26:29 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:26:29 [main] [LogUtils] - Verify element visible By.cssSelector: #actionsView
+[INFO] 11-08-2023 18:26:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #actionsView
+[INFO] 11-08-2023 18:26:29 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:26:39 [main] [LogUtils] - Element not exist. By.cssSelector: #addActionBtn
+[ERROR] 11-08-2023 18:26:39 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:26:39 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:26:40 [main] [LogUtils] - Screenshot taken: verifyAddNewAction
+[INFO] 11-08-2023 18:26:40 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:26:40 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddNewAction
+[ERROR] 11-08-2023 18:26:40 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: #addActionBtn
+[INFO] 11-08-2023 18:26:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:26:40 [main] [LogUtils] - Verify element visible By.cssSelector: #actionsView
+[INFO] 11-08-2023 18:26:40 [main] [LogUtils] - Clicked on the element By.cssSelector: #actionsView
+[INFO] 11-08-2023 18:26:40 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:26:40 [main] [LogUtils] - no such element: Unable to locate element: {"method":"css selector","selector":"tr:first-of-type>td:last-of-type>div>button"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1b87568acc7e18ea7c34f3bb52c4058, findElement {using=css selector, value=tr:first-of-type>td:last-of-type>div>button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55937/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1b87568acc7e18ea7c34f3bb52c4058
+[ERROR] 11-08-2023 18:26:51 [main] [LogUtils] - Element not exist. By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[ERROR] 11-08-2023 18:26:51 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:26:51 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:26:51 [main] [LogUtils] - Screenshot taken: verifyEditAction
+[INFO] 11-08-2023 18:26:51 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:26:51 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyEditAction
+[ERROR] 11-08-2023 18:26:51 [main] [LogUtils] - java.lang.AssertionError: Element not exist. By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 11-08-2023 18:26:51 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 18:26:51 [main] [LogUtils] - Verify element visible By.cssSelector: #actionsView
+[INFO] 11-08-2023 18:26:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #actionsView
+[INFO] 11-08-2023 18:26:52 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 18:26:52 [main] [LogUtils] - loading function
+[ERROR] 11-08-2023 18:26:52 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 18:26:52 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (c1b87568acc7e18ea7c34f3bb52c4058)
+[INFO] 11-08-2023 18:26:52 [main] [LogUtils] - Screenshot taken: verifyDeleteAllAction
+[INFO] 11-08-2023 18:26:52 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/dashboard
+[ERROR] 11-08-2023 18:26:52 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyDeleteAllAction
+[ERROR] 11-08-2023 18:26:52 [main] [LogUtils] - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.text-gray-500"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1b87568acc7e18ea7c34f3bb52c4058, findElement {using=css selector, value=div.text-gray-500}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\zubai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55937/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1b87568acc7e18ea7c34f3bb52c4058
+[INFO] 11-08-2023 18:26:53 [main] [LogUtils] - End Suite: All Test Cases

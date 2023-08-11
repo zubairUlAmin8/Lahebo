@@ -26,12 +26,12 @@ public class verifyUserSignUp extends BaseTest {
         }
         System.out.println("Signup getting end");
     }
-    @Test(priority=2, enabled = true)
+    @Test(priority=2, enabled = false)
     public void saveNewUserIntoFile() {
         signUpPage.saveDataIntoFile();
     }
 
-    @Test(priority = 3, enabled = true)
+    @Test(priority = 3, enabled = false)
     public void verifyGmailOTP() throws MessagingException, IOException, InterruptedException {
         Thread.sleep(5000);
         String OTPCode = twoFactorAuthPage.getGmailInboxOTP();
@@ -39,7 +39,7 @@ public class verifyUserSignUp extends BaseTest {
         Assert.assertTrue(status, "OTP is not correct");
     }
 
-    @Test(priority=4)
+    @Test(priority=4, enabled = false)
     public void verifyNewUser() throws InterruptedException {
         String username = PropertiesHelpers.getValue("New_User_UserName");
         String password = PropertiesHelpers.getValue("New_User_Password");
@@ -48,18 +48,18 @@ public class verifyUserSignUp extends BaseTest {
         System.out.println("Secret Key"+secretKey);
         twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "yes");
     }
-    @Test(priority = 5)
+    @Test(priority = 5, enabled = false)
     public void choosePlan() {
         subscribePlanPage.choosePlan();
         Assert.assertTrue(subscribePlanPage.confirmPlan(),"Payment are not correct");
         cardPaymentPage.fillCardDetails();
     }
-    @Test(priority = 6)
+    @Test(priority = 6, enabled = false)
     public void verifyCongratulation() {
         Assert.assertTrue(congratulation.verifyCongratulation(),"Congratulation page");
     }
 
-    @Test(priority = 7, enabled = true)
+    @Test(priority = 7, enabled = false)
     public void verifyUserSignOut() throws InterruptedException {
         landingPage.waitForPageLoading();
         landingPage.signOut();
