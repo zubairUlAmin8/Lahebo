@@ -43,6 +43,8 @@ public enum BrowserFactory {
 //            options.addArguments("--disable-extensions");
 //            options.addArguments("--disable-infobars");
 //            options.addArguments("--disable-notifications");
+
+            options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--remote-allow-origins=*");
 
             if (Boolean.valueOf(FrameworkConstants.HEADLESS) == true) {
