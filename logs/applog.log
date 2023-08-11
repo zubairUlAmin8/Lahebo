@@ -1,60 +1,114 @@
-[INFO] 10-08-2023 16:07:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
-[INFO] 10-08-2023 16:07:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
-[INFO] 10-08-2023 16:07:23 [main] [LogUtils] - Loaded all properties files.
-[INFO] 10-08-2023 16:07:23 [main] [LogUtils] - Starting Suite: All Test Cases
-[INFO] 10-08-2023 16:07:32 [main] [LogUtils] - Driver is Just Initialized
-[ERROR] 10-08-2023 16:07:34 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (03d8b2e148b83abe50dfdb4144851c5e)
-[INFO] 10-08-2023 16:07:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
-[INFO] 10-08-2023 16:07:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
-[INFO] 10-08-2023 16:07:34 [main] [LogUtils] - Loaded all properties files.
-[INFO] 10-08-2023 16:07:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
-[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
-[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Loaded all properties files.
-[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
-[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
-[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Loaded all properties files.
-[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Test case:  is starting...
-[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - USERNAME: sarahj88456
-[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - PASSWORD: Password123!
-[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
-[INFO] 10-08-2023 16:07:46 [main] [LogUtils] - Username and password are correct
-[INFO] 10-08-2023 16:07:58 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
-[INFO] 10-08-2023 16:07:59 [main] [LogUtils] - loading function
-[INFO] 10-08-2023 16:08:00 [main] [LogUtils] - we are into NoSuchElementException
-[INFO] 10-08-2023 16:08:00 [main] [LogUtils] - loading function
-[INFO] 10-08-2023 16:08:03 [main] [LogUtils] - loading function
-[INFO] 10-08-2023 16:08:03 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
-[INFO] 10-08-2023 16:08:04 [main] [LogUtils] - loading function
-[INFO] 10-08-2023 16:08:05 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
-[INFO] 10-08-2023 16:08:06 [main] [LogUtils] - loading function
-[INFO] 10-08-2023 16:08:07 [main] [LogUtils] - Test case:  is passed.
-[INFO] 10-08-2023 16:08:08 [main] [LogUtils] - End Suite: All Test Cases
-[INFO] 10-08-2023 16:14:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
-[INFO] 10-08-2023 16:14:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
-[INFO] 10-08-2023 16:14:47 [main] [LogUtils] - Loaded all properties files.
-[INFO] 10-08-2023 16:14:48 [main] [LogUtils] - Starting Suite: All Test Cases
-[INFO] 10-08-2023 16:14:58 [main] [LogUtils] - Driver is Just Initialized
-[ERROR] 10-08-2023 16:14:59 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (dbfbc84d4536ebe81576a8d81b32ef17)
-[INFO] 10-08-2023 16:14:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
-[INFO] 10-08-2023 16:14:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
-[INFO] 10-08-2023 16:14:59 [main] [LogUtils] - Loaded all properties files.
-[INFO] 10-08-2023 16:14:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
-[INFO] 10-08-2023 16:15:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
-[INFO] 10-08-2023 16:15:00 [main] [LogUtils] - Loaded all properties files.
-[INFO] 10-08-2023 16:15:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
-[INFO] 10-08-2023 16:15:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
-[INFO] 10-08-2023 16:15:00 [main] [LogUtils] - Loaded all properties files.
-[INFO] 10-08-2023 16:15:01 [main] [LogUtils] - Test case:  is starting...
-[INFO] 10-08-2023 16:15:01 [main] [LogUtils] - USERNAME: sarahj88456
-[INFO] 10-08-2023 16:15:01 [main] [LogUtils] - PASSWORD: Password123!
-[INFO] 10-08-2023 16:15:01 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
-[INFO] 10-08-2023 16:15:13 [main] [LogUtils] - Username and password are correct
-[INFO] 10-08-2023 16:15:26 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
-[INFO] 10-08-2023 16:15:27 [main] [LogUtils] - loading function
-[INFO] 10-08-2023 16:15:31 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
-[INFO] 10-08-2023 16:15:32 [main] [LogUtils] - loading function
-[INFO] 10-08-2023 16:15:34 [main] [LogUtils] - we are into NoSuchElementException
-[INFO] 10-08-2023 16:15:34 [main] [LogUtils] - loading function
-[INFO] 10-08-2023 16:15:36 [main] [LogUtils] - loading function
-[INFO] 10-08-2023 16:15:36 [main] [LogUtils] - Test case:  is passed.
-[INFO] 10-08-2023 16:15:37 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 11-08-2023 15:39:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:39:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:39:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:39:54 [main] [LogUtils] - Starting Suite: All Test Cases
+[ERROR] 11-08-2023 15:40:01 [main] [LogUtils] - driver value: null
+[INFO] 11-08-2023 15:40:01 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 11-08-2023 15:40:02 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - Driver for Screenshot: null
+[ERROR] 11-08-2023 15:40:02 [main] [LogUtils] - FAILED !! Screenshot for test case: signInExistingUser
+[ERROR] 11-08-2023 15:40:02 [main] [LogUtils] - java.lang.NullPointerException: Cannot invoke "org.testng.ITestResult.getTestContext()" because the return value of "org.testng.Reporter.getCurrentTestResult()" is null
+[INFO] 11-08-2023 15:40:02 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 11-08-2023 15:41:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:41:56 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:41:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:41:56 [main] [LogUtils] - Starting Suite: All Test Cases
+[ERROR] 11-08-2023 15:42:02 [main] [LogUtils] - driver value: null
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Test case:  is starting...
+[ERROR] 11-08-2023 15:42:02 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 15:42:02 [main] [LogUtils] - Driver for Screenshot: null
+[ERROR] 11-08-2023 15:42:02 [main] [LogUtils] - FAILED !! Screenshot for test case: signInExistingUser
+[ERROR] 11-08-2023 15:42:02 [main] [LogUtils] - java.lang.NullPointerException: Cannot invoke "org.testng.ITestResult.getTestContext()" because the return value of "org.testng.Reporter.getCurrentTestResult()" is null
+[INFO] 11-08-2023 15:42:03 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 11-08-2023 15:42:57 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:42:57 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:42:57 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:42:57 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 11-08-2023 15:43:04 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (e98a982e987e22d6e31aa1c1af7b2985)
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 11-08-2023 15:43:04 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 11-08-2023 15:43:11 [main] [LogUtils] - Username and password are correct
+[INFO] 11-08-2023 15:43:27 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 11-08-2023 15:43:27 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 15:43:28 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 11-08-2023 15:43:28 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 15:43:30 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 15:43:30 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 15:43:31 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 11-08-2023 15:44:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:44:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:44:04 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:44:05 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 11-08-2023 15:44:10 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (09ba6a6350d7568ca8f398b8ab6e7e83)
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 11-08-2023 15:44:10 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[ERROR] 11-08-2023 15:44:12 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 15:44:12 [main] [LogUtils] - Driver for Screenshot: RemoteWebDriver: chrome on linux (09ba6a6350d7568ca8f398b8ab6e7e83)
+[ERROR] 11-08-2023 15:44:12 [main] [LogUtils] - FAILED !! Screenshot for test case: signInExistingUser
+[ERROR] 11-08-2023 15:44:12 [main] [LogUtils] - org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [09ba6a6350d7568ca8f398b8ab6e7e83, findElement {using=css selector, value=input[type="text"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: /tmp/.org.chromium.Chromium...}, goog:chromeOptions: {debuggerAddress: localhost:39925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 115.0.5790.110, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09ba6a6350d7568ca8f398b8ab6e7e83
+[ERROR] 11-08-2023 15:44:12 [main] [LogUtils] - Test case:  is failed.
+[INFO] 11-08-2023 15:44:12 [main] [LogUtils] - Driver for Screenshot: RemoteWebDriver: chrome on linux (09ba6a6350d7568ca8f398b8ab6e7e83)
+[ERROR] 11-08-2023 15:44:13 [main] [LogUtils] - FAILED !! Screenshot for test case: signInExistingUser
+[ERROR] 11-08-2023 15:44:13 [main] [LogUtils] - org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [09ba6a6350d7568ca8f398b8ab6e7e83, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: /tmp/.org.chromium.Chromium...}, goog:chromeOptions: {debuggerAddress: localhost:39925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 115.0.5790.110, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 09ba6a6350d7568ca8f398b8ab6e7e83
+[INFO] 11-08-2023 15:44:13 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 11-08-2023 15:45:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 15:45:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 15:45:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 15:45:31 [main] [LogUtils] - Starting Suite: All Test Cases

@@ -57,7 +57,7 @@ public final class ExtentReportManager extends BasePage {
             extentReports.flush();
         }
         ExtentTestManager.unload();
-        ReportUtils.openReports(link);
+//        ReportUtils.openReports(link);                open reports after test complete
     }
 
     public static void createTest(String testCaseName) {

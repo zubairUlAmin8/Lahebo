@@ -1,0 +1,1438 @@
+[INFO] 10-08-2023 16:07:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 16:07:22 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 16:07:23 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 16:07:23 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 10-08-2023 16:07:32 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 10-08-2023 16:07:34 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (03d8b2e148b83abe50dfdb4144851c5e)
+[INFO] 10-08-2023 16:07:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 16:07:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 16:07:34 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 16:07:34 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 10-08-2023 16:07:35 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 10-08-2023 16:07:46 [main] [LogUtils] - Username and password are correct
+[INFO] 10-08-2023 16:07:58 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 10-08-2023 16:07:59 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 16:08:00 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 16:08:00 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 16:08:03 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 16:08:03 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 10-08-2023 16:08:04 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 16:08:05 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 10-08-2023 16:08:06 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 16:08:07 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 16:08:08 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 10-08-2023 16:14:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 16:14:47 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 16:14:47 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 16:14:48 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 10-08-2023 16:14:58 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 10-08-2023 16:14:59 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (dbfbc84d4536ebe81576a8d81b32ef17)
+[INFO] 10-08-2023 16:14:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 16:14:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 16:14:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 16:14:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 16:15:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 16:15:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 16:15:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 16:15:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 16:15:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 16:15:01 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 16:15:01 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 10-08-2023 16:15:01 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 10-08-2023 16:15:01 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 10-08-2023 16:15:13 [main] [LogUtils] - Username and password are correct
+[INFO] 10-08-2023 16:15:26 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 10-08-2023 16:15:27 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 16:15:31 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 10-08-2023 16:15:32 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 16:15:34 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 16:15:34 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 16:15:36 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 16:15:36 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 16:15:37 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 10-08-2023 17:13:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 17:13:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 17:13:04 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 17:13:05 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 10-08-2023 17:13:30 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 10-08-2023 17:13:31 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (38aa8446efd40cd5b22aa902e4689a1e)
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 10-08-2023 17:13:31 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 10-08-2023 17:14:22 [main] [LogUtils] - Username and password are correct
+[INFO] 10-08-2023 17:14:46 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 10-08-2023 17:14:47 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 17:14:49 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 17:14:49 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 17:14:53 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 10-08-2023 17:14:54 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 17:14:55 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 10-08-2023 17:14:56 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 17:14:59 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 17:14:59 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 17:15:01 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 10-08-2023 19:24:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:24:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:24:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:24:05 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 10-08-2023 19:24:18 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 10-08-2023 19:24:19 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (f5083a548f52cd04e38ca7d544b89aba)
+[INFO] 10-08-2023 19:24:19 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:24:19 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:24:19 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:24:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:24:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:24:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:24:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:24:20 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:24:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:24:20 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:24:20 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 10-08-2023 19:24:20 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 10-08-2023 19:24:20 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 10-08-2023 19:24:27 [main] [LogUtils] - Username and password are correct
+[INFO] 10-08-2023 19:24:43 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 10-08-2023 19:24:43 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:24:44 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:24:44 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:24:46 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:24:46 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:24:47 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 10-08-2023 19:26:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:26:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:26:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:26:48 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 10-08-2023 19:26:56 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 10-08-2023 19:26:58 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (bb7d83dbee8a413a830213b5a35a5a8a)
+[INFO] 10-08-2023 19:26:58 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:26:58 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:26:58 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:26:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:26:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:26:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:26:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:26:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:26:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:26:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:27:00 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 10-08-2023 19:27:00 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 10-08-2023 19:27:00 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 10-08-2023 19:27:09 [main] [LogUtils] - Username and password are correct
+[INFO] 10-08-2023 19:27:21 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 10-08-2023 19:27:21 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:27:22 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:27:22 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:27:24 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:27:24 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:27:25 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 10-08-2023 19:28:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:28:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:28:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:28:51 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 10-08-2023 19:28:59 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 10-08-2023 19:29:00 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (5c82f4a1500048b80c5dd8fafadff047)
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 10-08-2023 19:29:00 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 10-08-2023 19:29:08 [main] [LogUtils] - Username and password are correct
+[INFO] 10-08-2023 19:29:20 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 10-08-2023 19:29:20 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:29:21 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:29:21 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 10-08-2023 19:29:24 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (5c82f4a1500048b80c5dd8fafadff047)
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:29:24 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:29:26 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:29:27 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:29:29 [main] [LogUtils] - Verify element visible By.cssSelector: #searchLegislations
+[INFO] 10-08-2023 19:29:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #searchLegislations
+[INFO] 10-08-2023 19:29:32 [main] [LogUtils] - Wait Over!! size of list: 506
+[INFO] 10-08-2023 19:29:32 [main] [LogUtils] - random number generated to select list is: 492
+[INFO] 10-08-2023 19:29:32 [main] [LogUtils] - random number: 492 iteration: 492
+[INFO] 10-08-2023 19:29:33 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:29:33 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:29:38 [main] [LogUtils] - Verify element visible By.cssSelector: #searchLegislationDivisions
+[INFO] 10-08-2023 19:29:39 [main] [LogUtils] - Clicked on the element By.cssSelector: #searchLegislationDivisions
+[INFO] 10-08-2023 19:29:40 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:29:40 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:29:40 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:29:40 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:29:41 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:29:41 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:29:43 [main] [LogUtils] - Verify element visible By.cssSelector: #searchBtn
+[INFO] 10-08-2023 19:29:44 [main] [LogUtils] - Clicked on the element By.cssSelector: #searchBtn
+[INFO] 10-08-2023 19:29:46 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>span
+[INFO] 10-08-2023 19:29:47 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>span
+[INFO] 10-08-2023 19:29:49 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 10-08-2023 19:29:50 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 10-08-2023 19:29:50 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:29:50 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:29:51 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:29:51 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:29:53 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:29:54 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:29:55 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 10-08-2023 19:29:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 10-08-2023 19:29:58 [main] [LogUtils] - Verify element visible By.cssSelector: div[class="text-right space-x-2"]>button
+[INFO] 10-08-2023 19:29:59 [main] [LogUtils] - Clicked on the element By.cssSelector: div[class="text-right space-x-2"]>button
+[INFO] 10-08-2023 19:30:00 [main] [LogUtils] - Verify element visible By.cssSelector: #selectDivField
+[INFO] 10-08-2023 19:30:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #selectDivField
+[INFO] 10-08-2023 19:30:02 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:30:02 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:30:02 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:30:02 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:30:02 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:30:03 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:30:03 [main] [LogUtils] - Random Password is Generated: 605@16lO9
+[INFO] 10-08-2023 19:30:05 [main] [LogUtils] - Verify element visible By.cssSelector: #refNumField
+[INFO] 10-08-2023 19:30:06 [main] [LogUtils] - Set text 605@16lO9 on By.cssSelector: #refNumField
+[INFO] 10-08-2023 19:30:08 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:30:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:30:10 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 10-08-2023 19:30:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 10-08-2023 19:30:12 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:30:12 [main] [LogUtils] - 2 : Selected 
+[INFO] 10-08-2023 19:30:14 [main] [LogUtils] - Verify element visible By.cssSelector: #depField
+[INFO] 10-08-2023 19:30:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #depField
+[INFO] 10-08-2023 19:30:16 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:30:16 [main] [LogUtils] - 3 : Selected 
+[INFO] 10-08-2023 19:30:18 [main] [LogUtils] - Verify element visible By.cssSelector: #isoField
+[INFO] 10-08-2023 19:30:19 [main] [LogUtils] - Clicked on the element By.cssSelector: #isoField
+[INFO] 10-08-2023 19:30:20 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 10-08-2023 19:30:20 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:30:20 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:30:20 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:30:21 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:30:23 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:30:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:30:25 [main] [LogUtils] - Verify element visible By.cssSelector: span>svg[data-icon="circle-plus"]
+[INFO] 10-08-2023 19:30:26 [main] [LogUtils] - Clicked on the element By.cssSelector: span>svg[data-icon="circle-plus"]
+[INFO] 10-08-2023 19:30:27 [main] [LogUtils] - Verify element visible By.cssSelector: #markActionItem
+[INFO] 10-08-2023 19:30:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #markActionItem
+[INFO] 10-08-2023 19:30:30 [main] [LogUtils] - Verify element visible By.cssSelector: div[class="vs__dropdown-toggle"]
+[INFO] 10-08-2023 19:30:31 [main] [LogUtils] - Clicked on the element By.cssSelector: div[class="vs__dropdown-toggle"]
+[INFO] 10-08-2023 19:30:32 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:30:33 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:30:33 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:30:33 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:30:33 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:30:34 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:30:36 [main] [LogUtils] - Verify element visible By.cssSelector: textarea[class="form-input"]
+[INFO] 10-08-2023 19:30:37 [main] [LogUtils] - Set text pob9i0ris5 on By.cssSelector: textarea[class="form-input"]
+[INFO] 10-08-2023 19:30:39 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 10-08-2023 19:30:40 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 10-08-2023 19:30:41 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:30:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:30:44 [main] [LogUtils] - Verify element visible By.cssSelector: #stateField
+[INFO] 10-08-2023 19:30:45 [main] [LogUtils] - Set text 4hk3d on By.cssSelector: #stateField
+[INFO] 10-08-2023 19:30:47 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:30:48 [main] [LogUtils] - Set text j8lg4jlepssw5zk34gqq on By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:30:49 [main] [LogUtils] - Verify element visible By.cssSelector: #formActionBtn
+[INFO] 10-08-2023 19:30:50 [main] [LogUtils] - Clicked on the element By.cssSelector: #formActionBtn
+[ERROR] 10-08-2023 19:31:01 [main] [LogUtils] - The element is not visible. Expected condition failed: waiting for visibility of element located by By.cssSelector: #dotSpinner (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: jdk.proxy2.$Proxy31
+[ERROR] 10-08-2023 19:31:01 [main] [LogUtils] - Test case:  is failed.
+[INFO] 10-08-2023 19:31:01 [main] [LogUtils] - Driver for Screenshot: RemoteWebDriver: chrome on linux (5c82f4a1500048b80c5dd8fafadff047)
+[INFO] 10-08-2023 19:31:02 [main] [LogUtils] - Screenshot taken: verifyAddLegalRegister
+[INFO] 10-08-2023 19:31:02 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/legislation-library/legal-register
+[ERROR] 10-08-2023 19:31:02 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddLegalRegister
+[ERROR] 10-08-2023 19:31:02 [main] [LogUtils] - java.lang.AssertionError: Timeout waiting for the element Visible. By.cssSelector: #dotSpinner
+[INFO] 10-08-2023 19:31:02 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:31:04 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:31:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:31:07 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 10-08-2023 19:31:07 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 10-08-2023 19:31:09 [main] [LogUtils] - Verify element visible By.cssSelector: div[class="text-right space-x-2"]>button
+[INFO] 10-08-2023 19:31:10 [main] [LogUtils] - Clicked on the element By.cssSelector: div[class="text-right space-x-2"]>button
+[INFO] 10-08-2023 19:31:12 [main] [LogUtils] - Verify element visible By.cssSelector: #selectDivField
+[INFO] 10-08-2023 19:31:13 [main] [LogUtils] - Clicked on the element By.cssSelector: #selectDivField
+[INFO] 10-08-2023 19:31:13 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:31:14 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:31:14 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:31:14 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:31:14 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:31:15 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:31:15 [main] [LogUtils] - Random Password is Generated: 3&15L0l81
+[INFO] 10-08-2023 19:31:16 [main] [LogUtils] - Verify element visible By.cssSelector: #refNumField
+[INFO] 10-08-2023 19:31:17 [main] [LogUtils] - Set text 3&15L0l81 on By.cssSelector: #refNumField
+[INFO] 10-08-2023 19:31:19 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:31:20 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:31:21 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 10-08-2023 19:31:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 10-08-2023 19:31:23 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:31:23 [main] [LogUtils] - 2 : Selected 
+[INFO] 10-08-2023 19:31:25 [main] [LogUtils] - Verify element visible By.cssSelector: #depField
+[INFO] 10-08-2023 19:31:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #depField
+[INFO] 10-08-2023 19:31:27 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:31:28 [main] [LogUtils] - 2 : Selected 
+[INFO] 10-08-2023 19:31:30 [main] [LogUtils] - Verify element visible By.cssSelector: #isoField
+[INFO] 10-08-2023 19:31:31 [main] [LogUtils] - Clicked on the element By.cssSelector: #isoField
+[INFO] 10-08-2023 19:31:31 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 10-08-2023 19:31:31 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 10-08-2023 19:31:31 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 10-08-2023 19:31:32 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:31:32 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:31:34 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:31:35 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:31:37 [main] [LogUtils] - Verify element visible By.cssSelector: span>svg[data-icon="circle-plus"]
+[INFO] 10-08-2023 19:31:38 [main] [LogUtils] - Clicked on the element By.cssSelector: span>svg[data-icon="circle-plus"]
+[INFO] 10-08-2023 19:31:41 [main] [LogUtils] - Verify element visible By.cssSelector: #markActionItem
+[INFO] 10-08-2023 19:31:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #markActionItem
+[INFO] 10-08-2023 19:31:44 [main] [LogUtils] - Verify element visible By.cssSelector: div[class="vs__dropdown-toggle"]
+[INFO] 10-08-2023 19:31:45 [main] [LogUtils] - Clicked on the element By.cssSelector: div[class="vs__dropdown-toggle"]
+[INFO] 10-08-2023 19:31:46 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:31:46 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:31:46 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:31:46 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:31:47 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:31:48 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:31:49 [main] [LogUtils] - Verify element visible By.cssSelector: textarea[class="form-input"]
+[INFO] 10-08-2023 19:31:50 [main] [LogUtils] - Set text uklp1qgq0l on By.cssSelector: textarea[class="form-input"]
+[INFO] 10-08-2023 19:31:52 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 10-08-2023 19:31:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 10-08-2023 19:31:55 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:31:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:31:58 [main] [LogUtils] - Verify element visible By.cssSelector: #stateField
+[INFO] 10-08-2023 19:32:00 [main] [LogUtils] - Set text 5s58c on By.cssSelector: #stateField
+[INFO] 10-08-2023 19:32:02 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:32:03 [main] [LogUtils] - Set text i4dranxowzlkjpgqf1hd on By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:32:04 [main] [LogUtils] - Verify element visible By.cssSelector: #formActionBtn
+[INFO] 10-08-2023 19:32:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #formActionBtn
+[ERROR] 10-08-2023 19:32:16 [main] [LogUtils] - The element is not visible. Expected condition failed: waiting for visibility of element located by By.cssSelector: #dotSpinner (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: jdk.proxy2.$Proxy31
+[ERROR] 10-08-2023 19:32:16 [main] [LogUtils] - Test case:  is failed.
+[INFO] 10-08-2023 19:32:16 [main] [LogUtils] - Driver for Screenshot: RemoteWebDriver: chrome on linux (5c82f4a1500048b80c5dd8fafadff047)
+[INFO] 10-08-2023 19:32:18 [main] [LogUtils] - Screenshot taken: verifyAddLegalRegisterForRisk
+[INFO] 10-08-2023 19:32:18 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/legislation-library/legal-register
+[ERROR] 10-08-2023 19:32:18 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddLegalRegisterForRisk
+[ERROR] 10-08-2023 19:32:18 [main] [LogUtils] - java.lang.AssertionError: Timeout waiting for the element Visible. By.cssSelector: #dotSpinner
+[INFO] 10-08-2023 19:32:19 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:32:21 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:32:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:32:24 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 10-08-2023 19:32:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 10-08-2023 19:32:27 [main] [LogUtils] - Verify element visible By.cssSelector: div[class="text-right space-x-2"]>button
+[INFO] 10-08-2023 19:32:28 [main] [LogUtils] - Clicked on the element By.cssSelector: div[class="text-right space-x-2"]>button
+[INFO] 10-08-2023 19:32:30 [main] [LogUtils] - Verify element visible By.cssSelector: #selectDivField
+[INFO] 10-08-2023 19:32:31 [main] [LogUtils] - Clicked on the element By.cssSelector: #selectDivField
+[INFO] 10-08-2023 19:32:31 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:32:31 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:32:31 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:32:31 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:32:32 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:32:33 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:32:33 [main] [LogUtils] - Random Password is Generated: 9363G12%w
+[INFO] 10-08-2023 19:32:34 [main] [LogUtils] - Verify element visible By.cssSelector: #refNumField
+[INFO] 10-08-2023 19:32:35 [main] [LogUtils] - Set text 9363G12%w on By.cssSelector: #refNumField
+[INFO] 10-08-2023 19:32:37 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:32:38 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:32:39 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 10-08-2023 19:32:40 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 10-08-2023 19:32:41 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:32:41 [main] [LogUtils] - 1 : Selected 
+[INFO] 10-08-2023 19:32:43 [main] [LogUtils] - Verify element visible By.cssSelector: #depField
+[INFO] 10-08-2023 19:32:44 [main] [LogUtils] - Clicked on the element By.cssSelector: #depField
+[INFO] 10-08-2023 19:32:45 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:32:45 [main] [LogUtils] - 2 : Selected 
+[INFO] 10-08-2023 19:32:47 [main] [LogUtils] - Verify element visible By.cssSelector: #isoField
+[INFO] 10-08-2023 19:32:48 [main] [LogUtils] - Clicked on the element By.cssSelector: #isoField
+[INFO] 10-08-2023 19:32:49 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 10-08-2023 19:32:49 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 10-08-2023 19:32:49 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 10-08-2023 19:32:49 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:32:50 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:32:51 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:32:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:32:54 [main] [LogUtils] - Verify element visible By.cssSelector: span>svg[data-icon="circle-plus"]
+[INFO] 10-08-2023 19:32:55 [main] [LogUtils] - Clicked on the element By.cssSelector: span>svg[data-icon="circle-plus"]
+[INFO] 10-08-2023 19:32:56 [main] [LogUtils] - Verify element visible By.cssSelector: #markActionItem
+[INFO] 10-08-2023 19:32:57 [main] [LogUtils] - Clicked on the element By.cssSelector: #markActionItem
+[INFO] 10-08-2023 19:32:59 [main] [LogUtils] - Verify element visible By.cssSelector: div[class="vs__dropdown-toggle"]
+[INFO] 10-08-2023 19:33:00 [main] [LogUtils] - Clicked on the element By.cssSelector: div[class="vs__dropdown-toggle"]
+[INFO] 10-08-2023 19:33:01 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:33:01 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:33:01 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:33:01 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:33:02 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:33:02 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:33:05 [main] [LogUtils] - Verify element visible By.cssSelector: textarea[class="form-input"]
+[INFO] 10-08-2023 19:33:06 [main] [LogUtils] - Set text e34d2upkz4 on By.cssSelector: textarea[class="form-input"]
+[INFO] 10-08-2023 19:33:08 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 10-08-2023 19:33:09 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 10-08-2023 19:33:10 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:33:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 10-08-2023 19:33:13 [main] [LogUtils] - Verify element visible By.cssSelector: #stateField
+[INFO] 10-08-2023 19:33:15 [main] [LogUtils] - Set text 3vn6h on By.cssSelector: #stateField
+[INFO] 10-08-2023 19:33:17 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:33:18 [main] [LogUtils] - Set text vwwf4d285uag9iko0egv on By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:33:19 [main] [LogUtils] - Verify element visible By.cssSelector: #formActionBtn
+[INFO] 10-08-2023 19:33:20 [main] [LogUtils] - Clicked on the element By.cssSelector: #formActionBtn
+[ERROR] 10-08-2023 19:33:31 [main] [LogUtils] - The element is not visible. Expected condition failed: waiting for visibility of element located by By.cssSelector: #dotSpinner (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: jdk.proxy2.$Proxy31
+[ERROR] 10-08-2023 19:33:31 [main] [LogUtils] - Test case:  is failed.
+[INFO] 10-08-2023 19:33:31 [main] [LogUtils] - Driver for Screenshot: RemoteWebDriver: chrome on linux (5c82f4a1500048b80c5dd8fafadff047)
+[INFO] 10-08-2023 19:33:32 [main] [LogUtils] - Screenshot taken: verifyAddLegalRegisterForRisk
+[INFO] 10-08-2023 19:33:33 [main] [LogUtils] - Screenshot taken current URL: https://staging.d20q11bfsvbboy.amplifyapp.com/legislation-library/legal-register
+[ERROR] 10-08-2023 19:33:33 [main] [LogUtils] - FAILED !! Screenshot for test case: verifyAddLegalRegisterForRisk
+[ERROR] 10-08-2023 19:33:33 [main] [LogUtils] - java.lang.AssertionError: Timeout waiting for the element Visible. By.cssSelector: #dotSpinner
+[INFO] 10-08-2023 19:33:34 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:33:36 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:33:37 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:33:39 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 10-08-2023 19:33:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 10-08-2023 19:33:41 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:33:43 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:first-of-type
+[INFO] 10-08-2023 19:33:45 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:first-of-type
+[INFO] 10-08-2023 19:33:47 [main] [LogUtils] - Verify element visible By.cssSelector: #legRefNumField
+[INFO] 10-08-2023 19:33:51 [main] [LogUtils] - Verify element visible By.cssSelector: #legRefNumField
+[INFO] 10-08-2023 19:33:52 [main] [LogUtils] - Clear and Fill edit on By.cssSelector: #legRefNumField
+[INFO] 10-08-2023 19:33:55 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 10-08-2023 19:33:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 10-08-2023 19:33:56 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:33:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:33:58 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:34:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 10-08-2023 19:34:03 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 10-08-2023 19:34:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 10-08-2023 19:34:05 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:34:07 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 10-08-2023 19:34:09 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 10-08-2023 19:34:11 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:34:13 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:34:13 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:34:13 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 10-08-2023 19:34:14 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (5c82f4a1500048b80c5dd8fafadff047)
+[INFO] 10-08-2023 19:34:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:34:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:34:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:34:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:34:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:34:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:34:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:34:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:34:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:34:14 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:34:16 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 10-08-2023 19:34:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 10-08-2023 19:34:17 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:34:19 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:34:19 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:34:21 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:34:21 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:34:21 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:34:23 [main] [LogUtils] - Verify element visible By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:34:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:34:27 [main] [LogUtils] - Verify element visible By.cssSelector: #addRiskBtn
+[INFO] 10-08-2023 19:34:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #addRiskBtn
+[INFO] 10-08-2023 19:34:30 [main] [LogUtils] - Verify element visible By.cssSelector: #descField
+[INFO] 10-08-2023 19:34:32 [main] [LogUtils] - Set text 7i03ryi2mwdf0ux0m8ud on By.cssSelector: #descField
+[INFO] 10-08-2023 19:34:35 [main] [LogUtils] - Verify element visible By.cssSelector: #isoField
+[INFO] 10-08-2023 19:34:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #isoField
+[INFO] 10-08-2023 19:34:37 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 10-08-2023 19:34:37 [main] [LogUtils] - Index number: 2 iteration: 2
+[INFO] 10-08-2023 19:34:38 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:34:38 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:34:40 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 10-08-2023 19:34:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 10-08-2023 19:34:43 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:34:43 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:34:43 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:34:43 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:34:44 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:34:46 [main] [LogUtils] - Verify element visible By.cssSelector: #deptField
+[INFO] 10-08-2023 19:34:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptField
+[INFO] 10-08-2023 19:34:47 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:34:47 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:34:47 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:34:48 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:34:49 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:34:51 [main] [LogUtils] - Verify element visible By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:34:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:34:53 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:34:53 [main] [LogUtils] - random number generated to select list is: 3
+[INFO] 10-08-2023 19:34:53 [main] [LogUtils] - random number: 3 iteration: 3
+[INFO] 10-08-2023 19:34:53 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:34:54 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:34:56 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardTypeField
+[INFO] 10-08-2023 19:34:57 [main] [LogUtils] - Clicked on the element By.cssSelector: #hazardTypeField
+[INFO] 10-08-2023 19:34:57 [main] [LogUtils] - Wait Over!! size of list: 15
+[INFO] 10-08-2023 19:34:57 [main] [LogUtils] - random number generated to select list is: 9
+[INFO] 10-08-2023 19:34:57 [main] [LogUtils] - random number: 9 iteration: 9
+[INFO] 10-08-2023 19:34:58 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:34:59 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:35:01 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardField
+[INFO] 10-08-2023 19:35:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #hazardField
+[INFO] 10-08-2023 19:35:02 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:35:02 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:35:02 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:35:03 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:35:04 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:35:05 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardDescField
+[INFO] 10-08-2023 19:35:06 [main] [LogUtils] - Set text um94r33fv9 on By.cssSelector: #hazardDescField
+[INFO] 10-08-2023 19:35:08 [main] [LogUtils] - Verify element visible By.cssSelector: #potentialHazardField
+[INFO] 10-08-2023 19:35:09 [main] [LogUtils] - Set text 8rb825bcy4 on By.cssSelector: #potentialHazardField
+[INFO] 10-08-2023 19:35:11 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionField
+[INFO] 10-08-2023 19:35:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunctionField
+[INFO] 10-08-2023 19:35:13 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:35:13 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:35:13 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:35:14 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:35:15 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:35:16 [main] [LogUtils] - Verify element visible By.cssSelector: #peopleAtRiskField
+[INFO] 10-08-2023 19:35:17 [main] [LogUtils] - Set text 67 on By.cssSelector: #peopleAtRiskField
+[INFO] 10-08-2023 19:35:19 [main] [LogUtils] - Verify element visible By.cssSelector: #likelihoodField
+[INFO] 10-08-2023 19:35:20 [main] [LogUtils] - Clicked on the element By.cssSelector: #likelihoodField
+[INFO] 10-08-2023 19:35:20 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:35:20 [main] [LogUtils] - random number generated to select list is: 3
+[INFO] 10-08-2023 19:35:20 [main] [LogUtils] - random number: 3 iteration: 3
+[INFO] 10-08-2023 19:35:21 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:35:22 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:35:24 [main] [LogUtils] - Verify element visible By.cssSelector: #consequenceField
+[INFO] 10-08-2023 19:35:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #consequenceField
+[INFO] 10-08-2023 19:35:25 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:35:25 [main] [LogUtils] - random number generated to select list is: 3
+[INFO] 10-08-2023 19:35:25 [main] [LogUtils] - random number: 3 iteration: 3
+[INFO] 10-08-2023 19:35:26 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:35:27 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:35:28 [main] [LogUtils] - Verify element visible By.cssSelector: #addMitigationBtn
+[INFO] 10-08-2023 19:35:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #addMitigationBtn
+[INFO] 10-08-2023 19:35:31 [main] [LogUtils] - Verify element visible By.cssSelector: #action-item
+[INFO] 10-08-2023 19:35:32 [main] [LogUtils] - Clicked on the element By.cssSelector: #action-item
+[INFO] 10-08-2023 19:35:34 [main] [LogUtils] - Verify element visible By.cssSelector: #assigneeField
+[INFO] 10-08-2023 19:35:35 [main] [LogUtils] - Clicked on the element By.cssSelector: #assigneeField
+[INFO] 10-08-2023 19:35:35 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:35:36 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:35:36 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:35:36 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:35:36 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:35:37 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:35:39 [main] [LogUtils] - Verify element visible By.cssSelector: #contentField
+[INFO] 10-08-2023 19:35:40 [main] [LogUtils] - Set text ctjt3cc5y7aa3g57p39by7piafjlpb on By.cssSelector: #contentField
+[INFO] 10-08-2023 19:35:42 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Add']
+[INFO] 10-08-2023 19:35:43 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Add']
+[INFO] 10-08-2023 19:35:44 [main] [LogUtils] - Verify element visible By.cssSelector: #afterLikelihoodField
+[INFO] 10-08-2023 19:35:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #afterLikelihoodField
+[INFO] 10-08-2023 19:35:46 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:35:46 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 10-08-2023 19:35:46 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 10-08-2023 19:35:46 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:35:47 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:35:49 [main] [LogUtils] - Verify element visible By.cssSelector: #afterConsequenceField
+[INFO] 10-08-2023 19:35:50 [main] [LogUtils] - Clicked on the element By.cssSelector: #afterConsequenceField
+[INFO] 10-08-2023 19:35:51 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:35:51 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 10-08-2023 19:35:51 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 10-08-2023 19:35:52 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:35:53 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:35:54 [main] [LogUtils] - Verify element visible By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:35:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:35:56 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:35:56 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:35:56 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:35:56 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:35:57 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:35:58 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:36:00 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:36:01 [main] [LogUtils] - Set text b0omxumn4r356v0ywyo3 on By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:36:03 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:36:04 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:36:04 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:06 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:36:06 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:07 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:36:07 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:07 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:07 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:36:08 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:36:10 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 10-08-2023 19:36:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 10-08-2023 19:36:11 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:14 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:36:14 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:15 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:36:15 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:18 [main] [LogUtils] - Verify element visible By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:36:19 [main] [LogUtils] - Clicked on the element By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:36:21 [main] [LogUtils] - Verify element visible By.cssSelector: #raiseRiskBtn
+[INFO] 10-08-2023 19:36:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #raiseRiskBtn
+[INFO] 10-08-2023 19:36:26 [main] [LogUtils] - Verify element visible By.cssSelector: #descField
+[INFO] 10-08-2023 19:36:27 [main] [LogUtils] - Set text 4gc2ijvjsabyw4erap1m on By.cssSelector: #descField
+[INFO] 10-08-2023 19:36:30 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 10-08-2023 19:36:31 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 10-08-2023 19:36:32 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:36:32 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:36:32 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:36:33 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:36:34 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:36:35 [main] [LogUtils] - Verify element visible By.cssSelector: #deptField
+[INFO] 10-08-2023 19:36:37 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptField
+[INFO] 10-08-2023 19:36:38 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:36:38 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:36:38 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:36:38 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:36:39 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:36:41 [main] [LogUtils] - Verify element visible By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:36:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:36:43 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:36:43 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:36:43 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:36:43 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:36:44 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:36:46 [main] [LogUtils] - Verify element visible By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:36:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:36:48 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:36:48 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:36:48 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:36:48 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:36:49 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:36:50 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:36:51 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:36:53 [main] [LogUtils] - Set text vohevfkcqqwscgzwbgw8 on By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:36:55 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:36:56 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:36:56 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:57 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:36:57 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:58 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:36:58 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:58 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:36:59 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:36:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:37:01 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 10-08-2023 19:37:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 10-08-2023 19:37:02 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:37:04 [main] [LogUtils] - Verify element visible By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:37:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:37:07 [main] [LogUtils] - Verify element visible By.cssSelector: #raiseRiskBtn
+[INFO] 10-08-2023 19:37:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #raiseRiskBtn
+[INFO] 10-08-2023 19:37:10 [main] [LogUtils] - Verify element visible By.cssSelector: #descField
+[INFO] 10-08-2023 19:37:11 [main] [LogUtils] - Set text kl2d9wf0k4vaye8rmr3l on By.cssSelector: #descField
+[INFO] 10-08-2023 19:37:13 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 10-08-2023 19:37:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 10-08-2023 19:37:15 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:37:15 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:37:15 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:37:15 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:37:16 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:37:18 [main] [LogUtils] - Verify element visible By.cssSelector: #deptField
+[INFO] 10-08-2023 19:37:19 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptField
+[INFO] 10-08-2023 19:37:20 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:37:20 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:37:20 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:37:20 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:37:21 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:37:23 [main] [LogUtils] - Verify element visible By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:37:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:37:25 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:37:25 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:37:25 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:37:26 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:37:27 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:37:29 [main] [LogUtils] - Verify element visible By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:37:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:37:30 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:37:30 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:37:30 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:37:30 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:37:31 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:37:32 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:37:34 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:37:36 [main] [LogUtils] - Set text ly75xtwwgdiqid0iunl6 on By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:37:37 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:37:39 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:37:39 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:37:39 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:37:43 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:37:45 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:37:47 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:first-of-type>button:first-of-type
+[INFO] 10-08-2023 19:37:48 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:first-of-type>button:first-of-type
+[INFO] 10-08-2023 19:37:50 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 10-08-2023 19:37:51 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 10-08-2023 19:37:51 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:37:52 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:37:52 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:37:54 [main] [LogUtils] - Verify element visible By.cssSelector: #isoField
+[INFO] 10-08-2023 19:37:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #isoField
+[INFO] 10-08-2023 19:37:55 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 10-08-2023 19:37:55 [main] [LogUtils] - Index number: 2 iteration: 2
+[INFO] 10-08-2023 19:37:56 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:37:57 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:37:59 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardTypeField
+[INFO] 10-08-2023 19:38:00 [main] [LogUtils] - Clicked on the element By.cssSelector: #hazardTypeField
+[INFO] 10-08-2023 19:38:01 [main] [LogUtils] - Wait Over!! size of list: 15
+[INFO] 10-08-2023 19:38:01 [main] [LogUtils] - random number generated to select list is: 10
+[INFO] 10-08-2023 19:38:01 [main] [LogUtils] - random number: 10 iteration: 10
+[INFO] 10-08-2023 19:38:02 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:38:02 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:38:04 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardField
+[INFO] 10-08-2023 19:38:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #hazardField
+[INFO] 10-08-2023 19:38:06 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:38:06 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:38:06 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:38:06 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:38:07 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:38:07 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:38:10 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardDescField
+[INFO] 10-08-2023 19:38:12 [main] [LogUtils] - Set text dng58e7rx1 on By.cssSelector: #hazardDescField
+[INFO] 10-08-2023 19:38:13 [main] [LogUtils] - Verify element visible By.cssSelector: #potentialHazardField
+[INFO] 10-08-2023 19:38:15 [main] [LogUtils] - Set text o405q8h0xd on By.cssSelector: #potentialHazardField
+[INFO] 10-08-2023 19:38:17 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionField
+[INFO] 10-08-2023 19:38:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunctionField
+[INFO] 10-08-2023 19:38:19 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:38:19 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:38:19 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:38:20 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:38:21 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:38:23 [main] [LogUtils] - Verify element visible By.cssSelector: #peopleAtRiskField
+[INFO] 10-08-2023 19:38:25 [main] [LogUtils] - Set text 51 on By.cssSelector: #peopleAtRiskField
+[INFO] 10-08-2023 19:38:27 [main] [LogUtils] - Verify element visible By.cssSelector: #likelihoodField
+[INFO] 10-08-2023 19:38:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #likelihoodField
+[INFO] 10-08-2023 19:38:29 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:38:29 [main] [LogUtils] - random number generated to select list is: 3
+[INFO] 10-08-2023 19:38:29 [main] [LogUtils] - random number: 3 iteration: 3
+[INFO] 10-08-2023 19:38:30 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:38:30 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:38:32 [main] [LogUtils] - Verify element visible By.cssSelector: #consequenceField
+[INFO] 10-08-2023 19:38:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #consequenceField
+[INFO] 10-08-2023 19:38:35 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:38:35 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:38:35 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:38:35 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:38:36 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:38:38 [main] [LogUtils] - Verify element visible By.cssSelector: #addMitigationBtn
+[INFO] 10-08-2023 19:38:39 [main] [LogUtils] - Clicked on the element By.cssSelector: #addMitigationBtn
+[INFO] 10-08-2023 19:38:41 [main] [LogUtils] - Verify element visible By.cssSelector: #action-item
+[INFO] 10-08-2023 19:38:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #action-item
+[INFO] 10-08-2023 19:38:43 [main] [LogUtils] - Verify element visible By.cssSelector: #assigneeField
+[INFO] 10-08-2023 19:38:44 [main] [LogUtils] - Clicked on the element By.cssSelector: #assigneeField
+[INFO] 10-08-2023 19:38:44 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:38:45 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:38:45 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:38:45 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:38:45 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:38:46 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:38:48 [main] [LogUtils] - Verify element visible By.cssSelector: #contentField
+[INFO] 10-08-2023 19:38:50 [main] [LogUtils] - Set text hqy0sdd47q9gt2e79u4sl9hcxfe744 on By.cssSelector: #contentField
+[INFO] 10-08-2023 19:38:52 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Add']
+[INFO] 10-08-2023 19:38:54 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Add']
+[INFO] 10-08-2023 19:38:57 [main] [LogUtils] - Verify element visible By.cssSelector: #afterLikelihoodField
+[INFO] 10-08-2023 19:38:59 [main] [LogUtils] - Clicked on the element By.cssSelector: #afterLikelihoodField
+[INFO] 10-08-2023 19:38:59 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:38:59 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 10-08-2023 19:38:59 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 10-08-2023 19:39:00 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:39:01 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:39:05 [main] [LogUtils] - Verify element visible By.cssSelector: #afterConsequenceField
+[INFO] 10-08-2023 19:39:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #afterConsequenceField
+[INFO] 10-08-2023 19:39:06 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:39:06 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 10-08-2023 19:39:06 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 10-08-2023 19:39:07 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:39:08 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:39:10 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:39:11 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:39:11 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:39:13 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:39:13 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:39:14 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:39:14 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:39:14 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:39:14 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:39:14 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:39:17 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 10-08-2023 19:39:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 10-08-2023 19:39:18 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:39:20 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:39:20 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:39:21 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:39:21 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:39:24 [main] [LogUtils] - Verify element visible By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:39:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:39:27 [main] [LogUtils] - Verify element visible By.cssSelector: #raiseRiskBtn
+[INFO] 10-08-2023 19:39:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #raiseRiskBtn
+[INFO] 10-08-2023 19:39:30 [main] [LogUtils] - Verify element visible By.cssSelector: #descField
+[INFO] 10-08-2023 19:39:31 [main] [LogUtils] - Set text niibxtj394vk371wv9zq on By.cssSelector: #descField
+[INFO] 10-08-2023 19:39:33 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 10-08-2023 19:39:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 10-08-2023 19:39:35 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:39:35 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:39:35 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:39:35 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:39:36 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:39:38 [main] [LogUtils] - Verify element visible By.cssSelector: #deptField
+[INFO] 10-08-2023 19:39:39 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptField
+[INFO] 10-08-2023 19:39:40 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:39:40 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:39:40 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:39:41 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:39:42 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:39:43 [main] [LogUtils] - Verify element visible By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:39:44 [main] [LogUtils] - Clicked on the element By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:39:45 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:39:45 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:39:45 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:39:45 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:39:46 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:39:48 [main] [LogUtils] - Verify element visible By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:39:49 [main] [LogUtils] - Clicked on the element By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:39:50 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:39:50 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:39:50 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:39:50 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:39:51 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:39:52 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:39:53 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:39:55 [main] [LogUtils] - Set text d20dm2o31g6sw8imblfv on By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:39:57 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:39:57 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:39:57 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:39:58 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:01 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:40:02 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:40:04 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:first-of-type>button:last-of-type
+[INFO] 10-08-2023 19:40:05 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:first-of-type>button:last-of-type
+[INFO] 10-08-2023 19:40:07 [main] [LogUtils] - Verify element visible By.cssSelector: textarea[placeholder="Input Reason"]
+[INFO] 10-08-2023 19:40:08 [main] [LogUtils] - Set text 1ujkhv3t8a on By.cssSelector: textarea[placeholder="Input Reason"]
+[INFO] 10-08-2023 19:40:10 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:40:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:40:11 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:11 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:12 [main] [LogUtils] - Scroll to element By.cssSelector: div.text-gray-500
+[INFO] 10-08-2023 19:40:14 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 10-08-2023 19:40:17 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 10-08-2023 19:40:18 [main] [LogUtils] - Total Risk Items: Total: 6
+[INFO] 10-08-2023 19:40:18 [main] [LogUtils] - Total Risk Items: 6 length: 8
+[INFO] 10-08-2023 19:40:18 [main] [LogUtils] - Total Risk Items Int: 6
+[INFO] 10-08-2023 19:40:18 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:21 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:40:22 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:40:24 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:40:25 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:40:27 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:40:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:40:28 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:28 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:40:28 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:30 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:40:30 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:30 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:33 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:40:35 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:40:36 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:40:37 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:40:39 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:40:40 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:40:40 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:40 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:44 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:40:45 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:40:46 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:40:47 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:40:49 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:40:49 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:40:49 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:50 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:40:53 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:40:54 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:40:56 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:40:58 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:41:00 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:41:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:41:01 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:01 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:04 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:41:06 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:41:07 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:41:08 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:41:10 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:41:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:41:12 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:12 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:16 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:41:17 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:41:19 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:41:20 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:41:21 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:41:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:41:23 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:23 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:41:23 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:41:25 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 10-08-2023 19:41:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 10-08-2023 19:41:26 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:28 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 10-08-2023 19:41:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 10-08-2023 19:41:30 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:32 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsBtn
+[INFO] 10-08-2023 19:41:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsBtn
+[INFO] 10-08-2023 19:41:36 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 10-08-2023 19:41:37 [main] [LogUtils] - Set text el80b6swe5 on By.cssSelector: #swotField
+[INFO] 10-08-2023 19:41:40 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 10-08-2023 19:41:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 10-08-2023 19:41:42 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:42 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:46 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsCard>ul>li:nth-of-type(1)>div>button
+[INFO] 10-08-2023 19:41:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsCard>ul>li:nth-of-type(1)>div>button
+[INFO] 10-08-2023 19:41:50 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsRiskBtn
+[INFO] 10-08-2023 19:41:51 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsRiskBtn
+[INFO] 10-08-2023 19:41:53 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 10-08-2023 19:41:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 10-08-2023 19:41:55 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:57 [main] [LogUtils] - Verify element visible By.cssSelector: #backToRiskBtn
+[INFO] 10-08-2023 19:41:59 [main] [LogUtils] - Clicked on the element By.cssSelector: #backToRiskBtn
+[INFO] 10-08-2023 19:41:59 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:41:59 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:41:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:42:01 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 10-08-2023 19:42:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 10-08-2023 19:42:02 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:42:03 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:42:03 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:42:04 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:42:04 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:42:08 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:42:09 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:42:11 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:first-of-type>button:first-of-type
+[INFO] 10-08-2023 19:42:13 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:first-of-type>button:first-of-type
+[INFO] 10-08-2023 19:42:15 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 10-08-2023 19:42:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 10-08-2023 19:42:17 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:42:18 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:42:18 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:42:20 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:42:20 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:42:20 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:42:20 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:42:24 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 10-08-2023 19:42:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 10-08-2023 19:42:26 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:42:26 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:42:26 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:42:27 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:42:28 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:42:30 [main] [LogUtils] - Verify element visible By.cssSelector: #deptField
+[INFO] 10-08-2023 19:42:32 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptField
+[INFO] 10-08-2023 19:42:33 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:42:33 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:42:33 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:42:34 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:42:34 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:42:36 [main] [LogUtils] - Verify element visible By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:42:37 [main] [LogUtils] - Clicked on the element By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:42:38 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:42:38 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:42:38 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:42:38 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:42:39 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:42:40 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:42:41 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:42:43 [main] [LogUtils] - Set text yypm76z1rmf64cygco10 on By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:42:44 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:42:45 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:42:47 [main] [LogUtils] - Verify element visible By.cssSelector: #isoField
+[INFO] 10-08-2023 19:42:48 [main] [LogUtils] - Clicked on the element By.cssSelector: #isoField
+[INFO] 10-08-2023 19:42:48 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 10-08-2023 19:42:48 [main] [LogUtils] - Index number: 2 iteration: 2
+[INFO] 10-08-2023 19:42:49 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:42:50 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:42:52 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardTypeField
+[INFO] 10-08-2023 19:42:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #hazardTypeField
+[INFO] 10-08-2023 19:42:53 [main] [LogUtils] - Wait Over!! size of list: 15
+[INFO] 10-08-2023 19:42:53 [main] [LogUtils] - random number generated to select list is: 5
+[INFO] 10-08-2023 19:42:53 [main] [LogUtils] - random number: 5 iteration: 5
+[INFO] 10-08-2023 19:42:54 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:42:55 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:42:57 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardField
+[INFO] 10-08-2023 19:42:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #hazardField
+[INFO] 10-08-2023 19:42:59 [main] [LogUtils] - Wait Over!! size of list: 2
+[INFO] 10-08-2023 19:42:59 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:42:59 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:42:59 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:43:00 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:43:02 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardDescField
+[INFO] 10-08-2023 19:43:03 [main] [LogUtils] - Set text wds5fyw344 on By.cssSelector: #hazardDescField
+[INFO] 10-08-2023 19:43:05 [main] [LogUtils] - Verify element visible By.cssSelector: #potentialHazardField
+[INFO] 10-08-2023 19:43:06 [main] [LogUtils] - Set text 42dfq6bl29 on By.cssSelector: #potentialHazardField
+[INFO] 10-08-2023 19:43:08 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionField
+[INFO] 10-08-2023 19:43:09 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunctionField
+[INFO] 10-08-2023 19:43:09 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:43:09 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:43:09 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:43:10 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:43:11 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:43:12 [main] [LogUtils] - Verify element visible By.cssSelector: #peopleAtRiskField
+[INFO] 10-08-2023 19:43:13 [main] [LogUtils] - Set text 76 on By.cssSelector: #peopleAtRiskField
+[INFO] 10-08-2023 19:43:15 [main] [LogUtils] - Verify element visible By.cssSelector: #likelihoodField
+[INFO] 10-08-2023 19:43:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #likelihoodField
+[INFO] 10-08-2023 19:43:17 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:43:17 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:43:17 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:43:18 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:43:18 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:43:20 [main] [LogUtils] - Verify element visible By.cssSelector: #consequenceField
+[INFO] 10-08-2023 19:43:21 [main] [LogUtils] - Clicked on the element By.cssSelector: #consequenceField
+[INFO] 10-08-2023 19:43:22 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:43:22 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 10-08-2023 19:43:22 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 10-08-2023 19:43:22 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:43:23 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:43:25 [main] [LogUtils] - Verify element visible By.cssSelector: #addMitigationBtn
+[INFO] 10-08-2023 19:43:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #addMitigationBtn
+[INFO] 10-08-2023 19:43:27 [main] [LogUtils] - Verify element visible By.cssSelector: #action-item
+[INFO] 10-08-2023 19:43:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #action-item
+[INFO] 10-08-2023 19:43:30 [main] [LogUtils] - Verify element visible By.cssSelector: #assigneeField
+[INFO] 10-08-2023 19:43:31 [main] [LogUtils] - Clicked on the element By.cssSelector: #assigneeField
+[INFO] 10-08-2023 19:43:31 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:43:32 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:43:32 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:43:32 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:43:32 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:43:33 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:43:35 [main] [LogUtils] - Verify element visible By.cssSelector: #contentField
+[INFO] 10-08-2023 19:43:36 [main] [LogUtils] - Set text vf6u4w4w2cjlf6pos65zkoofpwbps8 on By.cssSelector: #contentField
+[INFO] 10-08-2023 19:43:38 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Add']
+[INFO] 10-08-2023 19:43:39 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Add']
+[INFO] 10-08-2023 19:43:40 [main] [LogUtils] - Verify element visible By.cssSelector: #afterLikelihoodField
+[INFO] 10-08-2023 19:43:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #afterLikelihoodField
+[INFO] 10-08-2023 19:43:42 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:43:42 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 10-08-2023 19:43:42 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 10-08-2023 19:43:42 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:43:43 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:43:45 [main] [LogUtils] - Verify element visible By.cssSelector: #afterConsequenceField
+[INFO] 10-08-2023 19:43:46 [main] [LogUtils] - Clicked on the element By.cssSelector: #afterConsequenceField
+[INFO] 10-08-2023 19:43:46 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:43:46 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 10-08-2023 19:43:46 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 10-08-2023 19:43:47 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:43:48 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:43:50 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:43:50 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:43:50 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:43:52 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:43:52 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:43:53 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:43:53 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:43:53 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:43:53 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:43:55 [main] [LogUtils] - Scroll to element By.cssSelector: div.text-gray-500
+[INFO] 10-08-2023 19:43:57 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 10-08-2023 19:44:00 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 10-08-2023 19:44:01 [main] [LogUtils] - Total Risk Items: Total: 1
+[INFO] 10-08-2023 19:44:01 [main] [LogUtils] - Total Risk Items: 1 length: 8
+[INFO] 10-08-2023 19:44:01 [main] [LogUtils] - Total Risk Items Int: 1
+[INFO] 10-08-2023 19:44:01 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:04 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:44:05 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:44:08 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:44:08 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:44:10 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:44:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:44:11 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:12 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:44:12 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:44:13 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 10-08-2023 19:44:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 10-08-2023 19:44:15 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:17 [main] [LogUtils] - Verify element visible By.cssSelector: #viewSwotBtn
+[INFO] 10-08-2023 19:44:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #viewSwotBtn
+[INFO] 10-08-2023 19:44:18 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:19 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsBtn
+[INFO] 10-08-2023 19:44:20 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsBtn
+[INFO] 10-08-2023 19:44:22 [main] [LogUtils] - Verify element visible By.cssSelector: #swotField
+[INFO] 10-08-2023 19:44:23 [main] [LogUtils] - Set text qn2uo7vf4c on By.cssSelector: #swotField
+[INFO] 10-08-2023 19:44:25 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 10-08-2023 19:44:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 10-08-2023 19:44:25 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:26 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:28 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsCard>ul>li:nth-of-type(1)>div>button
+[INFO] 10-08-2023 19:44:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsCard>ul>li:nth-of-type(1)>div>button
+[INFO] 10-08-2023 19:44:30 [main] [LogUtils] - Verify element visible By.cssSelector: #StrengthsRiskBtn
+[INFO] 10-08-2023 19:44:31 [main] [LogUtils] - Clicked on the element By.cssSelector: #StrengthsRiskBtn
+[INFO] 10-08-2023 19:44:33 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 10-08-2023 19:44:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 10-08-2023 19:44:34 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:36 [main] [LogUtils] - Verify element visible By.cssSelector: #backToRiskBtn
+[INFO] 10-08-2023 19:44:37 [main] [LogUtils] - Clicked on the element By.cssSelector: #backToRiskBtn
+[INFO] 10-08-2023 19:44:37 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:40 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:44:41 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:44:43 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:first-of-type>button:last-of-type
+[INFO] 10-08-2023 19:44:44 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:first-of-type>button:last-of-type
+[INFO] 10-08-2023 19:44:46 [main] [LogUtils] - Verify element visible By.cssSelector: textarea[placeholder="Input Reason"]
+[INFO] 10-08-2023 19:44:47 [main] [LogUtils] - Set text ism9ffzkpe on By.cssSelector: textarea[placeholder="Input Reason"]
+[INFO] 10-08-2023 19:44:48 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:44:49 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:44:49 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:50 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:44:50 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:44:51 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 10-08-2023 19:44:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 10-08-2023 19:44:52 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:53 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:44:54 [main] [LogUtils] - Scroll to element By.cssSelector: div.text-gray-500
+[INFO] 10-08-2023 19:44:56 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 10-08-2023 19:44:59 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 10-08-2023 19:45:00 [main] [LogUtils] - Total Risk Items: Total: 1
+[INFO] 10-08-2023 19:45:00 [main] [LogUtils] - Total Risk Items: 1 length: 8
+[INFO] 10-08-2023 19:45:00 [main] [LogUtils] - Total Risk Items Int: 1
+[INFO] 10-08-2023 19:45:00 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:45:03 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:45:04 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>button
+[INFO] 10-08-2023 19:45:06 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:45:07 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>div>div:last-of-type>button:last-of-type
+[INFO] 10-08-2023 19:45:09 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:45:10 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 10-08-2023 19:45:10 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:45:10 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:45:10 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:45:12 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 10-08-2023 19:45:13 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 10-08-2023 19:45:13 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:45:13 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:45:15 [main] [LogUtils] - Verify element visible By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:45:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:45:17 [main] [LogUtils] - Verify element visible By.cssSelector: #addRiskBtn
+[INFO] 10-08-2023 19:45:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #addRiskBtn
+[INFO] 10-08-2023 19:45:20 [main] [LogUtils] - Verify element visible By.cssSelector: #descField
+[INFO] 10-08-2023 19:45:21 [main] [LogUtils] - Set text amv0v0yz2fa7rn2yboae on By.cssSelector: #descField
+[INFO] 10-08-2023 19:45:23 [main] [LogUtils] - Verify element visible By.cssSelector: #isoField
+[INFO] 10-08-2023 19:45:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #isoField
+[INFO] 10-08-2023 19:45:24 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 10-08-2023 19:45:24 [main] [LogUtils] - Index number: 2 iteration: 2
+[INFO] 10-08-2023 19:45:25 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:45:26 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:45:28 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 10-08-2023 19:45:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 10-08-2023 19:45:30 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:45:30 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:45:30 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:45:30 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:45:31 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:45:33 [main] [LogUtils] - Verify element visible By.cssSelector: #deptField
+[INFO] 10-08-2023 19:45:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptField
+[INFO] 10-08-2023 19:45:35 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:45:35 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:45:35 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:45:35 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:45:36 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:45:38 [main] [LogUtils] - Verify element visible By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:45:39 [main] [LogUtils] - Clicked on the element By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:45:40 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:45:40 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:45:40 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:45:40 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:45:41 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:45:43 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardTypeField
+[INFO] 10-08-2023 19:45:44 [main] [LogUtils] - Clicked on the element By.cssSelector: #hazardTypeField
+[INFO] 10-08-2023 19:45:45 [main] [LogUtils] - Wait Over!! size of list: 15
+[INFO] 10-08-2023 19:45:45 [main] [LogUtils] - random number generated to select list is: 9
+[INFO] 10-08-2023 19:45:45 [main] [LogUtils] - random number: 9 iteration: 9
+[INFO] 10-08-2023 19:45:46 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:45:46 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:45:48 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardField
+[INFO] 10-08-2023 19:45:49 [main] [LogUtils] - Clicked on the element By.cssSelector: #hazardField
+[INFO] 10-08-2023 19:45:50 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:45:50 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:45:50 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:45:50 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:45:51 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:45:53 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardDescField
+[INFO] 10-08-2023 19:45:55 [main] [LogUtils] - Set text o57z5fay4p on By.cssSelector: #hazardDescField
+[INFO] 10-08-2023 19:45:56 [main] [LogUtils] - Verify element visible By.cssSelector: #potentialHazardField
+[INFO] 10-08-2023 19:45:57 [main] [LogUtils] - Set text ixqppl5u27 on By.cssSelector: #potentialHazardField
+[INFO] 10-08-2023 19:46:00 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionField
+[INFO] 10-08-2023 19:46:00 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunctionField
+[INFO] 10-08-2023 19:46:01 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:46:01 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:46:01 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:46:02 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:46:03 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:46:04 [main] [LogUtils] - Verify element visible By.cssSelector: #peopleAtRiskField
+[INFO] 10-08-2023 19:46:05 [main] [LogUtils] - Set text 43 on By.cssSelector: #peopleAtRiskField
+[INFO] 10-08-2023 19:46:07 [main] [LogUtils] - Verify element visible By.cssSelector: #likelihoodField
+[INFO] 10-08-2023 19:46:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #likelihoodField
+[INFO] 10-08-2023 19:46:09 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:46:09 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:46:09 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:46:09 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:46:10 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:46:12 [main] [LogUtils] - Verify element visible By.cssSelector: #consequenceField
+[INFO] 10-08-2023 19:46:13 [main] [LogUtils] - Clicked on the element By.cssSelector: #consequenceField
+[INFO] 10-08-2023 19:46:14 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:46:14 [main] [LogUtils] - random number generated to select list is: 3
+[INFO] 10-08-2023 19:46:14 [main] [LogUtils] - random number: 3 iteration: 3
+[INFO] 10-08-2023 19:46:14 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:46:15 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:46:17 [main] [LogUtils] - Verify element visible By.cssSelector: #addMitigationBtn
+[INFO] 10-08-2023 19:46:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #addMitigationBtn
+[INFO] 10-08-2023 19:46:19 [main] [LogUtils] - Verify element visible By.cssSelector: #action-item
+[INFO] 10-08-2023 19:46:20 [main] [LogUtils] - Clicked on the element By.cssSelector: #action-item
+[INFO] 10-08-2023 19:46:22 [main] [LogUtils] - Verify element visible By.cssSelector: #assigneeField
+[INFO] 10-08-2023 19:46:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #assigneeField
+[INFO] 10-08-2023 19:46:24 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:46:24 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:46:24 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:46:24 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:46:24 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:46:25 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:46:27 [main] [LogUtils] - Verify element visible By.cssSelector: #contentField
+[INFO] 10-08-2023 19:46:28 [main] [LogUtils] - Set text 6sxzx4pc668gi0fj5mumg0tfdzknfr on By.cssSelector: #contentField
+[INFO] 10-08-2023 19:46:30 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Add']
+[INFO] 10-08-2023 19:46:30 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Add']
+[INFO] 10-08-2023 19:46:32 [main] [LogUtils] - Verify element visible By.cssSelector: #afterLikelihoodField
+[INFO] 10-08-2023 19:46:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #afterLikelihoodField
+[INFO] 10-08-2023 19:46:34 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:46:34 [main] [LogUtils] - random number generated to select list is: 3
+[INFO] 10-08-2023 19:46:34 [main] [LogUtils] - random number: 3 iteration: 3
+[INFO] 10-08-2023 19:46:34 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:46:35 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:46:37 [main] [LogUtils] - Verify element visible By.cssSelector: #afterConsequenceField
+[INFO] 10-08-2023 19:46:38 [main] [LogUtils] - Clicked on the element By.cssSelector: #afterConsequenceField
+[INFO] 10-08-2023 19:46:39 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:46:39 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:46:39 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:46:39 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:46:40 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:46:43 [main] [LogUtils] - Verify element visible By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:46:44 [main] [LogUtils] - Clicked on the element By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:46:44 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:46:45 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:46:45 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:46:45 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:46:45 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:46:46 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:46:48 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:46:49 [main] [LogUtils] - Set text 1e6pvqqj2slh08i640le on By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:46:51 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:46:51 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:46:51 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:46:52 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 10-08-2023 19:46:52 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:46:54 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:46:54 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:46:54 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:46:54 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:46:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:46:56 [main] [LogUtils] - Verify element visible By.cssSelector: #risksView
+[INFO] 10-08-2023 19:46:57 [main] [LogUtils] - Clicked on the element By.cssSelector: #risksView
+[INFO] 10-08-2023 19:46:57 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:46:57 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:46:59 [main] [LogUtils] - Verify element visible By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:47:00 [main] [LogUtils] - Clicked on the element By.cssSelector: #addRaiseRiskBtn
+[INFO] 10-08-2023 19:47:02 [main] [LogUtils] - Verify element visible By.cssSelector: #addRiskBtn
+[INFO] 10-08-2023 19:47:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #addRiskBtn
+[INFO] 10-08-2023 19:47:04 [main] [LogUtils] - Verify element visible By.cssSelector: #descField
+[INFO] 10-08-2023 19:47:06 [main] [LogUtils] - Set text z3zzxoj7q06p1rgln5fy on By.cssSelector: #descField
+[INFO] 10-08-2023 19:47:07 [main] [LogUtils] - Verify element visible By.cssSelector: #isoField
+[INFO] 10-08-2023 19:47:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #isoField
+[INFO] 10-08-2023 19:47:09 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 10-08-2023 19:47:09 [main] [LogUtils] - Index number: 2 iteration: 2
+[INFO] 10-08-2023 19:47:10 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:47:11 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:47:12 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 10-08-2023 19:47:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 10-08-2023 19:47:14 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:47:14 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:47:14 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:47:15 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:47:16 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:47:17 [main] [LogUtils] - Verify element visible By.cssSelector: #deptField
+[INFO] 10-08-2023 19:47:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptField
+[INFO] 10-08-2023 19:47:19 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:47:19 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:47:19 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:47:20 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:47:21 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:47:22 [main] [LogUtils] - Verify element visible By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:47:23 [main] [LogUtils] - Clicked on the element By.cssSelector: #sourceField
+[INFO] 10-08-2023 19:47:24 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 10-08-2023 19:47:24 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:47:24 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:47:25 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:47:25 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:47:27 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardTypeField
+[INFO] 10-08-2023 19:47:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #hazardTypeField
+[INFO] 10-08-2023 19:47:29 [main] [LogUtils] - Wait Over!! size of list: 15
+[INFO] 10-08-2023 19:47:29 [main] [LogUtils] - random number generated to select list is: 3
+[INFO] 10-08-2023 19:47:29 [main] [LogUtils] - random number: 3 iteration: 3
+[INFO] 10-08-2023 19:47:29 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:47:30 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:47:32 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardField
+[INFO] 10-08-2023 19:47:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #hazardField
+[INFO] 10-08-2023 19:47:33 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:47:33 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:47:33 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:47:34 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:47:35 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:47:37 [main] [LogUtils] - Verify element visible By.cssSelector: #hazardDescField
+[INFO] 10-08-2023 19:47:38 [main] [LogUtils] - Set text ovbix4y8nu on By.cssSelector: #hazardDescField
+[INFO] 10-08-2023 19:47:40 [main] [LogUtils] - Verify element visible By.cssSelector: #potentialHazardField
+[INFO] 10-08-2023 19:47:41 [main] [LogUtils] - Set text r51jaoh9hl on By.cssSelector: #potentialHazardField
+[INFO] 10-08-2023 19:47:42 [main] [LogUtils] - Verify element visible By.cssSelector: #jobFunctionField
+[INFO] 10-08-2023 19:47:43 [main] [LogUtils] - Clicked on the element By.cssSelector: #jobFunctionField
+[INFO] 10-08-2023 19:47:44 [main] [LogUtils] - Wait Over!! size of list: 3
+[INFO] 10-08-2023 19:47:44 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 10-08-2023 19:47:44 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 10-08-2023 19:47:45 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:47:45 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:47:47 [main] [LogUtils] - Verify element visible By.cssSelector: #peopleAtRiskField
+[INFO] 10-08-2023 19:47:48 [main] [LogUtils] - Set text 34 on By.cssSelector: #peopleAtRiskField
+[INFO] 10-08-2023 19:47:50 [main] [LogUtils] - Verify element visible By.cssSelector: #likelihoodField
+[INFO] 10-08-2023 19:47:51 [main] [LogUtils] - Clicked on the element By.cssSelector: #likelihoodField
+[INFO] 10-08-2023 19:47:52 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:47:52 [main] [LogUtils] - random number generated to select list is: 3
+[INFO] 10-08-2023 19:47:52 [main] [LogUtils] - random number: 3 iteration: 3
+[INFO] 10-08-2023 19:47:52 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:47:53 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:47:55 [main] [LogUtils] - Verify element visible By.cssSelector: #consequenceField
+[INFO] 10-08-2023 19:47:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #consequenceField
+[INFO] 10-08-2023 19:47:57 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:47:57 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 10-08-2023 19:47:57 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 10-08-2023 19:47:57 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:47:58 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:48:00 [main] [LogUtils] - Verify element visible By.cssSelector: #addMitigationBtn
+[INFO] 10-08-2023 19:48:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #addMitigationBtn
+[INFO] 10-08-2023 19:48:03 [main] [LogUtils] - Verify element visible By.cssSelector: #action-item
+[INFO] 10-08-2023 19:48:04 [main] [LogUtils] - Clicked on the element By.cssSelector: #action-item
+[INFO] 10-08-2023 19:48:05 [main] [LogUtils] - Verify element visible By.cssSelector: #assigneeField
+[INFO] 10-08-2023 19:48:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #assigneeField
+[INFO] 10-08-2023 19:48:07 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:48:07 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:48:07 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:48:07 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:48:07 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:48:08 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:48:10 [main] [LogUtils] - Verify element visible By.cssSelector: #contentField
+[INFO] 10-08-2023 19:48:11 [main] [LogUtils] - Set text 0s8r0tngnm6nvch7i4rm7tu9i21i6i on By.cssSelector: #contentField
+[INFO] 10-08-2023 19:48:13 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Add']
+[INFO] 10-08-2023 19:48:14 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Add']
+[INFO] 10-08-2023 19:48:15 [main] [LogUtils] - Verify element visible By.cssSelector: #afterLikelihoodField
+[INFO] 10-08-2023 19:48:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #afterLikelihoodField
+[INFO] 10-08-2023 19:48:17 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:48:17 [main] [LogUtils] - random number generated to select list is: 3
+[INFO] 10-08-2023 19:48:17 [main] [LogUtils] - random number: 3 iteration: 3
+[INFO] 10-08-2023 19:48:18 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:48:19 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:48:20 [main] [LogUtils] - Verify element visible By.cssSelector: #afterConsequenceField
+[INFO] 10-08-2023 19:48:21 [main] [LogUtils] - Clicked on the element By.cssSelector: #afterConsequenceField
+[INFO] 10-08-2023 19:48:22 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 10-08-2023 19:48:22 [main] [LogUtils] - random number generated to select list is: 3
+[INFO] 10-08-2023 19:48:22 [main] [LogUtils] - random number: 3 iteration: 3
+[INFO] 10-08-2023 19:48:23 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:48:24 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:48:25 [main] [LogUtils] - Verify element visible By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:48:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #ownerField
+[INFO] 10-08-2023 19:48:26 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 10-08-2023 19:48:27 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 10-08-2023 19:48:27 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 10-08-2023 19:48:27 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 10-08-2023 19:48:27 [main] [LogUtils] - here in catch 
+[INFO] 10-08-2023 19:48:28 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 10-08-2023 19:48:29 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:48:31 [main] [LogUtils] - Set text z79kftrdzx1j5jg99mxq on By.cssSelector: #remarksField
+[INFO] 10-08-2023 19:48:32 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:48:33 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Submit']
+[INFO] 10-08-2023 19:48:33 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:48:33 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:48:34 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:48:34 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 10-08-2023 19:52:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:52:50 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:52:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:52:51 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 10-08-2023 19:53:04 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 10-08-2023 19:53:04 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (2ca7d6a8038e473993b6df36b471e1f1)
+[INFO] 10-08-2023 19:53:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:53:04 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:53:04 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:53:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:53:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:53:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:53:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:53:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:53:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:53:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:53:05 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 10-08-2023 19:53:05 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 10-08-2023 19:53:05 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 10-08-2023 19:53:13 [main] [LogUtils] - Username and password are correct
+[INFO] 10-08-2023 19:53:25 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 10-08-2023 19:53:25 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:53:26 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:53:26 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:53:28 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:53:28 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:53:29 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 10-08-2023 19:54:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:54:40 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:54:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:54:41 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 10-08-2023 19:54:53 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 10-08-2023 19:54:54 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (cd094813890301b8d7829775d069f7be)
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - Loaded all properties files.
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 10-08-2023 19:54:54 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 10-08-2023 19:55:02 [main] [LogUtils] - Username and password are correct
+[INFO] 10-08-2023 19:55:13 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 10-08-2023 19:55:13 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:55:14 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 10-08-2023 19:55:14 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:55:16 [main] [LogUtils] - loading function
+[INFO] 10-08-2023 19:55:16 [main] [LogUtils] - Test case:  is passed.
+[INFO] 10-08-2023 19:55:16 [main] [LogUtils] - End Suite: All Test Cases
