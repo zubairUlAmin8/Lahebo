@@ -112,3 +112,63 @@ Session ID: 09ba6a6350d7568ca8f398b8ab6e7e83
 [INFO] 11-08-2023 15:45:30 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
 [INFO] 11-08-2023 15:45:30 [main] [LogUtils] - Loaded all properties files.
 [INFO] 11-08-2023 15:45:31 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 11-08-2023 16:47:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 16:47:03 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 16:47:03 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 16:47:04 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 11-08-2023 16:47:13 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 11-08-2023 16:47:14 [main] [LogUtils] - driver value: RemoteWebDriver: chrome on linux (f085ef317332ff3947251b264965a8f2)
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 11-08-2023 16:47:14 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 11-08-2023 16:47:17 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 11-08-2023 16:47:17 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 11-08-2023 16:47:17 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 16:47:19 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 16:47:27 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 16:47:27 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 16:47:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 16:47:28 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 16:47:36 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 16:47:36 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 16:47:36 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 16:47:37 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 16:47:45 [main] [LogUtils] - Value is required
+[INFO] 11-08-2023 16:47:45 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 16:47:45 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 16:47:46 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 16:47:58 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 16:47:58 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 16:47:58 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 16:47:58 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 16:47:59 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 16:48:05 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 16:48:05 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 16:48:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 16:48:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 16:48:06 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 11-08-2023 16:48:13 [main] [LogUtils] - User not found
+[INFO] 11-08-2023 16:48:13 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 11-08-2023 16:48:13 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 16:48:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 11-08-2023 16:48:13 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 11-08-2023 16:48:13 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 11-08-2023 16:48:13 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 11-08-2023 16:48:20 [main] [LogUtils] - Username and password are correct
+[INFO] 11-08-2023 16:48:30 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 11-08-2023 16:48:30 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 16:48:32 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 11-08-2023 16:48:32 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 16:48:33 [main] [LogUtils] - loading function
+[INFO] 11-08-2023 16:48:34 [main] [LogUtils] - Test case:  is passed.
+[INFO] 11-08-2023 16:48:34 [main] [LogUtils] - End Suite: All Test Cases
