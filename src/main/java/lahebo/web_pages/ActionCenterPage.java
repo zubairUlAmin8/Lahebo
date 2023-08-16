@@ -48,8 +48,8 @@ public class ActionCenterPage {
 
         WebUI.clickElement(ActionCenterOR.isoStandardList);
         WebUI.selectListOptionByIndex(ActionCenterOR.isoStandardListElements, 2);
-        DriverManager.getDriver().findElement(ActionCenterOR.uploadFileIF).sendKeys("D:\\Zapta\\Automation\\Lahebo\\ExtentReports\\ExtentReports.html");
-        WebUI.waitForElementToBeGone(ActionCenterOR.fileUploadSpinner, FrameworkConstants.WAIT_EXPLICIT);
+//        DriverManager.getDriver().findElement(ActionCenterOR.uploadFileIF).sendKeys("D:\\Zapta\\Automation\\Lahebo\\ExtentReports\\ExtentReports.html");
+//        WebUI.waitForElementToBeGone(ActionCenterOR.fileUploadSpinner, FrameworkConstants.WAIT_EXPLICIT);
 
 
 //        WebUI.setText(ActionCenterOR.uploadFileIF, "ExtentReports/ExtentReports.html");
@@ -91,8 +91,8 @@ public class ActionCenterPage {
 
         WebUI.clickElement(ActionCenterOR.isoStandardList);
         WebUI.selectListOptionByIndex(ActionCenterOR.isoStandardListElements, 2);
-        DriverManager.getDriver().findElement(ActionCenterOR.uploadFileIF).sendKeys("D:\\Zapta\\Automation\\Lahebo\\ExtentReports\\ExtentReports.html");
-        WebUI.waitForElementToBeGone(ActionCenterOR.fileUploadSpinner, FrameworkConstants.WAIT_EXPLICIT);
+//        DriverManager.getDriver().findElement(ActionCenterOR.uploadFileIF).sendKeys("D:\\Zapta\\Automation\\Lahebo\\ExtentReports\\ExtentReports.html");
+//        WebUI.waitForElementToBeGone(ActionCenterOR.fileUploadSpinner, FrameworkConstants.WAIT_EXPLICIT);
 
 
 //        WebUI.setText(ActionCenterOR.uploadFileIF, "ExtentReports/ExtentReports.html");
