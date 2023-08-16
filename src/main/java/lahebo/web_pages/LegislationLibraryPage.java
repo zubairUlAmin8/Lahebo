@@ -76,8 +76,8 @@ public class LegislationLibraryPage {
         WebUI.setText(LegislationLibraryOR.LR_StateIF, fakerUtils.generateDummyData(5));
         WebUI.setText(LegislationLibraryOR.LR_RemarksIF, fakerUtils.generateDummyData(20));
         WebUI.clickElement(LegislationLibraryOR.LR_AddFinalBtn);
-        WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
-        WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,10);
+
 
     }
 

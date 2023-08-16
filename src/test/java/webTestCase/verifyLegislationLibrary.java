@@ -33,7 +33,7 @@ public class verifyLegislationLibrary extends BaseTest {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.deleteLegalRegister();
     }
-    @Test(priority = 5, enabled = false)
+    @Test(priority = 5, enabled = true)
     public void unsubscribeAllItems() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.unsubscribeAllItems();

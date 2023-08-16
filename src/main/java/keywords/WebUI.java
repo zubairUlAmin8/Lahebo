@@ -2741,6 +2741,7 @@ public class WebUI {
             return false;
         }
     }
+    static int loadingTimeExpire=0;
     public static void waitForElementToBeGone(By by, int timeout) throws InterruptedException {
         WebElement element;
         LogUtils.info("loading function");
@@ -2752,6 +2753,10 @@ public class WebUI {
             }else {
                 LogUtils.info("Element is still displayed "+by);
                 Thread.sleep(1000);
+                loadingTimeExpire++;
+                if(loadingTimeExpire==100){
+
+                }
                 waitForElementToBeGone(by, timeout);
             }
         } catch (NoSuchElementException e) {
