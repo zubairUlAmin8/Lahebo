@@ -81,6 +81,43 @@ public class LegislationLibraryPage {
 
     }
 
+    public void deleteAllLegalRegister() throws InterruptedException {
+        WebUI.clickElement(LegislationLibraryOR.legalRegisterTab);
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,10);
+        Thread.sleep(5000);
+        WebUI.scrollToElementToBottom(LegislationLibraryOR.SI_TotalItemsCount);
+        String countText = WebUI.getTextElement(LegislationLibraryOR.SI_TotalItemsCount);
+        LogUtils.info("Total Subscribe Items: "+countText);
+        LogUtils.info("Total Subscribe Items: "+ utility.extractIntegerFromString(countText)+ " length: "+countText.length());
+        int totalItems = utility.extractIntegerFromString(countText);
+        LogUtils.info("Total Subscribe Items Int: "+totalItems);
+        if (totalItems == 0) {
+//            utility.handleZoomInZoomOut(30);
+            countText = WebUI.getTextElement(LegislationLibraryOR.SI_TotalItemsCount);
+            LogUtils.info("Total Subscribe Items: "+countText);
+            LogUtils.info("Total Subscribe Items: "+ utility.extractIntegerFromString(countText)+ " length: "+countText.length());
+            totalItems = utility.extractIntegerFromString(countText);
+            LogUtils.info("Total Subscribe Items Int: "+totalItems);
+        }
+//        utility.handleZoomInZoomOut(100);
+        WebUI.scrollToElementToTop(LegislationLibraryOR.subscribeItemsTab);
+
+        for (int i = totalItems; i > 0; i--) {
+            WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
+            WebUI.clickElement(LegislationLibraryOR.LR_DeleteLegalRegisterBtn);
+            WebUI.clickElement(LegislationLibraryOR.LR_ConfirmDeleteLegalRegisterBtn);
+            WebUI.waitForElementToBeGone(LandingPageOR.confirmModel,5);
+
+
+
+//            WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+//            WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+        }
+//        utility.handleZoomInZoomOut(90);
+
+
+
+    }
     public void deleteLegalRegister() throws InterruptedException {
 //        utility.handleZoomInZoomOut(90);
         WebUI.clickElement(LegislationLibraryOR.legalRegisterTab);
