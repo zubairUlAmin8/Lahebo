@@ -12,13 +12,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class verifyLegislationLibrary extends BaseTest {
-    @Test(priority = 1, invocationCount = 1, enabled = true)
-    public void verifysubscribeItems() throws InterruptedException {
+    @Test(priority = 1, invocationCount = 2, enabled = true)
+    public void verifySubscribeItems() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.subscribeItems();
     }
 
-    @Test(priority = 2, enabled = true, invocationCount = 1)
+    @Test(priority = 2, enabled = true, invocationCount = 2)
     public void verifyAddLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.addLegalRegister();
@@ -29,7 +29,7 @@ public class verifyLegislationLibrary extends BaseTest {
         legislationLibraryPage.editLegalRegister();
     }
     @Test(priority = 4, enabled = true, invocationCount = 1)
-    public void verifyDeleteLegalRegister() throws InterruptedException {
+    public void verifyAllDeleteLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.deleteLegalRegister();
     }
@@ -38,10 +38,15 @@ public class verifyLegislationLibrary extends BaseTest {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.unsubscribeAllItems();
     }
-    @Test(priority = 2, enabled = true, invocationCount = 2)
-    public void verifyAddLegalRegisterForRisk() throws InterruptedException {
-        landingPage.goToLegislationLibrary();
-        legislationLibraryPage.addLegalRegister();
-    }
+//    @Test(priority = 6, enabled = false, invocationCount = 2)
+//    public void verifyAddLegalRegisterForRisk() throws InterruptedException {
+//        landingPage.goToLegislationLibrary();
+//        legislationLibraryPage.addLegalRegister();
+//    }
+//    @Test(priority = 7, enabled = true, invocationCount = 1)
+//    public void verifyAllDeleteLegalRegister() throws InterruptedException {
+//        landingPage.goToLegislationLibrary();
+//        legislationLibraryPage.deleteAllLegalRegister();
+//    }
 
 }

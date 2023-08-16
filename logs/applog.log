@@ -666,3 +666,1797 @@ Driver info: jdk.proxy6.$Proxy59
 [INFO] 15-08-2023 12:21:15 [main] [LogUtils] - loading function
 [INFO] 15-08-2023 12:21:15 [main] [LogUtils] - Test case:  is passed.
 [INFO] 15-08-2023 12:21:16 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:03:49 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:03:50 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 16-08-2023 15:03:58 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 16-08-2023 15:03:59 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (85e8131ab27456874d3ae1db1baff9ae)
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:03:59 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-08-2023 15:04:01 [main] [LogUtils] - Row: 17 - Column: 13
+[INFO] 16-08-2023 15:04:01 [main] [LogUtils] - StartRow: 1 - EndRow: 16
+[INFO] 16-08-2023 15:04:01 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:04 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:08 [main] [LogUtils] - Phone number is invalid
+[INFO] 16-08-2023 15:04:08 [main] [LogUtils] - Phone number is invalid
+[INFO] 16-08-2023 15:04:08 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:08 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:09 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:14 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p[class*="form-error-message"]' (tried for 1 second(s) with 500 milliseconds interval)
+[INFO] 16-08-2023 15:04:15 [main] [LogUtils] - Organizations already exists!
+[INFO] 16-08-2023 15:04:15 [main] [LogUtils] - Organizations already exists!
+[INFO] 16-08-2023 15:04:15 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:15 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:16 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:20 [main] [LogUtils] - The value must be equal to the other value
+[INFO] 16-08-2023 15:04:20 [main] [LogUtils] - The value must be equal to the other value
+[INFO] 16-08-2023 15:04:20 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:20 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:21 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:23 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:23 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:23 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:23 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:24 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:27 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:27 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:27 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:28 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:30 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:30 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:30 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:30 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:31 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:33 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:33 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:33 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:33 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:34 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:36 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:36 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:36 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:36 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:37 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:40 [main] [LogUtils] - Phone number is invalid
+[INFO] 16-08-2023 15:04:40 [main] [LogUtils] - Phone number is invalid
+[INFO] 16-08-2023 15:04:40 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:40 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:41 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:43 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:43 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:04:43 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:43 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:44 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:47 [main] [LogUtils] - Value is not a valid email address
+[INFO] 16-08-2023 15:04:47 [main] [LogUtils] - Value is not a valid email address
+[INFO] 16-08-2023 15:04:47 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:47 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:48 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:51 [main] [LogUtils] - Require at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character
+[INFO] 16-08-2023 15:04:51 [main] [LogUtils] - Require at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character
+[INFO] 16-08-2023 15:04:51 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:51 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:52 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:55 [main] [LogUtils] - Require at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character
+[INFO] 16-08-2023 15:04:55 [main] [LogUtils] - Require at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character
+[INFO] 16-08-2023 15:04:55 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:04:55 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:04:56 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:04:59 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: p[class*="form-error-message"]' (tried for 1 second(s) with 500 milliseconds interval)
+[INFO] 16-08-2023 15:05:01 [main] [LogUtils] - Organizations already exists!
+[INFO] 16-08-2023 15:05:01 [main] [LogUtils] - Organizations already exists!
+[INFO] 16-08-2023 15:05:01 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:05:01 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:02 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:05:04 [main] [LogUtils] - This field should be at least 8 characters long
+[INFO] 16-08-2023 15:05:04 [main] [LogUtils] - This field should be at least 8 characters long
+[INFO] 16-08-2023 15:05:04 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:05:04 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:05 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignUp
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - The value must be equal to the other value
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - The value must be equal to the other value
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 16-08-2023 15:05:08 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (85e8131ab27456874d3ae1db1baff9ae)
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 16-08-2023 15:05:08 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:09 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:05:10 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:05:10 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:05:10 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:11 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:05:13 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:05:13 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:05:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:14 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:05:15 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:05:15 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:05:15 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:16 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:05:20 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:05:20 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:05:20 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:05:20 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:21 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:05:23 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:05:23 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:05:23 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:05:23 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:24 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:05:27 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:05:27 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:05:27 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:05:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:27 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 16-08-2023 15:05:27 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 16-08-2023 15:05:27 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 16-08-2023 15:05:29 [main] [LogUtils] - Username and password are correct
+[INFO] 16-08-2023 15:05:37 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-08-2023 15:05:37 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:05:38 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:05:38 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:05:39 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:05:40 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:05:40 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:05:41 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:05:41 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 16-08-2023 15:05:42 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (85e8131ab27456874d3ae1db1baff9ae)
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - String is my svg-inline--fa fa-angle-right
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Verify element visible By.cssSelector: #organizationSettings
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #organizationSettings
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Verify element visible By.cssSelector: #deptItem
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptItem
+[INFO] 16-08-2023 15:05:42 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-08-2023 15:05:43 [main] [LogUtils] - Loading Started
+[INFO] 16-08-2023 15:05:45 [main] [LogUtils] - Loading finsihed
+[INFO] 16-08-2023 15:05:45 [main] [LogUtils] - AddNewDepartment Invocation0
+[INFO] 16-08-2023 15:05:45 [main] [LogUtils] - Verify element visible By.cssSelector: #addDeptBtn
+[INFO] 16-08-2023 15:05:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #addDeptBtn
+[INFO] 16-08-2023 15:05:45 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 16-08-2023 15:05:45 [main] [LogUtils] - Set text designing on By.cssSelector: #deptNameField
+[INFO] 16-08-2023 15:05:45 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 16-08-2023 15:05:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 16-08-2023 15:05:46 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 16-08-2023 15:05:46 [main] [LogUtils] - size of list: 1
+[INFO] 16-08-2023 15:05:51 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-08-2023 15:05:52 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-08-2023 15:05:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-08-2023 15:05:52 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 16-08-2023 15:05:52 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - Loading Started
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - Loading finsihed
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - Department Found:  design department
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - Department Found:  designing
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - Department designinghas been verified
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - Department null is added
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - verification of Department designinghas been started
+[INFO] 16-08-2023 15:05:54 [main] [LogUtils] - Department Found:  design department
+[INFO] 16-08-2023 15:05:55 [main] [LogUtils] - Department Found:  designing
+[INFO] 16-08-2023 15:05:55 [main] [LogUtils] - Department designinghas been verified
+[INFO] 16-08-2023 15:05:55 [main] [LogUtils] - Department Index is being searched
+[INFO] 16-08-2023 15:05:55 [main] [LogUtils] - Department Index is: 1
+[INFO] 16-08-2023 15:05:55 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-1>div>div>button
+[INFO] 16-08-2023 15:05:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-1>div>div>button
+[INFO] 16-08-2023 15:05:55 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-1>div>div>div>button:first-of-type
+[INFO] 16-08-2023 15:05:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-1>div>div>div>button:first-of-type
+[INFO] 16-08-2023 15:05:55 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 16-08-2023 15:05:55 [main] [LogUtils] - Clear value in textbox By.cssSelector: #deptNameField
+[INFO] 16-08-2023 15:05:56 [main] [LogUtils] - Verify element visible By.cssSelector: #deptNameField
+[INFO] 16-08-2023 15:05:56 [main] [LogUtils] - Set text accounts on By.cssSelector: #deptNameField
+[INFO] 16-08-2023 15:05:56 [main] [LogUtils] - Verify element visible By.cssSelector: #deptManagerField
+[INFO] 16-08-2023 15:05:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptManagerField
+[INFO] 16-08-2023 15:05:57 [main] [LogUtils] - Verify element visible By.cssSelector: div#deptManagerField>ul
+[INFO] 16-08-2023 15:05:57 [main] [LogUtils] - size of list: 1
+[INFO] 16-08-2023 15:05:57 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-08-2023 15:05:57 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-08-2023 15:05:57 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-08-2023 15:05:57 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-08-2023 15:05:58 [main] [LogUtils] - Loading Started
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Loading finsihed
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Department Found:  accounts
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Department accountshas been verified
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Department Found:  accounts
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Department accountshas been verified
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Department Index is being searched
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Department Index is: 0
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-0>div>div>button
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-0>div>div>button
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Verify element visible By.cssSelector: #deptCard-0>div>div>div>button:last-of-type
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Clicked on the element By.cssSelector: #deptCard-0>div>div>div>button:last-of-type
+[INFO] 16-08-2023 15:06:00 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:06:01 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:06:01 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="deptName-"]
+[INFO] 16-08-2023 15:06:01 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loading Started
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loading finsihed
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - verification of Department accountshas been started
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Department Found:  design department
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Department Found:  dev department
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Department Found:  finance department
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Department accounts Not exist
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 16-08-2023 15:06:02 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (85e8131ab27456874d3ae1db1baff9ae)
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:06:02 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-08-2023 15:06:08 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div[class="absolute inset-0 w-full z-[1111] bg-base-white/60 flex items-center justify-center"]' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-08-2023 15:06:08 [main] [LogUtils] - Loading Started
+[INFO] 16-08-2023 15:06:08 [main] [LogUtils] - Loading finsihed
+[INFO] 16-08-2023 15:06:08 [main] [LogUtils] - String is my svg-inline--fa fa-angle-down
+[INFO] 16-08-2023 15:06:08 [main] [LogUtils] - Verify element visible By.cssSelector: #locItem
+[INFO] 16-08-2023 15:06:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #locItem
+[INFO] 16-08-2023 15:06:08 [main] [LogUtils] - came Location
+[INFO] 16-08-2023 15:06:08 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-08-2023 15:06:09 [main] [LogUtils] - Loading Started
+[INFO] 16-08-2023 15:06:10 [main] [LogUtils] - Loading finsihed
+[INFO] 16-08-2023 15:06:10 [main] [LogUtils] - Random Phone Number for Australia is Generated: +61201 281 444
+[INFO] 16-08-2023 15:06:10 [main] [LogUtils] - Verify element visible By.cssSelector: #addLocBtn
+[INFO] 16-08-2023 15:06:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #addLocBtn
+[INFO] 16-08-2023 15:06:11 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 16-08-2023 15:06:11 [main] [LogUtils] - Set text Newcity on By.cssSelector: #locNameField
+[INFO] 16-08-2023 15:06:11 [main] [LogUtils] - Verify element visible By.cssSelector: #locAddressField
+[INFO] 16-08-2023 15:06:11 [main] [LogUtils] - Set text barkat market, lahore on By.cssSelector: #locAddressField
+[INFO] 16-08-2023 15:06:11 [main] [LogUtils] - Verify element visible By.cssSelector: #locNumberField>input
+[INFO] 16-08-2023 15:06:12 [main] [LogUtils] - Set text +61201 281 444 on By.cssSelector: #locNumberField>input
+[INFO] 16-08-2023 15:06:12 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 16-08-2023 15:06:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 16-08-2023 15:06:13 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 16-08-2023 15:06:13 [main] [LogUtils] - size of list: 1
+[INFO] 16-08-2023 15:06:13 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-08-2023 15:06:13 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-08-2023 15:06:13 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-08-2023 15:06:13 [main] [LogUtils] - Verify element visible By.cssSelector: span[id^="locName-"]
+[INFO] 16-08-2023 15:06:13 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - Loading Started
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - Loading finsihed
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - verification of Location Newcityhas been started
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - Location Found:  islamabad
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - Location Found:  karachi
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - Location Found:  lahore
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - Location Found:  Newcity
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - Location Newcityhas been verified
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:06:15 [main] [LogUtils] - verification of Location Newcityhas been started
+[INFO] 16-08-2023 15:06:16 [main] [LogUtils] - Location Found:  islamabad
+[INFO] 16-08-2023 15:06:16 [main] [LogUtils] - Location Found:  karachi
+[INFO] 16-08-2023 15:06:16 [main] [LogUtils] - Location Found:  lahore
+[INFO] 16-08-2023 15:06:16 [main] [LogUtils] - Location Found:  Newcity
+[INFO] 16-08-2023 15:06:16 [main] [LogUtils] - Location Newcityhas been verified
+[INFO] 16-08-2023 15:06:16 [main] [LogUtils] - Location Index is being searched
+[INFO] 16-08-2023 15:06:16 [main] [LogUtils] - Location Index is: 3
+[INFO] 16-08-2023 15:06:16 [main] [LogUtils] - Verify element visible By.cssSelector: #locCard-3>div>div>button
+[INFO] 16-08-2023 15:06:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #locCard-3>div>div>button
+[INFO] 16-08-2023 15:06:17 [main] [LogUtils] - Verify element visible By.cssSelector: #locCard-3>div>div>div>button:nth-of-type(2)
+[INFO] 16-08-2023 15:06:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #locCard-3>div>div>div>button:nth-of-type(2)
+[INFO] 16-08-2023 15:06:17 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 16-08-2023 15:06:17 [main] [LogUtils] - Clear value in textbox By.cssSelector: #locNameField
+[INFO] 16-08-2023 15:06:17 [main] [LogUtils] - Verify element visible By.cssSelector: #locNameField
+[INFO] 16-08-2023 15:06:17 [main] [LogUtils] - Set text Califton on By.cssSelector: #locNameField
+[INFO] 16-08-2023 15:06:17 [main] [LogUtils] - Verify element visible By.cssSelector: #locContactField
+[INFO] 16-08-2023 15:06:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #locContactField
+[INFO] 16-08-2023 15:06:18 [main] [LogUtils] - Verify element visible By.cssSelector: div#locContactField>ul
+[INFO] 16-08-2023 15:06:18 [main] [LogUtils] - size of list: 1
+[INFO] 16-08-2023 15:06:18 [main] [LogUtils] - Sarah Johnson
+[INFO] 16-08-2023 15:06:19 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-08-2023 15:06:19 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-08-2023 15:06:19 [main] [LogUtils] - Waiting for Loading
+[INFO] 16-08-2023 15:06:20 [main] [LogUtils] - Loading Started
+[INFO] 16-08-2023 15:06:22 [main] [LogUtils] - Loading finsihed
+[INFO] 16-08-2023 15:06:22 [main] [LogUtils] - verification of Location Califtonhas been started
+[INFO] 16-08-2023 15:06:22 [main] [LogUtils] - Location Found:  Califton
+[INFO] 16-08-2023 15:06:22 [main] [LogUtils] - Location Califtonhas been verified
+[INFO] 16-08-2023 15:06:22 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:06:22 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:06:22 [main] [LogUtils] - verification of Location Califtonhas been started
+[INFO] 16-08-2023 15:06:24 [main] [LogUtils] - Location Found:  Califton
+[INFO] 16-08-2023 15:06:24 [main] [LogUtils] - Location Califtonhas been verified
+[INFO] 16-08-2023 15:06:24 [main] [LogUtils] - Location Index is being searched
+[INFO] 16-08-2023 15:12:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:12:39 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:12:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:12:40 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 16-08-2023 15:12:46 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (f03b189f4432a9b324fe3a2309507140)
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:12:46 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-08-2023 15:12:48 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-08-2023 15:12:48 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 16-08-2023 15:12:48 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:12:52 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:12:53 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:12:53 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:12:53 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:12:55 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:12:56 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:12:56 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:12:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:12:57 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:12:58 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:12:58 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:12:58 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:12:59 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:13:05 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:13:05 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:13:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:13:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:13:06 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:13:09 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:13:09 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:13:09 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:13:09 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:13:10 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:13:13 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:13:13 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:13:13 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:13:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:13:13 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 16-08-2023 15:13:13 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 16-08-2023 15:13:13 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 16-08-2023 15:13:15 [main] [LogUtils] - Username and password are correct
+[INFO] 16-08-2023 15:13:23 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-08-2023 15:13:23 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:24 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:13:25 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:25 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:13:26 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:26 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:13:27 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 16-08-2023 15:13:28 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (f03b189f4432a9b324fe3a2309507140)
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:13:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:13:29 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:13:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:13:29 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:33 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:13:33 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:13:33 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:13:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:13:33 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:33 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:13:34 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:34 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:13:34 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:13:35 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:13:35 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:13:35 [main] [LogUtils] - Verify element visible By.cssSelector: #subscribedItems
+[INFO] 16-08-2023 15:13:35 [main] [LogUtils] - Clicked on the element By.cssSelector: #subscribedItems
+[INFO] 16-08-2023 15:13:35 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:35 [main] [LogUtils] - Scroll to element By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:13:35 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:13:36 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:13:36 [main] [LogUtils] - Total Subscribe Items: Total: 0
+[INFO] 16-08-2023 15:13:36 [main] [LogUtils] - Total Subscribe Items: 0 length: 8
+[INFO] 16-08-2023 15:13:36 [main] [LogUtils] - Total Subscribe Items Int: 0
+[INFO] 16-08-2023 15:13:37 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:13:37 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:13:37 [main] [LogUtils] - Total Subscribe Items: Total: 8
+[INFO] 16-08-2023 15:13:37 [main] [LogUtils] - Total Subscribe Items: 8 length: 8
+[INFO] 16-08-2023 15:13:37 [main] [LogUtils] - Total Subscribe Items Int: 8
+[INFO] 16-08-2023 15:13:38 [main] [LogUtils] - Scroll to element By.cssSelector: #subscribedItems
+[INFO] 16-08-2023 15:13:38 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:38 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:38 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:38 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:38 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:38 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:38 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:13:39 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:39 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:39 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:13:40 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:40 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:13:41 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:41 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:41 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:41 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:42 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:42 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:13:43 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:43 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 16-08-2023 15:13:43 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:44 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:13:44 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:44 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:44 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:44 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:44 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:44 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:44 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:44 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:13:45 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:45 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:45 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:13:46 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:46 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:46 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:46 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:47 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:47 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:13:48 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:48 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:48 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:48 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:48 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:49 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:49 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:49 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:13:50 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:50 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:50 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:13:51 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:51 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:51 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:51 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:51 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:51 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:51 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:13:52 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:52 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 16-08-2023 15:13:52 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:54 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:13:54 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:54 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:54 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:54 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:54 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:54 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:54 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:54 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:13:55 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:55 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:55 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:55 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>button
+[INFO] 16-08-2023 15:13:56 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:56 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:13:56 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:56 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:13:57 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:13:57 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:13:59 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 16-08-2023 15:15:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:15:11 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:15:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:15:11 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 16-08-2023 15:15:17 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (b90c64d2daa1f6fe0cb51a4d9284b3d4)
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:15:17 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-08-2023 15:15:19 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-08-2023 15:15:19 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 16-08-2023 15:15:19 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:15:22 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:15:24 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:15:24 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:15:24 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:15:26 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:15:27 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:15:27 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:15:27 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:15:28 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:15:30 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:15:30 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:15:30 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:15:32 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:15:35 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:15:35 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:15:35 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:15:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:15:37 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:15:39 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:15:39 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:15:39 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:15:39 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:15:40 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:15:43 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:15:43 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:15:43 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:15:43 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:15:43 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 16-08-2023 15:15:43 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 16-08-2023 15:15:43 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 16-08-2023 15:15:46 [main] [LogUtils] - Username and password are correct
+[INFO] 16-08-2023 15:15:54 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-08-2023 15:15:54 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:15:55 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:15:55 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:15:55 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:15:56 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:15:56 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:15:57 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:15:57 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:15:58 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:15:58 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:15:58 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 16-08-2023 15:15:58 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (b90c64d2daa1f6fe0cb51a4d9284b3d4)
+[INFO] 16-08-2023 15:15:58 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:15:58 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:15:58 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:15:58 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:15:58 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:15:58 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:15:58 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:15:59 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:15:59 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:15:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:15:59 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:15:59 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:15:59 [main] [LogUtils] - Verify element visible By.cssSelector: #subscribedItems
+[INFO] 16-08-2023 15:16:00 [main] [LogUtils] - Clicked on the element By.cssSelector: #subscribedItems
+[INFO] 16-08-2023 15:16:00 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:16:00 [main] [LogUtils] - Scroll to element By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:16:00 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:16:00 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:16:00 [main] [LogUtils] - Total Subscribe Items: Total: 0
+[INFO] 16-08-2023 15:16:00 [main] [LogUtils] - Total Subscribe Items: 0 length: 8
+[INFO] 16-08-2023 15:16:00 [main] [LogUtils] - Total Subscribe Items Int: 0
+[INFO] 16-08-2023 15:16:01 [main] [LogUtils] - Scroll to element By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:16:02 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:16:02 [main] [LogUtils] - Total Subscribe Items: Total: 0
+[INFO] 16-08-2023 15:16:02 [main] [LogUtils] - Total Subscribe Items: 0 length: 8
+[INFO] 16-08-2023 15:16:02 [main] [LogUtils] - Total Subscribe Items Int: 0
+[INFO] 16-08-2023 15:16:02 [main] [LogUtils] - Scroll to element By.cssSelector: #subscribedItems
+[INFO] 16-08-2023 15:16:02 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:16:02 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:16:02 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:16:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:16:02 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Scroll to element By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Total Subscribe Items: Total: 0
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Total Subscribe Items: 0 length: 8
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Total Subscribe Items Int: 0
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Total Subscribe Items: Total: 0
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Total Subscribe Items: 0 length: 8
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Total Subscribe Items Int: 0
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Scroll to element By.cssSelector: #subscribedItems
+[INFO] 16-08-2023 15:16:03 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:16:05 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 16-08-2023 15:16:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:16:37 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:16:37 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:16:37 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 16-08-2023 15:16:43 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 16-08-2023 15:16:44 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (45e9123fc4c05788dfcff4e0f0c0de3c)
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:16:44 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-08-2023 15:16:47 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-08-2023 15:16:47 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 16-08-2023 15:16:47 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:16:50 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:16:52 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:16:52 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:16:52 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:16:56 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:16:57 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:16:57 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:16:57 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:16:59 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:17:00 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:17:00 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:17:00 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:17:02 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:17:05 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:17:05 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:17:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:17:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:17:06 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:17:09 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:17:09 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:17:09 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:17:09 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:17:10 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:17:13 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:17:13 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:17:13 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:17:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:17:13 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 16-08-2023 15:17:13 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 16-08-2023 15:17:13 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 16-08-2023 15:17:17 [main] [LogUtils] - Username and password are correct
+[INFO] 16-08-2023 15:17:24 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-08-2023 15:17:24 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:17:26 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:17:26 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:17:27 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:19:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:19:05 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:19:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:19:05 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 16-08-2023 15:19:12 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (9bda1f9a70cf2ac732a4224cc955d91e)
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:19:12 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-08-2023 15:19:14 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-08-2023 15:19:14 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 16-08-2023 15:19:14 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:19:18 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:19:19 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:19:19 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:19:19 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:19:20 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:19:22 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:19:22 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:19:22 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:19:23 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:19:24 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:19:24 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:19:24 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:19:25 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:19:30 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:19:30 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:19:30 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:19:30 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:19:31 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:19:35 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:19:35 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:19:35 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:19:35 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:19:36 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:19:39 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:19:39 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:19:39 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:19:39 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:19:39 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 16-08-2023 15:19:39 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 16-08-2023 15:19:39 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 16-08-2023 15:19:41 [main] [LogUtils] - Username and password are correct
+[INFO] 16-08-2023 15:19:49 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-08-2023 15:19:49 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:19:50 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:19:50 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:19:50 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:19:51 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:19:51 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:19:52 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:19:52 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:19:53 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 16-08-2023 15:19:54 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (9bda1f9a70cf2ac732a4224cc955d91e)
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:19:54 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:19:55 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:19:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:19:55 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:19:55 [main] [LogUtils] - Scroll to element By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:19:55 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:19:55 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:19:56 [main] [LogUtils] - Total Subscribe Items: Total: 0
+[INFO] 16-08-2023 15:19:56 [main] [LogUtils] - Total Subscribe Items: 0 length: 8
+[INFO] 16-08-2023 15:19:56 [main] [LogUtils] - Total Subscribe Items Int: 0
+[INFO] 16-08-2023 15:19:56 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:19:56 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:19:56 [main] [LogUtils] - Total Subscribe Items: Total: 0
+[INFO] 16-08-2023 15:19:56 [main] [LogUtils] - Total Subscribe Items: 0 length: 8
+[INFO] 16-08-2023 15:19:56 [main] [LogUtils] - Total Subscribe Items Int: 0
+[INFO] 16-08-2023 15:19:56 [main] [LogUtils] - Scroll to element By.cssSelector: #subscribedItems
+[INFO] 16-08-2023 15:19:56 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:19:58 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 16-08-2023 15:20:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:20:38 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:20:38 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:20:39 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 16-08-2023 15:20:44 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 16-08-2023 15:20:45 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (80451f9ca78658d1071667fe2482e42c)
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:20:45 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-08-2023 15:20:47 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-08-2023 15:20:47 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 16-08-2023 15:20:47 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:20:52 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:20:54 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:20:54 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:20:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:20:55 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:20:56 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:20:56 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:20:56 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:20:57 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:20:59 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:20:59 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:20:59 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:21:02 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:21:05 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:21:05 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:21:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:21:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:21:06 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:21:09 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:21:09 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:21:09 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:21:09 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:21:10 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:21:13 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:21:13 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:21:13 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:21:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:21:13 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 16-08-2023 15:21:13 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 16-08-2023 15:21:13 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 16-08-2023 15:21:16 [main] [LogUtils] - Username and password are correct
+[INFO] 16-08-2023 15:21:24 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-08-2023 15:21:24 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:25 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:21:25 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:25 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:21:26 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:26 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:21:27 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:27 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:21:28 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 16-08-2023 15:21:29 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (80451f9ca78658d1071667fe2482e42c)
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:21:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:21:30 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:21:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:21:30 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:35 [main] [LogUtils] - Scroll to element By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:21:35 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:21:35 [main] [LogUtils] - Verify element visible By.cssSelector: div.text-gray-500
+[INFO] 16-08-2023 15:21:35 [main] [LogUtils] - Total Subscribe Items: Total: 39
+[INFO] 16-08-2023 15:21:35 [main] [LogUtils] - Total Subscribe Items: 39 length: 9
+[INFO] 16-08-2023 15:21:35 [main] [LogUtils] - Total Subscribe Items Int: 39
+[INFO] 16-08-2023 15:21:35 [main] [LogUtils] - Scroll to element By.cssSelector: #subscribedItems
+[INFO] 16-08-2023 15:21:35 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:36 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:36 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:36 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:36 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:36 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:36 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:21:37 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:37 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:37 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:21:38 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:38 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:38 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:39 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:39 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:39 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:39 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:21:40 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:40 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:21:41 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:41 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:41 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 16-08-2023 15:21:41 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:42 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:21:42 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:45 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:45 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:45 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:45 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:45 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:45 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:21:46 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:46 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:21:47 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:47 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:48 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:21:49 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:49 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:49 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:49 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:49 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:49 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:49 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:21:50 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:50 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 16-08-2023 15:21:50 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:51 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:21:51 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:51 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:51 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:52 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:52 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:52 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:52 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:21:53 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:53 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:21:54 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:54 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:54 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:21:55 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:55 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:55 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:55 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:55 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:55 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:21:56 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:56 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:56 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:21:57 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:58 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:58 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:21:58 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:21:58 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:58 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:21:59 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:59 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:21:59 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:00 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:00 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:00 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:00 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:00 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:00 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:01 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:02 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:02 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 16-08-2023 15:22:02 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:03 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:22:03 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:03 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:03 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:03 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:03 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:03 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:03 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:04 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:04 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:04 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:05 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:06 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:06 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:06 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:06 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:06 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:07 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:08 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:09 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:09 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:09 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:10 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:10 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:11 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:11 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:11 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:11 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:11 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:11 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:11 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:12 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:12 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:12 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:13 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:13 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:13 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:13 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:14 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:14 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:15 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:15 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 16-08-2023 15:22:15 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:16 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:22:16 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:16 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:16 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:17 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:17 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:17 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:17 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:17 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:17 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:18 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:18 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:18 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:19 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:19 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:20 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:20 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:20 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:20 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:20 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:21 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:21 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:21 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:22 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:22 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:22 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:22 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:22 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:22 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:22 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:23 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:23 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:23 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:24 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:24 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:25 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:25 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:25 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:25 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:25 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:26 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:26 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:27 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:27 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:27 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:27 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:27 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:27 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:27 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:27 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:28 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:28 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:28 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:29 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:30 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:30 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:30 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:30 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:30 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:30 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:31 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:31 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:31 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:32 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:32 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:32 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:32 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:33 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:33 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:34 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:34 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:35 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:35 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:35 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:35 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:35 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:35 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:35 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:35 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:36 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:36 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:36 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:36 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:36 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:37 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:37 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:37 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:38 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:38 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:38 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:39 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:39 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:39 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:39 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:39 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:39 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:39 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:40 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:40 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:40 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:41 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:41 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:41 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:41 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:42 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:42 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:42 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:43 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:43 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:43 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:43 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:43 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:43 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:43 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:43 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:44 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:44 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:45 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:45 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:45 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:46 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:46 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:46 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:46 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:46 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:47 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:47 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:47 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:48 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:48 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:48 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:48 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:48 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:48 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:48 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:49 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:50 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:50 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:51 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:51 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:51 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:51 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:51 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:51 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:51 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:52 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:53 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:53 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:54 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:54 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:55 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:55 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:55 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:55 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:55 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:55 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:56 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:56 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:56 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:22:57 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:57 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:57 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:22:57 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:22:58 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:58 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:22:59 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:59 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:22:59 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:23:00 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:00 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 16-08-2023 15:23:00 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:01 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:23:01 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:01 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:01 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:02 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:02 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:02 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:03 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:03 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:03 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:03 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:03 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:03 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:03 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:04 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:04 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:04 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:05 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:05 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:05 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:05 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:06 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:06 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:06 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:23:07 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:07 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:23:08 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:08 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:08 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:08 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:08 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:08 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:09 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:09 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:10 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:10 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:11 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:23:12 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:12 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:12 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:12 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:12 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:12 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:12 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:13 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:13 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:14 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:23:15 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:15 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:15 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:15 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:15 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:15 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:15 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:16 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:16 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:17 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:17 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:17 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:17 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:17 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:18 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:18 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:19 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:19 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:19 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:23:20 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:20 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 16-08-2023 15:23:20 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:21 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:23:21 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:21 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:21 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:21 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:21 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:21 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:21 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:22 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:22 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:23 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:23 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:23 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:23 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:24 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:24 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:24 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:25 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:25 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:26 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:26 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:26 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:23:27 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:27 [main] [LogUtils] - we are into StaleElementReferenceException 
+[INFO] 16-08-2023 15:23:27 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:28 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:23:28 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:28 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:28 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:23:28 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:28 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:23:28 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:28 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:29 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:29 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:23:30 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:23:30 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:23:31 [main] [LogUtils] - End Suite: All Test Cases
+[INFO] 16-08-2023 15:27:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:27:45 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:27:45 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:27:46 [main] [LogUtils] - Starting Suite: All Test Cases
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 16-08-2023 15:27:52 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c81b032c1fb7ab074eea64b66dd7d476)
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:27:52 [main] [LogUtils] - Excel Path: D:\Zapta\Automation\Lahebo\src/test/resources/testdata/ClientsDataExcel.xlsx
+[INFO] 16-08-2023 15:27:54 [main] [LogUtils] - Row: 19 - Column: 8
+[INFO] 16-08-2023 15:27:54 [main] [LogUtils] - StartRow: 1 - EndRow: 6
+[INFO] 16-08-2023 15:27:54 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:27:58 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:28:00 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:28:00 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:28:00 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:28:01 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:28:02 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:28:02 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:28:02 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:28:03 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:28:05 [main] [LogUtils] - Value is required
+[INFO] 16-08-2023 15:28:05 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:28:05 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:28:07 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:28:11 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:28:11 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:28:11 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:28:11 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:28:12 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:28:15 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:28:15 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:28:15 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:28:15 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:28:16 [main] [LogUtils] - Set Excel file src/test/resources/testdata/ClientsDataExcel.xlsx and selected Sheet: SignIn
+[INFO] 16-08-2023 15:28:18 [main] [LogUtils] - User not found
+[INFO] 16-08-2023 15:28:18 [main] [LogUtils] - getting erorr but expected condition satisfied
+[INFO] 16-08-2023 15:28:18 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:28:18 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:28:18 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 16-08-2023 15:28:18 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 16-08-2023 15:28:18 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 16-08-2023 15:28:20 [main] [LogUtils] - Username and password are correct
+[INFO] 16-08-2023 15:28:28 [main] [LogUtils] - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: div.Vue-Toastification__toast-body' (tried for 5 second(s) with 500 milliseconds interval)
+[INFO] 16-08-2023 15:28:28 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:29 [main] [LogUtils] - we are into NoSuchElementException
+[INFO] 16-08-2023 15:28:29 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:30 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:28:31 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:31 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:28:32 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:32 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Test case:  is passed.
+[ERROR] 16-08-2023 15:28:33 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (c81b032c1fb7ab074eea64b66dd7d476)
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Loaded all properties files.
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:28:33 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:28:34 [main] [LogUtils] - Verify element visible By.cssSelector: #searchLegislations
+[INFO] 16-08-2023 15:28:34 [main] [LogUtils] - Clicked on the element By.cssSelector: #searchLegislations
+[INFO] 16-08-2023 15:28:34 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 16-08-2023 15:28:34 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:34 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:34 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:34 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:35 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:36 [main] [LogUtils] - Wait Over!! size of list: 803
+[INFO] 16-08-2023 15:28:37 [main] [LogUtils] - random number generated to select list is: 644
+[INFO] 16-08-2023 15:28:37 [main] [LogUtils] - random number: 644 iteration: 644
+[INFO] 16-08-2023 15:28:37 [main] [LogUtils] - 644 :WA - Financial Management Act 2006 Selected 
+[INFO] 16-08-2023 15:28:40 [main] [LogUtils] - Verify element visible By.cssSelector: #searchLegislationDivisions
+[INFO] 16-08-2023 15:28:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #searchLegislationDivisions
+[INFO] 16-08-2023 15:28:41 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 16-08-2023 15:28:41 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 16-08-2023 15:28:41 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 16-08-2023 15:28:41 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 16-08-2023 15:28:41 [main] [LogUtils] - 1 :Financial Management Act 2006 Selected 
+[INFO] 16-08-2023 15:28:41 [main] [LogUtils] - Verify element visible By.cssSelector: #searchBtn
+[INFO] 16-08-2023 15:28:41 [main] [LogUtils] - Clicked on the element By.cssSelector: #searchBtn
+[INFO] 16-08-2023 15:28:43 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>span
+[INFO] 16-08-2023 15:28:43 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>span
+[INFO] 16-08-2023 15:28:44 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:28:44 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:28:44 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:44 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:28:45 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:45 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:28:46 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:46 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:46 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:28:47 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:28:47 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:28:47 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:28:47 [main] [LogUtils] - Verify element visible By.cssSelector: #searchLegislations
+[INFO] 16-08-2023 15:28:48 [main] [LogUtils] - Clicked on the element By.cssSelector: #searchLegislations
+[INFO] 16-08-2023 15:28:48 [main] [LogUtils] - Wait Over!! size of list: 803
+[INFO] 16-08-2023 15:28:48 [main] [LogUtils] - random number generated to select list is: 302
+[INFO] 16-08-2023 15:28:48 [main] [LogUtils] - random number: 302 iteration: 302
+[INFO] 16-08-2023 15:28:49 [main] [LogUtils] - here in catch 
+[INFO] 16-08-2023 15:28:49 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 16-08-2023 15:28:52 [main] [LogUtils] - Verify element visible By.cssSelector: #searchLegislationDivisions
+[INFO] 16-08-2023 15:28:52 [main] [LogUtils] - Clicked on the element By.cssSelector: #searchLegislationDivisions
+[INFO] 16-08-2023 15:28:53 [main] [LogUtils] - Wait Over!! size of list: 7
+[INFO] 16-08-2023 15:28:53 [main] [LogUtils] - random number generated to select list is: 5
+[INFO] 16-08-2023 15:28:53 [main] [LogUtils] - random number: 5 iteration: 5
+[INFO] 16-08-2023 15:28:53 [main] [LogUtils] - 5 :Chapter 5 Strategies for achieving outcomes Selected 
+[INFO] 16-08-2023 15:28:53 [main] [LogUtils] - Verify element visible By.cssSelector: #searchBtn
+[INFO] 16-08-2023 15:28:53 [main] [LogUtils] - Clicked on the element By.cssSelector: #searchBtn
+[INFO] 16-08-2023 15:28:55 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>span
+[INFO] 16-08-2023 15:28:55 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>span
+[INFO] 16-08-2023 15:28:55 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:28:55 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmOKBtn
+[INFO] 16-08-2023 15:28:55 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:55 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:28:56 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:56 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:28:57 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:57 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:28:57 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:28:57 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:28:57 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:28:57 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:28:58 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:28:58 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:28:58 [main] [LogUtils] - Verify element visible By.cssSelector: div[class="text-right space-x-2"]>button
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Clicked on the element By.cssSelector: div[class="text-right space-x-2"]>button
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Verify element visible By.cssSelector: #selectDivField
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Clicked on the element By.cssSelector: #selectDivField
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:28:59 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:00 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Wait Over!! size of list: 2
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - 1 :Financial Management Act 2006 Selected 
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Random Password is Generated: 044O49$u
+[INFO] 16-08-2023 15:29:01 [main] [LogUtils] - Verify element visible By.cssSelector: #refNumField
+[INFO] 16-08-2023 15:29:02 [main] [LogUtils] - Set text 044O49$u on By.cssSelector: #refNumField
+[INFO] 16-08-2023 15:29:02 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:02 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 16-08-2023 15:29:02 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 16-08-2023 15:29:02 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 16-08-2023 15:29:02 [main] [LogUtils] - 4 : Selected 
+[INFO] 16-08-2023 15:29:02 [main] [LogUtils] - Verify element visible By.cssSelector: #depField
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #depField
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - 1 : Selected 
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Verify element visible By.cssSelector: #isoField
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Clicked on the element By.cssSelector: #isoField
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:03 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:04 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - here in catch 
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - 2 :ISO 45001 Occupational Health & Safety Selected 
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - random number generated to select list is: 4
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - random number: 4 iteration: 4
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - here in catch 
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Index 0 out of bounds for length 0
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Verify element visible By.cssSelector: span>svg[data-icon="circle-plus"]
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Clicked on the element By.cssSelector: span>svg[data-icon="circle-plus"]
+[INFO] 16-08-2023 15:29:05 [main] [LogUtils] - Verify element visible By.cssSelector: #markActionItem
+[INFO] 16-08-2023 15:29:06 [main] [LogUtils] - Clicked on the element By.cssSelector: #markActionItem
+[INFO] 16-08-2023 15:29:06 [main] [LogUtils] - Verify element visible By.cssSelector: div[class="vs__dropdown-toggle"]
+[INFO] 16-08-2023 15:29:06 [main] [LogUtils] - Clicked on the element By.cssSelector: div[class="vs__dropdown-toggle"]
+[INFO] 16-08-2023 15:29:07 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 16-08-2023 15:29:07 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 16-08-2023 15:29:07 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 16-08-2023 15:29:07 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 16-08-2023 15:29:07 [main] [LogUtils] - 1 :Sarah Johnson Selected 
+[INFO] 16-08-2023 15:29:07 [main] [LogUtils] - Verify element visible By.cssSelector: textarea[class="form-input"]
+[INFO] 16-08-2023 15:29:08 [main] [LogUtils] - Set text e4rc2ayq6k on By.cssSelector: textarea[class="form-input"]
+[INFO] 16-08-2023 15:29:08 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-08-2023 15:29:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-08-2023 15:29:08 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:08 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:08 [main] [LogUtils] - Verify element visible By.cssSelector: #stateField
+[INFO] 16-08-2023 15:29:09 [main] [LogUtils] - Set text o4kkj on By.cssSelector: #stateField
+[INFO] 16-08-2023 15:29:09 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 16-08-2023 15:29:09 [main] [LogUtils] - Set text qld5suwwbr5lgb4fbkvg on By.cssSelector: #remarksField
+[INFO] 16-08-2023 15:29:09 [main] [LogUtils] - Verify element visible By.cssSelector: #formActionBtn
+[INFO] 16-08-2023 15:29:09 [main] [LogUtils] - Clicked on the element By.cssSelector: #formActionBtn
+[INFO] 16-08-2023 15:29:11 [main] [LogUtils] - Verify element visible By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:29:13 [main] [LogUtils] - ElementBy.cssSelector: #dotSpinnerHas been Disappeared
+[INFO] 16-08-2023 15:29:13 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:29:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:29:13 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:29:13 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:29:13 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:29:13 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:29:13 [main] [LogUtils] - Verify element visible By.cssSelector: div[class="text-right space-x-2"]>button
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Clicked on the element By.cssSelector: div[class="text-right space-x-2"]>button
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Verify element visible By.cssSelector: #selectDivField
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Clicked on the element By.cssSelector: #selectDivField
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:14 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Still Waiting...
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - Wait Over!! size of list: 2
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 16-08-2023 15:29:15 [main] [LogUtils] - 1 :Financial Management Act 2006 Selected 
+[INFO] 16-08-2023 15:29:16 [main] [LogUtils] - Random Password is Generated: 61X7j$1415
+[INFO] 16-08-2023 15:29:16 [main] [LogUtils] - Verify element visible By.cssSelector: #refNumField
+[INFO] 16-08-2023 15:29:16 [main] [LogUtils] - Set text 61X7j$1415 on By.cssSelector: #refNumField
+[INFO] 16-08-2023 15:29:16 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:16 [main] [LogUtils] - Verify element visible By.cssSelector: #locField
+[INFO] 16-08-2023 15:29:16 [main] [LogUtils] - Clicked on the element By.cssSelector: #locField
+[INFO] 16-08-2023 15:29:16 [main] [LogUtils] - Wait Over!! size of list: 5
+[INFO] 16-08-2023 15:29:16 [main] [LogUtils] - 1 : Selected 
+[INFO] 16-08-2023 15:29:17 [main] [LogUtils] - Verify element visible By.cssSelector: #depField
+[INFO] 16-08-2023 15:29:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #depField
+[INFO] 16-08-2023 15:29:17 [main] [LogUtils] - Wait Over!! size of list: 4
+[INFO] 16-08-2023 15:29:17 [main] [LogUtils] - 2 : Selected 
+[INFO] 16-08-2023 15:29:17 [main] [LogUtils] - Verify element visible By.cssSelector: #isoField
+[INFO] 16-08-2023 15:29:17 [main] [LogUtils] - Clicked on the element By.cssSelector: #isoField
+[INFO] 16-08-2023 15:29:17 [main] [LogUtils] - Wait Over!! size of list: 6
+[INFO] 16-08-2023 15:29:17 [main] [LogUtils] - random number generated to select list is: 2
+[INFO] 16-08-2023 15:29:17 [main] [LogUtils] - random number: 2 iteration: 2
+[INFO] 16-08-2023 15:29:17 [main] [LogUtils] - 2 :ISO 45001 Occupational Health & Safety Selected 
+[INFO] 16-08-2023 15:29:18 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:18 [main] [LogUtils] - Verify element visible By.cssSelector: span>svg[data-icon="circle-plus"]
+[INFO] 16-08-2023 15:29:18 [main] [LogUtils] - Clicked on the element By.cssSelector: span>svg[data-icon="circle-plus"]
+[INFO] 16-08-2023 15:29:18 [main] [LogUtils] - Verify element visible By.cssSelector: #markActionItem
+[INFO] 16-08-2023 15:29:18 [main] [LogUtils] - Clicked on the element By.cssSelector: #markActionItem
+[INFO] 16-08-2023 15:29:18 [main] [LogUtils] - Verify element visible By.cssSelector: div[class="vs__dropdown-toggle"]
+[INFO] 16-08-2023 15:29:18 [main] [LogUtils] - Clicked on the element By.cssSelector: div[class="vs__dropdown-toggle"]
+[INFO] 16-08-2023 15:29:19 [main] [LogUtils] - waiting for List Items to Load
+[INFO] 16-08-2023 15:29:19 [main] [LogUtils] - Wait Over!! size of list: 1
+[INFO] 16-08-2023 15:29:19 [main] [LogUtils] - random number generated to select list is: 1
+[INFO] 16-08-2023 15:29:19 [main] [LogUtils] - random number: 1 iteration: 1
+[INFO] 16-08-2023 15:29:19 [main] [LogUtils] - 1 :Sarah Johnson Selected 
+[INFO] 16-08-2023 15:29:19 [main] [LogUtils] - Verify element visible By.cssSelector: textarea[class="form-input"]
+[INFO] 16-08-2023 15:29:20 [main] [LogUtils] - Set text z0a6dkqvmx on By.cssSelector: textarea[class="form-input"]
+[INFO] 16-08-2023 15:29:20 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-08-2023 15:29:20 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-08-2023 15:29:20 [main] [LogUtils] - Verify element visible By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:20 [main] [LogUtils] - Clicked on the element By.cssSelector: #nextTabBtn
+[INFO] 16-08-2023 15:29:20 [main] [LogUtils] - Verify element visible By.cssSelector: #stateField
+[INFO] 16-08-2023 15:29:20 [main] [LogUtils] - Set text vu2jn on By.cssSelector: #stateField
+[INFO] 16-08-2023 15:29:20 [main] [LogUtils] - Verify element visible By.cssSelector: #remarksField
+[INFO] 16-08-2023 15:29:21 [main] [LogUtils] - Set text 5i229tqic7qzctcx3ag3 on By.cssSelector: #remarksField
+[INFO] 16-08-2023 15:29:21 [main] [LogUtils] - Verify element visible By.cssSelector: #formActionBtn
+[INFO] 16-08-2023 15:29:21 [main] [LogUtils] - Clicked on the element By.cssSelector: #formActionBtn
+[INFO] 16-08-2023 15:29:22 [main] [LogUtils] - Verify element visible By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:29:24 [main] [LogUtils] - ElementBy.cssSelector: #dotSpinnerHas been Disappeared
+[INFO] 16-08-2023 15:29:24 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:29:24 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:29:24 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:29:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:29:24 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:29:24 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:29:24 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:29:24 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:29:25 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:29:25 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:first-of-type
+[INFO] 16-08-2023 15:29:26 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:first-of-type
+[INFO] 16-08-2023 15:29:26 [main] [LogUtils] - Verify element visible By.cssSelector: #legRefNumField
+[INFO] 16-08-2023 15:29:26 [main] [LogUtils] - Verify element visible By.cssSelector: #legRefNumField
+[INFO] 16-08-2023 15:29:26 [main] [LogUtils] - Clear and Fill edit on By.cssSelector: #legRefNumField
+[INFO] 16-08-2023 15:29:26 [main] [LogUtils] - Verify element visible By.cssSelector: #doAction
+[INFO] 16-08-2023 15:29:26 [main] [LogUtils] - Clicked on the element By.cssSelector: #doAction
+[INFO] 16-08-2023 15:29:26 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:29:26 [main] [LogUtils] - Test case:  is starting...
+[INFO] 16-08-2023 15:29:26 [main] [LogUtils] - Verify element visible By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:29:27 [main] [LogUtils] - Clicked on the element By.cssSelector: #legislationView
+[INFO] 16-08-2023 15:29:27 [main] [LogUtils] - Verify element visible By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:29:27 [main] [LogUtils] - Clicked on the element By.cssSelector: #legalRegister
+[INFO] 16-08-2023 15:29:27 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:29:27 [main] [LogUtils] - Element is still displayed By.cssSelector: #dotSpinner
+[INFO] 16-08-2023 15:29:28 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:29:28 [main] [LogUtils] - Verify element visible By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:29:28 [main] [LogUtils] - Clicked on the element By.cssSelector: tr:first-of-type>td:last-of-type>div>span:last-of-type
+[INFO] 16-08-2023 15:29:29 [main] [LogUtils] - Verify element visible By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:29:29 [main] [LogUtils] - Clicked on the element By.cssSelector: #confirmDelBtn
+[INFO] 16-08-2023 15:29:29 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:29:29 [main] [LogUtils] - Element is still displayed By.cssSelector: #defaultModal
+[INFO] 16-08-2023 15:29:30 [main] [LogUtils] - loading function
+[INFO] 16-08-2023 15:29:30 [main] [LogUtils] - Test case:  is passed.
+[INFO] 16-08-2023 15:29:34 [main] [LogUtils] - End Suite: All Test Cases
