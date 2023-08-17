@@ -31,7 +31,7 @@ public class verifyLegislationLibrary extends BaseTest {
     @Test(priority = 4, enabled = true, invocationCount = 1)
     public void verifyAllDeleteLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
-        legislationLibraryPage.deleteLegalRegister();
+        legislationLibraryPage.deleteAllLegalRegister();
     }
     @Test(priority = 5, enabled = true)
     public void unsubscribeAllItems() throws InterruptedException {
