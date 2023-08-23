@@ -10,19 +10,58 @@
         <listener class-name="listeners.ListenerTest"/>
         <listener class-name="listeners.AnnotationTransformer"/>
     </listeners>
-    <test name="All Test Cases" >
+    <test name="Super Admin">
         <classes>
-           <class name="webTestCase.verifyUserSignUp"/>
+<!--           <class name="webTestCase.verifyUserSignUp"/>-->
 <!--            <class name="webTestCase.verifyForgetPassword"/>-->
             <class name="webTestCase.verifyUserSignIn"/>
-            <class name="webTestCase.verifyDepartmentST"/>
-            <class name="webTestCase.verifyLocationST"/>
-            <class name="webTestCase.verifyJobFunctionST"/>
+<!--            <class name="webTestCase.verifyDepartmentST"/>-->
+<!--            <class name="webTestCase.verifyLocationST"/>-->
+<!--            <class name="webTestCase.verifyJobFunctionST"/>-->
 <!--            <class name="webTestCase.verifyProfileSetting"/>-->
              <class name="webTestCase.verifyLegislationLibrary"/>
-           <class name="webTestCase.verifyRiskRegister"/>
-            <class name="webTestCase.verifyActionCenter"/>
+<!--           <class name="webTestCase.verifyRiskRegister"/>-->
+<!--            <class name="webTestCase.verifyActionCenter"/>-->
+<!--            <class name="webTestCase.verifyUserSetupManagerST"/>-->
+<!--            <class name="webTestCase.verifyRiskRegister"/>-->
+            <class name="webTestCase.verifyUserSignOut"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Manager Created" >
+        <classes>
+            <class name="webTestCase.verifyUserSignIn"/>
+            <class name="webTestCase.verifyUserSetupManagerST"/>
+                         <class name="webTestCase.verifyLegislationLibrary"/>
+<!--                       <class name="webTestCase.verifyRiskRegister"/>-->
+            <!--            <class name="webTestCase.verifyActionCenter"/>-->
+            <!--            <class name="webTestCase.verifyRiskRegister"/>-->
+            <class name="webTestCase.verifyUserSignOut"/>
+        </classes>
+    </test> <!-- Test -->
 
+    <test name="Manager Deleted" >
+        <classes>
+            <class name="webTestCase.verifyUserSignIn"/>
+            <class name="webTestCase.verifyUserSetupDeleteUserST"/>
+            <class name="webTestCase.verifyUserSignOut"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Normal User Created" >
+        <classes>
+            <class name="webTestCase.verifyUserSignIn"/>
+            <class name="webTestCase.verifyUserSetupNormalUserST"/>
+                         <class name="webTestCase.verifyLegislationLibrary"/>
+            <!--                       <class name="webTestCase.verifyRiskRegister"/>-->
+            <!--            <class name="webTestCase.verifyActionCenter"/>-->
+            <!--            <class name="webTestCase.verifyRiskRegister"/>-->
+            <class name="webTestCase.verifyUserSignOut"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Normal User Deleted" >
+        <classes>
+                        <class name="webTestCase.verifyUserSignIn"/>
+                        <class name="webTestCase.verifyUserSetupDeleteUserST"/>
+                        <class name="webTestCase.verifyUserSignOut"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

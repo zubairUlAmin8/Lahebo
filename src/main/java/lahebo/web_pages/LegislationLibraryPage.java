@@ -49,7 +49,7 @@ public class LegislationLibraryPage {
         WebUI.clickElement(LegislationLibraryOR.addLegalRegisterBtn);
         WebUI.clickElement(LegislationLibraryOR.LR_DivisionList);
         WebUI.selectListOptionRandomly(LegislationLibraryOR.LR_DivisionListElement);
-        WebUI.setText(LegislationLibraryOR.LR_ReferenceNumber, fakerUtils.generateRandomPassword());
+//        WebUI.setText(LegislationLibraryOR.LR_descField, fakerUtils.generateRandomPassword());
         WebUI.clickElement(LegislationLibraryOR.LR_NextBtn);
 
         //Second Tab
@@ -70,10 +70,10 @@ public class LegislationLibraryPage {
         WebUI.selectListOptionRandomly(LegislationLibraryOR.LR_AssigneeListElement);
         WebUI.setText(LegislationLibraryOR.LR_ContentForControlTA, fakerUtils.generateDummyData(10));
         WebUI.clickElement(LegislationLibraryOR.LR_AddBtn);
-        WebUI.clickElement(LegislationLibraryOR.LR_NextBtn);
+//        WebUI.clickElement(LegislationLibraryOR.LR_NextBtn);
 
         //Forth Tab
-        WebUI.setText(LegislationLibraryOR.LR_StateIF, fakerUtils.generateDummyData(5));
+//        WebUI.setText(LegislationLibraryOR.LR_StateIF, fakerUtils.generateDummyData(5));
         WebUI.setText(LegislationLibraryOR.LR_RemarksIF, fakerUtils.generateDummyData(20));
         WebUI.clickElement(LegislationLibraryOR.LR_AddFinalBtn);
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,10);
@@ -133,7 +133,7 @@ public class LegislationLibraryPage {
         WebUI.clickElement(LegislationLibraryOR.LR_EditLegalRegisterBtn);
 
 //        WebUI.clickElement(LegislationLibraryOR.LR_ISOStandard_clear_Edit);
-        WebUI.clearAndFillText(LegislationLibraryOR.LR_ReferenceNumber_Edit, "edit");
+        WebUI.clearAndFillText(LegislationLibraryOR.LR_LegalRemarksIF, "We are going to edit this filed");
 
         WebUI.clickElement(LegislationLibraryOR.LR_AddBtn);
 

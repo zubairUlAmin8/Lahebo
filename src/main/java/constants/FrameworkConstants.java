@@ -23,6 +23,8 @@ public final class FrameworkConstants {
 
     public static final String BROWSER = PropertiesHelpers.getValue("BROWSER");
     public static final String URL_RAHEBO = PropertiesHelpers.getValue("URL_RAHEBO");
+    public static final String USER_EMAIL_ADDRESS = PropertiesHelpers.getValue("USER_EMAIL_ADDRESS");
+    public static final String USER_EMAIL_PASSWORD = PropertiesHelpers.getValue("USER_EMAIL_PASSWORD");
     public static final String WEBSITE_TITLE = PropertiesHelpers.getValue("WEBSITE_TITLE");
     public static final String REMOTE_URL = PropertiesHelpers.getValue("REMOTE_URL");
     public static final String REMOTE_PORT = PropertiesHelpers.getValue("REMOTE_PORT");

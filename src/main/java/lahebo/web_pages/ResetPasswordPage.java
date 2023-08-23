@@ -21,6 +21,13 @@ public class ResetPasswordPage {
         resetPasswordElements.ConfirmNewPWDInputField.sendKeys(newPassword);
         resetPasswordElements.resetSubmitBtn.click();
     }
+    public void fillNewUserResetPasswordForm(String oldPassword, String newPassword) {
+        waits.waitForElements(driver, resetPasswordElements.OTPCodeInputField, 5);
+        resetPasswordElements.oldPasswordInputField.sendKeys(oldPassword);
+        resetPasswordElements.newPWDInputField.sendKeys(newPassword);
+        resetPasswordElements.ConfirmNewPWDInputField.sendKeys(newPassword);
+        resetPasswordElements.resetSubmitBtn.click();
+    }
 }
 
 

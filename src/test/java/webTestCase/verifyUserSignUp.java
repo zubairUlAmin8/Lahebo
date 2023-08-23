@@ -45,6 +45,7 @@ public class verifyUserSignUp extends BaseTest {
         String password = PropertiesHelpers.getValue("New_User_Password");
         signInPage.signIn(username, password);
         String secretKey = twoFactorAuthPage.getSecretKeyNewUser();
+        PropertiesHelpers.setValue("New_User_SecretKey", secretKey);
         System.out.println("Secret Key"+secretKey);
         twoFactorAuthPage.authenticationWithSecretKeyWithScanCode(secretKey, "yes");
     }

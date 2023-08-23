@@ -83,7 +83,8 @@ public class SignInPage extends BasePage {
         expectedTitle = "pass";
 
         if (userName.equals("") || password.equals("")) {
-
+            singInPageElements.userName.clear();
+            singInPageElements.password.clear();
             singInPageElements.userName.sendKeys(userName);
             singInPageElements.password.sendKeys(password);
             singInPageElements.signInBtn.click();
@@ -144,7 +145,7 @@ public class SignInPage extends BasePage {
     public boolean verifyLoginPage() {
     waits.waitForElements(driver, singInPageElements.logInText, 10);
         String checkSTR = singInPageElements.logInText.getText();
-        System.out.println("check"+checkSTR);
+        LogUtils.info("check"+checkSTR);
         if (checkSTR.equalsIgnoreCase("Sign In")) {
             return true;
         } else {

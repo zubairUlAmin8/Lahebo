@@ -10,6 +10,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class utility {
     public static String getValue (String key) throws IOException {
@@ -49,5 +51,16 @@ public class utility {
         }
 
         return integerValue;
+    }
+    public static String extractTextBetweenTags(String input, String startTag, String endTag) {
+        String patternString = Pattern.quote(startTag) + "(.*?)" + Pattern.quote(endTag);
+        Pattern pattern = Pattern.compile(patternString);
+        Matcher matcher = pattern.matcher(input);
+
+        if (matcher.find()) {
+            return matcher.group(1);
+        } else {
+            return "";
+        }
     }
 }

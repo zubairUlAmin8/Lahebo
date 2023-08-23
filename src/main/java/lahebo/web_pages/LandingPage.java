@@ -50,7 +50,6 @@ public class LandingPage {
     }
 
     public void signOut() throws InterruptedException {
-//        waits.waitForElements(driver,landingPageElements.profileIcon,5);
         try {
             WebUI.waitForElementPresent(LandingPageOR.profileIcon,10 );
 
@@ -61,20 +60,7 @@ public class LandingPage {
         WebUI.clickElement(LandingPageOR.signOutBtn);
 
     }
-    public void signOutTest() throws InterruptedException {
-        try {
-            WebUI.waitForElementPresent(LandingPageOR.profileIcon,10 );
 
-        } catch (ElementClickInterceptedException exception) {
-            WebUI.waitForElementVisible(LandingPageOR.profileIcon,10);
-        }
-//        landingPageElements.profileIcon.click();
-//        waits.waitForElements(driver,landingPageElements.signOutBtn, 5);
-        WebUI.clickElement(LandingPageOR.profileIcon);
-        WebUI.clickElement(LandingPageOR.signOutBtn);
-//
-
-    }
     public void goToDepartmentST() throws InterruptedException {
         if (checkOrganizationSettingList()) {
             WebUI.clickElement(LandingPageOR.departmentsST,10);
@@ -94,7 +80,21 @@ public class LandingPage {
             WebUI.clickElement(LandingPageOR.organizationSettingTabList);
             WebUI.clickElement(LandingPageOR.jobFunctionST,10);
         }
-        LogUtils.info("came Location");
+        LogUtils.info("came Job Function");
+
+    }
+    public void goToUserSetupST() throws InterruptedException {
+        if (checkOrganizationSettingList()) {
+            WebUI.clickElement(LandingPageOR.userSetupST,10);
+        } else {
+
+            WebUI.clickElement(LandingPageOR.organizationSettingTabList);
+            WebUI.clickElement(LandingPageOR.userSetupST,10);
+        }
+
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,10);
+
+        LogUtils.info("came userSetup");
     }
 
     public void goToLocationST() throws InterruptedException {
