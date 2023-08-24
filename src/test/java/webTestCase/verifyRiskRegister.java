@@ -15,25 +15,25 @@ public class verifyRiskRegister extends BaseTest {
         landingPage.goToRiskRegister();
         riskRegisterPage.raiseNewRisk();
     }
-    @Test(priority = 3, invocationCount = 1, enabled = false)
+    @Test(priority = 3, invocationCount = 1, enabled = true)
     public void verifyAcceptRisk() throws InterruptedException {
         landingPage.goToRiskRegister();
         riskRegisterPage.raiseNewRisk();
         riskRegisterPage.acceptRisk();
     }
-    @Test(priority = 4, invocationCount = 1, enabled = false)
+    @Test(priority = 4, invocationCount = 1, enabled = true)
     public void verifyEditNewRisk() throws InterruptedException {
         boolean isItSWOTRisk=false;
         riskRegisterPage.editRisk(isItSWOTRisk);
     }
-    @Test(priority = 5, invocationCount = 1, enabled = false)
+    @Test(priority = 5, invocationCount = 1, enabled = true)
     public void verifyRejectRisk() throws InterruptedException {
         landingPage.goToRiskRegister();
         riskRegisterPage.raiseNewRisk();
         riskRegisterPage.rejectRisk();
         riskRegisterPage.deleteRisk();
     }
-    @Test(priority = 6, invocationCount = 1, enabled = false)
+    @Test(priority = 6, invocationCount = 1, enabled = true)
     public void verifyRaiseRiskWithSWOT() throws InterruptedException {
         landingPage.goToRiskRegister();
         riskRegisterPage.viewSWOT();
@@ -41,18 +41,18 @@ public class verifyRiskRegister extends BaseTest {
         riskRegisterPage.backToRiskRegisterFromSWOT();
     }
 
-    @Test(priority = 7, invocationCount = 1, enabled = false)
+    @Test(priority = 7, invocationCount = 1, enabled = true)
     public void verifyAcceptSWOTRisk() throws InterruptedException {
         landingPage.goToRiskRegister();
         riskRegisterPage.acceptRisk();
     }
-    @Test(priority = 8, invocationCount = 1, enabled = false)
+    @Test(priority = 8, invocationCount = 1, enabled = true)
     public void verifyEditSWOTRisk() throws InterruptedException {
         boolean isItSWOTRisk=true;
         riskRegisterPage.editRisk(isItSWOTRisk);
         riskRegisterPage.deleteRisk();
     }
-    @Test(priority = 9, invocationCount = 1, enabled = false)
+    @Test(priority = 9, invocationCount = 1, enabled = true)
     public void verifyRejectSWOTRisk() throws InterruptedException {
         landingPage.goToRiskRegister();
         riskRegisterPage.viewSWOT();
@@ -60,7 +60,7 @@ public class verifyRiskRegister extends BaseTest {
         riskRegisterPage.backToRiskRegisterFromSWOT();
         riskRegisterPage.rejectRisk();
     }
-    @Test(priority = 10, invocationCount = 1, enabled = false)
+    @Test(priority = 10, invocationCount = 1, enabled = true)
     public void verifyDeleteAllRisk() throws InterruptedException {
         landingPage.goToRiskRegister();
         riskRegisterPage.deleteRisk();

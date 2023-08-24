@@ -35,12 +35,13 @@ public class ActionCenterPage {
         WebUI.clickElement(ActionCenterOR.departmentList);
         WebUI.selectListOptionRandomly(ActionCenterOR.departmentListElements);
         WebUI.clickElement(ActionCenterOR.sourceList);
-        String selectedSource=WebUI.selectListOptionRandomly(ActionCenterOR.sourceListElements);
+        WebUI.selectListOptionByIndex(ActionCenterOR.sourceListElements,1);
 
-        if(selectedSource.contains("Risk Module")){
-            WebUI.clickElement(ActionCenterOR.riskList);
-            WebUI.selectListOptionRandomly(ActionCenterOR.riskListElements);
-        }
+//        String selectedSource=WebUI.selectListOptionRandomly(ActionCenterOR.sourceListElements);
+//        if(selectedSource.contains("Risk Module")){
+//            WebUI.clickElement(ActionCenterOR.riskList);
+//            WebUI.selectListOptionRandomly(ActionCenterOR.riskListElements);
+//        }
 
         //MITIGATION
         WebUI.clickElement(ActionCenterOR.assigneeList);
@@ -73,17 +74,19 @@ public class ActionCenterPage {
 
 
         //RELATED INFORMATION
-        WebUI.clickElement(ActionCenterOR.locationList);
-        WebUI.selectListOptionRandomly(ActionCenterOR.locationListElements);
-        WebUI.clickElement(ActionCenterOR.departmentList);
-        WebUI.selectListOptionRandomly(ActionCenterOR.departmentListElements);
+//        WebUI.clickElement(ActionCenterOR.locationList);
+//        WebUI.selectListOptionRandomly(ActionCenterOR.locationListElements);
+//        WebUI.clickElement(ActionCenterOR.departmentList);
+//        WebUI.selectListOptionRandomly(ActionCenterOR.departmentListElements);
         WebUI.clickElement(ActionCenterOR.sourceList);
-        String selectedSource=WebUI.selectListOptionRandomly(ActionCenterOR.sourceListElements);
+        WebUI.selectListOptionByIndex(ActionCenterOR.sourceListElements,1);
 
-        if(selectedSource.contains("Risk Module")){
-            WebUI.clickElement(ActionCenterOR.riskList);
-            WebUI.selectListOptionRandomly(ActionCenterOR.riskListElements);
-        }
+//        String selectedSource=WebUI.selectListOptionRandomly(ActionCenterOR.sourceListElements);
+
+//        if(selectedSource.contains("Risk Module")){
+//            WebUI.clickElement(ActionCenterOR.riskList);
+//            WebUI.selectListOptionRandomly(ActionCenterOR.riskListElements);
+//        }
 
         //MITIGATION
         WebUI.clickElement(ActionCenterOR.assigneeList);

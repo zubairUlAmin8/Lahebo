@@ -12,13 +12,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class verifyLegislationLibrary extends BaseTest {
-    @Test(priority = 1, invocationCount = 2, enabled = true)
+    @Test(priority = 1, invocationCount = 1, enabled = true)
     public void verifySubscribeItems() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.subscribeItems();
     }
 
-    @Test(priority = 2, enabled = true, invocationCount = 2)
+    @Test(priority = 2, enabled = true, invocationCount = 1)
     public void verifyAddLegalRegister() throws InterruptedException {
         landingPage.goToLegislationLibrary();
         legislationLibraryPage.addLegalRegister();

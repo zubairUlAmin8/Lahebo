@@ -12,16 +12,16 @@
     </listeners>
     <test name="Super Admin">
         <classes>
-<!--           <class name="webTestCase.verifyUserSignUp"/>-->
+           <class name="webTestCase.verifyUserSignUp"/>
 <!--            <class name="webTestCase.verifyForgetPassword"/>-->
             <class name="webTestCase.verifyUserSignIn"/>
-<!--            <class name="webTestCase.verifyDepartmentST"/>-->
-<!--            <class name="webTestCase.verifyLocationST"/>-->
-<!--            <class name="webTestCase.verifyJobFunctionST"/>-->
-<!--            <class name="webTestCase.verifyProfileSetting"/>-->
+            <class name="webTestCase.verifyDepartmentST"/>
+            <class name="webTestCase.verifyLocationST"/>
+            <class name="webTestCase.verifyJobFunctionST"/>
+            <class name="webTestCase.verifyProfileSetting"/>
              <class name="webTestCase.verifyLegislationLibrary"/>
-<!--           <class name="webTestCase.verifyRiskRegister"/>-->
-<!--            <class name="webTestCase.verifyActionCenter"/>-->
+           <class name="webTestCase.verifyRiskRegister"/>
+            <class name="webTestCase.verifyActionCenter"/>
 <!--            <class name="webTestCase.verifyUserSetupManagerST"/>-->
 <!--            <class name="webTestCase.verifyRiskRegister"/>-->
             <class name="webTestCase.verifyUserSignOut"/>
@@ -42,7 +42,7 @@
     <test name="Manager Deleted" >
         <classes>
             <class name="webTestCase.verifyUserSignIn"/>
-            <class name="webTestCase.verifyUserSetupDeleteUserST"/>
+            <class name="webTestCase.verifyUserSetupDeleteManagerST"/>
             <class name="webTestCase.verifyUserSignOut"/>
         </classes>
     </test> <!-- Test -->
