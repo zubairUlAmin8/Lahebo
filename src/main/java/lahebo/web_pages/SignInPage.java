@@ -98,6 +98,8 @@ public class SignInPage extends BasePage {
                 return false;
             }
         } else {
+            singInPageElements.userName.clear();
+            singInPageElements.password.clear();
             singInPageElements.userName.sendKeys(userName);
             singInPageElements.password.sendKeys(password);
             singInPageElements.signInBtn.click();

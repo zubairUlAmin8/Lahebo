@@ -15,7 +15,7 @@ public class verifyUserSetupNormalUserST extends BaseTest {
     String managerUserName;
     String managerPassword;
     @Test(priority = 0)
-    public void AddNewManager() throws IOException, InterruptedException, MessagingException {
+    public void AddNormalUser() throws IOException, InterruptedException, MessagingException {
         landingPage.goToUserSetupST();
         managerUserName=userSetupPage.addNewNormalUser();
         landingPage.signOut();
@@ -31,7 +31,7 @@ public class verifyUserSetupNormalUserST extends BaseTest {
         LogUtils.info("NORMAL_USER_NAME: "+managerUserName+" ----NORMAL_USER_PASSWORD: "+managerPassword+" Has been set to config file");
     }
     @Test(priority=2, enabled = true)
-    public void verifyNewManager() throws InterruptedException {
+    public void verifyNormalUser() throws InterruptedException {
         String username = PropertiesHelpers.getValue("NORMAL_USER_NAME");
         String password = PropertiesHelpers.getValue("NORMAL_USER_PASSWORD");
         signInPage.signIn(username, password);
