@@ -12,6 +12,8 @@ public class ResetPasswordElements {
     public WebElement OTPCodeInputField;
     @FindBy(css = ResetPasswordPR.newPWDInputField)
     public WebElement newPWDInputField;
+    @FindBy(css = ResetPasswordPR.oldPasswordInputField)
+    public WebElement oldPasswordInputField;
     @FindBy(css = ResetPasswordPR.ConfirmNewPWDInputField)
     public WebElement ConfirmNewPWDInputField;
     @FindBy(css = ResetPasswordPR.resetSubmitBtn)

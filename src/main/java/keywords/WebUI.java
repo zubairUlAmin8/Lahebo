@@ -872,7 +872,7 @@ public class WebUI {
                 // You can log the exception or perform any other desired action
                 LogUtils.info("here in catch ");
                 elements=DriverManager.getDriver().findElements(objectListItem);
-                selectListOptionRandomly(objectListItem);
+                selectListOptionByIndex(objectListItem,index);
 
             }
 
@@ -901,7 +901,7 @@ public class WebUI {
                 LogUtils.info("here in catch ");
 
                 elements=DriverManager.getDriver().findElements(objectListItem);
-                selectListOptionRandomly(objectListItem);
+                selectListOptionByIndex(objectListItem,index);
 
             }
         } catch (Exception e) {
@@ -2743,6 +2743,7 @@ public class WebUI {
     }
     static int loadingTimeExpire=0;
     public static void waitForElementToBeGone(By by, int timeout) throws InterruptedException {
+        Thread.sleep(1000);
         WebElement element;
         LogUtils.info("loading function");
         try {
@@ -2754,8 +2755,8 @@ public class WebUI {
                 LogUtils.info("Element is still displayed "+by);
                 Thread.sleep(1000);
                 loadingTimeExpire++;
-                if(loadingTimeExpire==100){
-
+                if(loadingTimeExpire==100 && by.toString().equalsIgnoreCase("#app-modal")){
+                    clickElement(By.cssSelector("#closeModal"));
                 }
                 waitForElementToBeGone(by, timeout);
             }

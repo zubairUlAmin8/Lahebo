@@ -29,6 +29,7 @@ public class BaseTest {
     LegislationLibraryPage legislationLibraryPage;
     RiskRegisterPage riskRegisterPage;
     ActionCenterPage actionCenterPage;
+    UserSetupPage userSetupPage;
 
     public static WebDriver driver;
     private ThreadLocal<String> testName = new ThreadLocal<>();
@@ -55,6 +56,7 @@ public class BaseTest {
         legislationLibraryPage = new LegislationLibraryPage(driver);
         riskRegisterPage = new RiskRegisterPage(driver);
         actionCenterPage = new ActionCenterPage(driver);
+        userSetupPage = new UserSetupPage(driver);
     }
     @Parameters("BROWSER")
     @BeforeSuite(groups = {"dataDrivenTestCases"})
@@ -89,7 +91,7 @@ public class BaseTest {
     }
     @AfterSuite(alwaysRun = true)
     public void closeDriver() {
-        DriverManager.quit();
+//        DriverManager.quit();
     }
     public WebDriver createBrowser(@Optional("chrome") String browser) {
         PropertiesHelpers.loadAllFiles();

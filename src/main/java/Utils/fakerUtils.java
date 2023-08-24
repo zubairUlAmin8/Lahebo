@@ -22,11 +22,28 @@ public class fakerUtils {
     public static int generateRandomInt(int uperBound) {
         int number = faker.number().numberBetween(1, uperBound);
         return number;
+    }public static int generateRandomInt(int lowerBound, int uperBound) {
+        int number = faker.number().numberBetween(lowerBound, uperBound);
+        return number;
     }
     public static String generateDummyData(int size) {
         Faker faker = new Faker();
         String dummyData = faker.lorem().characters(size);
         return dummyData;
+    }
+    public static String generateFirstName() {
+        Faker faker = new Faker();
+        int desiredLength = 12;
+
+        String name = faker.name().firstName();
+        while (name.length() < desiredLength) {
+            name += faker.lorem().word();
+        }
+        return name.substring(0, desiredLength);
+    }
+    public static String generateLastName() {
+        Faker faker = new Faker();
+        return faker.name().lastName();
     }
     public static String generateRandomPassword() {
         Faker faker = new Faker();
