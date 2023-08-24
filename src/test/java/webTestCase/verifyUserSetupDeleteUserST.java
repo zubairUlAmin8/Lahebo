@@ -15,7 +15,7 @@ public class verifyUserSetupDeleteUserST extends BaseTest {
     String managerUserName;
     String managerPassword;
     @Test(priority = 0)
-    public void DeleteNewManager() throws IOException, InterruptedException, MessagingException {
+    public void DeleteNormalUser() throws IOException, InterruptedException, MessagingException {
         landingPage.goToUserSetupST();
         userSetupPage.deleteManager(PropertiesHelpers.getValue("NORMAL_USER_NAME"));
     }
