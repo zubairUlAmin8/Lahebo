@@ -259,8 +259,10 @@ public class TwoFactorAuthPage extends BasePage{
             LogUtils.info("String not found or not enough characters after the string");
 
         }
+        String str=utility.extractTextBetweenTags(refineNumber, ">", "<");
 
-        return utility.extractTextBetweenTags(refineNumber, ">", "<");
+        return str.replaceAll("amp;", "");
+
     }
 
     public String getSecretKeyNewUser() {
