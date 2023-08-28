@@ -2752,11 +2752,17 @@ public class WebUI {
                 new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeout)).until(ExpectedConditions.not(ExpectedConditions.visibilityOf(element)));
                 LogUtils.info("Element has been disappear: "+by);
             }else {
+                String temp=by.toString();
+
                 LogUtils.info("Element is still displayed "+by);
+                LogUtils.info("Time: "+loadingTimeExpire+ temp.contains("app"));
                 Thread.sleep(1000);
                 loadingTimeExpire++;
-                if(loadingTimeExpire==100 && by.toString().equalsIgnoreCase("#app-modal")){
+                if(loadingTimeExpire==20 && temp.contains("app")){
                     clickElement(By.cssSelector("#closeModal"));
+                    loadingTimeExpire=0;
+                    Assert.fail("Timeout waiting for complete process at window. " + by.toString());
+
                 }
                 waitForElementToBeGone(by, timeout);
             }

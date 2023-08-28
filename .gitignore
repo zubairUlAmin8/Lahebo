@@ -1,6 +1,8 @@
 target/
 ExportData/
-src/test/resources/config/
+logs/
+/src/test/resources/config/
+
 
 .idea/
 allure-results/

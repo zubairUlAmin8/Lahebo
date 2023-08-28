@@ -8,7 +8,11 @@ import keywords.WebUI;
 import lahebo.objectRepo.LandingPageOR;
 import lahebo.objectRepo.LegislationLibraryOR;
 import lahebo.objectRepo.RiskRegisterOR;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class RiskRegisterPage {
     WebDriver driver;
@@ -239,6 +243,27 @@ public class RiskRegisterPage {
         WebUI.clickElement(RiskRegisterOR.viewSWOTBtn);
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
     }
+    public void deleteAllStrength() throws InterruptedException  {
+        WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+        int count=0;
+        List<WebElement> allStrength = WebUI.getWebElements(RiskRegisterOR.allStrength);
+        LogUtils.info("Strength Total Count: "+allStrength.size());
+        for(WebElement element:allStrength){
+            count++;
+            try {
+                LogUtils.info("Strength Name: " + element.getText());
+                WebUI.clickElement(By.cssSelector("#StrengthsCard>ul>li:nth-of-type(" + count + ")>div:last-of-type"));
+                WebUI.clickElement(By.cssSelector("#StrengthsCard>ul>li:nth-of-type(" + count + ")>div:last-of-type>div>div:last-of-type"));
+                WebUI.clickElement(RiskRegisterOR.deleteRiskBtn);
+                WebUI.waitForElementToBeGone(LandingPageOR.confirmModel, FrameworkConstants.WAIT_EXPLICIT);
+            } catch (Exception StaleElementReferenceException) {
+
+            }
+
+
+        }
+    }
+
 
     public void createRiskForItem(int boardNumber) throws InterruptedException {
         switch(boardNumber) {
