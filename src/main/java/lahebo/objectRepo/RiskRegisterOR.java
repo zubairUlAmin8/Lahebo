@@ -56,6 +56,7 @@ public interface RiskRegisterOR {
       By rejectRiskReasonTextArea=By.cssSelector("textarea[placeholder=\"Input Reason\"]");
       By viewSWOTBtn=By.cssSelector("#viewSwotBtn");
       By addStrengthsBtn=By.cssSelector("#StrengthsBtn");
+      By allStrength=By.cssSelector("#StrengthsCard>ul>li>div:first-of-type");
       By addWeaknessesBtn=By.cssSelector("#WeaknessesBtn");
       By addOpportunitiesBtn=By.cssSelector("#OpportunitiesBtn");
       By addThreatsBtn=By.cssSelector("#ThreatsBtn");

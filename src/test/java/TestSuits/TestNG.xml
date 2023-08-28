@@ -23,14 +23,16 @@
              <class name="webTestCase.verifyLegislationLibrary"/>
            <class name="webTestCase.verifyRiskRegister"/>
             <class name="webTestCase.verifyActionCenter"/>
-            <class name="webTestCase.verifyUserSignOut"/>
+<!--            <class name="webTestCase.verifyUserSignOut"/>-->
         </classes>
     </test> <!-- Test -->
     <test name="Manager Created" >
         <classes>
-            <class name="webTestCase.verifyUserSignIn"/>
+<!--            <class name="webTestCase.verifyUserSignIn"/>-->
             <class name="webTestCase.verifyUserSetupManagerST"/>
-                         <class name="webTestCase.verifyLegislationLibrary"/>
+            <class name="webTestCase.verifyLegislationLibrary"/>
+            <class name="webTestCase.verifyRiskRegister"/>
+            <class name="webTestCase.verifyActionCenter"/>
             <class name="webTestCase.verifyUserSignOut"/>
         </classes>
     </test> <!-- Test -->

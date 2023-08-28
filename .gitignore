@@ -1,7 +1,9 @@
 target/
 ExportData/
 logs/
-src/test/resources/config/
+/src/test/resources/config/
+
+
 .idea/
 allure-results/
 !.mvn/wrapper/maven-wrapper.jar
