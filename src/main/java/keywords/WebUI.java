@@ -2328,11 +2328,12 @@ public class WebUI {
     }
 
     /**
-     * Điền giá trị vào ô Text
+     * Enters a value into a Text field.
      *
-     * @param by    an element of object type By
-     * @param value giá trị cần điền vào ô text
+     * @param by    an element of type By
+     * @param value the value to be entered into the text field
      */
+
     @Step("Set text on textbox")
     public static void setText(By by, String value) {
         waitForElementVisible(by).sendKeys(value);
@@ -2348,11 +2349,10 @@ public class WebUI {
     }
 
     /**
-     * Điền giá trị vào ô Text và nhập Keys
-     *
-     * @param by    an element of object type By
-     * @param value giá trị cần điền vào ô text
-     * @param keys  key ở bàn phím cần nhấn
+     Enters a value into a Text field and inputs Keys.
+     @param by an element of type By
+     @param value the value to be entered into the text field
+     @param keys the keyboard key to be pressed
      */
     @Step("Set text on textbox and press key")
     public static void setText(By by, String value, Keys keys) {
@@ -2368,11 +2368,11 @@ public class WebUI {
 
     }
 
+
     /**
-     * Thao tác keys dưới bàn phím lên element by
-     *
-     * @param by   an element of object type By
-     * @param keys key ở bàn phím cần nhấn
+     Performs keyboard key actions on the element specified by the given locator.
+     @param by an element of type By
+     @param keys the keyboard key to be pressed
      */
     @Step("Set text on textbox and press key")
     public static void sendKeys(By by, Keys keys) {
@@ -2387,11 +2387,11 @@ public class WebUI {
         addScreenshotToReport(Thread.currentThread().getStackTrace()[1].getMethodName() + "_" + DateUtils.getCurrentDateTime());
     }
 
+
     /**
-     * Thao tác keys dưới bàn phím lên element by
-     *
-     * @paramby   an element of object type By
-     * @param keys key ở bàn phím cần nhấn
+     Performs keyboard key actions on the element specified by the given locator.
+     @param by an element of type By
+     @param keys the keyboard key to be pressed
      */
     @Step("Set text on textbox and press key")
     public static void sendKeys(Keys keys) {
@@ -2408,9 +2408,8 @@ public class WebUI {
     }
 
     /**
-     * Xóa giá trị trong ô Text
-     *
-     * @param by an element of object type By
+     Clears the value in a Text field.
+     @param by an element of type By
      */
     @Step("Clear value in textbox")
     public static void clearText(By by) {
@@ -2741,6 +2740,13 @@ public class WebUI {
             return false;
         }
     }
+    /**
+     * Waits for an element to disappear and provides various handling mechanisms.
+     *
+     * @param by      an element locator of type By
+     * @param timeout maximum waiting time in seconds
+     * @throws InterruptedException if the thread is interrupted
+     */
     static int loadingTimeExpire=0;
     public static void waitForElementToBeGone(By by, int timeout) throws InterruptedException {
         Thread.sleep(1000);
@@ -2758,7 +2764,7 @@ public class WebUI {
                 LogUtils.info("Time: "+loadingTimeExpire+ temp.contains("app"));
                 Thread.sleep(1000);
                 loadingTimeExpire++;
-                if(loadingTimeExpire==20 && temp.contains("app")){
+                if(loadingTimeExpire==10 && temp.contains("app")){
                     clickElement(By.cssSelector("#closeModal"));
                     loadingTimeExpire=0;
                     Assert.fail("Timeout waiting for complete process at window. " + by.toString());
@@ -2796,27 +2802,7 @@ public class WebUI {
      * @param timeOut the maximum waiting time
      * @return a WebElement object that is ready for interaction
      */
-    public static void waitSpinner(By by, long timeOut) {
-        smartWait();
-        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(timeOut), Duration.ofMillis(100));
 
-        try {
-            wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-            LogUtils.error(" Element Visible. " + by.toString());
-
-        } catch (Throwable error) {
-            LogUtils.error("Timeout waiting for the element Visible. " + by.toString());
-        }
-
-        try {
-            wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
-            LogUtils.info("Element"+by.toString()+"Has been Disappeared");
-        } catch (ElementClickInterceptedException exception) {
-            LogUtils.error("Element"+by.toString()+"Has Not been Disappeared");
-        }
-
-
-    }
     public static WebElement waitForElementVisible(By by, long timeOut) {
         smartWait();
 
@@ -2838,10 +2824,9 @@ public class WebUI {
     }
 
     /**
-     * Chờ đợi element sẵn sàng hiển thị để thao tác
-     *
-     * @param by an element of object type By
-     * @return một đối tượng WebElement đã sẵn sàng để thao tác
+     Wait for an element to be ready for interaction.
+     @param by an element of type By
+     @return a WebElement object that is ready for interaction
      */
     public static WebElement waitForElementVisible(By by) {
         smartWait();
@@ -2864,12 +2849,12 @@ public class WebUI {
     }
 
     /**
-     * Chờ đợi element sẵn sàng hiển thị để CLICK theo thời gian tuỳ ý
-     *
-     * @param by      an element of object type By
-     * @param timeOut thời gian chờ tối đa
-     * @return một đối tượng WebElement đã sẵn sàng để CLICK
+     Wait for an element to be ready for display before performing a CLICK action with a custom timeout.
+     @param by an element of type By
+     @param timeOut the maximum waiting time
+     @return a WebElement object that is ready for CLICK action
      */
+
     public static WebElement waitForElementClickable(By by, long timeOut) {
         smartWait();
 
@@ -2884,10 +2869,9 @@ public class WebUI {
     }
 
     /**
-     * Chờ đợi element sẵn sàng hiển thị để CLICK
-     *
-     * @param by an element of object type By
-     * @return một đối tượng WebElement đã sẵn sàng để CLICK
+     Wait for an element to be ready for display before performing a CLICK action.
+     @param by an element of type By
+     @return a WebElement object that is ready for CLICK action
      */
     public static WebElement waitForElementClickable(By by) {
         smartWait();
@@ -3010,9 +2994,9 @@ public class WebUI {
     }
 
     // Wait Page loaded
-
     /**
-     * Chờ đợi trang tải xong (Javascript) với thời gian mặc định từ config
+
+     Wait for the page to finish loading (Javascript) with the default time from the config.
      */
     public static void waitForPageLoaded() {
         WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(WAIT_PAGE_LOADED), Duration.ofMillis(500));

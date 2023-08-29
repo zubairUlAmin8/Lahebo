@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Cases"  >
+
+    <groups>
+        <run>
+            <exclude name="dataDrivenTestCases"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="listeners.ListenerTest"/>
+        <listener class-name="listeners.AnnotationTransformer"/>
+    </listeners>
+<!--    <parameter name="BROWSER" value="edge"></parameter>-->
+
+
+    <test name="Normal User Created" >
+        <classes>
+            <class name="webTestCase.verifyUserSignIn"/>
+            <class name="webTestCase.verifyUserSetupNormalUserST"/>
+            <class name="webTestCase.verifyLegislationLibrary"/>
+            <class name="webTestCase.verifyRiskRegisterForNormalUser"/>
+            <class name="webTestCase.verifyActionCenter"/>
+            <class name="webTestCase.verifyUserSignOut"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Normal User Deleted" >
+        <classes>
+                        <class name="webTestCase.verifyUserSignIn"/>
+                        <class name="webTestCase.verifyUserSetupDeleteUserST"/>
+                        <class name="webTestCase.verifyUserSignOut"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed167683-20e1-4c65-b78a-146b0c62a34f" name="Changes" comment="passowrd issue fixed">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuits/NormalUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyRiskRegisterForNormalUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/applog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/RiskRegisterOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/RiskRegisterOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/RiskRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/RiskRegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyRiskRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyRiskRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,10 +65,20 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml">
+  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/NormalUser.xml">
     <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddFromFile.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/AddFromFile.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/NormalUser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lahebo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/NormalUser.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -80,23 +90,6 @@
       <module name="Lahebo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="verifyRiskRegister" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lahebo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyRiskRegister" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/NormalUser.xml" />
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
         <item itemvalue="TestNG.verifyUserSetupManagerST.verifyNewManager" />
         <item itemvalue="TestNG.verifyRiskRegister.addingIssuesForFilters" />
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddFromFile.xml" />
-        <item itemvalue="TestNG.verifyRiskRegister" />
       </list>
     </recent_temporary>
   </component>

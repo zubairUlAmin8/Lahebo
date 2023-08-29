@@ -1,6 +1,7 @@
 package webTestCase;
 
 import Utils.LogUtils;
+import constants.FrameworkConstants;
 import driver.DriverManager;
 import driver.TargetFactory;
 import helpers.PropertiesHelpers;
@@ -62,7 +63,7 @@ public class BaseTest {
     @BeforeSuite(groups = {"dataDrivenTestCases"})
     public  void beforeSuite_dataDrivenTestCases(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
-        driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
+        driver = ThreadGuard.protect(new TargetFactory().createInstance(FrameworkConstants.BROWSER));
         DriverManager.setDriver(driver);
         driver.manage().window().maximize();
         LogUtils.info("Driver is Just Initialized: dataDrivenTestCases");
@@ -71,7 +72,7 @@ public class BaseTest {
     @BeforeSuite()
     public  void beforeSuite(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
-        driver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
+        driver = ThreadGuard.protect(new TargetFactory().createInstance(FrameworkConstants.BROWSER));
         DriverManager.setDriver(driver);
         driver.manage().window().maximize();
         LogUtils.info("Driver is Just Initialized");

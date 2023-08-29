@@ -138,6 +138,13 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
         }
 
         ExtentReportManager.logMessage(Status.SKIP, "Test case: " + getTestName(iTestResult) + " is skipped.");
+        //Allure report screenshot file and log
+        LogUtils.error("FAILED !! Screenshot for test case: " + getTestName(iTestResult));
+        LogUtils.error(iTestResult.getThrowable());
+
+        //Extent report screenshot file and log
+        ExtentReportManager.addScreenShot(DriverManager.getDriver(), getTestName(iTestResult));
+        ExtentReportManager.logMessage(Status.FAIL, iTestResult.getThrowable().toString());
 //        if (VIDEO_RECORD.toLowerCase().trim().equals(YES)) {
 //            screenRecorder.stopRecording(true);
 //        }
