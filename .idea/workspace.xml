@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ed167683-20e1-4c65-b78a-146b0c62a34f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/applog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/datatest.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/datatest.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml">
+  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddFromFile.xml">
     <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddFromFile.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/AddFromFile.xml" />
@@ -133,10 +135,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddFromFile.xml" />
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
         <item itemvalue="TestNG.verifyUserSetupManagerST.verifyNewManager" />
         <item itemvalue="TestNG.verifyRiskRegister.addingIssuesForFilters" />
-        <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddFromFile.xml" />
         <item itemvalue="TestNG.verifyRiskRegister" />
       </list>
     </recent_temporary>
