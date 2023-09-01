@@ -113,6 +113,18 @@ public class LandingPage {
     public void goToLegislationLibrary() throws InterruptedException {
         WebUI.clickElement(LandingPageOR.legislationLibraryTab);
     }
+    public void sideBarExpand() throws InterruptedException {
+        if (checkSideBarStatus()) {
+            LogUtils.info("Side Bar is Streaky Already");
+
+        } else {
+            WebUI.mouseHover(LandingPageOR.sideBarRadioBtn);
+            WebUI.clickElement(LandingPageOR.sideBarSwitcher);
+            LogUtils.info("Side Bar Made Streaky Now");
+
+        }
+
+    }
     public void goToRiskRegister() throws InterruptedException {
         WebUI.clickElement(LandingPageOR.riskRegisterTab);
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
@@ -128,6 +140,19 @@ public class LandingPage {
         String string =element.getAttribute("class");
         LogUtils.info("String is my "+string);
         if (string.contains("angle-down")) {
+            return true;
+
+        }
+        else {
+            return false;
+        }
+
+    }
+    public boolean checkSideBarStatus() {
+        WebElement element = DriverManager.getDriver().findElement(LandingPageOR.sideBarRadioBtn);
+        String string =element.getAttribute("class");
+        LogUtils.info("String is my "+string);
+        if (string.contains("stick")) {
             return true;
 
         }

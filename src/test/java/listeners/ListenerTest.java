@@ -111,7 +111,7 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
             CaptureHelpers.captureScreenshot(DriverManager.getDriver(), getTestName(iTestResult));
         }
 
-
+        WebUI.closeModelOnTestFail();
         //Allure report screenshot file and log
         LogUtils.error("FAILED !! Screenshot for test case: " + getTestName(iTestResult));
         LogUtils.error(iTestResult.getThrowable());
@@ -132,6 +132,7 @@ public class ListenerTest implements ITestListener, ISuiteListener, IInvokedMeth
     public void onTestSkipped(ITestResult iTestResult) {
         LogUtils.warn("Test case: " + getTestDescription(iTestResult) + " is skipped.");
         count_skippedTCs = count_skippedTCs + 1;
+        WebUI.closeModelOnTestFail();
 
         if (SCREENSHOT_SKIPPED_STEPS.equals(YES)) {
             CaptureHelpers.captureScreenshot(DriverManager.getDriver(), getTestName(iTestResult));

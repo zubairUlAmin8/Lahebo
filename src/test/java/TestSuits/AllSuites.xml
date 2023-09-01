@@ -1,7 +1,18 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-
-<suite name="MySuite" parallel="none">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultipleSuite">
+    <groups>
+        <run>
+            <exclude name="dataDrivenTestCases"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="listeners.ListenerTest"/>
+        <listener class-name="listeners.AnnotationTransformer"/>
+    </listeners>
     <suite-files>
-        <suite-file path="TestNG.xml"/>
+        <suite-file path="SuperAdmin.xml"></suite-file>
+        <suite-file path="ManagerUser.xml"></suite-file>
+        <suite-file path="NormalUser.xml"></suite-file>
     </suite-files>
 </suite>

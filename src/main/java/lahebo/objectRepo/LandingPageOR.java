@@ -11,6 +11,8 @@ public interface LandingPageOR {
       By signOutBtn =By.cssSelector( "#profileDD>div>button[class*=\"sign-out-btn\"]");
       By organizationSettingTabList = By.cssSelector("#organizationSettings");
       By legislationLibraryTab =By.cssSelector( "#legislationView");
+
+      By sideBarSwitcher =By.cssSelector( "#sideBar>div");
       By riskRegisterTab = By.cssSelector("#risksView");
       By actionCenterTab =By.cssSelector( "#actionsView");
       By reportTab = By.cssSelector("#reportsView");
@@ -24,6 +26,7 @@ public interface LandingPageOR {
       By dashboardTab=By.cssSelector("#dashboardView");
       By popUpAlert=By.cssSelector("div[role=\"alert\"]");
       By organizationSettingArrow=By.cssSelector("#organizationSettings>svg:last-of-type");
+      By sideBarRadioBtn=By.cssSelector("#sideBar");
       By spinnerLoader=By.cssSelector("#dotSpinner");
       By confirmModel=By.cssSelector("#defaultModal");
       By appModel=By.cssSelector("#app-modal");

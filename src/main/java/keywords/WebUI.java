@@ -2793,6 +2793,13 @@ public class WebUI {
 
 
     }
+
+    public static void closeModelOnTestFail() {
+        boolean check = verifyElementVisible(By.cssSelector("#closeModal"));
+        if (check) {
+            clickElement(By.cssSelector("#closeModal"));
+        }
+    }
     //Wait Element
 
     /**

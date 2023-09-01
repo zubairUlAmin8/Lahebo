@@ -109,7 +109,7 @@ public class RiskRegisterPage {
 
         //OTHERS
         WebUI.clickElement(RiskRegisterOR.ownerList);
-        WebUI.selectListOptionRandomly(RiskRegisterOR.ownerListElements);
+        WebUI.selectListOptionByIndex(RiskRegisterOR.ownerListElements,3);
         WebUI.setText(RiskRegisterOR.remarksTextArea, fakerUtils.generateDummyData(20));
         WebUI.clickElement(RiskRegisterOR.submitBtn);
 
