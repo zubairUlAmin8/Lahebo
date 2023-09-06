@@ -194,7 +194,7 @@
           <configuration>
             <suiteXmlFiles>
 <!--              <suiteXmlFile>src/test/java/TestSuits/AddFromFile.xml</suiteXmlFile>-->
-              <suiteXmlFile>src/test/java/TestSuits/TestNG.xml</suiteXmlFile>
+              <suiteXmlFile>src/test/java/TestSuits/AllSuites.xml</suiteXmlFile>
             </suiteXmlFiles>
               <forkCount>0</forkCount> <!-- changed this to 0 -->
               <reuseForks>false</reuseForks>
