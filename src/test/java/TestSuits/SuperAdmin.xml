@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Cases"  >
+<suite name="Super Admin Test Suite"  >
 
     <groups>
         <run>
@@ -9,7 +9,7 @@
     </groups>
 <!--    <parameter name="BROWSER" value="edge"></parameter>-->
 
-    <test name="Super Admin" >
+    <test name="Super Admin Tescases" >
         <classes>
 <!--           <class name="webTestCase.verifyUserSignUp"/>-->
 <!--&lt;!&ndash;            <class name="webTestCase.verifyForgetPassword"/>&ndash;&gt;-->
@@ -19,10 +19,10 @@
 <!--            <class name="webTestCase.verifyLocationST"/>-->
 <!--            <class name="webTestCase.verifyJobFunctionST"/>-->
 <!--            <class name="webTestCase.verifyProfileSetting"/>-->
-             <class name="webTestCase.verifyLegislationLibrary"/>
-           <class name="webTestCase.verifyRiskRegister"/>
+<!--             <class name="webTestCase.verifyLegislationLibrary"/>-->
+<!--           <class name="webTestCase.verifyRiskRegister"/>-->
             <class name="webTestCase.verifyActionCenter"/>
-<!--            <class name="webTestCase.verifyUserSignOut"/>-->
+            <class name="webTestCase.verifyUserSignOut"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -2766,9 +2766,10 @@ public class WebUI {
                 loadingTimeExpire++;
                 if(loadingTimeExpire==10 && temp.contains("app")){
                     clickElement(By.cssSelector("#closeModal"));
-                    loadingTimeExpire=0;
                     Assert.fail("Timeout waiting for complete process at window. " + by.toString());
-
+                }
+                if (loadingTimeExpire > 11) {
+                    loadingTimeExpire=0;
                 }
                 waitForElementToBeGone(by, timeout);
             }

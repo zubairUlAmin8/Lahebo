@@ -54,6 +54,12 @@ public class ActionCenterPage {
 
 
 //        WebUI.setText(ActionCenterOR.uploadFileIF, "ExtentReports/ExtentReports.html");
+
+        WebUI.clickElement(ActionCenterOR.dueDateField);
+        WebUI.clickElement(ActionCenterOR.todayDate);
+        WebUI.clickElement(ActionCenterOR.selectDate);
+
+
         //OTHERS
         WebUI.setText(ActionCenterOR.remarksTextArea, fakerUtils.generateDummyData(20));
         WebUI.clickElement(ActionCenterOR.addBtn);
@@ -70,7 +76,7 @@ public class ActionCenterPage {
         WebUI.clickElement(ActionCenterOR.editRiskOption);
 
         //GENERAL INFORMATION
-        WebUI.setText(ActionCenterOR.descriptionTextArea, fakerUtils.generateDummyData(20));
+//        WebUI.setText(ActionCenterOR.descriptionTextArea, fakerUtils.generateDummyData(20));
 
 
         //RELATED INFORMATION
@@ -78,8 +84,8 @@ public class ActionCenterPage {
 //        WebUI.selectListOptionRandomly(ActionCenterOR.locationListElements);
 //        WebUI.clickElement(ActionCenterOR.departmentList);
 //        WebUI.selectListOptionRandomly(ActionCenterOR.departmentListElements);
-        WebUI.clickElement(ActionCenterOR.sourceList);
-        WebUI.selectListOptionByIndex(ActionCenterOR.sourceListElements,1);
+//        WebUI.clickElement(ActionCenterOR.sourceList);
+//        WebUI.selectListOptionByIndex(ActionCenterOR.sourceListElements,1);
 
 //        String selectedSource=WebUI.selectListOptionRandomly(ActionCenterOR.sourceListElements);
 
@@ -89,11 +95,11 @@ public class ActionCenterPage {
 //        }
 
         //MITIGATION
-        WebUI.clickElement(ActionCenterOR.assigneeList);
-        WebUI.selectListOptionRandomly(ActionCenterOR.assigneeListElements);
+//        WebUI.clickElement(ActionCenterOR.assigneeList);
+//        WebUI.selectListOptionRandomly(ActionCenterOR.assigneeListElements);
 
-        WebUI.clickElement(ActionCenterOR.isoStandardList);
-        WebUI.selectListOptionByIndex(ActionCenterOR.isoStandardListElements, 2);
+//        WebUI.clickElement(ActionCenterOR.isoStandardList);
+//        WebUI.selectListOptionByIndex(ActionCenterOR.isoStandardListElements, 2);
 //        DriverManager.getDriver().findElement(ActionCenterOR.uploadFileIF).sendKeys("D:\\Zapta\\Automation\\Lahebo\\ExtentReports\\ExtentReports.html");
 //        WebUI.waitForElementToBeGone(ActionCenterOR.fileUploadSpinner, FrameworkConstants.WAIT_EXPLICIT);
 

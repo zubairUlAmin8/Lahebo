@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Cases"  >
+<suite name="Manager Test Suite"  >
 
     <groups>
         <run>
@@ -9,9 +9,9 @@
     </groups>
 <!--    <parameter name="BROWSER" value="edge"></parameter>-->
 
-    <test name="Manager Created" >
+    <test name="Manager Testcases" >
         <classes>
-<!--            <class name="webTestCase.verifyUserSignIn"/>-->
+            <class name="webTestCase.verifyUserSignIn"/>
             <class name="webTestCase.verifyUserSetupManagerST"/>
             <class name="webTestCase.verifyLegislationLibrary"/>
             <class name="webTestCase.verifyRiskRegister"/>

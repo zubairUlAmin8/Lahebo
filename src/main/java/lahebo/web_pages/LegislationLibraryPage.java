@@ -48,6 +48,8 @@ public class LegislationLibraryPage {
         //First Tab
         WebUI.clickElement(LegislationLibraryOR.legalRegisterTab);
         WebUI.clickElement(LegislationLibraryOR.addLegalRegisterBtn);
+        WebUI.clickElement(LegislationLibraryOR.LR_ActsList);
+        WebUI.selectListOptionRandomly(LegislationLibraryOR.LR_ActsListElement);
         WebUI.clickElement(LegislationLibraryOR.LR_DivisionList);
         WebUI.selectListOptionRandomly(LegislationLibraryOR.LR_DivisionListElement);
 //        WebUI.setText(LegislationLibraryOR.LR_descField, fakerUtils.generateRandomPassword());

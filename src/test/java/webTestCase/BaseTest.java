@@ -63,19 +63,33 @@ public class BaseTest {
     @BeforeSuite(groups = {"dataDrivenTestCases"})
     public  void beforeSuite_dataDrivenTestCases(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
-        driver = ThreadGuard.protect(new TargetFactory().createInstance(FrameworkConstants.BROWSER));
-        DriverManager.setDriver(driver);
-        driver.manage().window().maximize();
-        LogUtils.info("Driver is Just Initialized: dataDrivenTestCases");
+        if (driver == null) {
+            driver = ThreadGuard.protect(new TargetFactory().createInstance(FrameworkConstants.BROWSER));
+            DriverManager.setDriver(driver);
+            driver.manage().window().maximize();
+            LogUtils.info("Driver is Just Initialized: dataDrivenTestCases");
+        } else {
+            LogUtils.info("Driver is already Intialized Initialized: dataDrivenTestCases");
+        }
+
     }
     @Parameters("BROWSER")
-    @BeforeSuite()
+    @BeforeSuite(alwaysRun = true)
     public  void beforeSuite(@Optional("chrome") String browser) {
 //        System.setProperty("webdriver.http.factory", "jdk-http-client");
-        driver = ThreadGuard.protect(new TargetFactory().createInstance(FrameworkConstants.BROWSER));
-        DriverManager.setDriver(driver);
-        driver.manage().window().maximize();
-        LogUtils.info("Driver is Just Initialized");
+        if (driver != null) {
+            driver=null;
+            driver = ThreadGuard.protect(new TargetFactory().createInstance(FrameworkConstants.BROWSER));
+            DriverManager.setDriver(driver);
+            driver.manage().window().maximize();
+            LogUtils.info("Driver is Just Initialized");
+        } else {
+            LogUtils.info("Driver was null");
+            driver = ThreadGuard.protect(new TargetFactory().createInstance(FrameworkConstants.BROWSER));
+            DriverManager.setDriver(driver);
+            driver.manage().window().maximize();
+            LogUtils.info("Driver is Just Initialized");
+        }
     }
     @Parameters("BROWSER")
     @BeforeClass(alwaysRun = true)
@@ -92,7 +106,7 @@ public class BaseTest {
     }
     @AfterSuite(alwaysRun = true)
     public void closeDriver() {
-//        DriverManager.quit();
+        DriverManager.quit();
     }
     public WebDriver createBrowser(@Optional("chrome") String browser) {
         PropertiesHelpers.loadAllFiles();

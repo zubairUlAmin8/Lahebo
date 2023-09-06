@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed167683-20e1-4c65-b78a-146b0c62a34f" name="Changes" comment="passowrd issue fixed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuits/ManagerUser.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuits/SuperAdmin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/applog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keywords/WebUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LandingPageOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LandingPageOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/ActionCenterOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/ActionCenterOR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LegislationLibraryOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/objectRepo/LegislationLibraryOR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/LandingPagePR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/path_repo/LandingPagePR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/ActionCenterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/ActionCenterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LegislationLibraryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/LegislationLibraryPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/RiskRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lahebo/web_pages/RiskRegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/AllSuites.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/AllSuites.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/AllTestCases.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/DataDrivenAuthentication.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/DataDrivenAuthentication.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/NormalUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/NormalUser.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/listeners/ListenerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyLegislationLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyLegislationLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/verifyRiskRegisterForNormalUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/verifyRiskRegisterForNormalUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/ManagerUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/ManagerUser.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuits/SuperAdmin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuits/SuperAdmin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTestCase/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
