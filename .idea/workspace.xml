@@ -59,10 +59,20 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddFromFile.xml">
+  <component name="RunManager" selected="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AllSuites.xml">
     <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddFromFile.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lahebo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/AddFromFile.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AllSuites.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lahebo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/AllSuites.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -74,23 +84,6 @@
       <module name="Lahebo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestSuits/TestNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="verifyRiskRegister" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lahebo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTestCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTestCase" />
-      <option name="MAIN_CLASS_NAME" value="webTestCase.verifyRiskRegister" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AllSuites.xml" />
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/AddFromFile.xml" />
         <item itemvalue="TestNG.D:/Zapta/Automation/Lahebo/src/test/java/TestSuits/TestNG.xml" />
         <item itemvalue="TestNG.verifyUserSetupManagerST.verifyNewManager" />
         <item itemvalue="TestNG.verifyRiskRegister.addingIssuesForFilters" />
-        <item itemvalue="TestNG.verifyRiskRegister" />
       </list>
     </recent_temporary>
   </component>
