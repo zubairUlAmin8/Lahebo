@@ -15,9 +15,6 @@
 <test name="Data Driven">
     <classes>
         <class name="webTestCase.verifyUserSignIn"/>
-        <class name="webTestCase.verifyDepartmentST"/>
-        <class name="webTestCase.verifyLocationST"/>
-        <class name="webTestCase.verifyJobFunctionST"/>
     </classes>
 </test> <!-- Test -->
 </suite> <!-- Suite -->

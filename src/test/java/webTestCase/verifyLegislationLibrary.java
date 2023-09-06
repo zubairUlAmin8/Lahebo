@@ -14,7 +14,9 @@ import org.testng.annotations.Test;
 public class verifyLegislationLibrary extends BaseTest {
     @Test(priority = 1, invocationCount = 1, enabled = true)
     public void verifySubscribeItems() throws InterruptedException {
+        landingPage.sideBarExpand();
         landingPage.goToLegislationLibrary();
+//        Thread.sleep(5000);
         legislationLibraryPage.subscribeItems();
     }
 

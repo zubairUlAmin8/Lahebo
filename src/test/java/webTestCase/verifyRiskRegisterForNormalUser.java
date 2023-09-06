@@ -1,0 +1,83 @@
+package webTestCase;
+
+import org.testng.annotations.Test;
+
+public class verifyRiskRegisterForNormalUser extends BaseTest {
+
+    @Test(priority = 2, invocationCount = 1, enabled = true)
+    public void verifyRaiseNewRisk() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.raiseNewRisk();
+    }
+    @Test(priority = 3, invocationCount = 1, enabled = false)
+    public void verifyAcceptRisk() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.raiseNewRisk();
+        riskRegisterPage.acceptRisk();
+    }
+    @Test(priority = 4, invocationCount = 1, enabled = false)
+    public void verifyEditNewRisk() throws InterruptedException {
+        boolean isItSWOTRisk=false;
+        riskRegisterPage.editRisk(isItSWOTRisk);
+    }
+    @Test(priority = 5, invocationCount = 1, enabled = false)
+    public void verifyRejectRisk() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.raiseNewRisk();
+        riskRegisterPage.rejectRisk();
+        riskRegisterPage.deleteRisk();
+    }
+    @Test(priority = 6, invocationCount = 1, enabled = true)
+    public void verifyRaiseRiskWithSWOT() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.viewSWOT();
+        riskRegisterPage.addRiskBySWOT();
+        riskRegisterPage.backToRiskRegisterFromSWOT();
+    }
+
+    @Test(priority = 7, invocationCount = 1, enabled = false)
+    public void verifyAcceptSWOTRisk() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.acceptRisk();
+    }
+    @Test(priority = 10, invocationCount = 1, enabled = false)
+    public void verifyDeleteAllRisk() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.deleteRisk();
+    }
+    @Test(priority = 8, invocationCount = 1, enabled = false)
+    public void verifyEditSWOTRisk() throws InterruptedException {
+        boolean isItSWOTRisk=true;
+        riskRegisterPage.editRisk(isItSWOTRisk);
+        riskRegisterPage.deleteRisk();
+    }
+    @Test(priority = 9, invocationCount = 1, enabled = false)
+    public void verifyRejectSWOTRisk() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.viewSWOT();
+        riskRegisterPage.addRiskBySWOT();
+        riskRegisterPage.backToRiskRegisterFromSWOT();
+        riskRegisterPage.rejectRisk();
+    }
+
+    @Test(priority = 11)
+    public void deleteAllSWOTItem() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.viewSWOT();
+        riskRegisterPage.deleteAllStrength();
+        riskRegisterPage.backToRiskRegisterFromSWOT();
+
+    }
+    @Test(priority = 12, invocationCount = 2, enabled = false)
+    public void addingIssuesForFilters() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.addNewRisk();
+    }
+    @Test(priority = 13, invocationCount = 1, enabled = false)
+    public void verifyDepartmentFilter() throws InterruptedException {
+        landingPage.goToRiskRegister();
+        riskRegisterPage.verifyDepartmentFilter();
+    }
+
+
+}

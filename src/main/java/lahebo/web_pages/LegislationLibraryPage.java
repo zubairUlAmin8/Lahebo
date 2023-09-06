@@ -35,6 +35,7 @@ public class LegislationLibraryPage {
         WebUI.clickElement(LegislationLibraryOR.LL_DivisionList);
         WebUI.selectListOptionRandomly(LegislationLibraryOR.LL_DivisionListElements);
         WebUI.clickElement(LegislationLibraryOR.LL_SearchBtn);
+        WebUI.clickElement(LegislationLibraryOR.LL_SelectAllLegislationCB);
         WebUI.clickElement(LegislationLibraryOR.LL_SubscribeBtn);
         WebUI.clickElement(LegislationLibraryOR.LL_ConfirmSubscriptionBtn);
         WebUI.waitForElementToBeGone(LandingPageOR.confirmModel,5);
@@ -47,6 +48,8 @@ public class LegislationLibraryPage {
         //First Tab
         WebUI.clickElement(LegislationLibraryOR.legalRegisterTab);
         WebUI.clickElement(LegislationLibraryOR.addLegalRegisterBtn);
+        WebUI.clickElement(LegislationLibraryOR.LR_ActsList);
+        WebUI.selectListOptionRandomly(LegislationLibraryOR.LR_ActsListElement);
         WebUI.clickElement(LegislationLibraryOR.LR_DivisionList);
         WebUI.selectListOptionRandomly(LegislationLibraryOR.LR_DivisionListElement);
 //        WebUI.setText(LegislationLibraryOR.LR_descField, fakerUtils.generateRandomPassword());
@@ -142,34 +145,41 @@ public class LegislationLibraryPage {
         public void unsubscribeAllItems() throws InterruptedException {
         WebUI.clickElement(LegislationLibraryOR.subscribeItemsTab);
         WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,10);
-        WebUI.scrollToElementToBottom(LegislationLibraryOR.SI_TotalItemsCount);
-        String countText = WebUI.getTextElement(LegislationLibraryOR.SI_TotalItemsCount);
-        LogUtils.info("Total Subscribe Items: "+countText);
-        LogUtils.info("Total Subscribe Items: "+ utility.extractIntegerFromString(countText)+ " length: "+countText.length());
-        int totalItems = utility.extractIntegerFromString(countText);
-        LogUtils.info("Total Subscribe Items Int: "+totalItems);
-        if (totalItems == 0) {
-            utility.handleZoomInZoomOut(30);
-             countText = WebUI.getTextElement(LegislationLibraryOR.SI_TotalItemsCount);
-            LogUtils.info("Total Subscribe Items: "+countText);
-            LogUtils.info("Total Subscribe Items: "+ utility.extractIntegerFromString(countText)+ " length: "+countText.length());
-             totalItems = utility.extractIntegerFromString(countText);
-            LogUtils.info("Total Subscribe Items Int: "+totalItems);
-        }
-        utility.handleZoomInZoomOut(100);
-        WebUI.scrollToElementToTop(LegislationLibraryOR.subscribeItemsTab);
 
-        for (int i = totalItems; i > 0; i--) {
-            WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
-            WebUI.clickElement(LegislationLibraryOR.LL_UnSubscribeBtn);
-            WebUI.clickElement(LegislationLibraryOR.SI_ConfirmOkBtn);
+            WebUI.clickElement(LegislationLibraryOR.LL_SelectAllLegislationCB);
+            WebUI.clickElement(LegislationLibraryOR.LL_SubscribeBtn);
+            WebUI.clickElement(LegislationLibraryOR.LL_ConfirmSubscriptionBtn);
             WebUI.waitForElementToBeGone(LandingPageOR.confirmModel,5);
+            WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
 
-
-
-//            WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
-//            WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
-        }
+//        WebUI.scrollToElementToBottom(LegislationLibraryOR.SI_TotalItemsCount);
+//        String countText = WebUI.getTextElement(LegislationLibraryOR.SI_TotalItemsCount);
+//        LogUtils.info("Total Subscribe Items: "+countText);
+//        LogUtils.info("Total Subscribe Items: "+ utility.extractIntegerFromString(countText)+ " length: "+countText.length());
+//        int totalItems = utility.extractIntegerFromString(countText);
+//        LogUtils.info("Total Subscribe Items Int: "+totalItems);
+//        if (totalItems == 0) {
+//            utility.handleZoomInZoomOut(30);
+//             countText = WebUI.getTextElement(LegislationLibraryOR.SI_TotalItemsCount);
+//            LogUtils.info("Total Subscribe Items: "+countText);
+//            LogUtils.info("Total Subscribe Items: "+ utility.extractIntegerFromString(countText)+ " length: "+countText.length());
+//             totalItems = utility.extractIntegerFromString(countText);
+//            LogUtils.info("Total Subscribe Items Int: "+totalItems);
+//        }
+//        utility.handleZoomInZoomOut(100);
+//        WebUI.scrollToElementToTop(LegislationLibraryOR.subscribeItemsTab);
+//
+//        for (int i = totalItems; i > 0; i--) {
+//            WebUI.waitForElementToBeGone(LandingPageOR.spinnerLoader,5);
+//            WebUI.clickElement(LegislationLibraryOR.LL_UnSubscribeBtn);
+//            WebUI.clickElement(LegislationLibraryOR.SI_ConfirmOkBtn);
+//            WebUI.waitForElementToBeGone(LandingPageOR.confirmModel,5);
+//
+//
+//
+////            WebUI.waitForElementVisible(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+////            WebUI.waitForInvisibilityOfItem(LandingPageOR.spinnerLoader, FrameworkConstants.WAIT_EXPLICIT);
+//        }
 
     }
 

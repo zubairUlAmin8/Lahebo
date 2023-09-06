@@ -37,7 +37,7 @@ public class UserSetupPage {
 
         WebUI.setText(UserSetupPageOR.userPhoneNumberIF, phoneNumber);
         WebUI.clickElement(UserSetupPageOR.userRoleList);
-        WebUI.selectListOptionByIndex(UserSetupPageOR.userRoleListElements, 1);
+        WebUI.selectListOptionByIndex(UserSetupPageOR.userRoleListElements, 2);
 
         WebUI.clickElement(UserSetupPageOR.locationList);
         WebUI.selectListOptionRandomly(UserSetupPageOR.locationListElements);

@@ -34,6 +34,8 @@ public class RiskRegisterPage {
         WebUI.clickElement(RiskRegisterOR.isoStandardList);
 
         WebUI.selectListOptionByIndex(RiskRegisterOR.isoStandardListElements, 2);
+        WebUI.clickElement(RiskRegisterOR.ownerList);
+        WebUI.selectListOptionRandomly(RiskRegisterOR.ownerListElements);
         int hazardCheck = 2;
 
         //RELATED INFORMATION
@@ -80,8 +82,6 @@ public class RiskRegisterPage {
         WebUI.selectListOptionRandomly(RiskRegisterOR.afterConsequenceListElements);
 
         //OTHERS
-        WebUI.clickElement(RiskRegisterOR.ownerList);
-        WebUI.selectListOptionRandomly(RiskRegisterOR.ownerListElements);
         WebUI.setText(RiskRegisterOR.remarksTextArea, fakerUtils.generateDummyData(20));
         WebUI.clickElement(RiskRegisterOR.submitBtn);
 
@@ -97,6 +97,8 @@ public class RiskRegisterPage {
 
         //GENERAL INFORMATION
         WebUI.setText(RiskRegisterOR.descriptionTextArea, fakerUtils.generateDummyData(20));
+        WebUI.clickElement(RiskRegisterOR.ownerList);
+        WebUI.selectListOptionByIndex(RiskRegisterOR.ownerListElements,1);
 
         //RELATED INFORMATION
         WebUI.clickElement(RiskRegisterOR.locationList);
@@ -108,8 +110,6 @@ public class RiskRegisterPage {
 
 
         //OTHERS
-        WebUI.clickElement(RiskRegisterOR.ownerList);
-        WebUI.selectListOptionRandomly(RiskRegisterOR.ownerListElements);
         WebUI.setText(RiskRegisterOR.remarksTextArea, fakerUtils.generateDummyData(20));
         WebUI.clickElement(RiskRegisterOR.submitBtn);
 

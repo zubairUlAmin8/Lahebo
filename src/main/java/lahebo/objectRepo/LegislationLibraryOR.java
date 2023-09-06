@@ -10,7 +10,8 @@ public interface LegislationLibraryOR {
       By LL_DivisionListElements =By.cssSelector("#searchLegislationDivisions>ul>li");
       By LL_DescriptionIF =By.cssSelector("#legislationDesc");
       By LL_SearchBtn =By.cssSelector("#searchBtn");
-      By LL_SubscribeBtn =By.cssSelector("tr:first-of-type>td:last-of-type>span");
+      By LL_SelectAllLegislationCB =By.cssSelector("th>div>input");
+      By LL_SubscribeBtn =By.cssSelector("div[class=\"pb-5 px-5 text-right\"]>button");
       By LL_UnSubscribeBtn =By.cssSelector("tr:first-of-type>td:last-of-type>button");
       By LL_ConfirmSubscriptionBtn =By.cssSelector("#confirmOKBtn");
 
@@ -22,6 +23,8 @@ public interface LegislationLibraryOR {
       By addLegalRegisterBtn =By.cssSelector("div[class=\"text-right space-x-2\"]>button");
       By LR_DivisionList =By.cssSelector("#selectDivField");
       By LR_DivisionListElement =By.cssSelector("#selectDivField>ul>li");
+      By LR_ActsList =By.cssSelector("#selectActField");
+      By LR_ActsListElement =By.cssSelector("#selectActField>ul>li");
       By LR_ReferenceNumber =By.cssSelector("#refNumField");
       By LR_ReferenceNumber_Edit =By.cssSelector("#legRefNumField");
       By LR_NextBtn =By.cssSelector("#nextTabBtn");

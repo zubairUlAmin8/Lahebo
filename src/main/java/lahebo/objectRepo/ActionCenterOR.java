@@ -5,6 +5,9 @@ import org.openqa.selenium.By;
 public interface ActionCenterOR {
       By addActionBtn =By.cssSelector("#addActionBtn");
       By descriptionTextArea =By.cssSelector("#descField");
+      By dueDateField =By.cssSelector("#dueDateField");
+      By todayDate =By.cssSelector("div[class*=\"dp__today \"]");
+      By selectDate =By.cssSelector("div[class=\"dp__action_buttons\"]>span:last-of-type");
       By locationList =By.cssSelector("#locField");
       By locationListElements =By.cssSelector("#locField>ul>li");
       By departmentList =By.cssSelector("#deptField");
