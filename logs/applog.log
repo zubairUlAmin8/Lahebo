@@ -5963,3 +5963,24 @@ Session ID: 14ef7bee4b2fad7dac5d0f3ba94980d7
 [INFO] 06-09-2023 13:04:48 [main] [LogUtils] - Loaded all properties files.
 [INFO] 06-09-2023 13:04:48 [main] [LogUtils] - Starting Suite: MultipleSuite
 [INFO] 06-09-2023 13:04:48 [main] [LogUtils] - End Suite: MultipleSuite
+[INFO] 06-09-2023 13:12:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 06-09-2023 13:12:08 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 06-09-2023 13:12:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 06-09-2023 13:12:08 [main] [LogUtils] - Starting Suite: Super Admin Test Suite
+[INFO] 06-09-2023 13:12:08 [main] [LogUtils] - Driver was null
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Driver is Just Initialized
+[ERROR] 06-09-2023 13:12:13 [main] [LogUtils] - driver value: ChromeDriver: chrome on windows (d8b95ce67a54926009fb5dd17575cde8)
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/datatest.properties
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Loaded file: D:\Zapta\Automation\Lahebo\src/test/resources/config/config.properties
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - Test case:  is starting...
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - USERNAME: sarahj88456
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - PASSWORD: Password123!
+[INFO] 06-09-2023 13:12:13 [main] [LogUtils] - SECRET KEY: FH3DOLN6XAG4KFYVIT2OMUWJQQ4BJ3UNNAROIAQIRZNKVETQYPSA
+[INFO] 06-09-2023 13:12:17 [main] [LogUtils] - Username and password are correct
