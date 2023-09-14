@@ -40,7 +40,7 @@ public class fakerUtils {
             name += faker.lorem().word();
         }
         return name.substring(0, desiredLength);
-    }
+    }git remote -v
     public static String generateLastName() {
         Faker faker = new Faker();
         return faker.name().lastName();
